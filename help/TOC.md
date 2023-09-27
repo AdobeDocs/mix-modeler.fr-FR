@@ -2,10 +2,10 @@
 user-guide-title: Modéliseur mixte
 breadcrumb-title: Modéliseur mixte
 user-guide-description: Découvrez comment utiliser le Modéliseur mixte.
-source-git-commit: 93ac820adcc4a120b54a98b5be7c23ce7cade451
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 32%
+source-wordcount: '67'
+ht-degree: 29%
 
 ---
 
@@ -46,10 +46,16 @@ ht-degree: 32%
 
 + [Cas d’utilisation](use-cases.md)
 
+
+<!-- Admin integration with AEP not part of first release
+
 + Administration {#administration}
-   + [Présentation](administration/overview.md)
-   + [Politiques](administration/policies.md)
-   + [Audits](administration/audits.md)
+  + [Overview](administration/overview.md)
+  + [Policies](administration/policies.md)
+  + [Audits](administration/audits.md)
+  
+-->
+
 
 + Versions {#releaes}
    + [Dernière version](releases/latest.md)

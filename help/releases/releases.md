@@ -1,7 +1,7 @@
 ---
 description: Explique la stratégie de mise à jour continue des fonctionnalités pour Adobe Mix Modeler
 title: Versions d’Adobe Mix Modeler
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Versions d’Adobe Mix Modeler
 
 Les versions de Adobe Mix Modeler fonctionnent sur un modèle de diffusion continu qui permet une approche évolutive et progressive du déploiement des fonctionnalités.
-
 
 <!--
 ## Release strategy
