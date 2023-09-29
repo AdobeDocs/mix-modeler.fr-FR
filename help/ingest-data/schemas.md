@@ -1,8 +1,8 @@
 ---
 title: Schémas
 description: Découvrez comment gérer les schémas requis pour ingérer des données dans Adobe Mix Modeler.
-feature: Datasets
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+feature: Schemas
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 6%
