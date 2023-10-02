@@ -2,26 +2,28 @@
 title: Ingestion de données
 description: Découvrez comment ingérer des données dans Adobe Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: ae1c74ed2edf1e69e7ab77d16aba797921c14ad9
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 16%
+source-wordcount: '466'
+ht-degree: 15%
 
 ---
 
 
 # Ingestion de données
 
-Adobe Mix Modeler fonctionne avec des données au niveau de l’événement et des données agrégées sur les efforts marketing de divers jardins muraux. Les clients peuvent utiliser tous les types de données ingérés dans Adobe Experience Platform sous la forme de jeux de données et basés sur des schémas basés sur XDM Experience Event.
+Adobe Mix Modeler fonctionne avec des données au niveau de l’événement, des données agrégées sur l’effort marketing provenant de divers jardins muraux et des données agrégées ou récapitulatives provenant de toute autre source, comme la publicité hors ligne, des facteurs internes ou des facteurs externes.
+
+Les clients peuvent utiliser n’importe quel type de données ingéré dans Adobe Experience Platform en tant que jeux de données et basé sur des schémas à l’aide de XDM ExperienceEvent ou de XDM Summary Metrics en tant que classe de base.
 
 Par exemple :
 
 * les données collectées à l’aide du connecteur source Adobe Analytics et transformées en jeux de données conformes à la version par défaut ou personnalisée du schéma Adobe Analytics, ou, à l’inverse,
 * données collectées à l’aide du SDK Web Adobe Experience Platform, du SDK mobile ou de l’API Edge Network Server pour collecter les interactions des clients sur le web, le mobile ou tout autre type d’appareil,
-* des données récapitulatives provenant de différentes sources de trafic / jardins fortifiés, basées sur un schéma qui inclut la classe Mesures récapitulatives XDM avec le groupe de champs Trafic et Résumé des conversions ,
-* données non marketing (indicateurs macro-économiques, par exemple) qui sont utiles pour la construction de modèles,
+* données agrégées provenant de jardins muraux (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
+* données agrégées ou récapitulatives non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
 
-Vous pouvez utiliser n’importe quel mécanisme pris en charge par Adobe Experience Platform pour ingérer votre niveau d’événement d’expérience et agréger les données de l’effort marketing. Tels que les SDK Adobe Experience Platform, les API, les connecteurs source et l’ingestion par flux et par lots.
+Vous pouvez utiliser n’importe quel mécanisme, pris en charge par Adobe Experience Platform, pour ingérer votre niveau d’événement d’expérience, des données agrégées sur l’effort marketing et des données provenant d’autres sources. Tels que les SDK Adobe Experience Platform, les API, les connecteurs source et l’ingestion par flux et par lots.
 
 
 ## Instructions
@@ -78,7 +80,7 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++
 
-Pour utiliser les données dans Adobe Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon les schémas dans Adobe Experience Platform. L’interface Adobe Mix Modeler permet d’accéder facilement à l’interface utilisateur des schémas et des jeux de données.
+Pour utiliser les données dans Adobe Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon les schémas dans Adobe Experience Platform. L’interface de l’Adobe Mix Modeler permet d’accéder facilement à l’interface utilisateur Schémas et jeux de données Experience Platform.
 
 >[!MORELIKETHIS]
 >
