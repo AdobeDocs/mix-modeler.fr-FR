@@ -2,9 +2,9 @@
 title: Ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 16%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # Ingestion de données
 
-Adobe Mix Modeler fonctionne avec des données au niveau de l’événement, des données agrégées sur l’effort marketing provenant de divers jardins muraux et des données agrégées ou récapitulatives provenant de toute autre source, comme la publicité hors ligne, des facteurs internes ou des facteurs externes.
+Mix Modeler fonctionne avec des données au niveau de l’événement, des données agrégées d’effort marketing provenant de divers jardins muraux et des données agrégées ou récapitulatives provenant de toute autre source, comme la publicité hors ligne, des facteurs internes ou des facteurs externes.
 
 Les clients peuvent utiliser n’importe quel type de données ingéré dans Adobe Experience Platform en tant que jeux de données et basé sur des schémas à l’aide de XDM ExperienceEvent ou de XDM Summary Metrics en tant que classe de base.
 
