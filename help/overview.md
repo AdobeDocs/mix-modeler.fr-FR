@@ -2,15 +2,15 @@
 title: Présentation du Mix Modeler
 description: Découvrez comment mesurer les campagnes et optimiser la planification de manière holistique sur tous les canaux avec Mix Modeler.
 feature: Harmonized Data, Models, Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
 
 
-# Guide d’AdobeMix Modeler
+# Guide du Adobe Mix Modeler
 
 ![Bannière](assets/mix-modeler-banner.png)
 

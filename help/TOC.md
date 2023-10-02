@@ -1,11 +1,11 @@
 ---
-user-guide-title: Modéliseur mixte
-breadcrumb-title: Modéliseur mixte
-user-guide-description: Découvrez comment utiliser le Modéliseur mixte.
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+user-guide-title: Guide du moteur de fusion Adobe
+breadcrumb-title: Guide d’Adobe Mix Modeler
+user-guide-description: Découvrez comment utiliser Adobe Mix Modeler.
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 42%
+source-wordcount: '67'
+ht-degree: 44%
 
 ---
 
