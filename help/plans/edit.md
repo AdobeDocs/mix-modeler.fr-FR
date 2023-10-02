@@ -1,10 +1,10 @@
 ---
 title: Modifier un plan
-description: Découvrez comment modifier un plan dans Adobe Mix Modeler.
+description: Découvrez comment modifier un plan en Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modifier un plan
 
-Pour modifier un plan, dans la variable ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans Adobe Mix Modeler, sélectionnez votre plan en fonction de son nom.
+Pour modifier un plan, dans la variable ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans Mix Modeler, sélectionnez votre plan en fonction de son nom.
 
 Dans [!UICONTROL Plan insights], les informations de votre plan sont créées, ce qui affiche la variable [!UICONTROL Model], la variable [!UICONTROL Data range], et [!UICONTROL Total budget] sur laquelle le plan est fondé.
 

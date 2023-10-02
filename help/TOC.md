@@ -2,20 +2,20 @@
 user-guide-title: Modéliseur mixte
 breadcrumb-title: Modéliseur mixte
 user-guide-description: Découvrez comment utiliser le Modéliseur mixte.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 31%
+source-wordcount: '63'
+ht-degree: 42%
 
 ---
 
 
-# Guide du moteur de fusion Adobe {#using}
+# Guide d’Adobe Mix Modeler {#using}
 
-+ [Guide du moteur de fusion Adobe](overview.md)
++ [Guide d’Adobe Mix Modeler](overview.md)
 
 + Prise en main {#get-started}
-   + [Qu’est-ce que le Adobe Mix Modeler ?](get-started/about.md)
+   + [Qu&#39;est-ce que le Mix Modeler ?](get-started/about.md)
    + [Workflow de l’application](get-started/workflow.md)
 
 + Tableau de bord {#dashboard}

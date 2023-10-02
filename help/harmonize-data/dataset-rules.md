@@ -1,10 +1,10 @@
 ---
 title: Règles du jeu de données
-description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Adobe Mix Modeler.
+description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Règles du jeu de données
 
-Les règles de jeu de données vous aident à mapper vos champs harmonisés avec les champs des données que vous avez ingérées dans Adobe Mix Modeler.
+Les règles de jeu de données vous aident à mapper vos champs harmonisés avec les champs des données que vous avez ingérées dans Mix Modeler.
 
 * Pour les données agrégées que vous avez ingérées dans Adobe Experience Platform, vous mappez un ou plusieurs des champs de jeu de données disponibles aux champs harmonisés appropriés.
 * Pour les données d’événement, vous pouvez mapper un ou plusieurs champs harmonisés aux champs du jeu de données, directement ou à l’aide de conditions.
@@ -20,7 +20,7 @@ Les règles de jeu de données vous aident à mapper vos champs harmonisés avec
 
 ## Gestion des règles et des mappages de jeux de données
 
-Pour afficher un tableau des mappages de jeux de données disponibles, dans l’interface Adobe Mix Modeler :
+Pour afficher un tableau des mappages de jeux de données disponibles, dans l’interface du Mix Modeler :
 
 1. Sélectionner ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -32,7 +32,7 @@ Les colonnes du tableau spécifient des détails sur les mappages de jeux de don
 | ---------------------- | ----------|
 | Jeu de données | Nom du jeu de données. |
 | Source | La source du jeu de données, qui peut être Adobe Analytics, les événements d’expérience, le résumé (agrégé) ou les événements d’expérience client. |
-| Schéma | Schéma auquel le jeu de données se conforme. Vous pouvez sélectionner rapidement le nom du schéma pour ouvrir le schéma dans un nouvel onglet de l’éditeur de schémas dans Adobe Mix Modeler - Schémas. |
+| Schéma | Schéma auquel le jeu de données se conforme. Vous pouvez sélectionner rapidement le nom du schéma pour ouvrir le schéma dans un nouvel onglet de l’éditeur de schémas de Mix Modeler - Schémas. |
 | Granularité | Granularité des données du jeu de données. Les valeurs possibles sont Quotidienne, Hebdomadaire, Mensuelle ou Annuelle. |
 | Début de la semaine | Indique le jour de la semaine considéré comme le début d’une nouvelle semaine pour le jeu de données spécifique. |
 | Dernière modification | Données et heure de la dernière modification du mappage du jeu de données. |
@@ -41,7 +41,7 @@ Les colonnes du tableau spécifient des détails sur les mappages de jeux de don
 
 ### Création d’un mappage de jeu de données
 
-Pour créer un mappage de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans Adobe Mix Modeler, sélectionnez **[!UICONTROL Create Dataset Mapping]**.
+Pour créer un mappage de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans Mix Modeler, sélectionnez **[!UICONTROL Create Dataset Mapping]**.
 
 Dans le **[!UICONTROL Create]** écran,
 
@@ -107,7 +107,7 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save]** pour enregistrer
 
 ### Modification d’un mappage de jeu de données
 
-Pour modifier un mappage de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Interface dans Adobe Mix Modeler :
+Pour modifier un mappage de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans Mix Modeler :
 
 1. Sélectionner ![Plus](../assets/icons/More.svg) dans le **[!UICONTROL Dataset]** pour le mappage du jeu de données que vous souhaitez modifier.
 1. Dans le menu contextuel, sélectionnez ![Modifier](../assets/icons/Edit.svg) **[!UICONTROL Edit]** pour commencer à modifier le mappage du jeu de données. Voir [Création d’un mappage de jeu de données](#create-a-dataset-mapping) pour plus d’informations.
@@ -115,7 +115,7 @@ Pour modifier un mappage de jeu de données, dans la variable ![DataSearch](../a
 
 ### Suppression d’un mappage de jeu de données
 
-Pour supprimer un mappage de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Interface dans Adobe Mix Modeler :
+Pour supprimer un mappage de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans Mix Modeler :
 
 1. Sélectionner ![Plus](../assets/icons/More.svg) dans le **[!UICONTROL Dataset]** pour le mappage du jeu de données que vous souhaitez supprimer.
 1. Dans le menu contextuel, sélectionnez ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer le mappage du jeu de données.

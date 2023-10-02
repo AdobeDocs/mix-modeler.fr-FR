@@ -1,10 +1,10 @@
 ---
 title: Schémas
-description: Découvrez comment gérer les schémas requis pour ingérer des données dans Adobe Mix Modeler.
+description: Découvrez comment gérer les schémas requis pour ingérer des données dans Mix Modeler.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 8%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 8%
 
 # Schémas
 
-Pour gérer les schémas, en prenant en charge les données que vous souhaitez ingérer dans Adobe Experience Platform et utiliser dans Adobe Mix Modeler :
+Pour gérer les schémas, en prenant en charge les données que vous souhaitez ingérer dans Adobe Experience Platform et utiliser dans Mix Modeler :
 
-1. Accédez à l’interface Adobe Mix Modeler .
+1. Accédez à l’interface du Mix Modeler.
 
 1. Sélectionner ![Schémas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sous **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Voir [Présentation de l’interface utilisateur des schémas](https://experienc
 
 ## Agrégat ou données récapitulatives
 
-Il est vivement recommandé d’utiliser la classe XDM Summary Metrics comme base du schéma sous-jacent à tout agrégat ou donnée de résumé que vous souhaitez ingérer dans Experience Platform et utiliser dans Adobe Mix Modeler.
+Il est vivement recommandé d’utiliser la classe XDM Summary Metrics comme base du schéma sous-jacent à tout agrégat ou donnée de résumé que vous souhaitez ingérer dans Experience Platform et utiliser dans Mix Modeler.
 
 Utilisez la classe XDM Summary Metrics pour :
 

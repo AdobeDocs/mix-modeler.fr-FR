@@ -1,10 +1,10 @@
 ---
 title: Formules
-description: Découvrez comment afficher, sélectionner et agir sur les plans dans Adobe Mix Modeler.
+description: Découvrez comment afficher, sélectionner et agir sur les plans en Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 3%
 
 # Formules
 
-Les forfaits dans Adobe Mix Modeler vous permettent d’allouer des budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles formés en fonction de vos données harmonisées.
+Les plans en Mix Modeler vous permettent d’allouer des budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles formés en fonction de vos données harmonisées.
 
 
 ## Afficher les plans
 
-Pour afficher un tableau de vos plans actuels, dans l’interface Adobe Mix Modeler :
+Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler :
 
 1. Sélectionner ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
 

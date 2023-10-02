@@ -1,10 +1,10 @@
 ---
 title: Champs harmonisés
-description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Adobe Mix Modeler.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ Les champs harmonisés permettent de définir les champs que vous souhaitez util
 
 ## Champs d&#39;harmonisation globaux
 
-Les champs d’harmonisation globale par défaut disponibles dans Adobe Mix Modeler sont les suivants :
+Les champs d&#39;harmonisation globale par défaut disponibles en Mix Modeler sont les suivants :
 
 
 | Nom du champ | Nom d’affichage | Catégorie | Type de données | Commentaire |
@@ -53,7 +53,7 @@ Vous pouvez ajouter, modifier ou supprimer vos propres champs harmonisés en plu
 
 ## Gérer les champs harmonisés
 
-Pour afficher un tableau des champs harmonisés disponibles, dans l’interface Adobe Mix Modeler :
+Pour afficher un tableau des champs harmonisés disponibles, dans l’interface de Mix Modeler :
 
 1. Sélectionner ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -81,7 +81,7 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
 
 ### Ajouter un champ harmonisé
 
-Pour ajouter un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Adobe Mix Modeler :
+Pour ajouter un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
 
 1. Sélectionner ![Ajouter](../assets/icons/AddCircle.svg)Ajouter un champ.
 
@@ -107,7 +107,7 @@ Pour ajouter un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.s
 
 Vous ne pouvez modifier que les champs harmonisés que vous avez créés précédemment. Vous ne pouvez pas modifier un champ harmonisé global.
 
-Pour modifier un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Adobe Mix Modeler :
+Pour modifier un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
 
 1. Sélectionnez le champ harmonisé que vous souhaitez modifier. Par exemple, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ Pour modifier un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.
 
 Vous ne pouvez supprimer que les champs harmonisés que vous avez créés précédemment. Vous ne pouvez pas supprimer un champ harmonisé global.
 
-Pour supprimer un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Adobe Mix Modeler :
+Pour supprimer un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
 
 1. Sélectionnez le champ harmonisé à supprimer, par exemple **[!UICONTROL Region]**.
 

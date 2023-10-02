@@ -1,11 +1,11 @@
 ---
 title: Ingestion de données
-description: Découvrez comment ingérer des données dans Adobe Mix Modeler.
+description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 15%
+source-wordcount: '460'
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser n’importe quel mécanisme, pris en charge par Adobe Exper
 
 ## Instructions
 
-Pour ingérer des données dans Adobe Experience Platform en vue de les utiliser avec Adobe Mix Modeler, suivez ces instructions :
+Pour ingérer des données dans Adobe Experience Platform en vue de les utiliser avec Mix Modeler, suivez ces instructions :
 
 * Il ne doit pas y avoir de chevauchement dans les données incrémentielles ajoutées aux jeux de données.
 * Toutes les données provenant d’une seule source doivent être de la même granularité.
@@ -38,7 +38,7 @@ Pour ingérer des données dans Adobe Experience Platform en vue de les utiliser
 
 ## Exemples
 
-Vous trouverez ci-dessous quelques exemples de données généralement utilisées dans Adobe Mix Modeler au-delà des données d’événement d’expérience standard.
+Vous trouverez ci-dessous quelques exemples de données généralement utilisées en Mix Modeler au-delà des données d’événement d’expérience standard.
 
 +++ Agréger les données de l’effort marketing
 
@@ -80,7 +80,8 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++
 
-Pour utiliser les données dans Adobe Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon les schémas dans Adobe Experience Platform. L’interface de l’Adobe Mix Modeler permet d’accéder facilement à l’interface utilisateur Schémas et jeux de données Experience Platform.
+Pour utiliser des données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Adobe Experience Platform. L’interface du Mix Modeler permet d’accéder facilement à l’interface utilisateur des schémas et des jeux de données.
+
 
 >[!MORELIKETHIS]
 >

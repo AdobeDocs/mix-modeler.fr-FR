@@ -1,10 +1,10 @@
 ---
 title: Présentation des plans
-description: Découvrez comment utiliser la présentation des plans dans Adobe Mix Modeler.
+description: Découvrez comment utiliser la présentation des plans en Mix Modeler.
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-L’onglet Plans de la présentation du module de modélisation des Adobes affiche les widgets pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
+L’onglet Formules de l’aperçu du Mix Modeler affiche des widgets pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
 
 Les données affichées pour les widgets sont déterminées par :
 
