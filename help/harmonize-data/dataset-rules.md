@@ -2,13 +2,13 @@
 title: Règles du jeu de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
 
 ---
-
 
 # Règles du jeu de données
 
@@ -61,7 +61,7 @@ Dans le **[!UICONTROL Create]** écran,
 
       ![Création de règles de jeu de données](../assets/dataset-create-summary.png)
 
-1. Lorsque vous avez sélectionné un type d’événement d’un jeu de données, dans la zone ombrée en dessous **[!UICONTROL Map to harmonized fields]**:
+1. Lorsque vous avez sélectionné un type d’événement de jeu de données (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), dans la zone ombrée sous **[!UICONTROL Map to harmonized fields]**:
 
    1. Sélectionnez un champ harmonisé depuis **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ Pour synchroniser les données entre vos données harmonisées et vos jeux de do
 1. Sélectionner **[!UICONTROL Sync]** pour démarrer la synchronisation en fonction des règles définies du jeu de données entre les données harmonisées et les données des jeux de données. Pour annuler la synchronisation, sélectionnez **[!UICONTROL Cancel]**.
 
    ![Synchroniser les données](../assets/sync-data.png)
-

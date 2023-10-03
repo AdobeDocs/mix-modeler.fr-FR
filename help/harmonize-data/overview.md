@@ -2,20 +2,20 @@
 title: Harmonisation des données
 description: Découvrez comment harmoniser les données en Mix Modeler.
 feature: Harmonized Data
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 17%
+source-wordcount: '801'
+ht-degree: 16%
 
 ---
-
 
 # Harmonisation des données
 
 Les données en Mix Modeler sont de nature différente selon la source de données. Les données peuvent être les suivantes :
 
-* des données agrégées, par exemple, collectées à partir de sources de données de jardins clôturés ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
-* données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK Web ou mobile Adobe Experience Platform ou l’API réseau Edge, ou des données ingérées à l’aide des connecteurs source.
+* des données agrégées ou récapitulatives, par exemple, collectées à partir de sources de données de jardins clôturés ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
+* données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK web ou mobile Experience Platform ou l’API réseau Edge, ou encore les données ingérées à l’aide des connecteurs source.
 
 Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données est la source des plans et des modèles en Mix Modeler.
 
@@ -122,7 +122,7 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
    1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une période pour la variable **[!UICONTROL Date range]** ou utilisez ![Calendrier](../assets/icons/Calendar.svg) pour sélectionner une période.
 
-   1. Pour modifier les colonnes affichées pour le tableau des données harmonisées, utilisez ![Paramètres](../assets/icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
+   1. Pour modifier les colonnes de champ harmonisées affichées pour le tableau des données harmonisées, utilisez ![Paramètres](../assets/icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
 
       1. Sélectionner ![SelectBox](../assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron à droite](../assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,5 +133,3 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
       1. Pour modifier l’ordre d’affichage des colonnes, vous pouvez déplacer une colonne dans **[!UICONTROL SELECTED COLUMNS]** vers le haut et vers le bas par glisser-déposer .
 
    1. Sélectionner **[!UICONTROL Submit]** pour envoyer vos modifications de paramètres de colonne. Sélectionner **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
-
-

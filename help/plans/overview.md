@@ -2,13 +2,13 @@
 title: Formules
 description: Découvrez comment afficher, sélectionner et agir sur les plans en Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
 
 ---
-
 
 # Formules
 
@@ -69,7 +69,8 @@ Pour comparer des plans :
 Pour supprimer des plans :
 
 1. Sélectionnez un ou plusieurs plans dans le tableau.
-1. Sélectionner ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions. Votre plan est immédiatement supprimé.
+1. Sélectionner ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions.
 
-
-
+   >[!WARNING]
+   >
+   >   Les plans sélectionnés sont immédiatement supprimés !

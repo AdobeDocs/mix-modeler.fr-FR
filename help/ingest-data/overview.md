@@ -2,33 +2,33 @@
 title: Ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 16%
 
 ---
-
 
 # Ingestion de données
 
 Mix Modeler fonctionne avec des données au niveau de l’événement, des données agrégées d’effort marketing provenant de divers jardins muraux et des données agrégées ou récapitulatives provenant de toute autre source, comme la publicité hors ligne, des facteurs internes ou des facteurs externes.
 
-Les clients peuvent utiliser n’importe quel type de données ingéré dans Adobe Experience Platform en tant que jeux de données et basé sur des schémas à l’aide de XDM ExperienceEvent ou de XDM Summary Metrics en tant que classe de base.
+Les clients peuvent utiliser n’importe quel type de données ingéré dans Experience Platform en tant que jeux de données et basé sur des schémas à l’aide de XDM ExperienceEvent ou de XDM Summary Metrics en tant que classe de base.
 
 Par exemple :
 
 * les données collectées à l’aide du connecteur source Adobe Analytics et transformées en jeux de données conformes à la version par défaut ou personnalisée du schéma Adobe Analytics, ou, à l’inverse,
-* données collectées à l’aide du SDK Web Adobe Experience Platform, du SDK mobile ou de l’API Edge Network Server pour collecter les interactions des clients sur le web, le mobile ou tout autre type d’appareil,
+* données collectées à l’aide du SDK Web Experience Platform, du SDK mobile ou de l’API Edge Network Server pour collecter les interactions des clients sur le web, le mobile ou tout autre type d’appareil,
 * données agrégées provenant de jardins muraux (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
 * données agrégées ou récapitulatives non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
 
-Vous pouvez utiliser n’importe quel mécanisme, pris en charge par Adobe Experience Platform, pour ingérer votre niveau d’événement d’expérience, des données agrégées sur l’effort marketing et des données provenant d’autres sources. Tels que les SDK Adobe Experience Platform, les API, les connecteurs source et l’ingestion par flux et par lots.
+Vous pouvez utiliser n’importe quel mécanisme, pris en charge par Experience Platform, pour ingérer vos données d’événement d’expérience, d’effort marketing agrégé et de données provenant d’autres sources. tels que les SDK, les API, les connecteurs source, ainsi que la diffusion en continu et l’ingestion par lots Experience Platform.
 
 
 ## Instructions
 
-Pour ingérer des données dans Adobe Experience Platform en vue de les utiliser avec Mix Modeler, suivez ces instructions :
+Pour ingérer des données dans Experience Platform en vue de les utiliser avec Mix Modeler, suivez ces instructions :
 
 * Il ne doit pas y avoir de chevauchement dans les données incrémentielles ajoutées aux jeux de données.
 * Toutes les données provenant d’une seule source doivent être de la même granularité.
@@ -38,7 +38,7 @@ Pour ingérer des données dans Adobe Experience Platform en vue de les utiliser
 
 ## Exemples
 
-Vous trouverez ci-dessous quelques exemples de données généralement utilisées en Mix Modeler au-delà des données d’événement d’expérience standard.
+Vous trouverez ci-dessous quelques exemples de données généralement utilisées en Mix Modeler au-delà des données d’événement d’expérience plus standard.
 
 +++ Agréger les données de l’effort marketing
 
@@ -80,7 +80,7 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++
 
-Pour utiliser des données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Adobe Experience Platform. L’interface du Mix Modeler permet d’accéder facilement à l’interface utilisateur des schémas et des jeux de données.
+Pour utiliser des données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Experience Platform. L’interface du Mix Modeler permet d’accéder facilement à l’interface utilisateur des schémas et des jeux de données.
 
 
 >[!MORELIKETHIS]

@@ -2,13 +2,13 @@
 title: Champs harmonisés
 description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 11%
 
 ---
-
 
 # Champs harmonisés
 
@@ -126,5 +126,3 @@ Pour supprimer un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck
 1. Sélectionnez le champ harmonisé à supprimer, par exemple **[!UICONTROL Region]**.
 
 1. Sélectionner ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** de la **[!UICONTROL Edit harmonization values]** volet de gauche.
-
-

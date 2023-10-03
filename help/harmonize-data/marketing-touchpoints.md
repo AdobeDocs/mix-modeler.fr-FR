@@ -2,13 +2,13 @@
 title: Points de contact marketing
 description: Découvrez comment créer des points de contact marketing à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
 
 ---
-
 
 # Points de contact marketing
 

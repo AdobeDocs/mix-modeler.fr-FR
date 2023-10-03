@@ -2,17 +2,17 @@
 title: Schémas
 description: Découvrez comment gérer les schémas requis pour ingérer des données dans Mix Modeler.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
 
-
 # Schémas
 
-Pour gérer les schémas, en prenant en charge les données que vous souhaitez ingérer dans Adobe Experience Platform et utiliser dans Mix Modeler :
+Pour gérer les schémas, en prenant en charge les données que vous souhaitez ingérer dans Experience Platform et utiliser dans Mix Modeler :
 
 1. Accédez à l’interface du Mix Modeler.
 
@@ -40,7 +40,7 @@ Un schéma utilisant la variable **[!DNL XDM Summary Metrics]** La classe de bas
 
 ![Schéma des facteurs externes](../assets/external-factors-schema.png)
 
-Ce schéma simple peut être utilisé pour ingérer des jeux de données contenant des données pour :
+Ce schéma simple peut être utilisé pour ingérer des jeux de données contenant des données, par exemple :
 
 - Données de l’index des concurrents
 
