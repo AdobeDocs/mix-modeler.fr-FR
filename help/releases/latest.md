@@ -1,13 +1,13 @@
 ---
 title: Afficher les notes de mise à jour actuelles du Mix Modeler
-description: Dernières notes de mise à jour de Mix Modeler
+description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
