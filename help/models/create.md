@@ -2,13 +2,13 @@
 title: Création d’un modèle
 description: Découvrez comment créer un modèle en Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # Création d’un modèle
 
@@ -127,9 +127,9 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       1. Sélectionnez le **[!UICONTROL Rule type]**.
 
-      1. Répartir les pourcentages pour chacun des canaux répertoriés sous **[!UICONTROL Name]**, à l’aide de la fonction **[!UICONTROL Contribution proportion]** colonne . Assurez-vous que la distribution totale des pourcentages s’élève à 100 %.
+      1. Spécifiez des pourcentages de contribution pour l’un des canaux répertoriés sous **[!UICONTROL Name]**, à l’aide de la fonction **[!UICONTROL Contribution proportion]** colonne .
 
-      1. Vous pouvez ajouter pour chaque canal une **[!UICONTROL Level of confidence]** pourcentage.
+      1. Le cas échéant, vous pouvez ajouter pour chaque canal une **[!UICONTROL Level of confidence]** pourcentage.
 
       1. Si nécessaire, utilisez **[!UICONTROL Clear all]** pour effacer toutes les valeurs d’entrée pour la variable **[!UICONTROL Contribution proportion]** et **[!UICONTROL Level of confidence]** colonnes.
 
@@ -146,4 +146,3 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
    Sélectionner **[!UICONTROL Back]** pour revenir à l’étape précédente.
 
    Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
-
