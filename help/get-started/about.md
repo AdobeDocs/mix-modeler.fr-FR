@@ -4,14 +4,18 @@ description: Obtenez un aperçu des fonctionnalités de Mix Modeler.
 short-description: Obtenez un aperçu des fonctionnalités de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
 
 # Présentation du Mix Modeler
+
+Consultez cette vidéo pour un aperçu rapide des fonctionnalités du Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 Mix Modeler, optimisé par Adobe Sensei, permet aux marketeurs de mesurer les campagnes et d’optimiser la planification de manière holistique sur tous les canaux : payants, gagnés et détenus. Sa méthodologie unifiée mesure progressivement les points de contact marketing et les niveaux agrégés, tout en assurant des résultats entièrement cohérents.
 
