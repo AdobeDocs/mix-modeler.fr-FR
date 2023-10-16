@@ -1,13 +1,13 @@
 ---
 title: Présentation du Mix Modeler
-description: Obtenez un aperçu des fonctionnalités de Mix Modeler.
-short-description: Obtenez un aperçu des fonctionnalités de Mix Modeler.
+description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
+short-description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
