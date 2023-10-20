@@ -3,10 +3,10 @@ title: Formules
 description: Découvrez comment afficher, sélectionner et agir sur les plans en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 3%
+source-wordcount: '422'
+ht-degree: 2%
 
 ---
 
@@ -14,8 +14,22 @@ ht-degree: 3%
 
 Les plans en Mix Modeler vous permettent d’allouer des budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles formés en fonction de vos données harmonisées.
 
+Un plan décrit les investissements discrétionnaires (par exemple, les budgets) qu’une entreprise a l’intention de dépenser pour des projets liés au marketing au cours d’une période donnée au service d’un IPC commun (par exemple, les commandes, les recettes). Les forfaits peuvent être des frais de publicité payés, de contenu web sponsorisé, d’événements.
 
-## Afficher les plans
+Un plan nécessite :
+
+- un modèle,
+- une plage de données,
+- un budget.
+
+Un plan peut éventuellement inclure :
+
+- une fenêtre de reconnaissance paramétrée,
+- plusieurs dates de vols avec un budget cible,
+- contraintes de budget minimales et maximales par canal et date de vol.
+
+
+## Gestion des plans
 
 Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler :
 
@@ -40,6 +54,14 @@ Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler
 
 1. Utilisation ![Rechercher](../assets/icons/Search.svg) pour rechercher et filtrer le tableau en fonction d’un ou de plusieurs plans spécifiques.
 
+## Créer un plan
+
+Pour créer un plan, utilisez l&#39;assistant de création de plan du Mix Modeler. Voir [Créer un plan](create.md) pour plus d’informations.
+
+
+## Modifier un plan
+
+Pour modifier un plan, sélectionnez son nom dans la table. Voir [Modifier un plan](edit.md) pour plus d’informations.
 
 ## Sélection et action sur les plans
 

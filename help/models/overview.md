@@ -2,19 +2,38 @@
 title: Modèles
 description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 4%
+source-wordcount: '485'
+ht-degree: 3%
 
 ---
-
 
 # Modèles
 
 La fonctionnalité de modèle de Mix Modeler vous permet de configurer, de former et de noter des modèles AI/ML spécifiques à vos objectifs commerciaux et pris en charge par l’apprentissage par transfert piloté par l’IA entre l’attribution multipoint et la modélisation de combinaison marketing.
 
 Les modèles sont basés sur les données harmonisées que vous créez dans le cadre du processus de l’application de Mix Modeler.
+
+Un modèle en Mix Modeler est un modèle d’apprentissage automatique utilisé pour mesurer et/ou prédire un résultat spécifié en fonction des investissements d’un spécialiste du marketing. Les points de contact marketing et les données de niveau résumé peuvent être utilisés comme entrée. Mix Modeler vous permet de créer des variantes de modèles basées sur différents ensembles de variables, dimensions et résultats, tels que les revenus, unités vendues et prospects.
+
+Un modèle nécessite :
+
+* une conversion,
+* un ou plusieurs points de contact marketing (canaux) composés de données de niveau résumé, de données de point de contact marketing (données d’événement) ou les deux,
+* un intervalle de recherche en amont configurable pour
+* une fenêtre de formation configurable.
+
+Un modèle peut éventuellement inclure :
+
+* facteurs externes,
+* facteurs internes,
+* les &quot;primeurs&quot; (distribution de probabilité représentant la connaissance ou l’incertitude des données avant ou avant l’observation de ces données), qui indexe les conversions antérieures par canal,
+* le partage des dépenses, qui utilise le partage des dépenses relatif comme proxy lorsque les données marketing sont éparses.
+
+
+## Création d’un modèle
 
 Pour créer un modèle, utilisez le flux de configuration de modèle guidé étape par étape du Mix Modeler disponible lorsque vous sélectionnez **[!UICONTROL Guide me]**. Voir [Création d’un modèle](create.md) pour plus d’informations.
 
@@ -74,5 +93,3 @@ Pour afficher les insights d’un modèle, dans l’interface du Mix Modeler :
 1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table.
 
 1. Dans le menu contextuel, sélectionnez **[!UICONTROL Model Insights]**. Vous êtes redirigé vers [Informations sur les modèles](insights.md).
-
-
