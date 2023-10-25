@@ -3,16 +3,16 @@ title: Ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 16%
 
 ---
 
 # Ingestion de données
 
-Mix Modeler fonctionne avec des données au niveau de l’événement, des données agrégées d’effort marketing provenant de divers jardins muraux et des données agrégées ou récapitulatives provenant de toute autre source, comme la publicité hors ligne, des facteurs internes ou des facteurs externes.
+Mix Modeler utilise des données au niveau de l’événement, agrège un résumé des données de l’effort marketing de différents jardins muraux et agrège ou résume les données de toute autre source, comme la publicité hors ligne, les facteurs internes ou les facteurs externes.
 
 Les clients peuvent utiliser n’importe quel type de données ingéré dans Experience Platform en tant que jeux de données et basé sur des schémas à l’aide de XDM ExperienceEvent ou de XDM Summary Metrics en tant que classe de base.
 
@@ -20,7 +20,7 @@ Par exemple :
 
 * les données collectées à l’aide du connecteur source Adobe Analytics et transformées en jeux de données conformes à la version par défaut ou personnalisée du schéma Adobe Analytics, ou, à l’inverse,
 * données collectées à l’aide du SDK Web Experience Platform, du SDK mobile ou de l’API Edge Network Server pour collecter les interactions des clients sur le web, le mobile ou tout autre type d’appareil,
-* données agrégées provenant de jardins muraux (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
+* données agrégées ou récapitulatives provenant de jardins murs (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
 * données agrégées ou récapitulatives non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
 
 Vous pouvez utiliser n’importe quel mécanisme, pris en charge par Experience Platform, pour ingérer vos données d’événement d’expérience, d’effort marketing agrégé et de données provenant d’autres sources. tels que les SDK, les API, les connecteurs source, ainsi que la diffusion en continu et l’ingestion par lots Experience Platform.
