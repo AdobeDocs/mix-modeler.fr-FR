@@ -2,13 +2,13 @@
 title: Modifier un plan
 description: Découvrez comment modifier un plan en Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Modifier un plan
 
@@ -16,13 +16,24 @@ Pour modifier un plan, dans la variable ![PLan](../assets/icons/FileChart.svg) *
 
 Dans [!UICONTROL Plan insights], les informations de votre plan sont créées, ce qui affiche la variable [!UICONTROL Model], la variable [!UICONTROL Data range], et [!UICONTROL Total budget] sur laquelle le plan est fondé.
 
-Une fois la récupération terminée, un aperçu de votre plan avec des visualisations pour [!UICONTROL Forecasted ROI] et [!UICONTROL Forecasted revenue].
+Une fois la récupération terminée, un aperçu de votre plan s’affiche, comportant les éléments suivants :
+
+- [!UICONTROL Forecasted paid channel ROI] visualisation
+- [!UICONTROL Forecasted revenue] visualisation
+- [!UICONTROL Data range breakdown] tableau du plan, affichant les colonnes pour
+
+   - Canal
+   - ROI
+   - CPA
+   - Recettes
+   - Objectif de conversion
+   - Dépenser
+
+![Présentation d’un plan](../assets/overview-plan.png)
 
 1. Sélectionner **[!UICONTROL Close]** pour revenir à l’interface Plans .
 
-1. (facultatif) Sélectionnez **[!UICONTROL Plan breakdown]** pour voir un tableau détaillé de votre plan.
-
-   ![Présentation d’un plan](../assets/overview-plan.png)
+1. Pour télécharger un fichier CSV contenant les données de la ventilation de période, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. Pour modifier votre plan, sélectionnez **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ Une fois la récupération terminée, un aperçu de votre plan avec des visualis
 1. Pour annuler les mises à jour de votre plan, sélectionnez **[!UICONTROL Cancel]**.
 
    Dans le **[!UICONTROL No work will be saved]** boîte de dialogue, sélectionnez **[!UICONTROL Cancel]** pour continuer à travailler sur votre plan ou sélectionnez **[!UICONTROL OK]** pour revenir à l’interface Plans .
-

@@ -3,10 +3,10 @@ title: Formules
 description: Découvrez comment afficher, sélectionner et agir sur les plans en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 2%
+source-wordcount: '417'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,6 @@ Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler
    | Nom de la colonne | Détails |
    |---|---|
    | Nom | Nom du plan |
-   | Description | Description du modèle |
    | Modèle | Le modèle utilisé comme base du plan. |
    | Date range (Plage de dates) | La période complète d’un plan. |
    | Budget | Le budget total d’un plan. |
@@ -62,6 +61,7 @@ Pour créer un plan, utilisez l&#39;assistant de création de plan du Mix Modele
 ## Modifier un plan
 
 Pour modifier un plan, sélectionnez son nom dans la table. Voir [Modifier un plan](edit.md) pour plus d’informations.
+
 
 ## Sélection et action sur les plans
 

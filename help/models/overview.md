@@ -3,10 +3,10 @@ title: Modèles
 description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 3%
+source-wordcount: '501'
+ht-degree: 2%
 
 ---
 
@@ -51,11 +51,10 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Mode
    |---|---|
    | Nom | Nom du modèle |
    | Description | Description du modèle |
-   | Événements de conversion | La conversion que vous avez sélectionnée pour le modèle. |
-   | Jeu de données | Jeu de données que le modèle utilise pour entraîner et noter. Il s’agit par défaut du jeu de données harmonisé. |
+   | Événement de conversion | La conversion que vous avez sélectionnée pour le modèle. |
    | Fréquence d’exécution | Fréquence d’exécution de l’entraînement du modèle. |
    | Dernière exécution | Date et heure de la dernière formation du modèle. |
-   | Statut de la dernière exécution | État de la dernière exécution de l’entraînement du modèle. <br/><span style="color:green">●</span> Succès<br/><span style="color:orange">●</span> Problème de formation<br/> <span style="color:orange">●</span> En attente de formation <br/><span style="color:red">●</span> En échec |
+   | Statut | État de la dernière exécution de l’entraînement du modèle. <br/><span style="color:green">●</span> Succès<br/><span style="color:orange">●</span> Problème de formation<br/> <span style="color:orange">●</span> En attente de formation <br/><span style="color:red">●</span> En échec |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Pour supprimer un modèle :
 
 Pour afficher plus de détails sur un modèle :
 
-1. Sélectionnez le nom du modèle dont vous souhaitez afficher plus de détails.
-
-1. Dans le menu contextuel, sélectionnez **[!UICONTROL More]**. Les détails du modèle sélectionné s’affichent dans le volet de droite.
+1. Sélectionner ![Infos](../assets/icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
 
 
 
@@ -93,3 +90,20 @@ Pour afficher les insights d’un modèle, dans l’interface du Mix Modeler :
 1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table.
 
 1. Dans le menu contextuel, sélectionnez **[!UICONTROL Model Insights]**. Vous êtes redirigé vers [Informations sur les modèles](insights.md).
+
+
+### Re-score
+
+>[!NOTE]
+>
+>Cette sélection n’est disponible que sur les modèles formés avec succès.
+>
+
+Pour noter à nouveau un modèle, dans l’interface du Mix Modeler :
+
+1. Sélectionner ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+
+1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table.
+
+1. Dans le menu contextuel, sélectionnez **[!UICONTROL Re-score]**. L’affichage d’un état mis à jour du modèle peut prendre quelques minutes.
+

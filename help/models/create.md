@@ -3,7 +3,7 @@ title: Création d’un modèle
 description: Découvrez comment créer un modèle en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Création d’un modèle
 
-Pour créer un modèle, dans la variable ![Modèles](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans Mix Modeler, sélectionnez **[!UICONTROL Guide me]**.
+Pour créer un modèle, dans la variable ![Modèles](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
 
 Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fournit un flux de configuration de modèle guidé étape par étape.
 
@@ -24,7 +24,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
    1. Sélectionner **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
-1. Dans le **[!UICONTROL Configure]** étape :
+1. Dans le **[!UICONTROL Configured]** étape :
 
    1. Dans le **[!UICONTROL Conversion goal]** , dans le conteneur :
 
@@ -48,7 +48,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de points de contact marketing, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * Pour supprimer un conteneur de points de contact marketing, sélectionnez ![Plus](../assets/icons/More.svg) et sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de points de contact marketing, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
 
         ![Modèle - étape des points de contact marketing](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de population de données éligible, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Pour supprimer un conteneur de population de données éligible, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg) et sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de population de données éligible, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
 
         ![Modèle - Population de données éligible](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de jeux de données de facteurs externes supplémentaire, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Pour supprimer un conteneur de jeux de données de facteurs externes, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg) et sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de jeux de données de facteurs externes, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
 
         ![Modèle - Jeu de données de facteurs externes](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de jeux de données de facteurs internes supplémentaire, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Pour supprimer un conteneur de jeux de données de facteurs internes supplémentaire, sélectionnez dans le conteneur . ![Plus](../assets/icons/More.svg) et **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de jeux de données de facteurs internes supplémentaire, sélectionnez dans le conteneur . ![Plus](../assets/icons/More.svg), et **[!UICONTROL Remove container]** dans le menu contextuel.
 
         ![Modèle - Jeu de données de facteurs internes](../assets/model-internal-factors-dataset-step.png)
 
