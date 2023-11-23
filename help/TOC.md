@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: 101029c8b6095b3ec9842228913fac3720132cdf
+source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 55%
+source-wordcount: '72'
+ht-degree: 56%
 
 ---
 
@@ -19,30 +19,31 @@ ht-degree: 55%
    + [Workflow de l’application](get-started/workflow.md)
 
 + Tableau de bord {#dashboard}
-   + [Présentation](dashboard/overview.md)
+   + [Vue d’ensemble](dashboard/overview.md)
    + [Harmonisation des données](dashboard/harmonized-data.md)
    + [Formules](dashboard/plans.md)
 
 + Modèles {#models}
-   + [Présentation](models/overview.md)
+   + [Vue d’ensemble](models/overview.md)
    + [Création d’un modèle](models/create.md)
    + [Informations sur les modèles](models/insights.md)
+   + [Données de notation](models/scoring-data.md)
 
 + Formules {#plans}
-   + [Présentation](plans/overview.md)
+   + [Vue d’ensemble](plans/overview.md)
    + [Créer un plan](plans/create.md)
    + [Modifier un plan](plans/edit.md)
    + [Comparaison de plans](plans/compare.md)
 
 + Harmonisation des données {#harmonize-data}
-   + [Présentation](harmonize-data/overview.md)
+   + [Vue d’ensemble](harmonize-data/overview.md)
    + [Champs](harmonize-data/fields.md)
    + [Règles du jeu de données](harmonize-data/dataset-rules.md)
    + [Points de contact marketing](harmonize-data/marketing-touchpoints.md)
    + [de conversions](harmonize-data/conversions.md)
 
 + Ingestion de données {#ingest-data}
-   + [Présentation](ingest-data/overview.md)
+   + [Vue d’ensemble](ingest-data/overview.md)
    + [Schémas](ingest-data/schemas.md)
    + [Jeux de données](ingest-data/datasets.md)
 
