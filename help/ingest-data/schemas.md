@@ -3,10 +3,10 @@ title: Schémas
 description: Découvrez comment gérer les schémas requis pour ingérer des données dans Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 8%
+source-wordcount: '377'
+ht-degree: 5%
 
 ---
 
@@ -46,20 +46,20 @@ Ce schéma simple peut être utilisé pour ingérer des jeux de données contena
 
   | date et heure | date_type | facteur | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00,000Z |  semaine | concurrent_index | 289.8 |
-  | 2020-12-05T00:00:00,000Z |  semaine | concurrent_index | 291.2 |
-  | 2020-12-12T00:00:00,000Z |  semaine | concurrent_index | 280.07 |
+  | 2020-11-28T00:00:00,000Z | week | concurrent_index | 289,8 |
+  | 2020-12-05T00:00:00,000Z | week | concurrent_index | 291,2 |
+  | 2020-12-12T00:00:00,000Z | week | concurrent_index | 280,07 |
   | … | … | … | … |
 
 - Données des fêtes publiques
 
   | date et heure | date_type | facteur | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00,000Z |  semaine | all_vacances_flag | 0.0 |
-  | 2020-12-05T00:00:00,000Z |  semaine | all_vacances_flag | 0.0 |
-  | 2020-12-12T00:00:00,000Z |  semaine | all_vacances_flag | 0.0 |
-  | 2020-12-19T00:00:00,000Z |  semaine | all_vacances_flag | 0.0 |
-  | 2020-12-26T00:00:00,000Z |  semaine | all_vacances_flag | 1.0 |
+  | 2020-11-28T00:00:00,000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-05T00:00:00,000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-12T00:00:00,000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-19T00:00:00,000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-26T00:00:00,000Z | week | all_vacances_flag | 1.0 |
   | … | … | … | … |
 
 
@@ -68,3 +68,18 @@ Voir ci-dessous pour un exemple plus complet d’une **[!DNL LumaPaidMarketingSc
 ![Schéma de résumé](../assets/summary-schema.png)
 
 Étant donné la nature asynchrone de l’ingestion des profils, lors de la collecte de données agrégées ou récapitulatives à partir de sources externes, il est conseillé d’utiliser le groupe de champs Détails de l’audit du système source externe dans le cadre d’un schéma. Ce groupe de champs définit un ensemble de propriétés d’audit pour les sources externes.
+
+
+## Types de données pris en charge
+
+Actuellement, Mix Modeler prend en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sont prises en charge :
+
+- Chaîne
+- Entier
+- Double
+- Booléen
+- Long
+- Short
+- Byte
+- Date
+- Date-time
