@@ -3,10 +3,10 @@ title: Ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 16%
+source-wordcount: '459'
+ht-degree: 12%
 
 ---
 
@@ -58,10 +58,10 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 | Géo | Date | Type de date | Produit | Unités vendues | Recettes |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | day | L&#39;économie créatrice | 603 | 36537.68 |
-| EMEA | 2021-09-13 | day | Métaverse | 55 | 21704.37 |
-| JPN | 2022-05-30 | day | Pro Imaging | 487 | 64469.60 |
-| JPN | 2022-05-30 | day | Document Cloud | 642 | 100509.07 |
+| EMEA | 2021-09-13 | day | L&#39;économie créatrice | 603 | 36537,68 |
+| EMEA | 2021-09-13 | day | Métaverse | 55 | 21704,37 |
+| JPN | 2022-05-30 | day | Pro Imaging | 487 | 64469,60 |
+| JPN | 2022-05-30 | day | Document Cloud | 642 | 100509,07 |
 
 {style="table-layout:auto"}
 
@@ -71,16 +71,16 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 | Données | Type de date | Facteur | Valeur |
 |---|:---:|:---:|:---|
-| 2020-08-02 |  semaine | SPX | 3325.866 |
-| 2020-08-09 |  semaine | SPX | 3364.158 |
-| 2020-08-16 |  semaine | SPX | 3385.858 |
-| 2020-08-23 |  semaine | SPX | 3497.965 |
+| 2020-08-02 | week | SPX | 3325,866 |
+| 2020-08-09 | week | SPX | 3364,158 |
+| 2020-08-16 | week | SPX | 3385,858 |
+| 2020-08-23 | week | SPX | 3497,965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Pour utiliser des données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Experience Platform. L’interface du Mix Modeler permet d’accéder facilement à l’interface utilisateur des schémas et des jeux de données.
+Pour utiliser des données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Experience Platform. L’interface du Mix Modeler permet d’accéder facilement aux schémas et aux jeux de données Experience Platform.
 
 
 >[!MORELIKETHIS]

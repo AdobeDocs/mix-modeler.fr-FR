@@ -2,13 +2,13 @@
 title: Tableau de bord de présentation des données harmonisé
 description: Découvrez comment utiliser le tableau de bord de présentation des données harmonisé en Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
 
 ---
-
 
 # Présentation des données harmonisées
 
@@ -20,9 +20,9 @@ Pour modifier la période des données à afficher dans les widgets, saisissez u
 
 ## Filtres de données
 
-Vous pouvez filtrer les données affichées pour tous les widgets à l’aide de la variable ![Filtrer](../assets/icons/Filter.svg) **[!UICONTROL Data Filters]** volet.
+Vous pouvez filtrer les données affichées pour tous les widgets à l’aide de la variable ![Filtrer](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** volet.
 
-Sélectionnez un ou plusieurs filtres pour chaque catégorie (**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]**, et **[!UICONTROL Traffic Source]**).
+Sélectionnez un ou plusieurs filtres pour chaque catégorie (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, et **[!UICONTROL Traffic Source]**).
 
 Les filtres sélectionnés s’affichent au-dessus des widgets à l’adresse **[!UICONTROL FILTERING BY:]**.
 
@@ -39,7 +39,7 @@ Vous pouvez configurer chaque widget.
 
 * Sur le widget de carte d’état des indicateurs de performance clés :
 
-   1. Sélectionner ![Modifier](../assets/icons/Edit.svg) et ![Modifier](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** dans le menu contextuel.
+   1. Sélectionner ![Modifier](../assets/icons/Edit.svg) et ![Modifier](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
 
    1. Dans le **[!UICONTROL KPI status card]** dialog :
 
@@ -49,13 +49,13 @@ Vous pouvez configurer chaque widget.
 
 * Sur les autres widgets configurables :
 
-   1. Sélectionner ![Modifier](../assets/icons/Edit.svg) et ![Modifier](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** dans le menu contextuel.
+   1. Sélectionner ![Modifier](../assets/icons/Edit.svg) et ![Modifier](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
 
    1. Dans le **[!UICONTROL Edit Data]** dialog :
 
       1. Sélection d’une mesure dans **[!UICONTROL Select a metric]**, par exemple **[!UICONTROL Impressions]**.
-      1. Sélectionnez une catégorie parmi **[!UICONTROL Select category]**, par exemple **[!UICONTROL Media Type]**.
-      1. (facultatif) sélectionnez une deuxième catégorie dans **[!UICONTROL Select second category (optional)]**, par exemple **[!UICONTROL Traffic Source]**.
+      1. Sélectionnez une catégorie parmi **[!UICONTROL Select category]**, par exemple **[!UICONTROL Media types]**.
+      1. (facultatif) sélectionnez une deuxième catégorie dans **[!UICONTROL Select second category (optional)]**, par exemple **[!UICONTROL Traffic sources]**.
       1. Sélectionner ![Horloge](../assets/icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculateur](../assets/icons/Calculator.svg) **[!UICONTROL Total]** comme type d’analyse à l’adresse **[!UICONTROL Select analysis type]**.
 
          Si vous sélectionnez ![Horloge](../assets/icons/Clock.svg) **[!UICONTROL Time]**, vous pouvez spécifier la fréquence. Sélectionner **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** de **[!UICONTROL Select time frequency]**.
@@ -67,4 +67,3 @@ Vous pouvez configurer chaque widget.
          Si l’aperçu ne peut pas être rendu en raison de l’indisponibilité des données, vous pouvez voir ![Erreur de données](../assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
       1. Sélectionner **[!UICONTROL Apply]** pour appliquer les modifications au widget. Sélectionner **[!UICONTROL Cancel]** pour annuler toute modification apportée au widget actuel.
-

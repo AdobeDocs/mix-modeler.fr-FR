@@ -3,9 +3,9 @@ title: Modèles
 description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Un modèle peut éventuellement inclure :
 
 ## Création d’un modèle
 
-Pour créer un modèle, utilisez le flux de configuration de modèle guidé étape par étape du Mix Modeler disponible lorsque vous sélectionnez **[!UICONTROL Guide me]**. Voir [Création d’un modèle](create.md) pour plus d’informations.
+Pour créer un modèle, utilisez le flux de configuration de modèle guidé étape par étape du Mix Modeler disponible lorsque vous sélectionnez **[!UICONTROL Open model canvas]**. Voir [Création d’un modèle](create.md) pour plus d’informations.
 
 ## Gestion des modèles
 
@@ -54,19 +54,12 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Mode
    | Événement de conversion | La conversion que vous avez sélectionnée pour le modèle. |
    | Fréquence d’exécution | Fréquence d’exécution de l’entraînement du modèle. |
    | Dernière exécution | Date et heure de la dernière formation du modèle. |
-   | Statut | État de la dernière exécution de l’entraînement du modèle. <br/><span style="color:green">●</span> Succès<br/><span style="color:orange">●</span> Problème de formation<br/> <span style="color:orange">●</span> En attente de formation <br/><span style="color:red">●</span> En échec |
+   | Statut | État de la dernière exécution de l’entraînement du modèle. <br/><span style="color:green">●</span> Succès<br/><span style="color:orange">●</span> Problème de formation<br/> <span style="color:orange">●</span> En attente de formation <br/><span style="color:red">●</span> En échec <br/><span style="color:gray">●</span> _ (lorsqu’une dernière exécution est en cours) |
 
    {style="table-layout:auto"}
 
 1. Pour modifier les colonnes affichées pour la liste, sélectionnez ![Paramètres des colonnes](../assets/icons/ColumnSetting.svg) et bascule des colonnes sur ![Vérifier](../assets/icons/Checkmark.svg) ou off.
 
-### Suppression d’un modèle
-
-Pour supprimer un modèle :
-
-1. Sélectionnez le nom du modèle que vous souhaitez supprimer.
-
-1. Dans le menu contextuel, sélectionnez **[!UICONTROL Delete]** pour supprimer le modèle.
 
 ### Affichage des détails d’un modèle
 
@@ -78,32 +71,37 @@ Pour afficher plus de détails sur un modèle :
 
 ### Informations sur les modèles
 
->[!NOTE]
->
->Cette sélection n’est disponible que sur les modèles formés avec succès.
->
-
 Pour afficher les insights d’un modèle, dans l’interface du Mix Modeler :
 
 1. Sélectionner ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
-1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table.
+1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table. Les informations sur les modèles ne sont disponibles que sur les modèles correctement formés.
 
 1. Dans le menu contextuel, sélectionnez **[!UICONTROL Model Insights]**. Vous êtes redirigé vers [Informations sur les modèles](insights.md).
 
 
 ### Re-score
 
->[!NOTE]
->
->Cette sélection n’est disponible que sur les modèles formés avec succès.
->
 
 Pour noter à nouveau un modèle, dans l’interface du Mix Modeler :
 
 1. Sélectionner ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
-1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table.
+1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table. Le rescore n’est disponible que sur les modèles formés avec succès.
 
 1. Dans le menu contextuel, sélectionnez **[!UICONTROL Re-score]**. L’affichage d’un état mis à jour du modèle peut prendre quelques minutes.
+
+
+### Suppression d’un modèle
+
+Pour supprimer un modèle :
+
+1. Sélectionnez le nom du modèle que vous souhaitez supprimer.
+
+1. Dans le menu contextuel, sélectionnez **[!UICONTROL Delete]** pour supprimer le modèle.
+
+   >[!WARNING]
+   >
+   >Le modèle est immédiatement supprimé.
+
 

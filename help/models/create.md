@@ -3,9 +3,9 @@ title: Création d’un modèle
 description: Découvrez comment créer un modèle en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
    1. Sélectionner **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
-1. Dans le **[!UICONTROL Configured]** étape :
+1. Dans le **[!UICONTROL Configure]** étape :
 
    1. Dans le **[!UICONTROL Conversion goal]** , dans le conteneur :
 
       1. Saisissez un **[!UICONTROL Conversion name]** pour la conversion, par exemple `Conversion`
 
-      1. Sélectionnez une conversion à partir de **[!UICONTROL *Sélectionner le champ harmonisé&#x200B;*]**, contenant les conversions disponibles que vous avez définies dans le cadre de [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Par exemple,**[!UICONTROL Online Conversion]**.
+      1. Sélectionnez une conversion à partir de **[!UICONTROL *Sélectionner le champ harmonisé&#x200B;*]**, contenant les conversions disponibles que vous avez définies dans le cadre de [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Par exemple :**[!UICONTROL Online Conversion]**.
 
       1. Vous pouvez sélectionner ![Répondre](../assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** pour créer une conversion directement dans la configuration du modèle.
 
@@ -72,7 +72,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de population de données éligible, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Pour supprimer un conteneur de population de données éligible, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de population de données éligible, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove marketing touchpoint]** dans le menu contextuel.
 
         ![Modèle - Population de données éligible](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de jeux de données de facteurs externes supplémentaire, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Pour supprimer un conteneur de jeux de données de facteurs externes, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de jeux de données de facteurs externes, dans le conteneur, sélectionnez ![Plus](../assets/icons/More.svg), puis sélectionnez **[!UICONTROL Remove external factor]** dans le menu contextuel.
 
         ![Modèle - Jeu de données de facteurs externes](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
       * Pour ajouter un conteneur de jeux de données de facteurs internes supplémentaire, sélectionnez ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Pour supprimer un conteneur de jeux de données de facteurs internes supplémentaire, sélectionnez dans le conteneur . ![Plus](../assets/icons/More.svg), et **[!UICONTROL Remove container]** dans le menu contextuel.
+      * Pour supprimer un conteneur de jeux de données de facteurs internes supplémentaire, sélectionnez dans le conteneur . ![Plus](../assets/icons/More.svg), et **[!UICONTROL Remove internal factor]** dans le menu contextuel.
 
         ![Modèle - Jeu de données de facteurs internes](../assets/model-internal-factors-dataset-step.png)
 

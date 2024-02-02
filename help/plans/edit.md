@@ -3,9 +3,9 @@ title: Modifier un plan
 description: Découvrez comment modifier un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ Une fois la récupération terminée, un aperçu de votre plan s’affiche, comp
 
 1. Sélectionner **[!UICONTROL Close]** pour revenir à l’interface Plans .
 
+1. Sélectionner **[!UICONTROL X]** ou **[!UICONTROL  %]** sur comment **[!UICONTROL View ROI]**.
+
 1. Pour télécharger un fichier CSV contenant les données de la ventilation de période, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. Pour afficher la répartition des plages de dates par catégorie de canaux, sélectionnez **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, ou **[!UICONTROL Non-paid channels]** de la **[!UICONTROL View]** sélection.
 
 1. Pour modifier votre plan, sélectionnez **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ Une fois la récupération terminée, un aperçu de votre plan s’affiche, comp
 
          1. Modifiez la variable **[!UICONTROL Date range]** pour une ou plusieurs des périodes de votre plan, soit en saisissant des dates, soit en sélectionnant une période à l’aide de ![Calendrier](../assets/icons/Calendar.svg).
 
-         1. Modifiez la variable **[!UICONTROL Budget]** une ou plusieurs périodes de votre plan.
+         1. Modifiez la variable **[!UICONTROL Budget]** pour une ou plusieurs des périodes de votre plan.
 
          Pour ajouter des plages de dates supplémentaires, sélectionnez ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

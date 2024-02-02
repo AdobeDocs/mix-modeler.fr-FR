@@ -3,10 +3,10 @@ title: Harmonisation des données
 description: Découvrez comment harmoniser les données en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 16%
+source-wordcount: '854'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ Les données en Mix Modeler sont de nature différente selon la source de donné
 * des données agrégées ou récapitulatives, par exemple, collectées à partir de sources de données de jardins clôturés ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
 * données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK web ou mobile Experience Platform ou l’API réseau Edge, ou encore les données ingérées à l’aide des connecteurs source.
 
-Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données est la source des plans et des modèles en Mix Modeler.
+Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler.
 
 ## Exemple de données harmonisées
 
@@ -43,10 +43,10 @@ Contient le jeu de données des efforts marketing de Facebook, avec une granular
 
 | Date | Type de date | Canal | Campaign | Géo | Clics | Dépenser |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 |  semaine | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 |  semaine | Facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 |  semaine | Facebook | FB_Fall_01 | US | 7000 | 100 |
-| 01-16-2022 |  semaine | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-01-2022 | week | Facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | week | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | week | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | week | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -71,10 +71,10 @@ Un exemple de jeu de données d’événement d’expérience (événements SDK 
 
 | Date et heure | Espace de noms d’identité | Identité | Canal | Clics |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-08-2022 00:01:01,000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01,000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -85,19 +85,19 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 
 | Date | Type de date | Canal | Campaign | Marque | Géo | Objectif | Clics | Dépenser | Recettes |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 |  semaine | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
-| 01-03-2022 |  semaine | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
-| 01-03-2022 |  semaine | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
-| 01-01-2022 |  semaine | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
-| 01-08-2022 |  semaine | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
-| 01-08-2022 |  semaine | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
-| 01-16-2022 |  semaine | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
-| 12-27-2021 |  semaine | Null | Null | Null | US | Mode | Null | Null | 200 |
-| 01-03-2022 |  semaine | Null | Null | Null | US | Mode | Null | Null | 10 |
-| 01-03-2022 |  semaine | Null | Null | Null | US | Bijoux | Null | Null | 1100 |
-| 01-10-2022 |  semaine | Null | Null | Null | CA | Bijoux | Null | Null | 80 |
-| 01-01-2022 |  semaine | CSE | Null | Null | Null | Null | 2 | Null | Null |
-| 01-08-2022 |  semaine | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 12-27-2021 | week | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
+| 01-03-2022 | week | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | week | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | week | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
+| 01-08-2022 | week | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
+| 01-08-2022 | week | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
+| 01-16-2022 | week | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | week | Null | Null | Null | US | Mode | Null | Null | 200 |
+| 01-03-2022 | week | Null | Null | Null | US | Mode | Null | Null | 10 |
+| 01-03-2022 | week | Null | Null | Null | US | Bijoux | Null | Null | 1100 |
+| 01-10-2022 | week | Null | Null | Null | CA | Bijoux | Null | Null | 80 |
+| 01-01-2022 | week | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | week | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 
@@ -122,7 +122,7 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
    1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une période pour la variable **[!UICONTROL Date range]** ou utilisez ![Calendrier](../assets/icons/Calendar.svg) pour sélectionner une période.
 
-   1. Pour modifier les colonnes de champ harmonisées affichées pour le tableau des données harmonisées, utilisez ![Paramètres](../assets/icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
+   1. Pour modifier les colonnes de champ harmonisées affichées pour le tableau Données harmonisées, utilisez ![Paramètres](../assets/icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
 
       1. Sélectionner ![SelectBox](../assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron à droite](../assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,3 +133,5 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
       1. Pour modifier l’ordre d’affichage des colonnes, vous pouvez déplacer une colonne dans **[!UICONTROL SELECTED COLUMNS]** vers le haut et vers le bas par glisser-déposer .
 
    1. Sélectionner **[!UICONTROL Submit]** pour envoyer vos modifications de paramètres de colonne. Sélectionner **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
+
+1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](../assets/icons/ChevronLeft.svg) ou ![Flèche vers la droite](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre.

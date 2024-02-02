@@ -3,9 +3,9 @@ title: Créer un plan
 description: Découvrez comment créer un plan en Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Pour créer un plan, dans la variable ![PLan](../assets/icons/FileChart.svg) **[
 
       1. Saisissez un **[!UICONTROL Plan name]**, par exemple `Demo plan`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo plan for Luma company`.
       1. Sélectionnez une **[!UICONTROL Model]** de **[!UICONTROL _Sélectionnez une option._.]**.
-      1. Vous pouvez sélectionner ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** pour créer un modèle directement dans la création du plan.
+      1. Vous pouvez sélectionner ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** pour créer un modèle directement dans la création du plan. Un nouvel onglet s’ouvre alors dans votre navigateur et affiche la variable [Modèles](../models/overview.md) .
 
          ![Configuration du plan](../assets/plan-setup.png)
 
@@ -51,7 +51,7 @@ Pour créer un plan, dans la variable ![PLan](../assets/icons/FileChart.svg) **[
 
    * Sélectionner <img src="../assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** si vous souhaitez générer un plan recommandé d’IA avec un retour sur investissement prévisionnel.
 
-     Sélectionnez **[!UICONTROL OK]**. Votre plan est créé.
+     Sélectionner **[!UICONTROL OK]**. Votre plan est créé.
 
 
    * Sélectionner ![TableEdit](../assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** si vous souhaitez modifier le budget des canaux avant de créer un plan avec le retour sur investissement prévu.
@@ -70,4 +70,4 @@ Pour créer un plan, dans la variable ![PLan](../assets/icons/FileChart.svg) **[
 
    1. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Create]**.
 
-   1. Dans le **[!UICONTROL Create plan]** boîte de dialogue, sélectionnez **[!UICONTROL Create plan]** pour créer votre plan. Sélectionner **[!UICONTROL Cancel]** pour annuler la création de votre plan.
+   1. Dans le **[!UICONTROL Create plan]** boîte de dialogue, sélectionnez **[!UICONTROL Create plan]** pour créer votre plan. Sélectionner **[!UICONTROL Cancel]** pour annuler la création de votre plan. A **[!UICONTROL No work is saved]** s’affiche pour confirmer.

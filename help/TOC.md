@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 56%
+source-wordcount: '75'
+ht-degree: 44%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 56%
    + [Règles du jeu de données](harmonize-data/dataset-rules.md)
    + [Points de contact marketing](harmonize-data/marketing-touchpoints.md)
    + [de conversions](harmonize-data/conversions.md)
+   + [Rapport d’utilisation](harmonize-data/usage-report.md)
 
 + Ingestion de données {#ingest-data}
    + [Vue d’ensemble](ingest-data/overview.md)
