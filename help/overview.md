@@ -4,7 +4,7 @@ description: Découvrez comment mesurer les campagnes et optimiser la planificat
 short-description: Découvrez comment mesurer les campagnes et optimiser la planification de manière holistique sur tous les canaux avec Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: fbfc1bbc4fbaacdaf264102f6914b5ecbd2625f9
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
@@ -20,7 +20,7 @@ Ce guide de documentation technique fournit une aide autonome pour Adobe **Mix M
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="/help/overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/get-started/about.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>Démarrage rapide</strong><br/>Obtenez une vue d’ensemble et des informations sur le processus de Mix Modeler.</div>
     </td>
     <td>
@@ -38,7 +38,7 @@ Ce guide de documentation technique fournit une aide autonome pour Adobe **Mix M
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/get-started/about.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
