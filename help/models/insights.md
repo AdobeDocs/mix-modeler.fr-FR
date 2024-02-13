@@ -3,9 +3,9 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ L’onglet Informations sur les modèles affiche des widgets pour :
 
 * Synthèse des performances marketing.
 
+* Courbes de réponse marginales.
+
 ![Modèle - Informations sur les modèles](../assets/model-model-insights.png)
 
 Vous pouvez placer le pointeur de la souris sur des éléments de graphique individuels dans chaque widget pour afficher une fenêtre contextuelle contenant plus de détails.
 
 Pour télécharger un fichier CSV contenant les données du widget, sélectionnez ![Télécharger](../assets/icons/Download.svg).
+
+Pour télécharger des données complètes sur les modèles au format Microsoft® Excel, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
