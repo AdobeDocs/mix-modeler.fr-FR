@@ -3,10 +3,10 @@ title: Harmonisation des données
 description: Découvrez comment harmoniser les données en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 9%
+source-wordcount: '893'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Les données en Mix Modeler sont de nature différente selon la source de donné
 * des données agrégées ou récapitulatives, par exemple, collectées à partir de sources de données de jardins clôturés ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
 * données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK web ou mobile Experience Platform ou l’API réseau Edge, ou encore les données ingérées à l’aide des connecteurs source.
 
-Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler.
+Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler. Le service utilise la granularité la plus élevée parmi les différents jeux de données. Si, par exemple, un jeu de données est avec une granularité mensuelle et les jeux de données restants sont avec une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide d’une granularité mensuelle.
 
 ## Exemple de données harmonisées
 
@@ -118,7 +118,7 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
 1. Sélectionner ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 
-1. Sélectionner **[!UICONTROL Harmonized Data]** dans la barre supérieure. Vous voyez un récapitulatif de vos données harmonisées basées sur les champs, les règles de jeu de données, les points de contact marketing et les conversions que vous avez définis.
+1. Sélectionner **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un récapitulatif de vos données harmonisées s’affiche en fonction des champs, des règles de jeu de données, des points de contact marketing et des conversions que vous avez définis.
 
    1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une période pour la variable **[!UICONTROL Date range]** ou utilisez ![Calendrier](../assets/icons/Calendar.svg) pour sélectionner une période.
 

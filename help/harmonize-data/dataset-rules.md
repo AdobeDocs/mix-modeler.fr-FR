@@ -3,9 +3,9 @@ title: Règles du jeu de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
@@ -54,11 +54,13 @@ Dans le **[!UICONTROL Create]** écran,
 
 1. Lorsque vous avez sélectionné un jeu de données de **[!UICONTROL Summary]** catégorie :
 
+   1. Pour définir si les données du jeu de données doivent être agrégées ou remplacent des données existantes, sélectionnez **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** pour **[!UICONTROL Data restatement is by]**.
+
    1. Faites correspondre chacune des **[!UICONTROL Available dataset fields]** à **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Si vous ne souhaitez pas mapper un champ de jeu de données à un champ harmonisé, sélectionnez explicitement **[!UICONTROL -- None --]**.
 
    1. Si vous avez besoin d’un nouveau champ harmonisé, non disponible dans la liste, sélectionnez **[!UICONTROL Create New]** créer un champ harmonisé. La boîte de dialogue s’affiche, comme indiqué dans la section [Ajouter un nouveau champ harmonisé](fields.md#add-a-harmonized-field) pour vous permettre d’ajouter rapidement un nouveau champ harmonisé.
 
-   1. Lorsque le mappage est renseigné pour tous les champs de la règle, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer une version préliminaire de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle.  Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
+   1. Lorsque le mappage est renseigné pour tous les champs de la règle, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer une version préliminaire de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle. Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
 
       ![Création de règles de jeu de données](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ Dans le **[!UICONTROL Create]** écran,
 
 1. Sélectionner ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** pour définir des champs supplémentaires.
 
-Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer une version préliminaire de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle.  Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
+Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer une version préliminaire de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle. Sélectionner **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
 
 
 ### Modification d’une règle de jeu de données
@@ -119,7 +121,7 @@ Pour modifier une règle de jeu de données, dans la variable ![DataSearch](../a
 Pour supprimer une règle de jeu de données, dans la variable ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans Mix Modeler :
 
 1. Sélectionner ![Plus](../assets/icons/More.svg) dans le **[!UICONTROL Dataset]** pour la règle du jeu de données que vous souhaitez supprimer.
-1. Dans le menu contextuel, sélectionnez ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer la règle du jeu de données. Vous serez invité à confirmer l’opération. Sélectionner **[!UICONTROL Delete]** pour supprimer définitivement la règle de jeu de données sélectionnée.
+1. Dans le menu contextuel, sélectionnez ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer la règle du jeu de données. Vous êtes invité à confirmer l’opération. Sélectionner **[!UICONTROL Delete]** pour supprimer définitivement la règle de jeu de données sélectionnée.
 
 
 ## Synchroniser les données
@@ -130,7 +132,7 @@ Pour synchroniser les données entre vos données harmonisées et vos jeux de do
 
 1. Dans la **[!UICONTROL Sync data for dataset rules]** , sélectionnez l’une des options suivantes : **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, ou **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. Sélectionner **[!UICONTROL Sync]** pour démarrer la synchronisation en fonction des règles définies du jeu de données entre les données harmonisées et les données des jeux de données. Pour annuler la synchronisation, sélectionnez **[!UICONTROL Cancel]**.
+1. Pour lancer la synchronisation en fonction des règles de jeu de données définies entre les données harmonisées et les données des jeux de données, sélectionnez **[!UICONTROL Sync]**. Pour annuler la synchronisation, sélectionnez **[!UICONTROL Cancel]**.
 
    ![Synchroniser les données](../assets/sync-data.png)
 

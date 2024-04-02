@@ -3,9 +3,9 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ L’onglet Aperçu historique affiche des widgets pour :
 
 L’onglet Informations sur les modèles affiche des widgets pour :
 
-* Contribution par date et support de base. Le graphique empilé est trié : d’après le bas, les canaux qui ne dépensent pas au milieu et les canaux qui dépensent au haut.
+* Contribution par date et support de base. Le graphique empilé est ordonné : d’après le bas, les canaux qui ne dépensent pas au milieu et les canaux qui dépensent au haut.
 
 * Contribution par canal.
 
@@ -62,18 +62,29 @@ Pour télécharger un fichier CSV contenant les données du widget, sélectionne
 Pour télécharger des données complètes sur les modèles au format Microsoft® Excel, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## Qualité du modèle
 
-L’onglet Qualité du modèle affiche des widgets permettant de mesurer :
+![Évaluation de la qualité du modèle](/help/assets/model-quality-assessment.png)
+L’onglet Qualité du modèle affiche une
 
-* R2 (au carré R), qui indique dans quelle mesure les données correspondent au modèle de régression (la qualité de l’ajustement).
+* [!UICONTROL Model Assessment] la visualisation, que vous pouvez ventiler en fonction des conversions réelles ou prévues ou résiduelles.
 
-* MAPE (Erreur en pourcentage absolue moyenne), qui est l’un des IPC les plus couramment utilisés pour mesurer la précision des prévisions et exprime l’erreur de prévision en pourcentage de la valeur réelle.
+  Pour ventiler la visualisation, sélectionnez **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** de la **[!UICONTROL Breakdown]** liste.
 
-* RMSE (Root Mean Square Error) : qui affiche la moyenne de &quot;l’erreur&quot;, pondérée en fonction du carré de l’erreur.
+* [!UICONTROL Model fitting metrics] tableau affichant les colonnes suivantes pour chaque mesure de conversion :
 
-![Qualité du modèle](../assets/model-quality.png)
+   * Conversion réelle
 
-Pour télécharger un fichier CSV contenant les données du widget, sélectionnez ![Plus](../assets/icons/More.svg) dans le widget et, dans le menu contextuel, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * Conversion modélisée
+
+   * Conversion résiduelle (différence entre conversion réelle et conversion modélisée)
+
+   * Valeurs de score de qualité du modèle :
+
+      * R2 (au carré R), qui indique dans quelle mesure les données correspondent au modèle de régression (la qualité de l’ajustement).
+
+      * MAPE (Erreur en pourcentage absolue moyenne), qui est l’un des IPC les plus couramment utilisés pour mesurer la précision des prévisions et exprime l’erreur de prévision en pourcentage de la valeur réelle.
+
+      * RMSE (Root Mean Square Error) : qui affiche la moyenne de &quot;l’erreur&quot;, pondérée en fonction du carré de l’erreur.
+
+  Pour télécharger un fichier CSV contenant les données du tableau, sélectionnez ![Télécharger](../assets/icons/Download.svg).
