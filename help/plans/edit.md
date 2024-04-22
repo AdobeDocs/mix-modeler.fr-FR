@@ -3,9 +3,9 @@ title: Modifier un plan
 description: Découvrez comment modifier un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ Une fois la récupération terminée, un aperçu de votre plan s’affiche, comp
 
 1. Sélectionner **[!UICONTROL X]** ou **[!UICONTROL  %]** sur comment **[!UICONTROL View ROI]**.
 
-1. Pour télécharger un fichier CSV contenant les données de la ventilation de période, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Dans le menu contextuel, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** pour les données détaillées au format CSV, ou ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** pour les données récapitulatives au format CSV.
+1. Pour télécharger un fichier CSV contenant les données de la ventilation de période, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Dans le menu contextuel :
+
+   - Sélectionner ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** pour des données détaillées au format CSV, ou
+   - Sélectionner ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** pour les données récapitulatives au format CSV.
+
+   Les données détaillées sont des données granulaires indexées par semaine. Les données récapitulatives sont des données saisies par la période fournie par le modèle.
 
 1. Pour afficher la répartition des plages de dates par catégorie de canaux, sélectionnez **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, ou **[!UICONTROL Non-paid channels]** de la **[!UICONTROL View]** sélection.
 
