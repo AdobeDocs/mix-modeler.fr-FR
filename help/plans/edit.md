@@ -3,9 +3,9 @@ title: Modifier un plan
 description: Découvrez comment modifier un plan en Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Une fois la récupération terminée, un aperçu de votre plan s’affiche, comp
 
 1. Pour télécharger un fichier CSV contenant les données de la ventilation de période, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Dans le menu contextuel :
 
-   - Sélectionner ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** pour des données détaillées au format CSV, ou
+   - Sélectionner ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** pour des données détaillées au format CSV.
    - Sélectionner ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** pour les données récapitulatives au format CSV.
 
    Les données détaillées sont des données granulaires indexées par semaine. Les données récapitulatives sont des données saisies par la période fournie par le modèle.
