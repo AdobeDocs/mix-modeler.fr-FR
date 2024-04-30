@@ -2,7 +2,7 @@
 title: Audit
 description: Découvrez comment contrôler le Mix Modeler.
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ Pour examiner le journal d’audit, dans l’interface du Mix Modeler :
 1. Pour modifier les colonnes affichées dans le journal des activités, sélectionnez ![Colonnes](../assets/icons/ColumnSetting.svg) et dans le **[!UICONTROL Customize table]** sélectionnez les colonnes à afficher. Sélectionner **[!UICONTROL Apply]** pour appliquer la sélection, **[!UICONTROL Cancel]** pour annuler la sélection.
 
 1. Pour télécharger le journal d’audit, sélectionnez ![Télécharger](../assets/icons/Download.svg) **[!UICONTROL Download log]**. Dans le **[!UICONTROL Download log]** dialog select **[!UICONTROL CSV]** ou **[!UICONTROL JSON]** comme format et sélectionnez **[!UICONTROL Download]**.
+
