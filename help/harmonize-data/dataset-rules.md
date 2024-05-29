@@ -3,9 +3,9 @@ title: Règles du jeu de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Pour synchroniser les données entre vos données harmonisées et vos jeux de do
 
 >[!NOTE]
 >
->[!BADGE Version bêta]{type=Informative}
+>[!BADGE bêta]{type=Informative}
 
 Les préférences de fusion de données permettent de résoudre les conflits lorsque des données provenant de sources de données résumées et d’événements sont fusionnées. Les cas pratiques sont les suivants :
 
@@ -153,9 +153,9 @@ Les préférences de fusion de données permettent de résoudre les conflits lor
 
 Pour garantir une prédiction de modèle exacte, vous pouvez définir des préférences de fusion de données :
 
-1. Sélectionner ![Préférences de fusion des données](../assets/icons/Merge.svg) [!BADGE bêta] **Préférences de fusion des données**.
+1. Sélectionner ![Préférences de fusion des données](../assets/icons/Merge.svg) [!BADGE bêta].
 
-1. Dans le **[!UICONTROL Data merge preferences]** dialog :
+1. Dans le **[!UICONTROL Data merge preferences]** [!BADGE bêta]{type=Informative}
 
    ![Préférences de fusion des données](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ Pour garantir une prédiction de modèle exacte, vous pouvez définir des préf�
          1. Sélectionnez **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Dans la liste, sélectionnez **[!UICONTROL All]** ou un type de conversion ou canal spécifique.
          1. Sélectionner **[!UICONTROL Summary]** ou **[!UICONTROL Event]** pour indiquer si les données de résumé ou d’événement sont préférées pour la mesure (et tout ou canal sélectionné) lors de la fusion des données.
 
-Pour ajouter un ou plusieurs types de canal ou de conversion supplémentaires :
+         Pour ajouter un ou plusieurs types de canal ou de conversion supplémentaires :
 
          1. Sélectionner ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
 
-Pour supprimer un canal ou un type de conversion, procédez comme suit : select ![Croix](../assets/icons/Close.svg).
+         Pour supprimer un canal ou un type de conversion, sélectionnez ![Croix](../assets/icons/Close.svg).
 
       1. Pour ajouter des préférences de mesure plus spécifiques, répétez l’étape précédente.
 
@@ -181,10 +181,13 @@ Pour supprimer un canal ou un type de conversion, procédez comme suit : select 
 
 1. Sélectionner **[!UICONTROL Save]** pour enregistrer les préférences de fusion des données. Une resynchronisation des données est lancée. <br/>Sélectionner **[!UICONTROL Cancel]** pour annuler.
 
-## Contrôle d’accès au niveau du champ
+<!--
+## Field-level access control
 
-Lors de la configuration des règles de jeu de données pour les jeux de données harmonisés, Experience Platform [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) est appliquée au niveau du champ. Un champ est restreint lorsqu’un libellé est associé à un champ de schéma et qu’une stratégie active est activée, ce qui vous empêche d’y accéder. Par conséquent :
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* vous ne voyez pas les champs de schéma qui sont limités pour vous lorsque vous créez une règle de jeu de données,
-* vous ne pouvez pas afficher ni modifier le mappage d’un ou de plusieurs champs de schéma limités pour vous. Lorsque vous modifiez ou affichez une règle de jeu de données contenant ces champs restreints, l’écran suivant s’affiche.
-  ![Action non autorisée](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
