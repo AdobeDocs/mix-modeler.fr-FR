@@ -3,9 +3,9 @@ title: Champs harmonisés
 description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 10%
 
 ---
@@ -35,10 +35,10 @@ Les champs d&#39;harmonisation globale par défaut disponibles en Mix Modeler so
 | dataset | Jeu de données | Dimension | Chaîne |           |
 | date_type | Type de date | Dimension | Chaîne | jour, semaine |
 | emailsent | Emails envoyés | Mesure | Nombre |           |
-| event_date | Date | Dimension | DateTime |           |
+| event_date | Date | Dimension | Date et heure |           |
 | brut_demand | Demande brute | Mesure | Devise |           |
 | impressions | Impressions | Mesure | Nombre |           |
-| last_updated_date | Date de dernière mise à jour | Dimension | DateTime |           |
+| last_updated_date | Date de dernière mise à jour | Dimension | Date et heure |           |
 | linkvisites | Visites de lien | Mesure | Nombre |           |
 | mediatype | Type de média | Dimension | Chaîne |           |
 | net_sales | Ventes nettes | Mesure | Devise |           |
@@ -66,7 +66,7 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
    | Nom du champ | Nom du champ harmonisé. |
    | Nom d’affichage | Nom d’affichage du champ harmonisé. Ce nom d’affichage est utilisé lors de la définition de règles de jeu de données, de points de contact marketing et de définitions de conversion. |
    | Catégorie | Indique si un champ de données harmonisé est une [!UICONTROL Dimension], un [!UICONTROL Metric] ou [!UICONTROL Derived]. Une catégorie dérivée est un champ harmonisé à l’aide d’une définition de formule basée sur des mesures. |
-   | Type de données | Spécifie le type de données ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
+   | Type de données | Spécifie le type de données ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Date de création | Date et heure de création du champ harmonisé. |
    | Propriétaire | Indique si un champ harmonisé est un champ par défaut ([!UICONTROL Global]), ou est défini par vous ([!UICONTROL Client]). |
    | Date de dernière modification | Données et heure de la dernière modification du champ harmonisé. |
@@ -93,7 +93,7 @@ Pour ajouter un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.s
 
    1. Sélectionnez une **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** ou **[!UICONTROL DateTime]**, lorsque la catégorie sélectionnée est Dimension.
+      - **[!UICONTROL String]** ou **[!UICONTROL Date time]**, lorsque la catégorie sélectionnée est Dimension.
       - **[!UICONTROL Number]** ou **[!UICONTROL Currency]** lorsque la catégorie sélectionnée est Mesure ou Dérivée.
 
    1. Sélectionner **[!UICONTROL Submit]** ajouter le champ harmonisé. Sélectionner **[!UICONTROL Close]** pour fermer la boîte de dialogue sans ajouter le champ harmonisé.

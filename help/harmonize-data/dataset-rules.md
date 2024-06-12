@@ -3,9 +3,9 @@ title: Règles du jeu de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -159,7 +159,7 @@ Pour garantir une prédiction de modèle exacte, vous pouvez définir des préf�
 
    ![Préférences de fusion des données](../assets/data-merge-preferences.png)
 
-   * Sélectionnez une **[!UICONTROL Default metric preference]**. La préférence de mesure par défaut sélectionnée est appliquée lorsque, lors de l’harmonisation, plusieurs sources de données mettent à jour un champ de mesure pour un canal donné. La préférence est appliquée au niveau de l’environnement de test, sauf si elle est remplacée pour des préférences basées sur des mesures spécifiques.
+   * Sélectionnez une **[!UICONTROL Default metric preference]**. La préférence de mesure par défaut sélectionnée est appliquée lorsque, lors de l’harmonisation, plusieurs sources de données mettent à jour un champ de mesure pour un canal donné. La préférence est appliquée au niveau de l’environnement de test, sauf si elle est remplacée pour des préférences basées sur des mesures spécifiques. Vous pouvez effectuer une sélection parmi **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** et **[!UICONTROL Sum of summmary and event data]**.
 
    * Pour ajouter des préférences de mesure spécifiques :
 
@@ -181,13 +181,11 @@ Pour garantir une prédiction de modèle exacte, vous pouvez définir des préf�
 
 1. Sélectionner **[!UICONTROL Save]** pour enregistrer les préférences de fusion des données. Une resynchronisation des données est lancée. <br/>Sélectionner **[!UICONTROL Cancel]** pour annuler.
 
-<!--
-## Field-level access control
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+## Contrôle d’accès au niveau du champ
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](../assets/action-not-permitted.png)
+Lors de la configuration des règles de jeu de données pour les jeux de données harmonisés, Experience Platform [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) est appliquée au niveau du champ. Un champ est restreint lorsqu’un libellé est associé à un champ de schéma et qu’une stratégie active est activée, ce qui vous empêche d’y accéder. Par conséquent :
 
--->
+* vous ne voyez pas les champs de schéma qui sont limités pour vous lorsque vous créez une règle de jeu de données,
+* vous ne pouvez pas afficher ni modifier le mappage d’un ou de plusieurs champs de schéma limités pour vous. Lorsque vous modifiez ou affichez une règle de jeu de données contenant ces champs restreints, l’écran suivant s’affiche.
+  ![Action non autorisée](../assets/action-not-permitted.png)
