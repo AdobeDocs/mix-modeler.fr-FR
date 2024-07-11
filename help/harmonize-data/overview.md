@@ -3,7 +3,7 @@ title: Harmonisation des données
 description: Découvrez comment harmoniser les données en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 8%
@@ -15,7 +15,7 @@ ht-degree: 8%
 Les données en Mix Modeler sont de nature différente selon la source de données. Les données peuvent être les suivantes :
 
 * des données agrégées ou récapitulatives, par exemple, collectées à partir de sources de données de jardins clôturés ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
-* données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK web ou mobile Experience Platform ou l’API réseau Edge, ou encore les données ingérées à l’aide des connecteurs source.
+* données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK Web ou mobile Experience Platform ou l’API Edge Network, ou encore par les données ingérées à l’aide des connecteurs source.
 
 Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler. Le service utilise la granularité la plus élevée parmi les différents jeux de données. Si, par exemple, un jeu de données est avec une granularité mensuelle et les jeux de données restants sont avec une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide d’une granularité mensuelle.
 
@@ -27,7 +27,7 @@ Imaginez que les jeux de données suivants soient disponibles pour Mix Modeler.
 
 Contient le jeu de données des efforts marketing de YouTube, avec une granularité quotidienne de l’ensemble de données agrégées.
 
-| Date | Type de date | Canal | Campaign | Marque | Géo | Clics | Dépenser |
+| Date | Type de date | Canal | Campagne | Marque | Géo | Clics | Dépenser |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | day | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
 | 01-01-2022 | day | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
@@ -41,7 +41,7 @@ Contient le jeu de données des efforts marketing de YouTube, avec une granulari
 
 Contient le jeu de données des efforts marketing de Facebook, avec une granularité du jeu de données agrégé sur hebdomadaire.
 
-| Date | Type de date | Canal | Campaign | Géo | Clics | Dépenser |
+| Date | Type de date | Canal | Campagne | Géo | Clics | Dépenser |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | week | Facebook | FB_Fall_01 | US | 8000 | 100 |
 | 01-08-2022 | week | Facebook | FB_Fall_02 | US | 1000 | 10 |
@@ -83,7 +83,7 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 
 **Jeu de données harmonisé**
 
-| Date | Type de date | Canal | Campaign | Marque | Géo | Objectif | Clics | Dépenser | Recettes |
+| Date | Type de date | Canal | Campagne | Marque | Géo | Objectif | Clics | Dépenser | Recettes |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | week | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
 | 01-03-2022 | week | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
@@ -116,17 +116,17 @@ Pour créer un jeu de données harmonisé, comme dans la [example](#an-example-o
 
 Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
+1. Sélectionner ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 
 1. Sélectionner **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un récapitulatif de vos données harmonisées s’affiche en fonction des champs, des règles de jeu de données, des points de contact marketing et des conversions que vous avez définis.
 
-   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une période pour la variable **[!UICONTROL Date range]** ou utilisez ![Calendrier](../assets/icons/Calendar.svg) pour sélectionner une période.
+   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une période pour la variable **[!UICONTROL Date range]** ou utilisez ![Calendrier](/help/assets//icons/Calendar.svg) pour sélectionner une période.
 
-   1. Pour modifier les colonnes de champ harmonisées affichées pour le tableau Données harmonisées, utilisez ![Paramètres](../assets/icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
+   1. Pour modifier les colonnes de champ harmonisées affichées pour le tableau Données harmonisées, utilisez ![Paramètres](/help/assets//icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
 
-      1. Sélectionner ![SelectBox](../assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron à droite](../assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
+      1. Sélectionner ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron à droite](/help/assets//icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Sélectionner ![SelectBox](../assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron à gauche](../assets/icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Sélectionner ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron à gauche](/help/assets//icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Sélectionnez une colonne parmi **[!UICONTROL DEFAULT SORT]** et basculer entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
    1. Sélectionner **[!UICONTROL Submit]** pour envoyer vos modifications de paramètres de colonne. Sélectionner **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
 
-1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](../assets/icons/ChevronLeft.svg) ou ![Flèche vers la droite](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre.
+1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre.

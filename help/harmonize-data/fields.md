@@ -3,7 +3,7 @@ title: Champs harmonisés
 description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
@@ -24,10 +24,10 @@ Les champs d&#39;harmonisation globale par défaut disponibles en Mix Modeler so
 | Nom du champ | Nom d’affichage | Catégorie | Type de données | Commentaire |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
 | marque | Marque | Dimension | Chaîne |           |
-| campaign | Campaign | Dimension | Chaîne |           |
+| campaign | Campagne | Dimension | Chaîne |           |
 | channel | Canal | Dimension | Chaîne |           |
 | channel_id | Identifiant de canal | Dimension | Chaîne |           |
-| channel_type_at_source | Type de canal à la source | Dimension | Chaîne |           |
+| channel_type_at_source | Type De Canal Dans Source | Dimension | Chaîne |           |
 | channel | Canal | Dimension | Chaîne |           |
 | clics | Clics | Mesure | Nombre |           |
 | conversionType | Type de conversion | Dimension | Chaîne |           |
@@ -43,7 +43,7 @@ Les champs d&#39;harmonisation globale par défaut disponibles en Mix Modeler so
 | mediatype | Type de média | Dimension | Chaîne |           |
 | net_sales | Ventes nettes | Mesure | Devise |           |
 | commandes | Commandes | Mesure | Nombre |           |
-| sourceType | Type de source | Dimension | Chaîne |           |
+| sourceType | Type de Source | Dimension | Chaîne |           |
 | dépenser | Dépenser | Mesure | Devise |           |
 | trafficsource | Source de trafic | Dimension | Chaîne |           |
 
@@ -55,9 +55,9 @@ Vous pouvez ajouter, modifier ou supprimer vos propres champs harmonisés en plu
 
 Pour afficher un tableau des champs harmonisés disponibles, dans l’interface de Mix Modeler :
 
-1. Sélectionner ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
+1. Sélectionner ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
-1. Sélectionner **[!UICONTROL Fields]** dans la barre supérieure. Un tableau des champs harmonisés s’affiche. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](../assets/icons/ChevronLeft.svg) ou ![Flèche vers la droite](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre du tableau.
+1. Sélectionner **[!UICONTROL Fields]** dans la barre supérieure. Un tableau des champs harmonisés s’affiche. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre du tableau.
 
    Les colonnes du tableau spécifient les détails des champs harmonisés
 
@@ -74,14 +74,14 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
 
    {style="table-layout:auto"}
 
-1. Pour rechercher un champ harmonisé spécifique, utilisez ![Rechercher](../assets/icons/Search.svg) **[!UICONTROL *Rechercher un champ harmonisé&#x200B;*]**.
+1. Pour rechercher un champ harmonisé spécifique, utilisez ![Rechercher](/help/assets//icons/Search.svg) **[!UICONTROL *Rechercher un champ harmonisé&#x200B;*]**.
 
 
 ### Ajouter un champ harmonisé
 
-Pour ajouter un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
+Pour ajouter un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
 
-1. Sélectionner ![Ajouter](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Sélectionner ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. Dans le **[!UICONTROL Create]** dialog :
 
@@ -98,14 +98,14 @@ Pour ajouter un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.s
 
    1. Sélectionner **[!UICONTROL Submit]** ajouter le champ harmonisé. Sélectionner **[!UICONTROL Close]** pour fermer la boîte de dialogue sans ajouter le champ harmonisé.
 
-      ![Création d’un champ](../assets/create-field.png)
+      ![Création d’un champ](/help/assets//create-field.png)
 
 
 ### Modifier un champ harmonisé
 
 Vous ne pouvez modifier que les champs harmonisés que vous avez créés précédemment (le propriétaire est client). Vous ne pouvez pas modifier un champ harmonisé global.
 
-Pour modifier un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
+Pour modifier un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
 
 1. Sélectionnez le champ harmonisé que vous souhaitez modifier. Par exemple : **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Pour modifier un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.
 
 1. Sélectionner **[!UICONTROL Submit]** pour appliquer les modifications au champ harmonisé.
 
-   ![Modifier un champ](../assets/edit-field.png)
+   ![Modifier un champ](/help/assets//edit-field.png)
 
 ### Supprimer un champ harmonisé
 
 Vous ne pouvez supprimer que les champs harmonisés que vous avez créés précédemment (le propriétaire est client). Vous ne pouvez pas supprimer un champ harmonisé global.
 
-Pour supprimer un champ harmonisé, dans ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
+Pour supprimer un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
 
 1. Sélectionnez le champ harmonisé à supprimer, par exemple **[!UICONTROL Region]**.
 
-1. Sélectionner ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** de la **[!UICONTROL Edit harmonization values]** volet de gauche.
+1. Sélectionner ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** de la **[!UICONTROL Edit harmonization values]** volet de gauche.
 
    >[!WARNING]
    >

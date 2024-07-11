@@ -3,7 +3,7 @@ title: Modèles
 description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Pour créer un modèle, utilisez le flux de configuration de modèle guidé éta
 
 Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionner ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Vous voyez un tableau des modèles actuels.
 
@@ -58,14 +58,14 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Mode
 
    {style="table-layout:auto"}
 
-1. Pour modifier les colonnes affichées pour la liste, sélectionnez ![Paramètres des colonnes](../assets/icons/ColumnSetting.svg) et bascule des colonnes sur ![Vérifier](../assets/icons/Checkmark.svg) ou off.
+1. Pour modifier les colonnes affichées pour la liste, sélectionnez ![Paramètres des colonnes](/help/assets//icons/ColumnSetting.svg) et bascule des colonnes sur ![Vérifier](/help/assets//icons/Checkmark.svg) ou off.
 
 
 ### Affichage des détails d’un modèle
 
 Pour afficher plus de détails sur un modèle :
 
-1. Sélectionner ![Infos](../assets/icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
+1. Sélectionner ![Infos](/help/assets//icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
 
 
 
@@ -73,7 +73,7 @@ Pour afficher plus de détails sur un modèle :
 
 Pour afficher les insights d’un modèle, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionner ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table. Les informations sur les modèles ne sont disponibles que sur les modèles correctement formés.
 
@@ -85,7 +85,7 @@ Pour afficher les insights d’un modèle, dans l’interface du Mix Modeler :
 
 Pour noter à nouveau un modèle, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionner ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez le nom d’un modèle avec une **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** de la **[!UICONTROL Models]** table. Le rescore n’est disponible que sur les modèles formés avec succès.
 

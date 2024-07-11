@@ -3,7 +3,7 @@ title: Formules
 description: Découvrez comment afficher, sélectionner et agir sur les plans en Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Un plan peut éventuellement inclure :
 
 Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
+1. Sélectionner ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
 
 1. Vous voyez un tableau des plans actuels et de leur état.
 
@@ -51,7 +51,7 @@ Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler
 
    {style="table-layout:auto"}
 
-1. Utilisation ![Rechercher](../assets/icons/Search.svg) pour rechercher et filtrer le tableau en fonction d’un ou de plusieurs plans spécifiques.
+1. Utilisation ![Rechercher](/help/assets//icons/Search.svg) pour rechercher et filtrer le tableau en fonction d’un ou de plusieurs plans spécifiques.
 
 ## Créer un plan
 
@@ -67,20 +67,20 @@ Pour modifier un plan, sélectionnez son nom dans la table. Voir [Modifier un pl
 
 Vous pouvez sélectionner un ou plusieurs plans, qui affichent la barre d’actions Plans . La barre d’actions permet de supprimer, comparer ou dupliquer des plans.
 
-Pour supprimer toutes les sélections du tableau Plans, sélectionnez ![Fermer](../assets/icons/Close.svg) dans la barre d’actions
+Pour supprimer toutes les sélections du tableau Plans, sélectionnez ![Fermer](/help/assets//icons/Close.svg) dans la barre d’actions
 
-![Barre d’actions Plans](../assets/plans-action-bar.png)
+![Barre d’actions Plans](/help/assets//plans-action-bar.png)
 
 ### Dupliquer un plan
 
 Pour dupliquer un plan :
 
 1. Sélectionnez un plan unique dans le tableau.
-1. Sélectionner ![Copier](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
+1. Sélectionner ![Copier](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
 
 Vous pouvez également :
 
-1. Sélectionner ![Plus](../assets/icons/More.svg) pour un plan dans la table.
+1. Sélectionner ![Plus](/help/assets//icons/More.svg) pour un plan dans la table.
 1. Sélectionner **[!UICONTROL Duplicate]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
 
 ### Comparaison de plans
@@ -88,7 +88,7 @@ Vous pouvez également :
 Pour comparer des plans :
 
 1. Sélectionnez deux plans dans le tableau.
-1. Sélectionner ![Comparer](../assets/icons/Compare.svg) **[!UICONTROL Compare]** dans la barre d’actions. Vous voyez le **[!UICONTROL Compare plans]** Interface utilisateur.
+1. Sélectionner ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** dans la barre d’actions. Vous voyez le **[!UICONTROL Compare plans]** Interface utilisateur.
 
 
 ### Suppression de plans
@@ -96,11 +96,11 @@ Pour comparer des plans :
 Pour supprimer des plans :
 
 1. Sélectionnez un ou plusieurs plans dans le tableau.
-1. Sélectionner ![Supprimer](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions.
+1. Sélectionner ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions.
 
 Vous pouvez également :
 
-1. Sélectionner ![Plus](../assets/icons/More.svg) pour un plan dans la table.
+1. Sélectionner ![Plus](/help/assets//icons/More.svg) pour un plan dans la table.
 1. Sélectionner **[!UICONTROL Delete]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
 
    >[!WARNING]
