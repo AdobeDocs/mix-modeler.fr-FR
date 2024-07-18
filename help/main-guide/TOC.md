@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: 20d1fe74bfcdaca9ed994002f18011ce73042eb1
+source-git-commit: 63e57b6a9d48281691f9f2951ab1d6156ae5ed0b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 44%
+source-wordcount: '80'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 + [Guide d’Adobe Mix Modeler](/help/overview.md)
 
-+ Prise en main {#get-started}
++ Commencer {#get-started}
    + [Qu&#39;est-ce que le Mix Modeler ?](/help/get-started/about.md)
    + [Workflow de l’application](/help/get-started/workflow.md)
 
@@ -29,7 +29,7 @@ ht-degree: 44%
    + [Informations sur les modèles](/help/models/insights.md)
    + [Données de notation](/help/models/scoring-data.md)
 
-+ Formules {#plans}
++ Plans {#plans}
    + [Vue d’ensemble](/help/plans/overview.md)
    + [Créer un plan](/help/plans/create.md)
    + [Modifier un plan](/help/plans/edit.md)
@@ -43,7 +43,7 @@ ht-degree: 44%
    + [de conversions](/help/harmonize-data/conversions.md)
    + [Rapport d’utilisation](/help/harmonize-data/usage-report.md)
 
-+ Ingestion de données {#ingest-data}
++ Ingérer des données {#ingest-data}
    + [Vue d’ensemble](/help/ingest-data/overview.md)
    + [Schémas](/help/ingest-data/schemas.md)
    + [Jeux de données](/help/ingest-data/datasets.md)
@@ -59,6 +59,8 @@ ht-degree: 44%
 + Versions {#releases}
    + [Dernière version](/help/releases/latest.md)
    + [Versions de 2023](/help/releases/2023.md)
+
++ [Spectre des tests](/help/main-guide/test-spectrum.md)
 
 + [Glossaire](/help/main-guide/glossary.md)
 
