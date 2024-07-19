@@ -14,9 +14,9 @@ ht-degree: 2%
 
 Pour comparer des plans dans l’interface Plans du Mix Modeler :
 
-* Sélectionner ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. Dans Comparer des plans, sélectionnez un plan pour chaque **[!UICONTROL _Sélectionner un plan_]**.
+* Sélectionnez ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. Dans Comparer des plans, sélectionnez un plan pour chaque **[!UICONTROL __]**.
 
-* Vous pouvez également sélectionner deux plans dans le tableau Plans , puis, dans la barre d’actions, sélectionner ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* Vous pouvez également sélectionner deux plans dans la table Plans et, dans la barre d’actions, sélectionner ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
 L’interface Comparer les plans affiche des informations et des widgets sur :
 
@@ -36,8 +36,8 @@ Où :
 * Le CPA est défini comme Dépense / Conversion incrémentielle.
 
 
-![Comparaison de plans](/help/assets//compare-plans.png)
+![Comparer des plans](/help/assets//compare-plans.png)
 
 Vous pouvez placer le pointeur de la souris sur des éléments de graphique individuels dans chaque widget pour afficher une fenêtre contextuelle contenant plus de détails.
 
-Sélectionner **[!UICONTROL Close]** pour revenir à la présentation des plans.
+Sélectionnez **[!UICONTROL Close]** pour revenir à la présentation des plans.

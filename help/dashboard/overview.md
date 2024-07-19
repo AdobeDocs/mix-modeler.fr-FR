@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Le tableau de bord de présentation dans Mix Modeler vous permet de visualiser vos données harmonisées et vos plans au moyen de divers widgets configurables.
 
-Pour accéder à la vue d&#39;ensemble, sélectionnez ![Accueil](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** dans le rail de gauche de l’interface de Mix Modeler.
+Pour accéder à la présentation, sélectionnez ![Home](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** dans le rail de gauche de l’interface du Mix Modeler.
 
 Vous pouvez obtenir plus de détails sur :
 

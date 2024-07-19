@@ -14,9 +14,9 @@ ht-degree: 8%
 
 Dans le cadre de la notation d’un modèle, les données de notation sont conservées dans un jeu de données dans Experience Platform. Ce jeu de données est conforme à un schéma créé pour chaque modèle dans votre instance de Mix Modeler.
 
-Le schéma des données de notation est nommé comme `AMM AI Schema - <name of model> <id>`. Par exemple : `AMM AI Schema - Model for Online Conversion 10120`.
+Le schéma des données de notation est appelé comme `AMM AI Schema - <name of model> <id>`. Par exemple : `AMM AI Schema - Model for Online Conversion 10120`.
 
-Le jeu de données, qui conserve les données de notation d’un modèle, est nommé comme `AMM AI Aggregrate Scores - <id>`, par exemple `AMM AI Aggregrate Scores - 10120`.
+Le jeu de données, qui conserve les données de notation d’un modèle, est appelé comme `AMM AI Aggregrate Scores - <id>`, par exemple `AMM AI Aggregrate Scores - 10120`.
 
 
 ## Schéma

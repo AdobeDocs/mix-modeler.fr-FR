@@ -16,9 +16,9 @@ Pour gérer les schémas, en prenant en charge les données que vous souhaitez i
 
 1. Accédez à l’interface du Mix Modeler.
 
-1. Sélectionner ![Schémas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, sous **[!UICONTROL SETUP]**.
+1. Sélectionnez ![Schémas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]** sous **[!UICONTROL SETUP]**.
 
-Voir [Présentation de l’interface utilisateur des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) pour plus d’informations.
+Pour plus d’informations, consultez la [présentation de l’interface utilisateur des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) .
 
 ## Agrégat ou données récapitulatives
 
@@ -36,9 +36,9 @@ Utilisez la classe XDM Summary Metrics pour :
 >
 >La définition de schéma doit contenir au moins un champ numérique (à l’aide d’un type Entier, Double, Booléen ou autre numérique) pour prendre en charge les mesures requises pour les données ingérées.
 
-Un schéma utilisant la variable **[!DNL XDM Summary Metrics]** La classe de base peut être simple, comme illustré dans la **[!DNL ExternalFactorSummarySchema]** ci-dessous
+Un schéma utilisant la classe de base **[!DNL XDM Summary Metrics]** peut être simple, comme illustré dans la **[!DNL ExternalFactorSummarySchema]** ci-dessous.
 
-![Schéma des facteurs externes](/help/assets//external-factors-schema.png)
+![Schéma de facteurs externes](/help/assets//external-factors-schema.png)
 
 Ce schéma simple peut être utilisé pour ingérer des jeux de données contenant des données, par exemple :
 
@@ -46,24 +46,24 @@ Ce schéma simple peut être utilisé pour ingérer des jeux de données contena
 
   | date et heure | date_type | facteur | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00,000Z | week | concurrent_index | 289,8 |
-  | 2020-12-05T00:00:00,000Z | week | concurrent_index | 291,2 |
-  | 2020-12-12T00:00:00,000Z | week | concurrent_index | 280,07 |
+  | 2020-11-28T00:00:00.000Z | week | concurrent_index | 289,8 |
+  | 2020-12-05T00:00:00.000Z | week | concurrent_index | 291,2 |
+  | 2020-12-12T00:00:00.000Z | week | concurrent_index | 280,07 |
   | … | … | … | … |
 
 - Données des fêtes publiques
 
   | date et heure | date_type | facteur | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00,000Z | week | all_vacances_flag | 0,0 |
-  | 2020-12-05T00:00:00,000Z | week | all_vacances_flag | 0,0 |
-  | 2020-12-12T00:00:00,000Z | week | all_vacances_flag | 0,0 |
-  | 2020-12-19T00:00:00,000Z | week | all_vacances_flag | 0,0 |
-  | 2020-12-26T00:00:00,000Z | week | all_vacances_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-05T00:00:00.000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-12T00:00:00.000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-19T00:00:00.000Z | week | all_vacances_flag | 0,0 |
+  | 2020-12-26T00:00:00.000Z | week | all_vacances_flag | 1.0 |
   | … | … | … | … |
 
 
-Voir ci-dessous pour un exemple plus complet d’une **[!DNL LumaPaidMarketingSchema]** en utilisant la variable **[!DNL XDM Summary Metrics]** comme classe de base. Le schéma utilise des groupes de champs dédiés (annotés avec des couleurs) pour les mesures (**[!DNL AMMMetrics]**), dimensions (**[!DNL AMMDimensions]**) et d’autres informations spécifiques au client (**[!DNL CustomerSpecific]**).
+Voir ci-dessous un exemple plus complet d’un **[!DNL LumaPaidMarketingSchema]** utilisant **[!DNL XDM Summary Metrics]** comme classe de base. Le schéma utilise des groupes de champs dédiés (annotés avec des couleurs) pour les mesures (**[!DNL AMMMetrics]**), les dimensions (**[!DNL AMMDimensions]**) et d’autres informations spécifiques au client (**[!DNL CustomerSpecific]**).
 
 ![Schéma de résumé](/help/assets//summary-schema.png)
 
@@ -72,7 +72,7 @@ Voir ci-dessous pour un exemple plus complet d’une **[!DNL LumaPaidMarketingSc
 
 ## Types de données pris en charge
 
-Actuellement, Mix Modeler prend en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sont prises en charge :
+Actuellement, Mix Modeler prend en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sont pris en charge :
 
 - Chaîne
 - Entier

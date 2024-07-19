@@ -71,10 +71,10 @@ Un exemple de jeu de données d’événement d’expérience (événements SDK 
 
 | Date et heure | Espace de noms d’identité | Identité | Canal | Clics |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -104,34 +104,34 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 
 ## Configurer des données harmonisées
 
-Pour créer un jeu de données harmonisé, comme dans la [example](#an-example-of-harmonized-data), procédez comme suit :
+Pour créer un jeu de données harmonisé, comme dans l’ [exemple](#an-example-of-harmonized-data) simplifié, vous devez suivre les étapes suivantes :
 
-1. Définir d’autres [Champs harmonisés](fields.md) que vous souhaitez utiliser au-delà des champs harmonisés globaux déjà disponibles.
-1. Configuration [règles du jeu de données](dataset-rules.md) pour mapper des champs de vos jeux de données d’événements d’agrégat ou d’expérience à des champs harmonisés.
-1. Définir [points de contact marketing](marketing-touchpoints.md) en utilisant les champs standards et additionnels que vous avez définis.
-1. Définir [conversions](conversions.md) en utilisant les champs standards et additionnels que vous avez définis.
+1. Définissez des [champs harmonisés](fields.md) supplémentaires que vous souhaitez utiliser au-delà des champs harmonisés globaux déjà disponibles.
+1. Configurez les [règles du jeu de données](dataset-rules.md) pour mapper les champs de vos jeux de données d’événements d’agrégat ou d’expérience à des champs harmonisés.
+1. Définissez les [points de contact marketing](marketing-touchpoints.md) à l’aide des champs standard et harmonisés supplémentaires que vous avez définis.
+1. Définissez les [conversions](conversions.md) à l’aide des champs standard et harmonisés supplémentaires que vous avez définis.
 
 
 ## Affichage des données harmonisées
 
 Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
+1. Sélectionnez ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 
-1. Sélectionner **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un récapitulatif de vos données harmonisées s’affiche en fonction des champs, des règles de jeu de données, des points de contact marketing et des conversions que vous avez définis.
+1. Sélectionnez **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un récapitulatif de vos données harmonisées s’affiche en fonction des champs, des règles de jeu de données, des points de contact marketing et des conversions que vous avez définis.
 
-   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une période pour la variable **[!UICONTROL Date range]** ou utilisez ![Calendrier](/help/assets//icons/Calendar.svg) pour sélectionner une période.
+   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une plage de dates pour **[!UICONTROL Date range]** ou utilisez le ![calendrier](/help/assets//icons/Calendar.svg) pour sélectionner une plage de données.
 
-   1. Pour modifier les colonnes de champ harmonisées affichées pour le tableau Données harmonisées, utilisez ![Paramètres](/help/assets//icons/Setting.svg) pour ouvrir le **[!UICONTROL Column settings]** boîte de dialogue.
+   1. Pour modifier les colonnes de champs harmonisées affichées pour le tableau des données harmonisées, utilisez ![Paramètres](/help/assets//icons/Setting.svg) pour ouvrir la boîte de dialogue **[!UICONTROL Column settings]**.
 
-      1. Sélectionner ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron à droite](/help/assets//icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron right](/help/assets//icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Sélectionner ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron à gauche](/help/assets//icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron left](/help/assets//icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
 
-      1. Sélectionnez une colonne parmi **[!UICONTROL DEFAULT SORT]** et basculer entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+      1. Sélectionnez une colonne à partir de **[!UICONTROL DEFAULT SORT]** et basculez entre **[!UICONTROL Ascending]** et **[!UICONTROL Descending]**.
 
-      1. Pour modifier l’ordre d’affichage des colonnes, vous pouvez déplacer une colonne dans **[!UICONTROL SELECTED COLUMNS]** vers le haut et vers le bas par glisser-déposer .
+      1. Pour modifier l’ordre des colonnes affichées, vous pouvez déplacer une colonne de **[!UICONTROL SELECTED COLUMNS]** vers le haut et vers le bas par glisser-déposer .
 
-   1. Sélectionner **[!UICONTROL Submit]** pour envoyer vos modifications de paramètres de colonne. Sélectionner **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
+   1. Sélectionnez **[!UICONTROL Submit]** pour envoyer les modifications des paramètres de colonne. Sélectionnez **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
 
-1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre.
+1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) à **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages.

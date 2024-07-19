@@ -46,14 +46,14 @@ Mix Modeler offre les fonctionnalités suivantes :
 |---|---|
 | **Mesure des performances incrémentielles** | Comprendre le ROI incrémentiel et l’impact du marketing sur les objectifs commerciaux ou tactiques de campagne. |
 | **Unifier les résultats sur MMM et MTA** | Prenez des décisions plus confiantes grâce à l’unification des modèles de modélisation de mix marketing (MMM) et d’attribution multi-touch (MTA) via l’apprentissage des transferts. |
-| **Allocation optimal des budgets** | Identifiez l’allocation optimale du budget en fonction des dépenses marketing et de l’impact sur les objectifs. |
+| **Attribuer les budgets de manière optimale** | Identifiez l’allocation optimale du budget en fonction des dépenses marketing et de l’impact sur les objectifs. |
 | **Créer et comparer des scénarios de budget** | Développez plusieurs plans budgétaires et comparez leur impact afin de prendre des décisions optimales pour votre entreprise. |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->[Présentation du workflow du Mix Modeler](workflow.md)
+>[Comprendre le workflow du Mix Modeler](workflow.md)
 
 
 ### Modélisation des mixages marketing (MMM)

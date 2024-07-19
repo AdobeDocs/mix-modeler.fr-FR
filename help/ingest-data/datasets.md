@@ -16,11 +16,11 @@ Pour gérer des jeux de données, contenant les données à ingérer dans Experi
 
 1. Accédez à l’interface du Mix Modeler.
 
-1. Sélectionner ![Données](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, sous **[!UICONTROL SETUP]**.
+1. Sélectionnez ![Data](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, sous **[!UICONTROL SETUP]**.
 
-Voir [Guide de l’interface utilisateur des jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) pour plus d’informations.
+Pour plus d’informations, consultez le [guide de l’interface utilisateur des jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) .
 
 >[!MORELIKETHIS]
 >
->* [Ingestion de données](overview.md)
+>* [Ingérer des données](overview.md)
 >* [Schémas](schemas.md)

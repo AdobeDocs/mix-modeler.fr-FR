@@ -17,12 +17,12 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-L’onglet Formules de l’aperçu du Mix Modeler affiche des widgets pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
+L’onglet Plans de l’aperçu du Mix Modeler affiche les widgets pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
 
 Les données affichées pour les widgets sont déterminées par :
 
-* Le plan. Sélectionner un plan dans **[!UICONTROL Plan name]** en utilisant la variable **[!UICONTROL _Sélectionnez une option..._]**.
+* Le plan. Sélectionnez un plan depuis **[!UICONTROL Plan name]** à l&#39;aide de l&#39;option **[!UICONTROL _Sélectionner une option..._]**.
 
-* La période spécifiée. Pour modifier manuellement la période, saisissez une date de début et une date de fin ou sélectionnez une période à l’aide de la commande ![Calendrier](/help/assets//icons/Calendar.svg).
+* La période spécifiée. Pour modifier manuellement la période de date, saisissez une date de début et une date de fin ou sélectionnez une période à l’aide du ![calendrier](/help/assets//icons/Calendar.svg).
 
 

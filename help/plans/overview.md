@@ -33,7 +33,7 @@ Un plan peut éventuellement inclure :
 
 Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
+1. Sélectionnez ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
 
 1. Vous voyez un tableau des plans actuels et de leur état.
 
@@ -51,23 +51,23 @@ Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler
 
    {style="table-layout:auto"}
 
-1. Utilisation ![Rechercher](/help/assets//icons/Search.svg) pour rechercher et filtrer le tableau en fonction d’un ou de plusieurs plans spécifiques.
+1. Utilisez ![Rechercher](/help/assets//icons/Search.svg) pour rechercher et filtrer la table pour un ou plusieurs plans spécifiques.
 
 ## Créer un plan
 
-Pour créer un plan, utilisez l&#39;assistant de création de plan du Mix Modeler. Voir [Créer un plan](create.md) pour plus d’informations.
+Pour créer un plan, utilisez l&#39;assistant de création de plan du Mix Modeler. Pour plus d’informations, voir [Création d’un plan](create.md) .
 
 
 ## Modifier un plan
 
-Pour modifier un plan, sélectionnez son nom dans la table. Voir [Modifier un plan](edit.md) pour plus d’informations.
+Pour modifier un plan, sélectionnez son nom dans la table. Pour plus d’informations, voir [Modification d’un plan](edit.md) .
 
 
 ## Sélection et action sur les plans
 
 Vous pouvez sélectionner un ou plusieurs plans, qui affichent la barre d’actions Plans . La barre d’actions permet de supprimer, comparer ou dupliquer des plans.
 
-Pour supprimer toutes les sélections du tableau Plans, sélectionnez ![Fermer](/help/assets//icons/Close.svg) dans la barre d’actions
+Pour supprimer toutes les sélections dans le tableau Plans, sélectionnez ![Fermer](/help/assets//icons/Close.svg) dans la barre d’actions.
 
 ![Barre d’actions Plans](/help/assets//plans-action-bar.png)
 
@@ -76,19 +76,19 @@ Pour supprimer toutes les sélections du tableau Plans, sélectionnez ![Fermer](
 Pour dupliquer un plan :
 
 1. Sélectionnez un plan unique dans le tableau.
-1. Sélectionner ![Copier](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
+1. Sélectionnez ![Copy](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions. Un nouveau plan, dont le nom est composé du nom du plan d’origine complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
 
 Vous pouvez également :
 
-1. Sélectionner ![Plus](/help/assets//icons/More.svg) pour un plan dans la table.
-1. Sélectionner **[!UICONTROL Duplicate]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
+1. Sélectionnez ![Plus](/help/assets//icons/More.svg) pour un plan dans le tableau.
+1. Sélectionnez **[!UICONTROL Duplicate]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
 
 ### Comparaison de plans
 
 Pour comparer des plans :
 
 1. Sélectionnez deux plans dans le tableau.
-1. Sélectionner ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** dans la barre d’actions. Vous voyez le **[!UICONTROL Compare plans]** Interface utilisateur.
+1. Sélectionnez ![Comparer](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** dans la barre d’actions. L’interface utilisateur de **[!UICONTROL Compare plans]** s’affiche.
 
 
 ### Suppression de plans
@@ -96,12 +96,12 @@ Pour comparer des plans :
 Pour supprimer des plans :
 
 1. Sélectionnez un ou plusieurs plans dans le tableau.
-1. Sélectionner ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions.
+1. Sélectionnez ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions.
 
 Vous pouvez également :
 
-1. Sélectionner ![Plus](/help/assets//icons/More.svg) pour un plan dans la table.
-1. Sélectionner **[!UICONTROL Delete]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine est complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
+1. Sélectionnez ![Plus](/help/assets//icons/More.svg) pour un plan dans le tableau.
+1. Sélectionnez **[!UICONTROL Delete]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine complété par **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
 
    >[!WARNING]
    >

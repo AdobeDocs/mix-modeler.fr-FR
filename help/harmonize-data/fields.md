@@ -55,9 +55,9 @@ Vous pouvez ajouter, modifier ou supprimer vos propres champs harmonisés en plu
 
 Pour afficher un tableau des champs harmonisés disponibles, dans l’interface de Mix Modeler :
 
-1. Sélectionner ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
+1. Sélectionnez ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
-1. Sélectionner **[!UICONTROL Fields]** dans la barre supérieure. Un tableau des champs harmonisés s’affiche. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x _de_x_]** pour passer d’une page à l’autre du tableau.
+1. Sélectionnez **[!UICONTROL Fields]** dans la barre supérieure. Un tableau des champs harmonisés s’affiche. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) sur **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages du tableau.
 
    Les colonnes du tableau spécifient les détails des champs harmonisés
 
@@ -65,10 +65,10 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
    | ---------------------- | ----------|
    | Nom du champ | Nom du champ harmonisé. |
    | Nom d’affichage | Nom d’affichage du champ harmonisé. Ce nom d’affichage est utilisé lors de la définition de règles de jeu de données, de points de contact marketing et de définitions de conversion. |
-   | Catégorie | Indique si un champ de données harmonisé est une [!UICONTROL Dimension], un [!UICONTROL Metric] ou [!UICONTROL Derived]. Une catégorie dérivée est un champ harmonisé à l’aide d’une définition de formule basée sur des mesures. |
+   | Catégorie | Indique si un champ de données harmonisé est [!UICONTROL Dimension], [!UICONTROL Metric] ou [!UICONTROL Derived]. Une catégorie dérivée est un champ harmonisé à l’aide d’une définition de formule basée sur des mesures. |
    | Type de données | Spécifie le type de données ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Date de création | Date et heure de création du champ harmonisé. |
-   | Propriétaire | Indique si un champ harmonisé est un champ par défaut ([!UICONTROL Global]), ou est défini par vous ([!UICONTROL Client]). |
+   | Propriétaire | Indique si un champ harmonisé est un champ par défaut ([!UICONTROL Global]) ou est défini par vous ([!UICONTROL Client]). |
    | Date de dernière modification | Données et heure de la dernière modification du champ harmonisé. |
    | Formule | Indique la formule d’un champ harmonisé en fonction d’une catégorie dérivée. |
 
@@ -79,39 +79,39 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
 
 ### Ajouter un champ harmonisé
 
-Pour ajouter un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
+Pour ajouter un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
 
-1. Sélectionner ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Sélectionnez ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
-1. Dans le **[!UICONTROL Create]** dialog :
+1. Dans la boîte de dialogue **[!UICONTROL Create]** :
 
    1. Saisissez un **[!UICONTROL Field name]**, par exemple `region`.
    1. Saisissez un **[!UICONTROL Display name]**, par exemple `Region`.
-   1. Sélectionnez une **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** ou **[!UICONTROL Derived]**.
+   1. Sélectionnez un **[!UICONTROL Category]** : **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** ou **[!UICONTROL Derived]**.
 
-      Lorsque vous sélectionnez **[!UICONTROL Derived]**, spécifiez une **[!UICONTROL Formula]**. Pour créer une expression arithmétique valide, combinez une ou plusieurs mesures à partir de **[!UICONTROL Insert Metric]** avec un ou plusieurs opérateurs **[!UICONTROL + - * / ( )]** . Par exemple, `[orders]/[impressions]`
+      Lorsque vous sélectionnez **[!UICONTROL Derived]**, spécifiez un **[!UICONTROL Formula]**. Pour créer une expression arithmétique valide, combinez une ou plusieurs mesures de **[!UICONTROL Insert Metric]** avec un ou plusieurs opérateurs **[!UICONTROL + - * / ( )]** . Par exemple, `[orders]/[impressions]`
 
-   1. Sélectionnez une **[!UICONTROL Data type]**.
+   1. Sélectionnez un **[!UICONTROL Data type]**.
 
       - **[!UICONTROL String]** ou **[!UICONTROL Date time]**, lorsque la catégorie sélectionnée est Dimension.
       - **[!UICONTROL Number]** ou **[!UICONTROL Currency]** lorsque la catégorie sélectionnée est Mesure ou Dérivée.
 
-   1. Sélectionner **[!UICONTROL Submit]** ajouter le champ harmonisé. Sélectionner **[!UICONTROL Close]** pour fermer la boîte de dialogue sans ajouter le champ harmonisé.
+   1. Sélectionnez **[!UICONTROL Submit]** pour ajouter le champ harmonisé. Sélectionnez **[!UICONTROL Close]** pour fermer la boîte de dialogue sans ajouter le champ harmonisé.
 
-      ![Création d’un champ](/help/assets//create-field.png)
+      ![Créer un champ](/help/assets//create-field.png)
 
 
 ### Modifier un champ harmonisé
 
 Vous ne pouvez modifier que les champs harmonisés que vous avez créés précédemment (le propriétaire est client). Vous ne pouvez pas modifier un champ harmonisé global.
 
-Pour modifier un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
+Pour modifier un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
 
 1. Sélectionnez le champ harmonisé que vous souhaitez modifier. Par exemple : **[!UICONTROL Region]**.
 
-1. Dans le **[!UICONTROL Edit harmonization values]** volet, modifier les valeurs de **[!UICONTROL Display name]**, **[!UICONTROL Category]**, et **[!UICONTROL Data type]**. Voir [Ajouter un champ harmonisé](#add-a-harmonized-field) pour plus d’informations.
+1. Dans le volet **[!UICONTROL Edit harmonization values]**, modifiez les valeurs de **[!UICONTROL Display name]**, **[!UICONTROL Category]** et **[!UICONTROL Data type]**. Voir [Ajouter un champ harmonisé](#add-a-harmonized-field) pour plus d’informations.
 
-1. Sélectionner **[!UICONTROL Submit]** pour appliquer les modifications au champ harmonisé.
+1. Sélectionnez **[!UICONTROL Submit]** pour appliquer les modifications au champ harmonisé.
 
    ![Modifier un champ](/help/assets//edit-field.png)
 
@@ -119,11 +119,11 @@ Pour modifier un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCh
 
 Vous ne pouvez supprimer que les champs harmonisés que vous avez créés précédemment (le propriétaire est client). Vous ne pouvez pas supprimer un champ harmonisé global.
 
-Pour supprimer un champ harmonisé, dans ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** dans le Mix Modeler :
+Pour supprimer un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
 
-1. Sélectionnez le champ harmonisé à supprimer, par exemple **[!UICONTROL Region]**.
+1. Sélectionnez le champ harmonisé que vous souhaitez supprimer, par exemple **[!UICONTROL Region]**.
 
-1. Sélectionner ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** de la **[!UICONTROL Edit harmonization values]** volet de gauche.
+1. Sélectionnez ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dans le volet de gauche **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >

@@ -19,14 +19,14 @@ Consultez cette vidéo pour une présentation du processus utilisateur en Mix Mo
 
 Un workflow type en Mix Modeler se compose des activités suivantes :
 
-![Texte de remplacement](/help/assets//ApplicationWorkflow.svg)
+![Texte secondaire](/help/assets//ApplicationWorkflow.svg)
 
 |  | Activité | Description |
 |---|---|---|
-| ![Data](/help/assets//icons/Data.svg){width="100"} (Données) | [**Ingestion de données**](../ingest-data/overview.md) | Ingérer des données d’événement provenant d’un Experience Platform (par exemple Adobe Analytics, SDK Web, d’autres sources), des données agrégées provenant de canaux marketing (par exemple, télévision, jardins muraux, email, activités détenues et exploitées), des données de facteurs externes provenant des clients (par exemple, les changements de prix dans le service d’abonnement) et des données de facteurs internes (par exemple, les formules de vacances). |
-| ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**Harmonisation des données**](../harmonize-data/overview.md) | Configurez les règles de mappage et les règles de résolution des conflits pour fusionner les différents jeux de données marketing nécessaires à la mesure et à la planification des performances des campagnes dans Mix Modeler. |
+| ![Data](/help/assets//icons/Data.svg){width="100"} (Données) | [**Ingérer des données**](../ingest-data/overview.md) | Ingérer des données d’événement provenant d’un Experience Platform (par exemple Adobe Analytics, SDK Web, d’autres sources), des données agrégées provenant de canaux marketing (par exemple, télévision, jardins muraux, email, activités détenues et exploitées), des données de facteurs externes provenant des clients (par exemple, les changements de prix dans le service d’abonnement) et des données de facteurs internes (par exemple, les formules de vacances). |
+| ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**Harmoniser les données**](../harmonize-data/overview.md) | Configurez les règles de mappage et les règles de résolution des conflits pour fusionner les différents jeux de données marketing nécessaires à la mesure et à la planification des performances des campagnes dans Mix Modeler. |
 | ![FileConfig](/help/assets//icons/FileGear.svg){width="100"} | [**Configurer des modèles**](../models/create.md) | Configurez les instances de modèle avec les points de contact marketing (par exemple les canaux), les définitions de conversion et les facteurs internes et externes. |
-| ![FileData](/help/assets//icons/FileData.svg){width="100"} | [**Modèles de formation et de notation**](../models/overview.md) | Créez des scores agrégés et au niveau de l’événement à l’aide de la formation et de la notation de l’apprentissage automatique. |
+| ![FileData](/help/assets//icons/FileData.svg){width="100"} | [**Modèles de formation et de score**](../models/overview.md) | Créez des scores agrégés et au niveau de l’événement à l’aide de la formation et de la notation de l’apprentissage automatique. |
 | ![FileChart](/help/assets//icons/FileChart.svg){width="100"} | [**Créer des plans**](../plans/overview.md) | Déterminez la meilleure allocation de fonds marketing pour atteindre un objectif commercial en utilisant les résultats des modèles de Mix Modeler. |
 | ![Tableau de bord](/help/assets//icons/Dashboard.svg){width="100"} | [**Tableau de bord Aperçu**](../dashboard/overview.md) | Obtenez des informations sur les données, les modèles et les plans harmonisés à l’aide de divers widgets configurables. |
 
@@ -47,4 +47,4 @@ L’organigramme détaillé axé sur les données ci-dessous illustre comment :
 
 * les scores d’événement d’attribution multi-touch peuvent éventuellement être réinjectés dans le lac de données Experience Platform pour être utilisés dans la configuration, la formation et la notation des modèles suivants.
 
-![Processus complet](/help/assets//comprehensive-workflow.svg)
+![Workflow complet](/help/assets//comprehensive-workflow.svg)

@@ -12,23 +12,23 @@ ht-degree: 2%
 
 # Administration
 
-Utilisez la variable [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) pour gérer les produits et les utilisateurs Mix Modeler.
+Utilisez [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) pour gérer les utilisateurs et les produits Mix Modeler.
 
 Pour que Mix Modeler fonctionne correctement, vous devez définir les autorisations appropriées.
 
 Dans l’interface utilisateur de Adobe Experience Cloud :
 
-1. Sélectionner **[!UICONTROL Permissions]** depuis le rail de gauche, sous **[!UICONTROL ADMINISTRATION]**.
+1. Sélectionnez **[!UICONTROL Permissions]** dans le rail de gauche, sous **[!UICONTROL ADMINISTRATION]**.
 
-1. Sélectionner ![Utilisateur](/help/assets/icons/User.svg) **[!UICONTROL Roles]** dans le panneau de gauche.
+1. Sélectionnez ![User](/help/assets/icons/User.svg) **[!UICONTROL Roles]** dans le panneau de gauche.
 
-1. Sélectionnez un rôle existant ou créez-en un en utilisant **[!UICONTROL Create role]** (par exemple, **Mix Modeler**). Si vous sélectionnez un rôle existant, sélectionnez ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** pour modifier les autorisations du rôle. Voir [Gestion des rôles](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) pour plus d’informations.
+1. Sélectionnez un rôle existant ou créez-en un en utilisant **[!UICONTROL Create role]** (par exemple, **Mix Modeler**). Si vous sélectionnez un rôle existant, sélectionnez ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** pour modifier les autorisations du rôle. Voir [Gérer les rôles](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) pour plus d’informations.
 
 1. Vérifiez que vous avez sélectionné un ou plusieurs environnements de test pour le rôle .
 
-1. Ajoutez la variable **Adobe Mix Modeler** vers la liste des ressources pour le rôle.
+1. Ajoutez la ressource **Adobe Mix Modeler** à la liste des ressources pour le rôle .
 
-1. Assurez-vous de sélectionner les **[!UICONTROL Adobe Mix Modeler]** autorisations pour le rôle que vous configurez. Vous pouvez sélectionner un ou plusieurs des rôles suivants :
+1. Assurez-vous de sélectionner les autorisations **[!UICONTROL Adobe Mix Modeler]** correctes pour le rôle que vous configurez. Vous pouvez sélectionner un ou plusieurs des rôles suivants :
 
    - **[!UICONTROL View Adobe Mix Modeler Harmonized Data]**
    - **[!UICONTROL Manage Adobe Mix Modeler Harmonized Data]**
@@ -42,9 +42,9 @@ Dans l’interface utilisateur de Adobe Experience Cloud :
 
 1. Veillez à sélectionner des autorisations supplémentaires pour le rôle. Par exemple, pour afficher ou gérer des jeux de données et des schémas, vous devez sélectionner :
 
-   - **[!UICONTROL Data Management]**: sélectionnez les options appropriées : **[!UICONTROL View Datasets]** ou **[!UICONTROL Manage Datasets]**.
+   - **[!UICONTROL Data Management]** : sélectionnez les options appropriées : **[!UICONTROL View Datasets]** ou **[!UICONTROL Manage Datasets]**.
 
-   - **[!UICONTROL Data Modeling]**: sélectionnez les options appropriées : **[!UICONTROL Manage Schemas]** ou **[!UICONTROL View Schemas]**.
+   - **[!UICONTROL Data Modeling]** : sélectionnez les options appropriées : **[!UICONTROL Manage Schemas]** ou **[!UICONTROL View Schemas]**.
 
    <!--
     * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
@@ -52,6 +52,6 @@ Dans l’interface utilisateur de Adobe Experience Cloud :
 
    <!--![Permissions](assets/permissions-including-privacy.png)-->
 
-   Sélectionner **[!UICONTROL Save]** pour enregistrer les autorisations.
+   Sélectionnez **[!UICONTROL Save]** pour enregistrer les autorisations.
 
-1. Dans **[!UICONTROL Details]** dans **[!UICONTROL Role]**, ajoutez les **[!UICONTROL Users]** ou **[!UICONTROL User groups]** pour permettre aux utilisateurs d’accéder à Mix Modeler.
+1. Dans **[!UICONTROL Details]** dans **[!UICONTROL Role]**, ajoutez les **[!UICONTROL Users]** ou **[!UICONTROL User groups]** appropriés pour permettre aux utilisateurs d&#39;accéder au Mix Modeler.

@@ -16,21 +16,21 @@ L’onglet Données harmonisées de l’aperçu du Mix Modeler fournit des infor
 
 L’aperçu présente quatre widgets de carte d’état des indicateurs de performance clés (ligne supérieure) et six autres widgets configurables.
 
-Pour modifier la période des données à afficher dans les widgets, saisissez une date de début et une date de fin manuellement ou sélectionnez une période en utilisant ![Calendrier](/help/assets//icons/Calendar.svg).
+Pour modifier la période des données à afficher dans les widgets, saisissez manuellement une date de début et une date de fin ou sélectionnez une période à l’aide du ![calendrier](/help/assets//icons/Calendar.svg).
 
 ## Filtres de données
 
-Vous pouvez filtrer les données affichées pour tous les widgets à l’aide de la variable ![Filtrer](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** volet.
+Vous pouvez filtrer les données affichées pour tous les widgets à l’aide du volet ![Filter](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** .
 
-Sélectionnez un ou plusieurs filtres pour chaque catégorie (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, et **[!UICONTROL Traffic Source]**).
+Sélectionnez un ou plusieurs filtres pour chaque catégorie (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** et **[!UICONTROL Traffic Source]**).
 
-Les filtres sélectionnés s’affichent au-dessus des widgets à l’adresse **[!UICONTROL FILTERING BY:]**.
+Les filtres sélectionnés s’affichent au-dessus des widgets à l’emplacement **[!UICONTROL FILTERING BY:]**.
 
-1. Pour supprimer un filtre individuel, sélectionnez ![Fermer](/help/assets//icons/Close.svg) sur le filtre, répertorié dans **[!UICONTROL FILTERING BY:]**.
+1. Pour supprimer un filtre individuel, sélectionnez ![Fermer](/help/assets//icons/Close.svg) sur le filtre, répertorié à l’adresse **[!UICONTROL FILTERING BY:]**.
 
-1. Vous pouvez effacer rapidement tous les filtres à l’aide de la méthode **[!UICONTROL Clear All]**.
+1. Vous pouvez rapidement effacer tous les filtres à l’aide de **[!UICONTROL Clear All]**.
 
-![Présentation des données harmonisées](/help/assets//harmonized-data-overview.png)
+![Présentation des données harmonisée](/help/assets//harmonized-data-overview.png)
 
 
 ## Configuration d’un widget
@@ -39,31 +39,31 @@ Vous pouvez configurer chaque widget.
 
 * Sur le widget de carte d’état des indicateurs de performance clés :
 
-   1. Sélectionner ![Modifier](/help/assets//icons/Edit.svg) et ![Modifier](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
+   1. Sélectionnez ![Edit](/help/assets//icons/Edit.svg) et ![Edit](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
 
-   1. Dans le **[!UICONTROL KPI status card]** dialog :
+   1. Dans la boîte de dialogue **[!UICONTROL KPI status card]** :
 
-      1. Sélectionnez une **[!UICONTROL KPI]** dans la liste.
+      1. Sélectionnez un **[!UICONTROL KPI]** dans la liste.
 
-      1. Sélectionner **[!UICONTROL Apply]** pour appliquer la modification à la carte. Sélectionner **[!UICONTROL Cancel]** pour annuler la modification.
+      1. Sélectionnez **[!UICONTROL Apply]** pour appliquer la modification à la carte. Sélectionnez **[!UICONTROL Cancel]** pour annuler la modification.
 
 * Sur les autres widgets configurables :
 
-   1. Sélectionner ![Modifier](/help/assets//icons/Edit.svg) et ![Modifier](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
+   1. Sélectionnez ![Edit](/help/assets//icons/Edit.svg) et ![Edit](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
 
-   1. Dans le **[!UICONTROL Edit Data]** dialog :
+   1. Dans la boîte de dialogue **[!UICONTROL Edit Data]** :
 
-      1. Sélection d’une mesure dans **[!UICONTROL Select a metric]**, par exemple **[!UICONTROL Impressions]**.
+      1. Sélectionnez une mesure **[!UICONTROL Select a metric]**, par exemple **[!UICONTROL Impressions]**.
       1. Sélectionnez une catégorie parmi **[!UICONTROL Select category]**, par exemple **[!UICONTROL Media types]**.
-      1. (facultatif) sélectionnez une deuxième catégorie dans **[!UICONTROL Select second category (optional)]**, par exemple **[!UICONTROL Traffic sources]**.
-      1. Sélectionner ![Horloge](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculateur](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** comme type d’analyse à l’adresse **[!UICONTROL Select analysis type]**.
+      1. (facultatif) sélectionnez une deuxième catégorie de **[!UICONTROL Select second category (optional)]**, par exemple **[!UICONTROL Traffic sources]**.
+      1. Sélectionnez ![Horloge](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculateur](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** comme type d’analyse à **[!UICONTROL Select analysis type]**.
 
-         Si vous sélectionnez ![Horloge](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**, vous pouvez spécifier la fréquence. Sélectionner **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** de **[!UICONTROL Select time frequency]**.
+         Si vous sélectionnez ![Horloge](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**, vous pouvez spécifier la fréquence. Sélectionnez **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** dans **[!UICONTROL Select time frequency]**.
 
-         Un aperçu mis à jour de votre sélection actuelle s’affiche dans la [!UICONTROL Preview Area] et votre widget actuel sous [!UICONTROL Current].
+         Un aperçu mis à jour de votre sélection actuelle s’affiche dans le [!UICONTROL Preview Area] et de votre widget actuel sous le [!UICONTROL Current].
 
-         ![Modification du widget de données harmonisé](/help/assets//edit-harmonized-data-widget.png)
+         ![Modifier le widget de données harmonisé](/help/assets//edit-harmonized-data-widget.png)
 
-         Si l’aperçu ne peut pas être rendu en raison de l’indisponibilité des données, vous pouvez voir ![Erreur de données](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
+         Si l’aperçu ne peut pas être rendu en raison de l’indisponibilité des données, ![Erreur de données](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available] s’affiche.
 
-      1. Sélectionner **[!UICONTROL Apply]** pour appliquer les modifications au widget. Sélectionner **[!UICONTROL Cancel]** pour annuler toute modification apportée au widget actuel.
+      1. Sélectionnez **[!UICONTROL Apply]** pour appliquer les modifications au widget. Sélectionnez **[!UICONTROL Cancel]** pour annuler toute modification apportée au widget actuel.

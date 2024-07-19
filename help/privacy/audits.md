@@ -16,9 +16,9 @@ Utilisez l’interface d’audit, qui fait partie de l’Experience Platform inc
 
 Pour examiner le journal d’audit, dans l’interface du Mix Modeler :
 
-1. Sélectionner ![Liste des tâches](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** de **[!UICONTROL PRIVACY]**.
+1. Sélectionnez ![Liste de tâches](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** dans **[!UICONTROL PRIVACY]**.
 
-1. Dans **[!UICONTROL Audits]**, vous pouvez trouver la variable **[!UICONTROL Activity log]**. Le journal des activités affiche les entrées pour les catégories de Mix Modeler, les actions et l’état suivants.
+1. Dans **[!UICONTROL Audits]**, vous pouvez trouver le **[!UICONTROL Activity log]**. Le journal des activités affiche les entrées pour les catégories de Mix Modeler, les actions et l’état suivants.
 
    | Catégorie | Action | Statut |
    |---|---|---|
@@ -49,11 +49,11 @@ Pour examiner le journal d’audit, dans l’interface du Mix Modeler :
 
 1. Pour plus d’informations, sélectionnez une entrée dans le journal des activités afin d’ouvrir un panneau.
 
-   ![Audit du Mix Modeler](/help/assets/mix-modeler-audit.png)
+   ![Audit Mix Modeler](/help/assets/mix-modeler-audit.png)
 
-1. Pour filtrer sur **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** ou **[!UICONTROL Date]** plage, sélectionnez ![Filtrer](/help/assets/icons/Filter.svg).
+1. Pour filtrer selon la plage **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** ou **[!UICONTROL Date]**, sélectionnez ![Filtre](/help/assets/icons/Filter.svg).
 
-1. Pour modifier les colonnes affichées dans le journal des activités, sélectionnez ![Colonnes](/help/assets/icons/ColumnSetting.svg) et dans le **[!UICONTROL Customize table]** sélectionnez les colonnes à afficher. Sélectionner **[!UICONTROL Apply]** pour appliquer la sélection, **[!UICONTROL Cancel]** pour annuler la sélection.
+1. Pour modifier les colonnes affichées dans le journal des activités, sélectionnez ![Colonnes](/help/assets/icons/ColumnSetting.svg) et, dans la boîte de dialogue **[!UICONTROL Customize table]**, sélectionnez les colonnes à afficher. Sélectionnez **[!UICONTROL Apply]** pour appliquer la sélection, **[!UICONTROL Cancel]** pour annuler la sélection.
 
-1. Pour télécharger le journal d’audit, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. Dans le **[!UICONTROL Download log]** dialog select **[!UICONTROL CSV]** ou **[!UICONTROL JSON]** comme format et sélectionnez **[!UICONTROL Download]**.
+1. Pour télécharger le journal d’audit, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. Dans la boîte de dialogue **[!UICONTROL Download log]**, sélectionnez **[!UICONTROL CSV]** ou **[!UICONTROL JSON]** comme format et sélectionnez **[!UICONTROL Download]**.
 

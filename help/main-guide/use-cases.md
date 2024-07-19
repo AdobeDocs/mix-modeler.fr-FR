@@ -35,8 +35,8 @@ L’approche par étapes de ce cas d’utilisation est la suivante :
 | Étape | Détails |
 |---|---|
 | Ingestion | Identifiez et ingérez des sources de données sous des schémas courants. <br/>Appliquez les investissements existants dans Adobe Analytics ou Customer Journey Analytics à un déploiement rapide. |
-| Configuration | Configurer des modèles flexibles à l’aide d’une structure AI-as-a-Service pour vos objectifs commerciaux spécifiques<br/>Assurer automatiquement la cohérence entre le point de contact et le niveau résumé avec l’apprentissage du transfert bidirectionnel. |
-| Analyser | Comprendre clairement le ROI du marketing global et des canaux/sous-canaux individuels.<br/>Identifiez clairement les points de contact qui génèrent le mieux les conversions incrémentielles. |
+| Configuration | Configurez des modèles flexibles à l’aide d’une structure AI-as-a-service pour vos objectifs commerciaux spécifiques. <br/> Assurez automatiquement la cohérence entre le point de contact et le niveau résumé avec l’apprentissage du transfert bidirectionnel. |
+| Analyser | Comprendre clairement le ROI du marketing global et des canaux/sous-canaux individuels.<br/>Identifiez clairement les points de contact qui génèrent le plus de conversions incrémentielles. |
 
 {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ L’approche par étapes de ce cas d’utilisation est la suivante :
 
 | Étape | Détails |
 |---|---|
-| Configuration | Personnalisez facilement les modèles de mesure en fonction des objectifs de votre entreprise.<br/>Définissez les paramètres en quelques clics, sans aucun codage requis : par exemple, canaux, géographies, cycles de vente, décalages, facteurs internes et externes, etc. |
+| Configuration | Personnalisez facilement les modèles de mesure en fonction des objectifs de votre entreprise.<br/>Définissez des paramètres en quelques clics, sans aucun codage requis : par exemple, canaux, géographies, cycles de vente, décalages, facteurs internes et externes, etc. |
 | Train | Entraînez les modèles AI/ML configurés sur pour apprendre à s’adapter le mieux possible aux données d’entrée, en fournissant les résultats les plus précis. |
 | Optimiser | Obtenez des affectations de budget automatisées et optimisées en fonction des prévisions du modèle.<br/>Développez et comparez plusieurs scénarios de budget en quelques clics à l’aide d’une interface utilisateur intuitive. |
 
@@ -155,7 +155,7 @@ L’approche par étapes de ce cas d’utilisation est la suivante :
 |---|---|
 | Modèle | Configurez et entraînez un modèle AI/ML pour obtenir des scores de point de contact MTA cohérents et des résultats agrégés MMM. |
 | Analyser | Exportez des scores de point de contact incrémentiels dans des outils de BI Customer Journey Analytics ou externes.<br/>Effectuez des analyses granulaires et créez des tableaux de bord avancés à l’aide de scores de point de contact. |
-| Action | Créez et activez des alias de recherche pour les segments consommateurs principaux à l’aide de Real-Time Customer Data Platform.<br/>Développez des stratégies marketing pilotées par les données par segments de clients pour les futures campagnes. |
+| Action | Créez et activez des alias de recherche pour les segments consommateurs principaux à l’aide de Real-Time Customer Data Platform.<br/>Développez des stratégies marketing pilotées par les données par des segments de clients pour de futures campagnes. |
 
 {style="table-layout:auto"}
 

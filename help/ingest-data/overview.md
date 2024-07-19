@@ -42,7 +42,7 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++ Agréger les données de l’effort marketing
 
-| Géo | Date | Type de date | Canal | Campaign | Cliquez sur | Gagné | Engagement | Impression | Ouvrir | Détenu | Envoyés |
+| Géo | Date | Type de date | Canal | Campagne | Cliquez sur | Gagné | Engagement | Impression | Ouvrir | Détenu | Envoyés |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
 | AMER | 2021-10-31 | day | EMAIL | | 12752 | | | | | | 1132945 |
 | AMER | 2021-10-31 | day | FB | | 148844 | | | | | | |
