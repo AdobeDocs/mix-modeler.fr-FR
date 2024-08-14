@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: 515abfbaece7c65c69694c58730c6fee3475886e
+source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 44%
+source-wordcount: '83'
+ht-degree: 46%
 
 ---
 
@@ -48,9 +48,11 @@ ht-degree: 44%
    + [Schémas](/help/ingest-data/schemas.md)
    + [Jeux de données](/help/ingest-data/datasets.md)
 
-+ Confidentialité {#privacy}
-   + [Politiques](/help/privacy/policies.md)
-   + [Audit](/help/privacy/audits.md)
++ Gouvernance des données {#data-governance}
+   + [Vue d’ensemble](/help/data-governance/overview.md)
+   + [Contrôle d’accès](/help/data-governance/access-controls.md)
+   + [Journaux d’audit](/help/data-governance/audit-logs.md)
+   + [Politiques](/help/data-governance/policies.md)
 
 + [Cas d’utilisation](/help/main-guide/use-cases.md)
 

@@ -3,9 +3,9 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Pour afficher les informations sur les modèles, dans l’interface ![Modèles](
 
 ![Barre d’onglets d’informations sur les modèles](/help/assets//model-insights-tabbar.png)
 
-Vous voyez le moment où le modèle spécifié est actualisé pour la dernière fois et où les widgets s’affichent à l’aide de quatre onglets : [Model insights](#model-insights), [Attribution](#attribution), [Diagnostics](#diagnostics) et [Présentation historique](#historical-overview).
+Vous pouvez voir le moment où le modèle spécifié est actualisé pour la dernière fois et où les widgets sont affichés à l’aide de quatre onglets : [Model insights](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics) et [Présentation historique](#historical-overview).
 
 Vous pouvez modifier la période sur laquelle reposent les widgets sur chacun des onglets. Entrez une période ou sélectionnez ![Calendrier](/help/assets//icons/Calendar.svg) pour sélectionner une période.
 
@@ -34,7 +34,7 @@ L’onglet Informations sur les modèles affiche des widgets pour :
 
 * Synthèse des performances marketing.
 
-* Courbes de réponse marginales.
+* Courbes de réponse marginales.  La courbe et les valeurs correspondantes sont calculées selon la plage de données sélectionnée. En outre, ce widget indique le point de rupture marginale et le point de rendement décroissant.
   <br/>Sélectionnez un canal dans la liste déroulante **[!UICONTROL Channel]** pour mettre à jour le widget d’un canal spécifique.
 
 ![Modèle - insights du modèle](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Pour chaque chemin de conversion, vous voyez :
 * pour chaque canal, le pourcentage de contribution du modèle d’attribution et
 * la somme de ces pourcentages de contribution du modèle d’attribution de canal.
 
+## **[!UICONTROL Factors]**
+
+L’onglet Facteurs affiche des informations externes liées aux facteurs.
+
+![Facteurs](/help/assets/factors.png)
+
+Pour télécharger un fichier CSV contenant les données de la table, sélectionnez ![Télécharger](/help/assets//icons/Download.svg).
+
+Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** s’affiche.
 
 ## [!UICONTROL Diagnostics]
 

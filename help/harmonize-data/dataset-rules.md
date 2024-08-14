@@ -3,9 +3,9 @@ title: Règles du jeu de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Dans l&#39;écran **[!UICONTROL Create]**,
 
          1. Pour supprimer une condition ou un cas, sélectionnez ![Fermer](/help/assets//icons/Close.svg) dans le conteneur correspondant.
 
-         1. Pour indiquer si l&#39;une ou l&#39;autre des conditions doit s&#39;appliquer à un cas, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
+         1. Pour indiquer si toutes les conditions doivent s&#39;appliquer à un cas, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
 
          1. Pour définir la valeur de résultat d’un cas, saisissez la valeur **[!UICONTROL Then]**.
 
@@ -126,7 +126,7 @@ Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/
 
 ## Synchroniser les données
 
-Pour synchroniser les données entre vos données harmonisées et vos jeux de données de résumé et/ou d’événement, en suivant toute la logique de vos règles de jeu de données :
+Pour synchroniser les données entre vos données harmonisées et vos jeux de données de résumé et/ou d’événement lors de l’application de la logique à vos règles de jeu de données :
 
 1. Sélectionnez **[!UICONTROL Sync data]**.
 
@@ -159,7 +159,7 @@ Pour garantir une prédiction de modèle exacte, vous pouvez définir des préf�
 
    ![Préférences de fusion de données](/help/assets//data-merge-preferences.png)
 
-   * Sélectionnez un **[!UICONTROL Default metric preference]**. La préférence de mesure par défaut sélectionnée est appliquée lorsque, lors de l’harmonisation, plusieurs sources de données mettent à jour un champ de mesure pour un canal donné. La préférence est appliquée au niveau de l’environnement de test, sauf si elle est remplacée pour des préférences basées sur des mesures spécifiques. Vous pouvez choisir entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** et **[!UICONTROL Sum of summmary and event data]**.
+   * Sélectionnez un **[!UICONTROL Default metric preference]**. La préférence de mesure par défaut sélectionnée est appliquée lorsque, lors de l’harmonisation, plusieurs sources de données mettent à jour un champ de mesure pour un canal donné. La préférence est appliquée au niveau de l’environnement de test, sauf si elle est remplacée pour des préférences basées sur des mesures spécifiques. Vous pouvez choisir entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** et **[!UICONTROL Sum of summary and event data]**.
 
    * Pour ajouter des préférences de mesure spécifiques :
 
@@ -181,11 +181,13 @@ Pour garantir une prédiction de modèle exacte, vous pouvez définir des préf�
 
 1. Sélectionnez **[!UICONTROL Save]** pour enregistrer les préférences de fusion de données. Une resynchronisation des données est lancée. <br/>Sélectionnez **[!UICONTROL Cancel]** pour annuler.
 
+## Suppression d’un jeu de données source
 
-## Contrôle d’accès au niveau du champ
+Lorsque vous supprimez un jeu de données source utilisé dans vos données harmonisées, les entrées sous-jacentes de ce jeu de données source sont supprimées du [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md). Cependant, la règle du jeu de données avec le jeu de données source supprimé reste dans la liste de configuration des règles du jeu de données avec une icône ![DataRemove](/help/assets/icons/DataRemove.svg) indiquant que le jeu de données source a été supprimé. Pour plus d’informations :
 
-Lors de la configuration des règles de jeu de données pour les jeux de données harmonisés, le [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) de l’Experience Platform est appliqué au niveau du champ. Un champ est restreint lorsqu’un libellé est associé à un champ de schéma et qu’une stratégie active est activée, ce qui vous empêche d’y accéder. Par conséquent :
+* Sélectionnez ![Plus](/help/assets/icons/More.svg) et ![Aperçu](/help/assets/icons/Preview.svg) **[!UICONTROL View]** dans le menu contextuel.
+La boîte de dialogue **[!UICONTROL Dataset rule mapping - Fields]** affiche des informations sur le jeu de données source supprimé et les champs utilisés dans la configuration des règles du jeu de données.
 
-* vous ne voyez pas les champs de schéma qui sont limités pour vous lorsque vous créez une règle de jeu de données,
-* vous ne pouvez pas afficher ni modifier le mappage d’un ou de plusieurs champs de schéma limités pour vous. Lorsque vous modifiez ou affichez une règle de jeu de données contenant ces champs restreints, l’écran suivant s’affiche.
-  ![Action non autorisée](/help/assets//action-not-permitted.png)
+Lorsque vous revenez à votre configuration **[!UICONTROL Dataset rules]**, une boîte de dialogue vous explique qu’un ou plusieurs jeux de données source ont été supprimés. Les données harmonisées sont affectées lors d’une synchronisation ad hoc ou planifiée suivante. Vérifiez la configuration de votre règle de jeu de données.
+
+Les données harmonisées sont mises à jour sans les données source supprimées lors de la synchronisation ad hoc ou de la synchronisation planifiée suivante. Cependant, les boîtes de dialogue d’alerte vous invitent à supprimer la règle du jeu de données en fonction du jeu de données source supprimé. Cette alerte permet aux utilisateurs d’afficher et d’évaluer les champs concernés dans le jeu de données supprimé. Et pour déterminer l’impact sur les points de contact marketing ou les conversions pouvant être utilisés dans n’importe quel modèle. Une fois que vous avez examiné et atténué cet impact, vous devez supprimer la règle du jeu de données de la liste de configuration de la règle du jeu de données.
