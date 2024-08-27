@@ -4,10 +4,10 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f75aa1e24506dbb107a519337b0163a93b196ca7
+source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,11 @@ Ces notes de mise à jour portent sur la dernière version de Mix Modeler. Les v
 
 | Fonctionnalité | Description | Disponibilité générale |
 |---|---|---|
-| **[!UICONTROL Ad-hoc training and scoring]** | Vous pouvez lancer un modèle [re-formation](/help/models/overview.md#re-train), [score (pour les nouvelles données marketing) ou re-score](/help/models/overview.md#score-or-re-score) à partir de l’interface Modèles. | mercredi 13 août 2024 |
-| **[!UICONTROL Policy enforcement]** | Les stratégies d’Experience Platform sont appliquées lors de la configuration des règles de jeu de données et lors de la modification d’étiquettes sur les données sous-jacentes utilisées dans Mix Modeler. Pour plus d’informations, voir [Stratégies](../data-governance/policies.md) . | mercredi 13 août 2024 |
-| **Hygiène des données** | Les règles d’hygiène des données sont respectées lors de la suppression des données sources. Voir [Suppression d’un jeu de données source](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | mercredi 13 août 2024 |
-
-
-
-<!--| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
-| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |-->
-
+| **Informations sur les contributions des facteurs** | Dans [!UICONTROL Model insights], l’onglet [[!UICONTROL Factors]](/help/models/insights.md#factors) offre des insights liés aux facteurs externes. | 20 août 2024 |
+| **Courbes de réponse marginales** | Le widget [courbes de réponse marginales](/help/models/insights.md#model-insights-1) des insights du modèle met désormais à jour la courbe et les valeurs correspondantes en fonction des modifications de la plage de données sélectionnée. En outre, le widget indique le point de rupture marginale et le point de rendement décroissant. | 20 août 2024 |
+| **Formation et notation ad hoc** | Vous pouvez lancer un modèle [re-formation](/help/models/overview.md#re-train), [score (pour les nouvelles données marketing) ou re-score](/help/models/overview.md#score-or-re-score) à partir de l’interface Modèles. | 13 août 2024 |
+| **Application de la stratégie** | Les stratégies d’Experience Platform sont appliquées lors de la configuration des règles de jeu de données et lors de la modification d’étiquettes sur les données sous-jacentes utilisées dans Mix Modeler. Pour plus d’informations, voir [Stratégies](../data-governance/policies.md) . | 13 août 2024 |
+| **Hygiène des données** | Les règles d’hygiène des données sont respectées lors de la suppression des données sources. Voir [Suppression d’un jeu de données source](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 août 2024 |
 
 ## Juin 2024
 
