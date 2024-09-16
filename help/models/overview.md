@@ -3,20 +3,20 @@ title: Modèles
 description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 1%
 
 ---
 
 # Modèles
 
-La fonctionnalité de modèle de Mix Modeler vous permet de configurer, de former et de noter des modèles AI/ML spécifiques à vos objectifs métier. La formation et la notation prennent en charge l’apprentissage du transfert piloté par l’IA entre l’attribution multipoint et la modélisation du mix marketing.
+La fonctionnalité de modèle de Mix Modeler vous permet de configurer, de former et de noter des modèles spécifiques aux objectifs de votre entreprise. La formation et la notation prennent en charge l’apprentissage du transfert piloté par l’IA entre l’attribution multipoint et la modélisation du mix marketing.
 
 Les modèles sont basés sur les données harmonisées que vous créez dans le cadre du processus de l’application de Mix Modeler.
 
-Un modèle en Mix Modeler est un modèle d’apprentissage automatique utilisé pour mesurer et/ou prédire un résultat spécifié en fonction des investissements d’un spécialiste du marketing. Les points de contact marketing et les données de niveau résumé peuvent être utilisés comme entrée. Mix Modeler vous permet de créer des variantes de modèles basées sur différents ensembles de variables, dimensions et résultats, tels que les revenus, unités vendues et prospects.
+Un modèle en Mix Modeler est un modèle d’apprentissage automatique utilisé pour mesurer et prédire un résultat spécifié en fonction des investissements d’un spécialiste du marketing. Les points de contact marketing et les données de niveau résumé peuvent être utilisés comme entrée. Mix Modeler vous permet de créer des variantes de modèles basées sur différents ensembles de variables, dimensions et résultats, tels que les revenus, unités vendues et prospects.
 
 Un modèle nécessite :
 
@@ -41,7 +41,7 @@ Pour créer un modèle, utilisez le flux de configuration de modèle guidé éta
 
 Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Modeler :
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Vous voyez un tableau des modèles actuels.
 
@@ -58,7 +58,7 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Mode
 
    {style="table-layout:auto"}
 
-1. Pour modifier les colonnes affichées pour la liste, sélectionnez ![Paramètres de colonne](/help/assets//icons/ColumnSetting.svg) et activez ou désactivez les colonnes sur ![Vérifier](/help/assets//icons/Checkmark.svg).
+1. Pour modifier les colonnes affichées pour la liste, sélectionnez ![Paramètres de colonne](/help/assets/icons/ColumnSetting.svg) et activez ou désactivez les colonnes sur ![Vérifier](/help/assets/icons/Checkmark.svg).
 
 Vous pouvez effectuer les actions suivantes sur un modèle spécifique.
 
@@ -66,9 +66,9 @@ Vous pouvez effectuer les actions suivantes sur un modèle spécifique.
 
 Pour afficher plus de détails sur un modèle :
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
-1. Sélectionnez ![Info](/help/assets//icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
+1. Sélectionnez ![Info](/help/assets/icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
 
 
 
@@ -76,16 +76,18 @@ Pour afficher plus de détails sur un modèle :
 
 Vous pouvez rapidement dupliquer un modèle.
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
 
 
 ### Informations sur les modèles
 
-La fonctionnalité d’informations sur les modèles n’est disponible que sur les modèles formés et notés avec succès. Pour afficher les insights d’un modèle :
+La fonctionnalité d’informations sur les modèles n’est disponible que sur les modèles formés et notés avec succès.
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+Pour afficher les insights d’un modèle :
+
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez le nom du modèle.
 
@@ -94,9 +96,16 @@ Vous êtes redirigé vers [Model Insights](insights.md).
 
 ### Réentraîner
 
-La réorganisation d’un modèle n’est disponible que sur les modèles correctement formés. Pour entraîner à nouveau un modèle :
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+La réorganisation d’un modèle n’est disponible que sur les modèles correctement formés.
+
+Pensez à entraîner à nouveau un modèle lorsque vous souhaitez :
+
+* Incluez de nouvelles données de facteur et de marketing incrémentiel. Par exemple, au cours du dernier trimestre, la dynamique du marché a changé ou votre distribution des données marketing a considérablement changé.
+
+Pour entraîner à nouveau un modèle :
+
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Train]**. Vous pouvez également sélectionner ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** dans la barre d’actions bleue.
 
@@ -114,9 +123,16 @@ Indiquez la période. Vous pouvez utiliser le ![calendrier](/help/assets/icons/C
 ### Score ou re-score
 
 
-Vous pouvez marquer un modèle de manière incrémentielle en fonction de nouvelles données marketing ou noter à nouveau un modèle pour une période spécifique. Pour noter ou noter à nouveau un modèle :
+Vous pouvez marquer un modèle de manière incrémentielle en fonction de nouvelles données marketing ou noter à nouveau un modèle pour une période spécifique.
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+Pensez à noter à nouveau un modèle lorsque vous souhaitez :
+
+* Corrigez les données marketing incorrectes. Par exemple, les données de recherche payante récentes que vous avez incluses dans la formation et la notation du modèle ont manqué une semaine de données.
+* Utilisez de nouvelles données marketing incrémentielles qui sont devenues disponibles par le biais de mises à jour dans les jeux de données que vous avez configurés dans le cadre de vos données harmonisées.
+
+Pour noter ou noter à nouveau un modèle :
+
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Score]**. Vous pouvez également sélectionner ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** dans la barre d’actions bleue.
 
@@ -135,7 +151,7 @@ Indiquez la période. Vous pouvez utiliser le ![calendrier](/help/assets/icons/C
 
 Pour supprimer un modèle :
 
-1. Sélectionnez ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Delete]**. Vous pouvez également sélectionner ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions bleue.
 

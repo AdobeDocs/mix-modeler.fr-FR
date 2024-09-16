@@ -4,7 +4,7 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 6%
@@ -22,7 +22,7 @@ Ces notes de mise à jour portent sur la dernière version de Mix Modeler. Les v
 | Fonctionnalité | Description | Disponibilité générale |
 |---|---|---|
 | **Informations sur les contributions des facteurs** | Dans [!UICONTROL Model insights], l’onglet [[!UICONTROL Factors]](/help/models/insights.md#factors) offre des insights liés aux facteurs externes. | 20 août 2024 |
-| **Courbes de réponse marginales** | Le widget [courbes de réponse marginales](/help/models/insights.md#model-insights-1) des insights du modèle met désormais à jour la courbe et les valeurs correspondantes en fonction des modifications de la plage de données sélectionnée. En outre, le widget indique le point de rupture marginale et le point de rendement décroissant. | 20 août 2024 |
+| **Courbes de réponse marginales** | La visualisation [courbes de réponse marginales](/help/models/insights.md#model-insights-1) dans les insights du modèle met désormais à jour la courbe et les valeurs correspondantes en fonction des modifications de la plage de données sélectionnée. En outre, la visualisation montre le point d’équilibre marginal et le point de rendement décroissant. | 20 août 2024 |
 | **Formation et notation ad hoc** | Vous pouvez lancer un modèle [re-formation](/help/models/overview.md#re-train), [score (pour les nouvelles données marketing) ou re-score](/help/models/overview.md#score-or-re-score) à partir de l’interface Modèles. | 13 août 2024 |
 | **Application de la stratégie** | Les stratégies d’Experience Platform sont appliquées lors de la configuration des règles de jeu de données et lors de la modification d’étiquettes sur les données sous-jacentes utilisées dans Mix Modeler. Pour plus d’informations, voir [Stratégies](../data-governance/policies.md) . | 13 août 2024 |
 | **Hygiène des données** | Les règles d’hygiène des données sont respectées lors de la suppression des données sources. Voir [Suppression d’un jeu de données source](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 août 2024 |
@@ -62,7 +62,7 @@ Ces notes de mise à jour portent sur la dernière version de Mix Modeler. Les v
 | Fonctionnalité | Description | Disponibilité générale |
 |---|---|---|
 | **Téléchargements améliorés** | Vous pouvez [télécharger des informations complètes sur les modèles](../models/insights.md) au format Microsoft® Excel | 31 janvier 2024 |
-| **Courbes de réponse marginales** | [Les insights du modèle](../models/insights.md) fournissent un widget supplémentaire pour afficher les courbes de réponse marginales. | 31 janvier 2024 |
+| **Courbes de réponse marginales** | [Les insights du modèle](../models/insights.md) fournissent une visualisation supplémentaire pour afficher les courbes de réponse marginales. | 31 janvier 2024 |
 | **Préférences de fusion de données** | Vous pouvez définir des [préférences de fusion de données](../harmonize-data/dataset-rules.md#data-merge-preferences) pour les règles de jeu de données pour les jeux de données harmonisés. | 31 janvier 2024 |
 | **Rapport d’utilisation** | L’interface utilisateur des jeux de données harmonisés comporte un onglet supplémentaire [Rapport d’utilisation](../harmonize-data/usage-report.md) fournissant des informations supplémentaires sur l’utilisation des modèles et des conversions. | 31 janvier 2024 |
 | **Interface utilisateur des statistiques de plan mise à jour** | L’interface utilisateur de planification des statistiques est mise à jour. Vous pouvez ainsi sélectionner le ROI et les canaux à signaler. | 31 janvier 2024 |

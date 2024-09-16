@@ -3,47 +3,63 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 6897f27520705f54d3f23018903a52536083b339
+source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
 
 # Informations sur les modèles
 
-Pour afficher les informations sur les modèles, dans l’interface ![Modèles](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler :
+Pour afficher les informations sur les modèles, dans l’interface ![Modèles](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** en Mix Modeler :
 
 1. Dans la table **[!UICONTROL Models]**, sélectionnez le nom d&#39;un modèle dont le **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]**.
 
 1. Dans le menu contextuel, sélectionnez **[!UICONTROL Model Insights]**.
 
-![Barre d’onglets d’informations sur les modèles](/help/assets//model-insights-tabbar.png)
+![Barre d’onglets d’informations sur les modèles](/help/assets/model-insights-tabbar.png)
 
-Vous pouvez voir le moment où le modèle spécifié est actualisé pour la dernière fois et où les widgets sont affichés à l’aide de quatre onglets : [Model insights](#model-insights), [Attribution](#attribution), [Factors](#factors), [Diagnostics](#diagnostics) et [Présentation historique](#historical-overview).
+Vous voyez le moment où le modèle spécifié est actualisé pour la dernière fois et les visualisations s’affichent à l’aide de quatre onglets : [Informations sur le modèle](#model-insights), [Attribution](#attribution), [Facteurs](#factors), [Diagnostics](#diagnostics) et [Présentation historique](#historical-overview).
 
-Vous pouvez modifier la période sur laquelle reposent les widgets sur chacun des onglets. Entrez une période ou sélectionnez ![Calendrier](/help/assets//icons/Calendar.svg) pour sélectionner une période.
+Vous pouvez modifier la période sur laquelle reposent les visualisations sur chacun des onglets. Entrez une période ou sélectionnez ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
 
 ## [!UICONTROL Model insights]
 
-L’onglet Informations sur les modèles affiche des widgets pour :
+L’onglet Informations sur les modèles affiche les visualisations pour [Contribution par date et support de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves).
 
-* Contribution par date et support de base. Le graphique empilé est ordonné : d’après le bas, les canaux qui ne dépensent pas au milieu et les canaux qui dépensent au haut.
+![Modèle - insights du modèle](/help/assets/model-insights-insights.png)
 
-* Contribution par canal.
+* Vous pouvez placer le pointeur de la souris sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle contenant plus de détails.
 
-* Synthèse des performances marketing.
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
 
-* Courbes de réponse marginales.  La courbe et les valeurs correspondantes sont calculées selon la plage de données sélectionnée. En outre, ce widget indique le point de rupture marginale et le point de rendement décroissant.
-  <br/>Sélectionnez un canal dans la liste déroulante **[!UICONTROL Channel]** pour mettre à jour le widget d’un canal spécifique.
+* Pour télécharger des données complètes d’informations sur les modèles au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
-![Modèle - insights du modèle](/help/assets//model-insights-insights.png)
 
-Vous pouvez placer le pointeur de la souris sur des éléments de graphique individuels dans chaque widget pour afficher une fenêtre contextuelle contenant plus de détails.
+### Contribution par date et support de base.
 
-Pour télécharger un fichier CSV contenant les données du widget, sélectionnez ![Télécharger](/help/assets//icons/Download.svg).
+Le graphique empilé est ordonné : d’après le bas, les canaux qui ne dépensent pas au milieu et les canaux qui dépensent au haut.
 
-Pour télécharger des données complètes d’informations sur les modèles au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
+### Contribution par canal
+
+La visualisation en anneau présente une distribution de la contribution par canal.
+
+### Synthèse des performances marketing.
+
+Graphique à barres horizontal affichant les performances du retour sur investissement par canal.
+
+### Courbes de réponse marginales.
+
+Le graphique en courbes visualise et compare les rendements marginaux générés par l’investissement dans vos canaux marketing.  Identifie également le point d’équilibre où votre retour incrémentiel est inférieur à votre dépense incrémentielle. Par conséquent, cette visualisation vous aide à comprendre quand votre investissement marketing commence à avoir moins d’impact.
+
+La courbe, le point d’équilibre et les valeurs correspondantes sont calculés en fonction de la plage de données sélectionnée et du canal sélectionné.
+
+Pour modifier le canal :
+
+* Sélectionnez un canal dans le menu déroulant **[!UICONTROL Channel]** pour mettre à jour la visualisation d’un canal spécifique.
+
+
 
 ## [!UICONTROL Attribution]
 
@@ -61,43 +77,43 @@ Pour télécharger des données complètes d’informations sur les modèles au 
 
 Voir [Attribution multi-touch](../get-started/about.md#multi-touch-attribution) pour une présentation de la fonctionnalité d’attribution multi-touch en Mix Modeler.
 
-Sélectionnez un ou plusieurs modèles d’attribution dans la liste déroulante **[!UICONTROL Attribution Model]**. Les modèles d’attribution sélectionnés s’appliquent à tous les widgets de l’onglet Attribution .
+Sélectionnez un ou plusieurs modèles d’attribution dans le menu déroulant **[!UICONTROL Attribution Model]**. Les modèles d’attribution sélectionnés s’appliquent à toutes les visualisations dans l’onglet Attribution .
 
-![Attribution](/help/assets//model-insights-attribution.png)
+![Attribution](/help/assets/model-insights-attribution.png)
 
 Les scores d’événement granulaires de l’attribution multi-touch Mix Modeler s’alignent sur les scores de Mix Modeler globaux et les ROI. Ces scores sont également rendus disponibles en tant que jeux de données dans Experience Platform.
 
-L’onglet Attribution se compose des widgets suivants :
+L’onglet Attribution se compose des visualisations suivantes :
 
 ### [!UICONTROL Overview]
 
-Le widget [!UICONTROL Overview] affiche, pour les modèles d’attribution sélectionnés, les totaux et les pourcentages de conversion. La sélection d’autres modèles ajoute des cercles supplémentaires à la visualisation, dont chacun a sa propre couleur correspondant à la légende.
+La visualisation [!UICONTROL Overview] affiche, pour les modèles d’attribution sélectionnés, les totaux et les pourcentages de conversion. La sélection d’autres modèles ajoute des cercles supplémentaires à la visualisation, dont chacun a sa propre couleur correspondant à la légende.
 
 Pour afficher une fenêtre contextuelle contenant des détails sur un modèle d’attribution, passez la souris sur l’un des cercles de la visualisation.
 
 ### [!UICONTROL Trends]
 
-Le widget [!UICONTROL Daily trends], [!UICONTROL Weekly trends] ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
+La visualisation [!UICONTROL Daily trends], [!UICONTROL Weekly trends] ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
 
-Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** ou **[!UICONTROL Monthly trends]** dans ![Plus](/help/assets//icons/More.svg).
+Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** ou **[!UICONTROL Monthly trends]** dans ![Plus](/help/assets/icons/More.svg).
 
 Pour afficher des détails, passez la souris sur la ligne de données d’un modèle d’attribution spécifique afin d’afficher une fenêtre contextuelle qui affiche le nombre total de conversions pour ces données.
 
 ### [!UICONTROL Breakdown]
 
-Le widget [!UICONTROL Breakdown] est une ventilation par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Ce widget peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
+La visualisation [!UICONTROL Breakdown] est une ventilation par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de ventilation, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![Plus](/help/assets//icons/More.svg).
+Pour choisir le type de ventilation, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![Plus](/help/assets/icons/More.svg).
 
 Pour afficher les détails, passez la souris sur l’un des éléments du graphique.
 
 ### [!UICONTROL Top campaigns]
 
-Le widget Campagnes principales affiche un tableau des principales campagnes avec des colonnes pour le nom de la campagne, le canal, le type de média et les conversions incrémentielles. Ce widget peut vous aider à informer votre équipe de l’efficacité d’une campagne spécifique pour un canal donné et fournir des informations sur les campagnes dans lesquelles vous devriez investir davantage.
+La visualisation Campagnes principales présente un tableau des principales campagnes avec des colonnes pour le nom de la campagne, le canal, le type de média et les conversions incrémentielles. Cette visualisation peut vous aider à informer votre équipe de l’efficacité d’une campagne spécifique pour un canal donné et fournir des informations sur les campagnes dans lesquelles vous devriez investir davantage.
 
 Pour trier le tableau par ordre croissant ↑ ou décroissant ↓ pour les conversions de type Canal, Média ou Incrémentiel, sélectionnez l’en-tête de colonne et faites basculer le tri.
 
-Pour développer le tableau dans une boîte de dialogue distincte, sélectionnez **[!UICONTROL Expand]** dans ![Plus](/help/assets//icons/More.svg).
+Pour développer le tableau dans une boîte de dialogue distincte, sélectionnez **[!UICONTROL Expand]** dans ![Plus](/help/assets/icons/More.svg).
 
 La boîte de dialogue Campagnes principales développée affiche le même tableau avec des colonnes supplémentaires pour
 
@@ -147,13 +163,16 @@ L’onglet Facteurs affiche des informations externes liées aux facteurs.
 
 ![Facteurs](/help/assets/factors.png)
 
-Pour télécharger un fichier CSV contenant les données de la table, sélectionnez ![Télécharger](/help/assets//icons/Download.svg).
+Cette visualisation vous aide à comprendre l’effet incrémentiel de divers facteurs internes et externes sur la ligne de base des conversions. Des conditions économiques ou des activités promotionnelles, par exemple.
+
+
+Pour télécharger un fichier CSV contenant les données de la table, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
 
 Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** s’affiche.
 
 ## [!UICONTROL Diagnostics]
 
-L’onglet Diagnostics affiche des widgets pour :
+L’onglet Diagnostics affiche des visualisations pour :
 
 * Visualisation [!UICONTROL Model Assessment], que vous pouvez ventiler en fonction des conversions réelles ou prévues ou résiduelles.
 
@@ -175,22 +194,22 @@ L’onglet Diagnostics affiche des widgets pour :
 
       * RMSE (Root Mean Square Error) : indique l’erreur moyenne, pondérée en fonction du carré de l’erreur.
 
-  Pour télécharger un fichier CSV contenant les données de la table, sélectionnez ![Télécharger](/help/assets//icons/Download.svg).
+  Pour télécharger un fichier CSV contenant les données de la table, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness], représentant le résultat du modèle algorithmique Attribution AI. Les données de ce tableau ne sont générées que pour des périodes spécifiques. Sélectionnez **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) pour plus de détails.
+* [!UICONTROL Touchpoint effectiveness], représentant le résultat du modèle algorithmique Attribution AI. Les données de ce tableau ne sont générées que pour des périodes spécifiques. Sélectionnez **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) pour plus de détails.
 
-  La visualisation s’affiche, dans l’ordre décroissant de [!UICONTROL Efficiency measure] ![Ordre décroissant](/help/assets//icons/SortOrderDown.svg), pour chaque point de contact :
+  La visualisation s’affiche, dans l’ordre décroissant de [!UICONTROL Efficiency measure] ![Ordre décroissant](/help/assets/icons/SortOrderDown.svg), pour chaque point de contact :
 
    * [!UICONTROL Paths touched] : visualise le pourcentage de chemins qui effectuent une conversion et le pourcentage de chemins qui n’atteignent pas la conversion. Pour un point de contact, vous voyez davantage de conversions attribuées lorsque le taux de conversion d’attribution est élevé. Ce rapport compare le pourcentage des chemins menant à la conversion par rapport au pourcentage des chemins qui ne mènent pas à la conversion *pas*.
    * [!UICONTROL Efficiency measure] : généré par le modèle d’attribution algorithmique, la mesure d’efficacité indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume du point de contact. L&#39;efficacité est mesurée sur une échelle de 1 à 5. Notez qu’un volume de point de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée.
    * [!UICONTROL Total volume] : nombre de fois où un utilisateur touche un point de contact. Le nombre comprend les points de contact qui apparaissent sur un chemin pour effectuer une conversion, ainsi que les chemins *et non* résultant en une conversion.
 
-![Diagnostics](/help/assets//model-insights-diagnostics.png)
+![Diagnostics](/help/assets/model-insights-diagnostics.png)
 
 
 ## [!UICONTROL Historical overview]
 
-L’onglet Aperçu historique affiche des widgets pour :
+L’onglet Aperçu historique affiche des visualisations pour :
 
 * Conversion et dépense par trimestre fiscal et par produit.
 
@@ -198,10 +217,10 @@ L’onglet Aperçu historique affiche des widgets pour :
 
 * Point de contact - Dépense.
 
-  Vous pouvez sélectionner un canal alternatif basé sur les dépenses à afficher pour ce widget. Sélectionnez un canal à partir de **[!UICONTROL Channels]**.
+  Vous pouvez sélectionner un canal alternatif basé sur les dépenses à afficher pour cette visualisation. Sélectionnez un canal à partir de **[!UICONTROL Channels]**.
 
 * Volume des points de contact.
 
-  Vous pouvez sélectionner un autre canal en fonction du volume à afficher pour ce widget. Sélectionnez un canal à partir de **[!UICONTROL Channels]**.
+  Vous pouvez sélectionner un autre canal en fonction du volume à afficher pour cette visualisation. Sélectionnez un canal à partir de **[!UICONTROL Channels]**.
 
-![Modèle - Aperçu historique](/help/assets//model-insights-historical-overview.png)
+![Modèle - Aperçu historique](/help/assets/model-insights-historical-overview.png)

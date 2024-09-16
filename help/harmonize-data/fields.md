@@ -3,7 +3,7 @@ title: Champs harmonisés
 description: Découvrez comment définir des champs à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
@@ -55,9 +55,9 @@ Vous pouvez ajouter, modifier ou supprimer vos propres champs harmonisés en plu
 
 Pour afficher un tableau des champs harmonisés disponibles, dans l’interface de Mix Modeler :
 
-1. Sélectionnez ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
+1. Sélectionnez ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
-1. Sélectionnez **[!UICONTROL Fields]** dans la barre supérieure. Un tableau des champs harmonisés s’affiche. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) sur **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages du tableau.
+1. Sélectionnez **[!UICONTROL Fields]** dans la barre supérieure. Un tableau des champs harmonisés s’affiche. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets/icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets/icons/ChevronRight.svg) sur **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages du tableau.
 
    Les colonnes du tableau spécifient les détails des champs harmonisés
 
@@ -74,14 +74,14 @@ Pour afficher un tableau des champs harmonisés disponibles, dans l’interface 
 
    {style="table-layout:auto"}
 
-1. Pour rechercher un champ harmonisé spécifique, utilisez ![Rechercher](/help/assets//icons/Search.svg) **[!UICONTROL *Rechercher un champ harmonisé&#x200B;*]**.
+1. Pour rechercher un champ harmonisé spécifique, utilisez ![Rechercher](/help/assets/icons/Search.svg) **[!UICONTROL *Rechercher un champ harmonisé&#x200B;*]**.
 
 
 ### Ajouter un champ harmonisé
 
-Pour ajouter un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
+Pour ajouter un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
 
-1. Sélectionnez ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. Dans la boîte de dialogue **[!UICONTROL Create]** :
 
@@ -98,14 +98,14 @@ Pour ajouter un champ harmonisé, dans l&#39;interface ![DataSearch](/help/asset
 
    1. Sélectionnez **[!UICONTROL Submit]** pour ajouter le champ harmonisé. Sélectionnez **[!UICONTROL Close]** pour fermer la boîte de dialogue sans ajouter le champ harmonisé.
 
-      ![Créer un champ](/help/assets//create-field.png)
+      ![Créer un champ](/help/assets/create-field.png)
 
 
 ### Modifier un champ harmonisé
 
 Vous ne pouvez modifier que les champs harmonisés que vous avez créés précédemment (le propriétaire est client). Vous ne pouvez pas modifier un champ harmonisé global.
 
-Pour modifier un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
+Pour modifier un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
 
 1. Sélectionnez le champ harmonisé que vous souhaitez modifier. Par exemple : **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Pour modifier un champ harmonisé, dans l&#39;interface ![DataSearch](/help/asse
 
 1. Sélectionnez **[!UICONTROL Submit]** pour appliquer les modifications au champ harmonisé.
 
-   ![Modifier un champ](/help/assets//edit-field.png)
+   ![Modifier un champ](/help/assets/edit-field.png)
 
 ### Supprimer un champ harmonisé
 
 Vous ne pouvez supprimer que les champs harmonisés que vous avez créés précédemment (le propriétaire est client). Vous ne pouvez pas supprimer un champ harmonisé global.
 
-Pour supprimer un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
+Pour supprimer un champ harmonisé, dans l&#39;interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** du Mix Modeler :
 
 1. Sélectionnez le champ harmonisé que vous souhaitez supprimer, par exemple **[!UICONTROL Region]**.
 
-1. Sélectionnez ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dans le volet de gauche **[!UICONTROL Edit harmonization values]**.
+1. Sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dans le volet de gauche **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >

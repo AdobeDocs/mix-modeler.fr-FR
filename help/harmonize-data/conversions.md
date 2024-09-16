@@ -3,7 +3,7 @@ title: de conversions
 description: Découvrez comment créer des conversions à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Vous définissez des conversions marketing pour l’analyse d’attribution.
 
 Pour afficher un tableau des conversions disponibles, dans l’interface du Mix Modeler :
 
-1. Sélectionnez ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
+1. Sélectionnez ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
 1. Sélectionnez **[!UICONTROL Conversions]** dans la barre supérieure. Un tableau des conversions s’affiche.
 
@@ -39,9 +39,9 @@ Les colonnes du tableau spécifient les détails de la conversion :
 
 ## Ajouter une conversion
 
-Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** en Mix Modeler :
+Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** en Mix Modeler :
 
-1. Sélectionnez ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
 1. Dans la boîte de dialogue **[!UICONTROL Create conversion]** :
 
@@ -51,7 +51,7 @@ Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets//icon
 
       1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une harmonisation...*]**, par exemple `Conversion types`.
 
-      1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets//icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
+      1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
       1. Sélectionnez une valeur **[!UICONTROL *Select value *]**ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
 
@@ -61,7 +61,7 @@ Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets//icon
 
    1. Pour créer la conversion, sélectionnez **[!UICONTROL Create]**. Pour annuler la création d’une conversion, sélectionnez **[!UICONTROL Cancel]**.
 
-      ![Texte secondaire](/help/assets//create-conversion.png)
+      ![Texte secondaire](/help/assets/create-conversion.png)
 
 1. Une fois créée, la conversion est ajoutée au tableau des conversions.
 
@@ -70,14 +70,14 @@ Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets//icon
 
 Pour afficher une conversion :
 
-1. Sélectionnez ![Plus](/help/assets//icons/More.svg) lorsque vous placez le pointeur de la souris sur un nom de conversion dans le tableau.
+1. Sélectionnez ![Plus](/help/assets/icons/More.svg) lorsque vous placez le pointeur de la souris sur un nom de conversion dans le tableau.
 
-1. Sélectionnez ![Affichage](/help/assets//icons/ViewDetail.svg) **Affichage**. Une boîte de dialogue affiche les détails de la conversion. Pour plus d’informations, voir [Ajout d’une conversion](#add-a-conversion) . Sélectionnez **[!UICONTROL Cancel]** pour fermer la boîte de dialogue.
+1. Sélectionnez ![Affichage](/help/assets/icons/ViewDetail.svg) **Affichage**. Une boîte de dialogue affiche les détails de la conversion. Pour plus d’informations, voir [Ajout d’une conversion](#add-a-conversion) . Sélectionnez **[!UICONTROL Cancel]** pour fermer la boîte de dialogue.
 
 
 ## Suppression d’une conversion
 
 Pour supprimer une conversion :
 
-1. Sélectionnez ![Supprimer](/help/assets//icons/Delete.svg) **Supprimer** lorsque vous placez le pointeur de la souris sur un nom de conversion dans la table.
+1. Sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **Supprimer** lorsque vous placez le pointeur de la souris sur un nom de conversion dans la table.
 1. Dans la boîte de dialogue de confirmation **[!UICONTROL Delete conversion]**, sélectionnez **[!UICONTROL Delete]** pour supprimer définitivement la conversion.

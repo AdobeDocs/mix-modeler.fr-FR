@@ -2,7 +2,8 @@
 title: Contrôles d’accès
 description: Découvrez comment configurer les contrôles d’accès dans Mix Modeler.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 32%
@@ -31,5 +32,4 @@ Lors de la configuration des règles de jeu de données pour les jeux de donnée
 
 * vous ne voyez pas les champs de schéma qui sont limités pour vous lorsque vous créez une règle de jeu de données,
 * vous ne pouvez pas afficher ni modifier le mappage d’un ou de plusieurs champs de schéma limités pour vous. Lorsque vous modifiez ou affichez une règle de jeu de données contenant ces champs restreints, l’écran suivant s’affiche.
-  ![Action non autorisée](/help/assets//action-not-permitted.png)
-
+  ![Action non autorisée](/help/assets/action-not-permitted.png)

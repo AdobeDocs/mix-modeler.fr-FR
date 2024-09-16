@@ -3,7 +3,7 @@ title: Règles du jeu de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Les règles de jeu de données vous aident à mapper vos champs harmonisés avec
 
 Pour afficher un tableau des règles de jeu de données disponibles, dans l’interface du Mix Modeler :
 
-1. Sélectionnez ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
+1. Sélectionnez ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
 1. Sélectionnez **[!UICONTROL Dataset rules]** dans la barre supérieure. Un tableau des règles du jeu de données s’affiche.
 
@@ -32,7 +32,7 @@ Les colonnes du tableau spécifient des détails sur les règles du jeu de donn�
 | ---------------------- | ----------|
 | Jeu de données | Nom du jeu de données. |
 | Source | Source du jeu de données : Adobe Analytics, Événements d’expérience, Résumé (agrégé) ou Événements d’expérience client. |
-| Schéma | Schéma auquel le jeu de données se conforme. Vous pouvez sélectionner rapidement le nom du schéma pour ouvrir le schéma dans un nouvel onglet de l’éditeur de schémas dans ![Schema](/help/assets//icons/Schemas.svg) [Schemas](../ingest-data/schemas.md). |
+| Schéma | Schéma auquel le jeu de données se conforme. Vous pouvez sélectionner rapidement le nom du schéma pour ouvrir le schéma dans un nouvel onglet de l’éditeur de schémas dans ![Schema](/help/assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md). |
 | Granularité | Granularité des données du jeu de données. Les valeurs possibles sont Quotidienne, Hebdomadaire, Mensuelle ou Annuelle. |
 | Début de la semaine | Indique le jour de la semaine considéré comme le début d’une nouvelle semaine pour le jeu de données spécifique. |
 | Statut | État du champ : <p><span style="color:gray">●</span> Version préliminaire ou <p><span style="color:green">●</span> actif |
@@ -42,7 +42,7 @@ Les colonnes du tableau spécifient des détails sur les règles du jeu de donn�
 
 ### Créer une règle de jeu de données
 
-Pour créer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler, sélectionnez **[!UICONTROL Create a dataset rule]** dans l’assistant **[!UICONTROL Dataset rules configuration]**.
+Pour créer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler, sélectionnez **[!UICONTROL Create a dataset rule]** dans l’assistant **[!UICONTROL Dataset rules configuration]**.
 
 Dans l&#39;écran **[!UICONTROL Create]**,
 
@@ -62,7 +62,7 @@ Dans l&#39;écran **[!UICONTROL Create]**,
 
    1. Une fois le mappage terminé pour tous les champs de la règle, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer une version préliminaire de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
 
-      ![Créer des règles de jeu de données](/help/assets//dataset-create-summary.png)
+      ![Créer des règles de jeu de données](/help/assets/dataset-create-summary.png)
 
 1. Lorsque vous avez sélectionné un jeu de données de catégorie d’événements (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), dans la zone située sous **[!UICONTROL Map to harmonized fields]** :
 
@@ -84,9 +84,9 @@ Dans l&#39;écran **[!UICONTROL Create]**,
 
          1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut vérifier pour un **[!UICONTROL *champ de jeu de données AEP *]**si elle **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou si elle **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
-         1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**, puis ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]** pour ajouter une autre condition.
+         1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, puis ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]** pour ajouter une autre condition.
 
-         1. Pour supprimer une condition ou un cas, sélectionnez ![Fermer](/help/assets//icons/Close.svg) dans le conteneur correspondant.
+         1. Pour supprimer une condition ou un cas, sélectionnez ![Fermer](/help/assets/icons/Close.svg) dans le conteneur correspondant.
 
          1. Pour indiquer si toutes les conditions doivent s&#39;appliquer à un cas, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
 
@@ -101,27 +101,27 @@ Dans l&#39;écran **[!UICONTROL Create]**,
          * `Black Friday` lorsque le **[!UICONTROL marketing.campaignName]** est `_black_friday` ou `BlackFriday`.
          * à la valeur de **[!UICONTROL marketing.campaignName]** dans tous les autres cas.
 
-        ![Événement de règle de jeu de données](/help/assets//dataset-create-event.png)
+        ![Événement de règle de jeu de données](/help/assets/dataset-create-event.png)
 
-1. Sélectionnez ![Ajouter](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]** pour définir des champs supplémentaires.
+1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** pour définir des champs supplémentaires.
 
 Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer une version préliminaire de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
 
 
 ### Modification d’une règle de jeu de données
 
-Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** du Mix Modeler :
+Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** du Mix Modeler :
 
-1. Sélectionnez ![Plus](/help/assets//icons/More.svg) dans la colonne **[!UICONTROL Dataset]** pour la règle du jeu de données que vous souhaitez modifier.
-1. Dans le menu contextuel, sélectionnez ![Modifier](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]** pour commencer à modifier la règle du jeu de données. Pour plus d’informations, voir [Création d’une règle de jeu de données](#create-a-dataset-rule) .
+1. Sélectionnez ![Plus](/help/assets/icons/More.svg) dans la colonne **[!UICONTROL Dataset]** pour la règle du jeu de données que vous souhaitez modifier.
+1. Dans le menu contextuel, sélectionnez ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** pour commencer à modifier la règle du jeu de données. Pour plus d’informations, voir [Création d’une règle de jeu de données](#create-a-dataset-rule) .
 
 
 ### Suppression d’une règle de jeu de données
 
-Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** du Mix Modeler :
+Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** du Mix Modeler :
 
-1. Sélectionnez ![Plus](/help/assets//icons/More.svg) dans la colonne **[!UICONTROL Dataset]** pour la règle du jeu de données que vous souhaitez supprimer.
-1. Dans le menu contextuel, sélectionnez ![Supprimer](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer la règle du jeu de données. Vous êtes invité à confirmer l’opération. Sélectionnez **[!UICONTROL Delete]** pour supprimer définitivement la règle de jeu de données sélectionnée.
+1. Sélectionnez ![Plus](/help/assets/icons/More.svg) dans la colonne **[!UICONTROL Dataset]** pour la règle du jeu de données que vous souhaitez supprimer.
+1. Dans le menu contextuel, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer la règle du jeu de données. Vous êtes invité à confirmer l’opération. Sélectionnez **[!UICONTROL Delete]** pour supprimer définitivement la règle de jeu de données sélectionnée.
 
 
 ## Synchroniser les données
@@ -137,7 +137,7 @@ Pour synchroniser les données entre vos données harmonisées et vos jeux de do
 
 1. Pour lancer la synchronisation en fonction des règles de jeu de données définies entre les données harmonisées et les données des jeux de données, sélectionnez **[!UICONTROL Sync]**. Pour annuler la synchronisation, sélectionnez **[!UICONTROL Cancel]**.
 
-   ![Synchroniser les données](/help/assets//sync-data.png)
+   ![Synchroniser les données](/help/assets/sync-data.png)
 
 
 ## Préférences de fusion des données
@@ -153,31 +153,31 @@ Les préférences de fusion de données permettent de résoudre les conflits lor
 
 Pour garantir une prédiction de modèle exacte, vous pouvez définir des préférences de fusion de données :
 
-1. Sélectionnez ![Préférences de fusion de données](/help/assets//icons/Merge.svg) [!BADGE bêta].
+1. Sélectionnez ![Préférences de fusion de données](/help/assets/icons/Merge.svg) [!BADGE bêta].
 
 1. Dans la **[!UICONTROL Data merge preferences]** [!BADGE version bêta]{type=Informative}
 
-   ![Préférences de fusion de données](/help/assets//data-merge-preferences.png)
+   ![Préférences de fusion de données](/help/assets/data-merge-preferences.png)
 
    * Sélectionnez un **[!UICONTROL Default metric preference]**. La préférence de mesure par défaut sélectionnée est appliquée lorsque, lors de l’harmonisation, plusieurs sources de données mettent à jour un champ de mesure pour un canal donné. La préférence est appliquée au niveau de l’environnement de test, sauf si elle est remplacée pour des préférences basées sur des mesures spécifiques. Vous pouvez choisir entre **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** et **[!UICONTROL Sum of summary and event data]**.
 
    * Pour ajouter des préférences de mesure spécifiques :
 
-      1. Sélectionnez ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+      1. Sélectionnez ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
          1. Sélectionnez une mesure dans la liste **[!UICONTROL *Sélection de mesure *]**.
          1. Sélectionnez **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Dans la liste, sélectionnez **[!UICONTROL All]** ou un canal ou un type de conversion spécifique.
          1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]** pour indiquer si les données récapitulatives ou les données d’événement sont préférées pour la mesure (et tout ou canal sélectionné) lors de la fusion des données.
 
          Pour ajouter un ou plusieurs types de canal ou de conversion supplémentaires :
 
-         1. Sélectionnez ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Sélectionnez ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
 
-         Pour supprimer un canal ou un type de conversion, sélectionnez ![Cross](/help/assets//icons/Close.svg).
+         Pour supprimer un canal ou un type de conversion, sélectionnez ![Cross](/help/assets/icons/Close.svg).
 
       1. Pour ajouter des préférences de mesure plus spécifiques, répétez l’étape précédente.
 
-   * Pour supprimer une préférence basée sur une mesure spécifique existante, sélectionnez ![Supprimer](/help/assets//icons/Delete.svg).
+   * Pour supprimer une préférence basée sur une mesure spécifique existante, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg).
 
 1. Sélectionnez **[!UICONTROL Save]** pour enregistrer les préférences de fusion de données. Une resynchronisation des données est lancée. <br/>Sélectionnez **[!UICONTROL Cancel]** pour annuler.
 

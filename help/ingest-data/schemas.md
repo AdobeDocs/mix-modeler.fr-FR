@@ -3,7 +3,7 @@ title: Schémas
 description: Découvrez comment gérer les schémas requis pour ingérer des données dans Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -16,7 +16,7 @@ Pour gérer les schémas, en prenant en charge les données que vous souhaitez i
 
 1. Accédez à l’interface du Mix Modeler.
 
-1. Sélectionnez ![Schémas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]** sous **[!UICONTROL SETUP]**.
+1. Sélectionnez ![Schémas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** sous **[!UICONTROL SETUP]**.
 
 Pour plus d’informations, consultez la [présentation de l’interface utilisateur des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) .
 
@@ -38,7 +38,7 @@ Utilisez la classe XDM Summary Metrics pour :
 
 Un schéma utilisant la classe de base **[!DNL XDM Summary Metrics]** peut être simple, comme illustré dans la **[!DNL ExternalFactorSummarySchema]** ci-dessous.
 
-![Schéma de facteurs externes](/help/assets//external-factors-schema.png)
+![Schéma de facteurs externes](/help/assets/external-factors-schema.png)
 
 Ce schéma simple peut être utilisé pour ingérer des jeux de données contenant des données, par exemple :
 
@@ -65,7 +65,7 @@ Ce schéma simple peut être utilisé pour ingérer des jeux de données contena
 
 Voir ci-dessous un exemple plus complet d’un **[!DNL LumaPaidMarketingSchema]** utilisant **[!DNL XDM Summary Metrics]** comme classe de base. Le schéma utilise des groupes de champs dédiés (annotés avec des couleurs) pour les mesures (**[!DNL AMMMetrics]**), les dimensions (**[!DNL AMMDimensions]**) et d’autres informations spécifiques au client (**[!DNL CustomerSpecific]**).
 
-![Schéma de résumé](/help/assets//summary-schema.png)
+![Schéma de résumé](/help/assets/summary-schema.png)
 
 Étant donné la nature asynchrone de l’ingestion des profils, lors de la collecte de données agrégées ou récapitulatives à partir de sources externes, il est conseillé d’utiliser le groupe de champs Détails de l’audit du système Source externe dans le cadre d’un schéma. Ce groupe de champs définit un ensemble de propriétés d’audit pour les sources externes.
 

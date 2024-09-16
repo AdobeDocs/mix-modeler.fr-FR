@@ -3,7 +3,7 @@ title: Harmonisation des données
 description: Découvrez comment harmoniser les données en Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 8%
@@ -116,17 +116,17 @@ Pour créer un jeu de données harmonisé, comme dans l’ [exemple](#an-example
 
 Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
-1. Sélectionnez ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
+1. Sélectionnez ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 
 1. Sélectionnez **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un récapitulatif de vos données harmonisées s’affiche en fonction des champs, des règles de jeu de données, des points de contact marketing et des conversions que vous avez définis.
 
-   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une plage de dates pour **[!UICONTROL Date range]** ou utilisez le ![calendrier](/help/assets//icons/Calendar.svg) pour sélectionner une plage de données.
+   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une plage de dates pour **[!UICONTROL Date range]** ou utilisez le ![calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une plage de données.
 
-   1. Pour modifier les colonnes de champs harmonisées affichées pour le tableau des données harmonisées, utilisez ![Paramètres](/help/assets//icons/Setting.svg) pour ouvrir la boîte de dialogue **[!UICONTROL Column settings]**.
+   1. Pour modifier les colonnes de champs harmonisées affichées pour le tableau des données harmonisées, utilisez ![Paramètres](/help/assets/icons/Setting.svg) pour ouvrir la boîte de dialogue **[!UICONTROL Column settings]**.
 
-      1. Sélectionnez ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron right](/help/assets//icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron right](/help/assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Sélectionnez ![SelectBox](/help/assets//icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron left](/help/assets//icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron left](/help/assets/icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Sélectionnez une colonne à partir de **[!UICONTROL DEFAULT SORT]** et basculez entre **[!UICONTROL Ascending]** et **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
    1. Sélectionnez **[!UICONTROL Submit]** pour envoyer les modifications des paramètres de colonne. Sélectionnez **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
 
-1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets//icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets//icons/ChevronRight.svg) à **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages.
+1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets/icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets/icons/ChevronRight.svg) à **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages.
