@@ -3,7 +3,7 @@ title: Ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 12%
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 # Ingestion de données
 
-Mix Modeler utilise des données au niveau de l’événement, agrège un résumé des données de l’effort marketing de différents jardins muraux et agrège ou résume les données de toute autre source, comme la publicité hors ligne, les facteurs internes ou les facteurs externes.
+Mix Modeler fonctionne avec des données au niveau de l’événement, des données agrégées ou récapitulatives d’effort marketing provenant de divers jardins muraux, ainsi que des données agrégées ou récapitulatives provenant de toute autre source, telles que la publicité hors ligne, des facteurs internes ou des facteurs externes.
 
 Les clients peuvent utiliser n’importe quel type de données ingéré dans Experience Platform en tant que jeux de données et basé sur des schémas à l’aide de XDM ExperienceEvent ou de XDM Summary Metrics en tant que classe de base.
 
