@@ -3,9 +3,9 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ L’onglet Informations sur les modèles affiche les visualisations pour [Contri
 * Pour télécharger des données complètes d’informations sur les modèles au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Contribution par date et média de base
+### Contribution par date et support de base.
 
 Le graphique empilé est ordonné : d’après le bas, les canaux qui ne dépensent pas au milieu et les canaux qui dépensent au haut.
 
@@ -45,11 +45,11 @@ Le graphique empilé est ordonné : d’après le bas, les canaux qui ne dépens
 
 La visualisation en anneau présente une distribution de la contribution par canal.
 
-### Synthèse des performances marketing
+### Synthèse des performances marketing.
 
 Graphique à barres horizontal affichant les performances du retour sur investissement par canal.
 
-### Courbes de réponse marginales
+### Courbes de réponse marginales.
 
 Le graphique en courbes visualise et compare les rendements marginaux générés par l’investissement dans vos canaux marketing.  Identifie également le point d’équilibre où votre retour incrémentiel est inférieur à votre dépense incrémentielle. Par conséquent, cette visualisation vous aide à comprendre quand votre investissement marketing commence à avoir moins d’impact.
 
@@ -60,31 +60,17 @@ Pour modifier le canal :
 * Sélectionnez un canal dans le menu déroulant **[!UICONTROL Channel]** pour mettre à jour la visualisation d’un canal spécifique.
 
 
-### Ventilation des points de contact
-
-Le tableau de ventilation des points de contact affiche les ventilations des points de contact pour tous les canaux ou certains canaux sur une base hebdomadaire.
-
-![Ventilation du point de contact](../assets/touchpoint-breakdown.png)
-
-Les colonnes suivantes sont disponibles :
-
-| Colonne | Description |
-|---|---|
-| **[!UICONTROL Date range]** | La semaine sur laquelle il faut faire rapport. |
-| **[!UICONTROL Touchpoint]** | Canal de point de contact spécifique. |
-| **[!UICONTROL ROI]** | Pourcentage de (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
-| **[!UICONTROL Revenue]** | Les recettes de la période. |
-| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
-| **[!UICONTROL Conversions]** | Les conversions pour la période. |
-| **[!UICONTROL Spend]** | Dépense pour la plage de données. |
-
-Pour sélectionner un canal spécifique ou tous les canaux, sélectionnez dans le menu déroulant **[!UICONTROL View]**.
-
-Pour télécharger le contenu de la table de ventilation Point de contact, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 ## [!UICONTROL Attribution]
 
-À l’aide de l’onglet [!UICONTROL Attribution], vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement. Les modèles d’attribution suivants sont pris en charge :
+>[!NOTE]
+>
+>L’onglet Attribution n’est disponible que pour les modèles compatibles avec MTA.
+
+
+À l’aide de l’onglet [!UICONTROL Attribution], vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement.  Voir [Création d’un modèle](create.md).
+
+Les modèles d’attribution suivants sont pris en charge :
 
 * Selon le modèle sélectionné en Mix Modeler :
    * Algorithmique - Influencé

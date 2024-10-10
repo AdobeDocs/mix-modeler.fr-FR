@@ -3,9 +3,9 @@ title: Création d’un modèle
 description: Découvrez comment créer un modèle en Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fou
 
    1. Dans la section **[!UICONTROL MTA enabled]** :
 
-      * Pour activer les fonctionnalités MTA pour le mode créé, active **[!UICONTROL MTA enabled]**. Une fois activées, les insights d’attribution multi-touch sont disponibles et vous avez formé et noté votre modèle par l’intermédiaire de l’onglet [Attribution](insights.md#attribution) dans [Model insights](insights.md).
+      * Pour activer les fonctionnalités MTA pour le modèle, activez **[!UICONTROL MTA enabled]**. Si vous avez activé le MTA, des insights d’attribution multi-touch sont disponibles une fois que vous avez formé et noté votre modèle. Voir l’onglet [Attribution](insights.md#attribution) dans [Informations sur les modèles](insights.md).
 
    1. Dans la section **[!UICONTROL Prior knowledge]** :
 
