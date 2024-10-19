@@ -3,9 +3,9 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ Pour modifier le canal :
 
 * Sélectionnez un canal dans le menu déroulant **[!UICONTROL Channel]** pour mettre à jour la visualisation d’un canal spécifique.
 
+
+### Ventilation des points de contact
+
+Le tableau de ventilation des points de contact affiche les ventilations des points de contact pour tous les canaux ou certains canaux sur une base hebdomadaire.
+
+![Ventilation du point de contact](../assets/touchpoint-breakdown.png)
+
+Les colonnes suivantes sont disponibles :
+
+| Colonne | Description |
+|---|---|
+| **[!UICONTROL Date range]** | La semaine sur laquelle il faut faire rapport. |
+| **[!UICONTROL Touchpoint]** | Canal de point de contact spécifique. |
+| **[!UICONTROL ROI]** | Pourcentage de (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | Les recettes de la période. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Les conversions pour la période. |
+| **[!UICONTROL Spend]** | Dépense pour la plage de données. |
+
+Pour sélectionner un canal spécifique ou tous les canaux, sélectionnez dans le menu déroulant **[!UICONTROL View]**.
+
+Pour télécharger le contenu de la table de ventilation Point de contact, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
 ## [!UICONTROL Attribution]

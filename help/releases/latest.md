@@ -4,7 +4,7 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Notes de mise à jour actuelles du Mix Modeler
 
-**Dernière mise à jour** : 13 août 2024.
+**Dernière mise à jour** : 1er octobre 2024.
 
 Ces notes de mise à jour portent sur la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour, alors vérifiez-les régulièrement.&quot;
 
