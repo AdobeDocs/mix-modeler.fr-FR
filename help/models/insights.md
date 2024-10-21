@@ -3,9 +3,9 @@ title: Informations sur les modèles
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une présentation historique, des informations sur les modèles et la qualité des modèles en Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ L’onglet Aperçu historique affiche des visualisations pour :
   Vous pouvez sélectionner un autre canal en fonction du volume à afficher pour cette visualisation. Sélectionnez un canal à partir de **[!UICONTROL Channels]**.
 
 ![Modèle - Aperçu historique](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+Vous pouvez modifier le nom, la description et la planification de la formation et de la notation du modèle.
+
+1. Sélectionnez ![Edit](/help/assets/icons/Edit.svg) Edit
+
+1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
+
+   * Saisissez les nouveaux **[!UICONTROL Name]** et **[!UICONTROL Description]**.
+
+   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles formés et notés.
+
+      1. Sélectionnez un **[!UICONTROL Scoring frequency]** :
+
+         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+
+      1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+     ![Modifier un modèle](../assets/model-edit.png)
+
+1. Sélectionnez **[!UICONTROL Save]**.

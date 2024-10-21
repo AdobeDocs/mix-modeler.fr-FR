@@ -4,10 +4,10 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 8%
+source-wordcount: '497'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,7 @@ Ces notes de mise à jour portent sur la dernière version de Mix Modeler. Les v
 
 | Fonctionnalité | Description | Disponibilité générale |
 |---|---|---|
+| **Planification de la formation et de la notation** | Vous pouvez planifier la formation et la notation d’un modèle lorsque vous [créez un modèle](/help/models/create.md) et lorsque vous modifiez un modèle à partir de [Model insight](/help/models/insights.md#edit) ou du [menu contextuel d’un modèle](/help/models/overview.md#edit) dans la table Modèles. | 21 octobre 2024 |
 | **Table de ventilation point de contact** | Dans [!UICONTROL Models], l’onglet [[!UICONTROL Model insights]](/help/models/insights.md#factors) offre désormais une table [ de ventilation point de contact](../models/insights.md#touchpoint-breakdown) supplémentaire. | 1er octobre 2024 |
 
 ## Août 2024

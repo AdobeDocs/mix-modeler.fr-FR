@@ -3,9 +3,9 @@ title: Modèles
 description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -62,25 +62,6 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface du Mix Mode
 
 Vous pouvez effectuer les actions suivantes sur un modèle spécifique.
 
-### Afficher les détails
-
-Pour afficher plus de détails sur un modèle :
-
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
-
-1. Sélectionnez ![Info](/help/assets/icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
-
-
-
-### Dupliquer
-
-Vous pouvez rapidement dupliquer un modèle.
-
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
-
-1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
-
-
 ### Informations sur les modèles
 
 La fonctionnalité d’informations sur les modèles n’est disponible que sur les modèles formés et notés avec succès.
@@ -92,6 +73,52 @@ Pour afficher les insights d’un modèle :
 1. Sélectionnez le nom du modèle.
 
 Vous êtes redirigé vers [Model Insights](insights.md).
+
+
+### Afficher les détails
+
+Pour afficher plus de détails sur un modèle :
+
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+
+1. Sélectionnez ![Info](/help/assets/icons/Info.svg) pour un modèle afin d’afficher une fenêtre contextuelle contenant des détails.
+
+
+### Dupliquer
+
+Vous pouvez rapidement dupliquer un modèle.
+
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+
+1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
+
+
+### Modifier
+
+Vous pouvez modifier le nom, la description et la planification de la formation et de la notation d’un modèle.
+
+1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+
+1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle et, dans le menu contextuel, sélectionnez **[!UICONTROL Edit]**.
+
+   Dans la boîte de dialogue **[!UICONTROL Edit model]** :
+
+   * Saisissez les nouveaux **[!UICONTROL Name]** et **[!UICONTROL Description]**.
+
+   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles formés et notés.
+
+      1. Sélectionnez un **[!UICONTROL Scoring frequency]** :
+
+         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+
+      1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+     ![Modifier un modèle](../assets/model-edit.png)
+
+1. Sélectionnez **[!UICONTROL Save]**.
+
 
 
 ### Réentraîner
