@@ -3,7 +3,7 @@ title: Plans
 description: Découvrez comment afficher, sélectionner et exécuter des actions sur des plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 1%
@@ -108,3 +108,5 @@ Pour supprimer plusieurs plans :
 1. Sélectionnez plusieurs plans.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de supprimer les plans.
 1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
+
+
