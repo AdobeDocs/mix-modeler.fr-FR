@@ -3,9 +3,9 @@ title: Plans
 description: Découvrez comment afficher, sélectionner et exécuter des actions sur des plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
@@ -97,16 +97,14 @@ Pour comparer des plans :
 
 ### Supprimer des plans
 
-Pour supprimer des plans :
+Pour supprimer un plan :
 
-1. Sélectionnez un ou plusieurs plans dans le tableau.
-1. Sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions.
+1. Sélectionnez ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
+1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan, puis sélectionnez **[!UICONTROL Delete]** dans le menu contextuel. Vous pouvez également sélectionner ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions bleue.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation de **[!UICONTROL Delete moplandel]** pour supprimer le plan. Sélectionnez **[!UICONTROL Cancel]** pour annuler.
 
-Sinon :
+Pour supprimer plusieurs plans :
 
-1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan dans le tableau.
-1. Sélectionnez **[!UICONTROL Delete]** dans le menu contextuel. Un nouveau plan, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)]**, est ajouté en haut du tableau.
-
-   >[!WARNING]
-   >
-   >   Les plans sélectionnés sont supprimés immédiatement.
+1. Sélectionnez plusieurs plans.
+1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de supprimer les plans.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
