@@ -5,30 +5,42 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 72b4d3606316c254a9a3ea5909633d87eb9eada6
+exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
+source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
 
-
 # Test
 
-Tester un tableau avec des caractères Unicode
+Test d’un tableau avec des caractères Unicode
 
-| Balises | Vue des données | Propriétaires | Autres filtres |
+| Balises | Vue de données | Propriétaires | Autres filtres |
 |---|---|---|---|
-| Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour limiter la liste des balises. <br/><br/>Lorsque vous sélectionnez une ou plusieurs balises, la liste est automatiquement limitée afin d’afficher d’autres balises restantes possibles. <br/><br/>Le nombre de **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/>Le nombre dans **[!UICONTROL *tag *]**7︎⃣ fait référence au nombre de filtres qui sont signalés par la balise spefici. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste des filtres. <br/><br/>Le nombre de **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/>Le nombre dans **[!UICONTROL *tag *]**7︎⃣ fait référence au nombre de filtres qui sont signalés par la balise spefici. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste des filtres. <br/><br/>Le nombre de **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/>Le nombre dans **[!UICONTROL *tag *]**7︎⃣ fait référence au nombre de filtres qui sont signalés par la balise spefici. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste des filtres. <br/><br/>Le nombre de **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/>Le nombre dans **[!UICONTROL *tag *]**7︎⃣ fait référence au nombre de filtres ciblés avec la balise spefici. ?? ?? |
+| Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour limiter la liste des balises. <br/><br/>Lorsque vous sélectionnez une ou plusieurs balises, la liste est automatiquement limitée afin d’afficher les autres balises restantes possibles. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres qui sont balisés avec la balise spécifique. ?? ?? |
 
 {style="table-layout:fixed"}
 
 
 
+## Formules
 
-Et nous soutenons aussi les formules ?
+Et nous appuyons les formules?
 
-**L&#39;inégalité de Cauchy-Schwarz**
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_1}^n a_k^2 \right) \left( \sum_1}^n b_k^2 \right)$$$
+**L’inégalité de Cauchy-Schwarz**
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 
+
+
+## Utilisation de SVG dans une zone ombrée
+
+Nous ne semblons pas appuyer correctement les SVG dans une boîte ombragée. Voir la différence entre aperçu (corp.adobe.com) et site publié (adobe.com).
+
+>[!BEGINSHADEBOX]
+
+*Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Voir [Panneau d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
