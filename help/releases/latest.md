@@ -4,7 +4,7 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 8%
@@ -25,4 +25,5 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les m
 | **Affichage des rapports** | Vous pouvez afficher un rapport sur un [conversion](/help/harmonize-data/conversions.md#view-report) ou un [point de contact marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que vous avez défini dans le cadre de l’harmonisation des données. | jeudi 15 janvier 2025 |
 | **Confirmation de suppression** | Vous êtes invité à confirmer la suppression d’un [plan](/help/plans/overview.md#delete-plans) ou d’un [modèle](/help/models/overview.md#delete-models). | jeudi 15 janvier 2025 |
 | **Amélioration de l’interface utilisateur des facteurs** | Vous pouvez sélectionner les [facteurs](/help/models/insights.md#factors-beta) à afficher dans les informations sur le modèle. | jeudi 15 janvier 2025 |
+
 

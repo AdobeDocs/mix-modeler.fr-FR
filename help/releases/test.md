@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
+source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -24,6 +24,16 @@ Test d’un tableau avec des caractères Unicode
 {style="table-layout:fixed"}
 
 
+## Utilisation de SVG dans une zone ombrée
+
+Nous ne semblons pas appuyer correctement les SVG dans une boîte ombragée. Voir la différence entre aperçu (corp.adobe.com) et site publié (adobe.com).
+
+>[!BEGINSHADEBOX]
+
+*Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Voir [Panneau d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
+
 
 ## Formules
 
@@ -34,13 +44,3 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 
 
-
-## Utilisation de SVG dans une zone ombrée
-
-Nous ne semblons pas appuyer correctement les SVG dans une boîte ombragée. Voir la différence entre aperçu (corp.adobe.com) et site publié (adobe.com).
-
->[!BEGINSHADEBOX]
-
-*Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Voir [Panneau d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de cet article.*
-
->[!ENDSHADEBOX]
