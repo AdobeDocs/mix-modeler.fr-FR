@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
+source-git-commit: 6eb0e0aa28aa965c17f002b9b08fcbc8ae993b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Nous ne semblons pas appuyer correctement les SVG dans une boîte ombragée. Voi
 
 >[!BEGINSHADEBOX]
 
-*Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Voir [Panneau d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de cet article.*
+Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Voir [Panneau Attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de cet article.
 
 >[!ENDSHADEBOX]
 
