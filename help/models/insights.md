@@ -1,16 +1,16 @@
 ---
-title: Model Insights
+title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, comme une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
 
-# Model Insights
+# Informations sur le modèle
 
 Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) en Mix Modeler :
 
@@ -90,7 +90,7 @@ Pour télécharger le contenu du tableau de répartition des points de contact, 
 >L’onglet Attribution n’est disponible que pour les modèles compatibles avec le MTA.
 
 
-Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement.  Voir [ Création d’un modèle ](create.md).
+Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement.  Voir [Créer un modèle](build.md).
 
 Les modèles d’attribution suivants sont pris en charge :
 

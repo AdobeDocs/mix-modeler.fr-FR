@@ -1,28 +1,28 @@
 ---
-title: Présentation des plans
-description: Découvrez comment utiliser la présentation des plans en Mix Modeler.
+title: Plans
+description: Découvrez comment utiliser la présentation des plans dans Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# Présentation des plans
+# Plans
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative}
+>[!BADGE Alpha ]{type=Informative}**[!UICONTROL Plans]**’onglet dans le Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonction alpha dont les fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
 
 
-L’onglet Plans de l’aperçu du Mix Modeler affiche des visualisations pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
+L’onglet **[!UICONTROL Plans]** du Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** affiche les visualisations pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
 
 Les données affichées pour les visualisations sont déterminées par :
 
-* Le plan. Sélectionnez un plan depuis **[!UICONTROL Plan name]** à l&#39;aide de l&#39;option **[!UICONTROL _Sélectionner une option..._]**.
+* Le plan. Sélectionnez un plan dans **[!UICONTROL Plan name]** à l’aide de la **[!UICONTROL _Sélectionner une option..._]**.
 
-* La période spécifiée. Pour modifier manuellement la période de date, saisissez une date de début et une date de fin ou sélectionnez une période à l’aide du ![calendrier](/help/assets/icons/Calendar.svg).
+* La période spécifiée. Pour modifier la période, saisissez une date de début et une date de fin manuellement ou sélectionnez une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
 
 

@@ -1,33 +1,33 @@
 ---
-title: Harmonisation des données
-description: Découvrez comment harmoniser les données en Mix Modeler.
+title: Présentation de l’harmonisation des jeux de données
+description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 8%
 
 ---
 
-# Harmonisation des données
+# Présentation de l’harmonisation des jeux de données
 
-Les données en Mix Modeler sont de nature différente selon la source de données. Les données peuvent être les suivantes :
+Les données en Mix Modeler sont de nature différente selon la source de données. Les données peuvent être :
 
-* des données agrégées ou récapitulatives, par exemple, collectées à partir de sources de données de jardins clôturés ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
-* données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être collectées via le connecteur source Adobe Analytics à partir d’Adobe Analytics, ou via le SDK Web ou mobile Experience Platform ou l’API Edge Network, ou encore par les données ingérées à l’aide des connecteurs source.
+* des données agrégées ou récapitulatives, par exemple collectées à partir de sources de données de jardins clos ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
+* Données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être des données collectées via le connecteur source Adobe Analytics d’Adobe Analytics, ou via l’API Web ou Mobile SDK ou Edge Network d’Experience Platform, ou encore des données ingérées à l’aide des connecteurs source.
 
-Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler. Le service utilise la granularité la plus élevée parmi les différents jeux de données. Si, par exemple, un jeu de données est avec une granularité mensuelle et les jeux de données restants sont avec une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide d’une granularité mensuelle.
+Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
 
 ## Exemple de données harmonisées
 
-Imaginez que les jeux de données suivants soient disponibles pour Mix Modeler.
+Imaginons que vous disposiez des jeux de données suivants pour Mix Modeler.
 
 **Jeu de données 1**
 
-Contient le jeu de données des efforts marketing de YouTube, avec une granularité quotidienne de l’ensemble de données agrégées.
+Contient un jeu de données d’effort marketing de YouTube, avec une granularité des données agrégées définie sur quotidienne.
 
-| Date | Type de date | Canal | Campagne | Marque | Géo | Clics | Dépenser |
+| Date | Type de date | Canal | Campagne | Marque | Géo | Clics | Dépenses |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | day | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
 | 01-01-2022 | day | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
@@ -39,23 +39,23 @@ Contient le jeu de données des efforts marketing de YouTube, avec une granulari
 
 **Jeu de données 2**
 
-Contient le jeu de données des efforts marketing de Facebook, avec une granularité du jeu de données agrégé sur hebdomadaire.
+Contient un jeu de données d’effort marketing de Facebook, avec une granularité des données agrégées définie sur hebdomadaire.
 
-| Date | Type de date | Canal | Campagne | Géo | Clics | Dépenser |
+| Date | Type de date | Canal | Campagne | Géo | Clics | Dépenses |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | week | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | week | Facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | week | Facebook | FB_Fall_01 | US | 7000 | 100 |
-| 01-16-2022 | week | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-01-2022 | semaine | Facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | semaine | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | semaine | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | semaine | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
 
 **Jeu de données 3**
 
-Jeu de données de conversion avec une granularité quotidienne du jeu de données agrégé.
+Un jeu de données de conversion, avec une granularité du jeu de données agrégé sur quotidien.
 
-| Date | Type de date | Géo | Objectif | Recettes |
+| Date | Type de date | Géo | Objectif | Chiffre d’affaires |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | day | US | Mode | 200 |
 | 01-08-2022 | day | US | Mode | 10 |
@@ -67,9 +67,9 @@ Jeu de données de conversion avec une granularité quotidienne du jeu de donné
 
 **Jeu de données 4**
 
-Un exemple de jeu de données d’événement d’expérience (événements SDK Web) du client.
+Exemple de jeu de données d’événement d’expérience (événements Web SDK) du client.
 
-| Date et heure | Espace de noms d’identité | Identité | Canal | Clics |
+| Date et heure | Espace de noms d’identité | Identifiant De L’Identité | Canal | Clics |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -83,55 +83,55 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 
 **Jeu de données harmonisé**
 
-| Date | Type de date | Canal | Campagne | Marque | Géo | Objectif | Clics | Dépenser | Recettes |
+| Date | Type de date | Canal | Campagne | Marque | Géo | Objectif | Clics | Dépenses | Chiffre d’affaires |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | week | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
-| 01-03-2022 | week | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
-| 01-03-2022 | week | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
-| 01-01-2022 | week | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
-| 01-08-2022 | week | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
-| 01-08-2022 | week | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
-| 01-16-2022 | week | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
-| 12-27-2021 | week | Null | Null | Null | US | Mode | Null | Null | 200 |
-| 01-03-2022 | week | Null | Null | Null | US | Mode | Null | Null | 10 |
-| 01-03-2022 | week | Null | Null | Null | US | Bijoux | Null | Null | 1100 |
-| 01-10-2022 | week | Null | Null | Null | CA | Bijoux | Null | Null | 80 |
-| 01-01-2022 | week | CSE | Null | Null | Null | Null | 2 | Null | Null |
-| 01-08-2022 | week | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 12-27-2021 | semaine | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
+| 01-03-2022 | semaine | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | semaine | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | semaine | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
+| 01-08-2022 | semaine | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
+| 01-08-2022 | semaine | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
+| 01-16-2022 | semaine | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | semaine | Null | Null | Null | US | Mode | Null | Null | 200 |
+| 01-03-2022 | semaine | Null | Null | Null | US | Mode | Null | Null | 10 |
+| 01-03-2022 | semaine | Null | Null | Null | US | Bijoux | Null | Null | 1100 |
+| 01-10-2022 | semaine | Null | Null | Null | CA | Bijoux | Null | Null | 80 |
+| 01-01-2022 | semaine | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | semaine | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 
 
 ## Configurer des données harmonisées
 
-Pour créer un jeu de données harmonisé, comme dans l’ [exemple](#an-example-of-harmonized-data) simplifié, vous devez suivre les étapes suivantes :
+Pour créer un jeu de données harmonisé, comme dans l’exemple simplifié [exemple](#an-example-of-harmonized-data), procédez comme suit :
 
-1. Définissez des [champs harmonisés](fields.md) supplémentaires que vous souhaitez utiliser au-delà des champs harmonisés globaux déjà disponibles.
-1. Configurez les [règles du jeu de données](dataset-rules.md) pour mapper les champs de vos jeux de données d’événements d’agrégat ou d’expérience à des champs harmonisés.
-1. Définissez les [points de contact marketing](marketing-touchpoints.md) à l’aide des champs standard et harmonisés supplémentaires que vous avez définis.
+1. Définissez des [champs harmonisés](fields.md) supplémentaires que vous souhaitez utiliser en plus des champs harmonisés globaux déjà disponibles.
+1. Configurez les [règles de jeu de données](dataset-rules.md) pour mapper les champs de vos jeux de données d’événement d’expérience ou agrégés aux champs harmonisés.
+1. Définissez les [points de contact marketing](marketing-touchpoints.md) à l’aide des champs standards et harmonisés supplémentaires que vous avez définis.
 1. Définissez les [conversions](conversions.md) à l’aide des champs standard et harmonisés supplémentaires que vous avez définis.
 
 
-## Affichage des données harmonisées
+## Afficher les données harmonisées
 
 Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
 
-1. Sélectionnez ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
+1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 
-1. Sélectionnez **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un récapitulatif de vos données harmonisées s’affiche en fonction des champs, des règles de jeu de données, des points de contact marketing et des conversions que vous avez définis.
+1. Sélectionnez **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un résumé de vos données harmonisées s’affiche en fonction des champs, des règles des jeux de données, des points de contact marketing et des conversions que vous avez définis.
 
-   1. Pour redéfinir la période sur laquelle repose la récapitulation des données harmonisées, saisissez une plage de dates pour **[!UICONTROL Date range]** ou utilisez le ![calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une plage de données.
+   1. Pour redéfinir la période sur laquelle est basée la synthèse des données harmonisées, saisissez une période à **[!UICONTROL Date range]** ou utilisez ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
 
-   1. Pour modifier les colonnes de champs harmonisées affichées pour le tableau des données harmonisées, utilisez ![Paramètres](/help/assets/icons/Setting.svg) pour ouvrir la boîte de dialogue **[!UICONTROL Column settings]**.
+   1. Pour modifier les colonnes de champs harmonisés affichées pour le tableau de données harmonisées, utilisez ![Paramètres](/help/assets/icons/Setting.svg) pour ouvrir la boîte de dialogue **[!UICONTROL Column settings]**.
 
-      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron right](/help/assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes dans **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron droit](/help/assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes de **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron left](/help/assets/icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et renvoyer ces colonnes à **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes dans **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron vers la gauche](/help/assets/icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et les restaurer dans **[!UICONTROL AVAILABLE COLUMNS]**.
 
-      1. Sélectionnez une colonne à partir de **[!UICONTROL DEFAULT SORT]** et basculez entre **[!UICONTROL Ascending]** et **[!UICONTROL Descending]**.
+      1. Sélectionnez une colonne dans **[!UICONTROL DEFAULT SORT]** et basculez entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
-      1. Pour modifier l’ordre des colonnes affichées, vous pouvez déplacer une colonne de **[!UICONTROL SELECTED COLUMNS]** vers le haut et vers le bas par glisser-déposer .
+      1. Pour modifier l’ordre des colonnes affichées, vous pouvez déplacer une colonne dans **[!UICONTROL SELECTED COLUMNS]** de haut en bas par glisser-déposer .
 
-   1. Sélectionnez **[!UICONTROL Submit]** pour envoyer les modifications des paramètres de colonne. Sélectionnez **[!UICONTROL Close]** pour annuler les modifications que vous avez apportées.
+   1. Sélectionnez **[!UICONTROL Submit]** pour envoyer les modifications des paramètres des colonnes. Sélectionnez **[!UICONTROL Close]** pour annuler les modifications effectuées.
 
-1. Si d’autres pages sont disponibles, utilisez ![Flèche vers la gauche](/help/assets/icons/ChevronLeft.svg) ou ![Flèche vers la droite](/help/assets/icons/ChevronRight.svg) à **[!UICONTROL Page _x _de_x_]** pour vous déplacer entre les pages.
+1. Si d’autres pages sont disponibles, utilisez ![Flèche gauche](/help/assets/icons/ChevronLeft.svg) ou ![Flèche droite](/help/assets/icons/ChevronRight.svg) à **[!UICONTROL Page _x _sur_x_]** pour passer d’une page à l’autre.

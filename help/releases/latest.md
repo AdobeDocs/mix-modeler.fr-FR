@@ -4,10 +4,10 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7e39691cad69084b57d2b993a4eaf7b501d112d9
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -21,10 +21,10 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les m
 
 | Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Conditions imbriquées** | Vous pouvez créer des conditions imbriquées à l’aide des opérateurs AND et OR lorsque vous définissez une population de données éligible dans le cadre de la [configuration d’un modèle](/help/models/create.md#configure). | jeudi 15 janvier 2025 | t.b.d. |
-| **Affichage des rapports** | Vous pouvez afficher un rapport sur un [conversion](/help/harmonize-data/conversions.md#view-report) ou un [point de contact marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que vous avez défini dans le cadre de l’harmonisation des données. | jeudi 15 janvier 2025 | t.b.d. |
-| **Confirmation de suppression** | Vous êtes invité à confirmer la suppression d’un [plan](/help/plans/overview.md#delete-plans) ou d’un [modèle](/help/models/overview.md#delete-models). | jeudi 15 janvier 2025 | t.b.d. |
-| **Amélioration de l’interface utilisateur des facteurs** | Vous pouvez sélectionner les [facteurs](/help/models/insights.md#factors-beta) à afficher dans les informations sur le modèle. | jeudi 15 janvier 2025 | t.b.d. |
+| **Conditions imbriquées** | Vous pouvez créer des conditions imbriquées à l’aide des opérateurs AND et OR lorsque vous définissez une population de données éligible dans le cadre de la [configuration d’un modèle](/help/models/build.md#configure). | 15 janvier 2025 | t.b.d. |
+| **Affichage des rapports** | Vous pouvez afficher un rapport sur un [conversion](/help/harmonize-data/conversions.md#view-report) ou un [point de contact marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que vous avez défini dans le cadre de l’harmonisation des données. | 15 janvier 2025 | t.b.d. |
+| **Confirmation de suppression** | Vous êtes invité à confirmer la suppression d’un [plan](/help/plans/overview.md#delete-plans) ou d’un [modèle](/help/models/overview.md#delete-models). | 15 janvier 2025 | t.b.d. |
+| **Amélioration de l’interface utilisateur des facteurs** | Vous pouvez sélectionner les [facteurs](/help/models/insights.md#factors-beta) à afficher dans les informations sur le modèle. | 15 janvier 2025 | t.b.d. |
 
 ## Stratégie de publication
 

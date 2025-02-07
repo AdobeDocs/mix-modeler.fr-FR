@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '85'
+ht-degree: 45%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 46%
    + [Qu’est-ce que Mix Modeler ?](/help/get-started/about.md)
    + [Workflow d’application](/help/get-started/workflow.md)
 
-+ {#dashboard} du tableau de bord
-   + [Vue d’ensemble](/help/dashboard/overview.md)
++ Page d’{#dashboard}
+   + [Aperçu de l’accueil](/help/dashboard/overview.md)
    + [Données harmonisées](/help/dashboard/harmonized-data.md)
    + [Plans](/help/dashboard/plans.md)
 
 + Modèles {#models}
    + [Vue d’ensemble](/help/models/overview.md)
-   + [Création d’un modèle](/help/models/create.md)
+   + [Créer des modèles](/help/models/build.md)
    + [Informations sur le modèle](/help/models/insights.md)
-   + [Données de notation](/help/models/scoring-data.md)
+   + [Utiliser les données de notation](/help/models/scoring-data.md)
 
 + Plans {#plans}
    + [Vue d’ensemble](/help/plans/overview.md)
-   + [Création d’un plan](/help/plans/create.md)
-   + [Modification d’un plan](/help/plans/edit.md)
+   + [Créer des plans](/help/plans/build.md)
+   + [Informations sur le plan](/help/plans/insights.md)
    + [Comparer les plans](/help/plans/compare.md)
 
-+ Harmonisation des {#harmonize-data} de données
++ Harmonisation des jeux de données {#harmonize-data}
    + [Vue d’ensemble](/help/harmonize-data/overview.md)
    + [Champs](/help/harmonize-data/fields.md)
    + [Règles des jeux de données](/help/harmonize-data/dataset-rules.md)

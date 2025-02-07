@@ -1,16 +1,16 @@
 ---
-title: Modèles
-description: Découvrez comment configurer et utiliser des modèles dans Mix Modeler.
+title: Modèles - Aperçu
+description: Découvrez comment créer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
 
 ---
 
-# Modèles
+# Modèles - Aperçu
 
 La fonctionnalité de modèle de Mix Modeler vous permet de configurer, d’entraîner et de noter des modèles spécifiques à vos objectifs commerciaux. La formation et la notation prennent en charge l’apprentissage du transfert piloté par l’IA entre l’attribution multipoint et la modélisation du mix marketing.
 
@@ -33,9 +33,9 @@ Un modèle peut éventuellement inclure :
 * Le partage des dépenses, qui utilise le partage des dépenses relatives comme proxy lorsque les données marketing sont clairsemées.
 
 
-## Création d’un modèle
+## Créer des modèles
 
-Pour créer un modèle, utilisez le flux de configuration de modèle guidé étape par étape du Mix Modeler disponible lorsque vous sélectionnez **[!UICONTROL Open model canvas]**. Voir [Création d’un modèle](create.md) pour plus d’informations.
+Pour créer un modèle, utilisez le flux de configuration de modèle guidé pas à pas du Mix Modeler disponible lorsque vous sélectionnez **[!UICONTROL Open model canvas]**. Voir [Créer des modèles](build.md) pour plus d’informations.
 
 ## Gestion des modèles
 
