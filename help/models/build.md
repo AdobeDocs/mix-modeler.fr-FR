@@ -3,9 +3,9 @@ title: Créer des modèles
 description: Découvrez comment créer des modèles dans Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
       1. Sélectionnez un jeu de données dans le menu déroulant **[!UICONTROL Dataset]** . Vous pouvez sélectionner ![Données](/help/assets/icons/Data.svg) pour gérer les jeux de données. Voir [Jeux de données](../ingest-data/datasets.md) pour plus d’informations.
 
-      1. Sélectionnez une option dans le menu déroulant **[!UICONTROL Impact on conversion]** : **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**.
+      1. Sélectionnez une option dans le menu déroulant **[!UICONTROL Impact on conversion]** : **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. L’option par défaut est **[!UICONTROL Auto select]**, ce qui permet au modèle de déterminer l’impact. Vous pouvez remplacer la valeur par défaut.
 
    * Pour ajouter un conteneur de jeu de données de facteurs externes supplémentaires, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 

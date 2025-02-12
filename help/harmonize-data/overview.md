@@ -3,25 +3,35 @@ title: Présentation de l’harmonisation des jeux de données
 description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '966'
 ht-degree: 8%
 
 ---
 
 # Présentation de l’harmonisation des jeux de données
 
-Les données en Mix Modeler sont de nature différente selon la source de données. Les données peuvent être :
+Les données de Mix Modeler sont de nature différente selon la source de données. Les données peuvent être :
 
 * des données agrégées ou récapitulatives, par exemple collectées à partir de sources de données de jardins clos ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
-* Données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être des données collectées via le connecteur source Adobe Analytics d’Adobe Analytics, ou via l’API Web ou Mobile SDK ou Edge Network d’Experience Platform, ou encore des données ingérées à l’aide des connecteurs source.
+* Données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être des données collectées via le connecteur source Adobe Analytics d’Adobe Analytics, ou via l’API Experience Platform Web ou Mobile SDK ou Edge Network, ou des données ingérées à l’aide des connecteurs source.
 
-Le service d’harmonisation de Mix Modeler intègre les données agrégées et d’événement dans une vue de données cohérente. Cette vue de données, combinée aux données de facteurs internes et externes, est la source des modèles en Mix Modeler. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
+Le service d’harmonisation de Mix Modeler assimile les données agrégées et d’événement en une vue de données cohérente. Cette vue de données, associée aux [données de facteurs internes et externes](#factors), est la source des modèles dans Mix Modeler. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
+
+## Facteurs
+
+Les facteurs sont essentiels à la création de modèles et vous souhaitez comprendre ce qui a un impact holistique sur l’entreprise. Les facteurs peuvent ne pas être liés aux données marketing.
+
+* Les facteurs internes sont spécifiques à votre organisation et peuvent avoir un impact sur vos conversions. Par exemple, votre saison de vente, vos promotions, etc.
+
+* Les facteurs externes sont des facteurs indépendants de la volonté de votre entreprise, mais qui peuvent tout de même avoir un impact sur les conversions que vous réalisez. Par exemple, CPI, S&amp;P 500, etc.
+
+
 
 ## Exemple de données harmonisées
 
-Imaginons que vous disposiez des jeux de données suivants pour Mix Modeler.
+Imaginons que les jeux de données suivants soient disponibles pour Mix Modeler.
 
 **Jeu de données 1**
 
@@ -39,7 +49,7 @@ Contient un jeu de données d’effort marketing de YouTube, avec une granularit
 
 **Jeu de données 2**
 
-Contient un jeu de données d’effort marketing de Facebook, avec une granularité des données agrégées définie sur hebdomadaire.
+Contient le jeu de données d’effort marketing de Facebook, avec une granularité des données agrégées définie sur hebdomadaire.
 
 | Date | Type de date | Canal | Campagne | Géo | Clics | Dépenses |
 |--- |:---:|--- |---|---|---:|---:|
@@ -114,7 +124,7 @@ Pour créer un jeu de données harmonisé, comme dans l’exemple simplifié [ex
 
 ## Afficher les données harmonisées
 
-Pour afficher vos données harmonisées, dans l’interface du Mix Modeler :
+Pour afficher vos données harmonisées, dans l’interface de Mix Modeler :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 

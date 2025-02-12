@@ -1,18 +1,18 @@
 ---
 title: Présentation des plans
-description: Découvrez comment afficher, sélectionner et exécuter des actions sur des plans dans Mix Modeler.
+description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
 
 # Présentation des plans
 
-Les plans en Mix Modeler vous permettent de répartir les budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles entraînés en fonction de vos données harmonisées.
+Dans Mix Modeler, les plans vous permettent de répartir les budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles entraînés en fonction de vos données harmonisées.
 
 Un plan décrit les investissements discrétionnaires (par exemple, les budgets) qu&#39;une entreprise a l&#39;intention de consacrer à des projets liés au marketing au cours d&#39;une période donnée au service d&#39;un IPC commun (par exemple, les commandes, le chiffre d&#39;affaires). Les forfaits peuvent inclure les dépenses liées à des canaux comme la publicité payante, le contenu Web parrainé, les événements.
 
@@ -28,14 +28,16 @@ Un plan peut éventuellement inclure les éléments suivants :
 - plusieurs dates de vol avec chacune un budget cible,
 - contraintes budgétaires minimales et maximales par canal et par date de vol.
 
+Si un modèle que vous avez utilisé pour votre plan est noté sur de nouvelles données, vous devez créer un nouveau plan pour prendre en compte les données re-notées.
+
 
 ## Créer des plans
 
-Pour créer un plan, utilisez l’assistant de création de plan de Mix Modeler. Voir [Créer des plans](build.md) pour plus d’informations.
+Pour créer un plan, utilisez l’assistant de création de plan Mix Modeler. Voir [Créer des plans](build.md) pour plus d’informations.
 
 ## Gestion des plans
 
-Pour afficher un tableau de vos plans actuels, dans l’interface du Mix Modeler :
+Pour afficher un tableau de vos plans actuels, dans l’interface de Mix Modeler :
 
 1. Sélectionnez ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
 
