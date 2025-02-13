@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: 3d14f9d8d2675392d656857a5fb3b38edb7ecddf
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 45%
+source-wordcount: '84'
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 45%
    + [Workflow d’application](/help/get-started/workflow.md)
 
 + Page d’{#dashboard}
-   + [Aperçu de l’accueil](/help/dashboard/overview.md)
+   + [Vue d’ensemble](/help/dashboard/overview.md)
    + [Données harmonisées](/help/dashboard/harmonized-data.md)
    + [Plans](/help/dashboard/plans.md)
 

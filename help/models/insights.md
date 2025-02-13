@@ -1,18 +1,18 @@
 ---
 title: Informations sur le modèle
-description: Découvrez comment obtenir des détails sur votre modèle, comme une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
+description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # Informations sur le modèle
 
-Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) en Mix Modeler :
+Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) de Mix Modeler :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est <span style="color:green">●</span> **[!UICONTROL Success]**.
 
@@ -26,13 +26,13 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 ## [!UICONTROL Model insights]
 
-L’onglet Informations sur les modèles affiche des visualisations pour [Contribution par date et média de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves). L’onglet fournit également un tableau [Répartition des points de contact](#touchppint-breakdown).
+L’onglet Model insights affiche des visualisations pour [Contribution par date et média](#contribution-by-date-and-base-media) de base, [Contribution par canal](#contribution-by-channel), [Résumé](#marketing-performance-summary) des performances marketing et [Courbes de réponse marginale](#marginal-response-curves). L’onglet présente également un tableau de ventilation](#touchppint-breakdown) des points de [contact.
 
-![Modèle - Informations sur le modèle](/help/assets/model-insights-insights.png)
+![Modèle - Aperçu du modèle](/help/assets/model-insights-insights.png)
 
-* Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
+* Vous pouvez survoler des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -43,7 +43,7 @@ Le graphique empilé est trié en fonction des valeurs suivantes : Base en bas, 
 
 ### Contribution par canal
 
-La visualisation en anneau affiche une répartition de la contribution par canal.
+La visualisation en anneau montre la répartition de la contribution par canal.
 
 ### Résumé des performances marketing.
 
@@ -82,19 +82,34 @@ Pour sélectionner un canal spécifique ou tous les canaux, sélectionnez dans l
 
 Pour télécharger le contenu du tableau de répartition des points de contact, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+## **[!UICONTROL Factors]** [!BADGE version bêta]
+
+L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
+
+![ Facteurs ](/help/assets/factors.png)
+
+Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
+
+Utilisez le menu déroulant **[!UICONTROL Factors]** pour sélectionner les facteurs à afficher.
+
+<!-- need to update the image when we do have a proper example -->
+
+Pour télécharger un fichier CSV contenant les données du tableau, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
+
+Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/icons/TableAndChart.svg) s’**[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->L’onglet Attribution n’est disponible que pour les modèles compatibles avec le MTA.
+L’onglet Attribution n’est disponible que pour les modèles compatibles avec le MTA.
 
 
 Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement.  Voir [Créer un modèle](build.md).
 
 Les modèles d’attribution suivants sont pris en charge :
 
-* En fonction du modèle sélectionné en Mix Modeler :
+* En fonction du modèle sélectionné dans Mix Modeler :
    * Algorithmique - influencé
    * Algorithmique - incrémentiel
 * Basé sur des règles :
@@ -110,7 +125,7 @@ Sélectionnez un ou plusieurs modèles d’attribution dans le menu déroulant *
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-Les scores d’événement granulaire d’attribution multipoint du Mix Modeler s’alignent sur les scores globaux du Mix Modeler et sur le retour sur investissement. Ces scores sont également disponibles sous forme de jeux de données dans l’Experience Platform.
+Les scores d’événement granulaire d’attribution multipoint Mix Modeler s’alignent sur les scores globaux de Mix Modeler et sur les RSI. Ces scores sont également disponibles sous forme de jeux de données dans Experience Platform.
 
 L’onglet Attribution comprend les visualisations suivantes :
 
@@ -118,29 +133,29 @@ L’onglet Attribution comprend les visualisations suivantes :
 
 La visualisation [!UICONTROL Overview] affiche, pour les modèles d’attribution sélectionnés, les totaux et pourcentages des conversions. La sélection d’autres modèles ajoute des cercles supplémentaires à la visualisation, chacun ayant sa propre couleur correspondant à la légende.
 
-Pour afficher une fenêtre contextuelle contenant des détails sur un modèle d’attribution, passez la souris sur l’un des cercles de la visualisation.
+Pour afficher une fenêtre contextuelle avec des détails sur un modèle d’attribution, passez la souris sur l’un des cercles de la visualisation.
 
 ### [!UICONTROL Trends]
 
-La visualisation [!UICONTROL Daily trends], [!UICONTROL Weekly trends] ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
+La [!UICONTROL Daily trends]visualisation , [!UICONTROL Weekly trends]ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
 
-Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** ou **[!UICONTROL Monthly trends]** dans ![Plus](/help/assets/icons/More.svg).
+Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]** ou **[!UICONTROL Weekly trends]** **[!UICONTROL Monthly trends]** de plus![](/help/assets/icons/More.svg).
 
-Pour afficher des détails, pointez sur la ligne de données d’un modèle d’attribution spécifique afin d’afficher une fenêtre contextuelle qui indique le nombre total de conversions de ces données.
+Pour afficher les détails, passez la souris sur la ligne de données d’un modèle d’attribution spécifique pour afficher une fenêtre contextuelle indiquant le nombre total de conversions pour ces données.
 
 ### [!UICONTROL Breakdown]
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
+Pour choisir le type de répartition : select **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** de ![Plus](/help/assets/icons/More.svg).
 
-Pour afficher les détails, pointez sur l’un des éléments du graphique.
+Pour afficher les détails, survolez l’un des éléments du graphique.
 
 ### [!UICONTROL Top campaigns]
 
-La visualisation des principales campagnes présente un tableau des principales campagnes avec des colonnes pour le nom de la campagne, le canal, le type de média et les conversions incrémentielles. Cette visualisation peut informer votre équipe de l’efficacité d’une campagne spécifique pour un canal donné et fournir des informations sur les campagnes dans lesquelles vous devriez investir davantage.
+La visualisation Principales campagnes affiche un tableau des principales campagnes avec des colonnes pour Campaign nom, canal ou type de média. and Conversions incrémentielles. Cette visualisation peut aider à informer votre équipe de l’efficacité d’une campagne spécifique pour un canal donné et fournir des informations sur les campagnes dans lesquelles vous devriez investir davantage.
 
-Pour trier le tableau par ordre croissant ↑ décroissant ↓ pour les conversions de canal, de type de média ou incrémentielles, sélectionnez l’en-tête de colonne et activez le tri.
+Pour trier le tableau par ↑ croissant ou par ordre décroissant ↓ canal, saisissez Média . or Conversions incrémentielles : sélectionnez l’en-tête de colonne et activez le tri.
 
 Pour développer le tableau dans une boîte de dialogue distincte, sélectionnez **[!UICONTROL Expand]** dans ![Plus](/help/assets/icons/More.svg).
 
@@ -151,7 +166,7 @@ La boîte de dialogue Développée Principales campagnes affiche le même tablea
 * Conversions Première touche
 * Conversions Dernière touche
 
-  Vous pouvez sélectionner chacun des en-têtes de colonne supplémentaires pour trier le tableau par ordre croissant ou décroissant.
+Vous pouvez sélectionner chacun des en-têtes de colonne supplémentaires pour trier le tableau par ordre croissant ou décroissant.
 
 Pour fermer la boîte de dialogue Développée Principales campagnes , sélectionnez **[!UICONTROL Close]**.
 
@@ -162,7 +177,7 @@ La visualisation [!UICONTROL Breakdown by touchpoint position] est une répartit
 
 >[!NOTE]
 >
->La somme des contributions en pourcentage pour un modèle d’attribution à tous les points de contact et postes doit être égale à 100.
+La somme des contributions en pourcentage pour un modèle d’attribution à tous les points de contact et postes doit être égale à 100.
 
 
 Les positions [!UICONTROL Starter], [!UICONTROL Player] et [!UICONTROL Closer] sont définies comme suit :
@@ -186,21 +201,6 @@ Pour chaque chemin de conversion, vous voyez :
 * pour chaque canal, le pourcentage de contribution du modèle d’attribution, et
 * somme de ces pourcentages de contribution du modèle d’attribution de canal.
 
-## **[!UICONTROL Factors]** [!BADGE version bêta]
-
-L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
-
-![ Facteurs ](/help/assets/factors.png)
-
-Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
-
-Utilisez le menu déroulant **[!UICONTROL Factors]** pour sélectionner les facteurs à afficher.
-
-<!-- need to update the image when we do have a proper example -->
-
-Pour télécharger un fichier CSV contenant les données du tableau, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
-
-Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/icons/TableAndChart.svg) s’**[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Pour ventiler la visualisation, sélectionnez **[!UICONTROL Actual vs. Predicted
 
 Pour télécharger un fichier CSV contenant les données du tableau, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] tableau, représentant le résultat du modèle algorithmique Attribution AI. Les données de ce tableau ne sont générées que pour des périodes spécifiques. Sélectionnez **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) pour plus d’informations.
+* [!UICONTROL Touchpoint effectiveness] tableau, représentant le résultat du modèle algorithmique de l’IA dédiée à l’attribution. Les données de ce tableau ne sont générées que pour des périodes spécifiques. Sélectionnez **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) pour plus d’informations.
 
 La visualisation affiche, par ordre décroissant de [!UICONTROL Efficiency measure] ![ordre décroissant](/help/assets/icons/SortOrderDown.svg), pour chaque point de contact :
 
@@ -247,9 +247,9 @@ L’onglet Aperçu de l’historique affiche des visualisations pour :
 
 * Dépenses par canal.
 
-* Dépenses du point de contact.
+* Dépenses liées au point de contact.
 
-Vous pouvez sélectionner un autre canal basé sur les dépenses à afficher pour cette visualisation. Sélectionnez un canal dans **[!UICONTROL Channels]**.
+Vous pouvez sélectionner un autre canal basé sur les dépenses à afficher pour cette visualisation. Sélectionnez un canal dans **[!UICONTROL Channels]** le fichier .
 
 * Volume du point de contact.
 
@@ -259,13 +259,13 @@ Vous pouvez sélectionner un autre canal basé sur le volume à afficher pour ce
 
 ## **[!UICONTROL Edit]**
 
-Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
+Vous pouvez modifier le nom, la description et la planification de la formation et de la notation du modèle.
 
-1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
+1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) , Modifier
 
-1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
+1. Dans la boîte de **[!UICONTROL Edit model]** dialogue :
 
-   * Saisissez un nouveau **[!UICONTROL Name]** et une nouvelle **[!UICONTROL Description]**.
+   * Entrez un nouveau **[!UICONTROL Name]** et **[!UICONTROL Description]**.
 
    * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles entraînés et notés.
 
