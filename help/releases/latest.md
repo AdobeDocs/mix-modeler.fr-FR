@@ -4,9 +4,9 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 13b748337ca9bfc3b4ffdb0b345bfc291c36525a
+source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
@@ -21,12 +21,12 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 | Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Conditions imbriquées** | Vous pouvez créer des conditions imbriquées à l’aide des opérateurs AND et OR lorsque vous définissez une population de données éligible dans le cadre de la [configuration d’un modèle](/help/models/build.md#configure). | 15 janvier 2025 | 18 Février 2025 |
+| **Conditions imbriquées** | Vous pouvez créer des conditions imbriquées à l’aide des opérateurs AND et OR lorsque vous définissez une population de données éligible dans le cadre de la [configuration d’un modèle](/help/models/build.md#configure). | 15 janvier 2025 | t.b.d |
 | **Affichage des rapports** | Vous pouvez afficher un rapport sur un [conversion](/help/harmonize-data/conversions.md#view-report) ou un [point de contact marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que vous avez défini dans le cadre de l’harmonisation des données. | 15 janvier 2025 | 18 Février 2025 |
-| **Confirmation de suppression** | Vous êtes invité à confirmer la suppression d’un [plan](/help/plans/overview.md#delete-plans) ou d’un [modèle](/help/models/overview.md#delete-models). | 15 janvier 2025 | 18 Février 2025 |
+| **Supprimer les confirmations** | Vous êtes invité à confirmer la suppression d’un [plan](/help/plans/overview.md#delete-plans) ou d’un [modèle](/help/models/overview.md#delete-models). | 15 janvier 2025 | 18 Février 2025 |
 | **Amélioration de l’interface utilisateur des facteurs** | Vous pouvez sélectionner les [facteurs](/help/models/insights.md#factors-beta) à afficher dans les informations sur le modèle. | 15 janvier 2025 | 18 Février 2025 |
-| **[!UICONTROL Error handling]** | Messages d’erreur conviviaux et amélioration de l’expérience utilisateur pour les scénarios d’erreur dans l’harmonisation des données et les plans. | 18 Février 2025 | 18 Février 2025 |
-| **[!UICONTROL Model status]** | Redéfinition des [états du modèle](/help/models/overview.md#manage-models) tout au long du cycle de vie du modèle. | 18 Février 2025 | 18 Février 2025 |
+| **Gestion des erreurs** | Messages d’erreur conviviaux et amélioration de l’expérience utilisateur pour les scénarios d’erreur dans l’harmonisation des données et les plans. | 18 Février 2025 | 18 Février 2025 |
+| **Statut du modèle** | Redéfinition des [états du modèle](/help/models/overview.md#manage-models) tout au long du cycle de vie du modèle. | 18 Février 2025 | t.b.d. |
 
 
 ## Stratégie de publication
