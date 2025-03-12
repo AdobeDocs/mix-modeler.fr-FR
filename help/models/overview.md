@@ -3,9 +3,9 @@ title: Modèles - Aperçu
 description: Découvrez comment créer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Un modèle peut éventuellement inclure :
 * Connaissance préalable des contributions marketing provenant d’autres sources telles que l’expérience passée des parties prenantes, les tests incrémentiels, d’autres modèles.
 * Le partage des dépenses, qui utilise le partage des dépenses relatives comme proxy lorsque les données marketing sont clairsemées.
 
-Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations sur les modèles seront disponibles pour révision. Un modèle peut ensuite être entraîné à nouveau. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous attribuiez une nouvelle note manuelle au modèle. Le recyclage et le reclassement sont un processus itératif à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux aux objectifs de votre entreprise.
+Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle peut ensuite être entraîné à nouveau. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous attribuiez une nouvelle note manuelle au modèle. Le recyclage et le reclassement sont un processus itératif à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux aux objectifs de votre entreprise.
 
 
 ## Créer des modèles
@@ -83,6 +83,8 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Mode
    | Échec de la notation | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Fermer](/help/assets/icons/Close.svg) |
    | Notation réussie | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | | |
    | Notation réussie | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) | ![Coche](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. Pour modifier les colonnes affichées pour la liste, sélectionnez ![Paramètres des colonnes](/help/assets/icons/ColumnSetting.svg) et activez/désactivez les colonnes sur ![Vérifier](/help/assets/icons/Checkmark.svg).
 
