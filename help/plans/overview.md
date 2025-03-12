@@ -3,9 +3,9 @@ title: Présentation des plans
 description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,7 @@ Si un modèle que vous avez utilisé pour votre plan est noté sur de nouvelles 
 ## Créer des plans
 
 Pour créer un plan, utilisez l’assistant de création de plan Mix Modeler. Voir [Créer des plans](build.md) pour plus d’informations.
+
 
 ## Gestion des plans
 
@@ -81,7 +82,15 @@ Pour dupliquer un plan :
 - Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan. Dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
 - Vous pouvez également sélectionner un plan dans le tableau ![SelectBox](/help/assets/icons/SelectBox.svg) et sélectionner ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions bleue.
 
-Un nouveau plan, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)](_n_)**, est ajouté en haut du tableau.
+Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)](_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
+
+- Les détails (tels que la description, le budget, etc.) du plan d’origine sont copiés.
+- Les contraintes budgétaires du plan d&#39;origine sont copiées dans le plan nouvellement créé.
+- Vous avez la possibilité de sélectionner un autre modèle comme base du plan copié.
+   - Pour les points de contact ou les canaux qui existent dans le plan copié mais n’existent pas dans le modèle nouvellement sélectionné, les contraintes de ces points de contact ou canaux sont supprimées du plan.
+   - Pour les points de contact ou les canaux qui n’existent pas dans le plan copié mais qui existent dans le modèle nouvellement sélectionné, les contraintes sont définies sur une valeur minimale de `0` et une valeur maximale en ligne avec le budget de la plage de vol du plan.
+
+
 
 ### Comparer les plans
 

@@ -3,9 +3,9 @@ title: Créer des plans
 description: Découvrez comment créer des plans dans Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 1%
 
 Dans Mix Modeler, vous créez un plan à l’aide de la zone de travail Plan. Dans la zone de travail Plan, vous pouvez configurer les détails et les budgets de votre plan, ainsi que le modèle sous-jacent à utiliser pour votre plan. Une fois que vous avez spécifié les détails, le budget et le modèle, vous pouvez poursuivre un plan recommandé par l’IA ou modifier les dépenses par canal.
 
-Pour créer un plan, dans l’interface **[!UICONTROL Plans]** de ![PLan](/help/assets/icons/FileChart.svg) dans Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
+Pour créer un plan, dans l’interface **[!UICONTROL Plans]** ![PLan](/help/assets/icons/FileChart.svg) de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
 
-1. Dans l’écran de création du plan :
+1. Dans l’écran **[!UICONTROL Plan creation]** :
 
-   1. Dans la section **[!UICONTROL Setup]**
+   1. Dans la section **[!UICONTROL Setup]** :
 
       1. Saisissez un **[!UICONTROL Plan name]**, par exemple `Demo plan`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo plan for Luma company`.
-      1. Sélectionnez une **[!UICONTROL Model]** dans **[!UICONTROL _Sélectionner une option.._.]**.
+      1. Sélectionnez une **[!UICONTROL Model]** dans **[!UICONTROL _Sélectionner une option.._,]**
       1. Vous pouvez sélectionner ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]** pour créer un modèle directement à partir de la création du plan. Un nouvel onglet s’ouvre alors dans votre navigateur et l’interface [Modèles](../models/overview.md) s’affiche.
 
          ![Configuration du plan](/help/assets/plan-setup.png)
