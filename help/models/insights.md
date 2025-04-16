@@ -3,14 +3,22 @@ title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
 
 # Informations sur le modèle
+
+Chaque visualisation d’informations sur le modèle est conçue pour vous aider à :
+
+* Visualisez et quantifiez l’impact des activités marketing de votre organisation.
+* Identifiez les canaux les plus performants.
+* Identifiez les canaux qui peuvent nécessiter une optimisation.
+
+Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
 Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) de Mix Modeler :
 
@@ -26,28 +34,34 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 ## [!UICONTROL Model insights]
 
-L’onglet Model insights affiche des visualisations pour [Contribution par date et média](#contribution-by-date-and-base-media) de base, [Contribution par canal](#contribution-by-channel), [Résumé](#marketing-performance-summary) des performances marketing et [Courbes de réponse marginale](#marginal-response-curves). L’onglet présente également un tableau de ventilation](#touchppint-breakdown) des points de [contact.
+L’onglet Informations sur les modèles affiche des visualisations pour [Contribution par date et média de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves). L’onglet fournit également un tableau [Répartition des points de contact](#touchppint-breakdown).
 
-![Modèle - Aperçu du modèle](/help/assets/model-insights-insights.png)
+![Modèle - Informations sur le modèle](/help/assets/model-insights-insights.png)
 
-* Vous pouvez survoler des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
+* Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 ### Contribution par date et média de base.
 
-Le graphique empilé est trié en fonction des valeurs suivantes : Base en bas, Canaux sans dépenses en milieu et Canaux Dépenses en haut.
+Cette visualisation de graphique empilé est classée comme suit :
+
+* Base en bas.
+* Canaux non dépensiers au milieu.
+* Concentrez-vous sur les canaux.
+
+Cette visualisation représente la proportion de contribution atteinte par canaux de base, par canaux de dépense et par canaux non dépensés, sur une période donnée. Cette visualisation est utile pour présenter l’incrémentalité. La base représente ce qui se serait produit sans marketing, et les canaux sans dépenses plus canaux avec dépenses (en plus de la base) attribuent à l’impact de votre marketing. En résumé, la somme dépenses et non dépenses équivaut à l’impact incrémentiel de vos efforts marketing. La visualisation permet d’obtenir facilement insight quant à la valeur générée par le marketing.
 
 ### Contribution par canal
 
-La visualisation en anneau montre la répartition de la contribution par canal.
+Visualisation en anneau qui présente la répartition de la contribution par différents canaux. Cette visualisation présente l’incrémentalité à travers le prisme des trois canaux les plus performants (à l’exclusion des catégories de base et *Tous les autres*). La visualisation permet de prendre en charge la hiérarchisation et la répartition budgétaire.
 
 ### Résumé des performances marketing.
 
-Graphique à barres horizontal affichant les performances du retour sur investissement par canal.
+Visualisation sous forme de graphique à barres horizontal qui affiche le retour sur investissement ou les performances du CPA pour chacun des canaux. Cette visualisation met en évidence le retour sur investissement/le CPA de vos investissements marketing. Les canaux sont classés par ordre décroissant en fonction du retour sur investissement/CPA. La visualisation permet d’identifier les canaux les plus efficaces et ceux qui peuvent nécessiter une optimisation.
 
 ### Courbes de réponse marginales.
 
@@ -62,7 +76,7 @@ Pour modifier le canal :
 
 ### Répartition des points de contact
 
-Le tableau de répartition des points de contact affiche les répartitions des points de contact pour tous les canaux ou pour certains canaux sur une base hebdomadaire.
+Le tableau de répartition des points de contact affiche les répartitions hebdomadaires des points de contact pour tous les canaux ou pour certains canaux sur une base hebdomadaire, affichant les mesures clés associées à chacun. Le tableau permet une comparaison facile, une identification des tendances et un suivi des performances à un niveau de canal plus granulaire. Ce tableau complète explicitement la visualisation [Contribution par date et média de base](#contribution-by-date-and-base-media) et la visualisation [Contribution par canal](#contribution-by-channel).
 
 ![Répartition des points de contact](../assets/touchpoint-breakdown.png)
 
@@ -102,7 +116,7 @@ Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/i
 
 >[!NOTE]
 >
-L’onglet Attribution n’est disponible que pour les modèles compatibles avec le MTA.
+>L’onglet Attribution n’est disponible que pour les modèles compatibles avec le MTA.
 
 
 Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement.  Voir [Créer un modèle](build.md).
@@ -131,7 +145,7 @@ L’onglet Attribution comprend les visualisations suivantes :
 
 ### [!UICONTROL Overview]
 
-La visualisation [!UICONTROL Overview] affiche, pour les modèles d’attribution sélectionnés, les totaux et pourcentages des conversions. La sélection d’autres modèles ajoute des cercles supplémentaires à la visualisation, chacun ayant sa propre couleur correspondant à la légende.
+La [!UICONTROL Overview] visualisation affiche, pour les modèles d’attribution sélectionnés, les totaux et les pourcentages de conversion. La sélection de plusieurs modèles ajoute des cercles supplémentaires à la visualisation, chacun avec sa propre couleur correspondant à la légende.
 
 Pour afficher une fenêtre contextuelle avec des détails sur un modèle d’attribution, passez la souris sur l’un des cercles de la visualisation.
 
@@ -139,23 +153,23 @@ Pour afficher une fenêtre contextuelle avec des détails sur un modèle d’att
 
 La [!UICONTROL Daily trends]visualisation , [!UICONTROL Weekly trends]ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
 
-Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]** ou **[!UICONTROL Weekly trends]** **[!UICONTROL Monthly trends]** de plus![](/help/assets/icons/More.svg).
+Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** ou **[!UICONTROL Monthly trends]** dans ![Plus](/help/assets/icons/More.svg).
 
-Pour afficher les détails, passez la souris sur la ligne de données d’un modèle d’attribution spécifique pour afficher une fenêtre contextuelle indiquant le nombre total de conversions pour ces données.
+Pour afficher des détails, pointez sur la ligne de données d’un modèle d’attribution spécifique afin d’afficher une fenêtre contextuelle qui indique le nombre total de conversions de ces données.
 
 ### [!UICONTROL Breakdown]
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition : select **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** de ![Plus](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
-Pour afficher les détails, survolez l’un des éléments du graphique.
+Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
 ### [!UICONTROL Top campaigns]
 
-La visualisation Principales campagnes affiche un tableau des principales campagnes avec des colonnes pour Campaign nom, canal ou type de média. and Conversions incrémentielles. Cette visualisation peut aider à informer votre équipe de l’efficacité d’une campagne spécifique pour un canal donné et fournir des informations sur les campagnes dans lesquelles vous devriez investir davantage.
+La visualisation des principales campagnes présente un tableau des principales campagnes avec des colonnes pour le nom de la campagne, le canal, le type de média et les conversions incrémentielles. Cette visualisation peut informer votre équipe de l’efficacité d’une campagne spécifique pour un canal donné et fournir des informations sur les campagnes dans lesquelles vous devriez investir davantage.
 
-Pour trier le tableau par ↑ croissant ou par ordre décroissant ↓ canal, saisissez Média . or Conversions incrémentielles : sélectionnez l’en-tête de colonne et activez le tri.
+Pour trier le tableau par ordre croissant ↑ décroissant ↓ pour les conversions de canal, de type de média ou incrémentielles, sélectionnez l’en-tête de colonne et activez le tri.
 
 Pour développer le tableau dans une boîte de dialogue distincte, sélectionnez **[!UICONTROL Expand]** dans ![Plus](/help/assets/icons/More.svg).
 
@@ -166,18 +180,18 @@ La boîte de dialogue Développée Principales campagnes affiche le même tablea
 * Conversions Première touche
 * Conversions Dernière touche
 
-Vous pouvez sélectionner chacun des en-têtes de colonne supplémentaires pour trier le tableau par ordre croissant ou décroissant.
+  Vous pouvez sélectionner chacun des en-têtes de colonne supplémentaires pour trier le tableau dans l’ordre croissant ou décroissant.
 
-Pour fermer la boîte de dialogue Développée Principales campagnes , sélectionnez **[!UICONTROL Close]**.
+Pour fermer la boîte de dialogue développée, sélectionnez **[!UICONTROL Close]**.
 
 
 ### [!UICONTROL Breakdown by touchpoint position]
 
-La visualisation [!UICONTROL Breakdown by touchpoint position] est une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. Ce graphique vous permet de comparer si un point de contact contribue mieux à une position que les positions restantes et d’autres points de contact à n’importe quelle position.
+La [!UICONTROL Breakdown by touchpoint position] visualisation est une ventilation des conversions attribuées par position du point de contact et du point de contact sur tous les chemins de conversion. Ce graphique vous aide à comparer si un point de contact contribue mieux à une position que les positions restantes et d’autres points de contact à n’importe quelle position.
 
 >[!NOTE]
 >
-La somme des contributions en pourcentage pour un modèle d’attribution à tous les points de contact et postes doit être égale à 100.
+>La somme des contributions en pourcentage pour un modèle d’attribution à tous les points de contact et postes doit être égale à 100.
 
 
 Les positions [!UICONTROL Starter], [!UICONTROL Player] et [!UICONTROL Closer] sont définies comme suit :
@@ -208,7 +222,7 @@ L’onglet Diagnostics affiche des visualisations pour :
 
 * [!UICONTROL Model Assessment] la visualisation, que vous pouvez ventiler selon les conversions réelles, prévues ou résiduelles.
 
-Pour ventiler la visualisation, sélectionnez **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** dans la liste **[!UICONTROL Breakdown]**.
+  Pour ventiler la visualisation, sélectionnez **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** dans la liste **[!UICONTROL Breakdown]**.
 
 * [!UICONTROL Model fitting metrics] tableau, présentant les colonnes suivantes pour chaque mesure de conversion :
 
@@ -226,11 +240,11 @@ Pour ventiler la visualisation, sélectionnez **[!UICONTROL Actual vs. Predicted
 
       * RMSE (Root Mean Square Error) : indique l’erreur moyenne, pondérée en fonction du carré de l’erreur.
 
-Pour télécharger un fichier CSV contenant les données du tableau, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
+  Pour télécharger un fichier CSV contenant les données du tableau, sélectionnez ![Télécharger](/help/assets/icons/Download.svg).
 
 * [!UICONTROL Touchpoint effectiveness] tableau, représentant le résultat du modèle algorithmique de l’IA dédiée à l’attribution. Les données de ce tableau ne sont générées que pour des périodes spécifiques. Sélectionnez **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) pour plus d’informations.
 
-La visualisation affiche, par ordre décroissant de [!UICONTROL Efficiency measure] ![ordre décroissant](/help/assets/icons/SortOrderDown.svg), pour chaque point de contact :
+  La visualisation affiche, par ordre décroissant de [!UICONTROL Efficiency measure] ![ordre décroissant](/help/assets/icons/SortOrderDown.svg), pour chaque point de contact :
 
    * [!UICONTROL Paths touched] : permet de visualiser le pourcentage de chemins générant une conversion et le pourcentage de chemins ne générant pas de conversion. Pour un point de contact, vous voyez plus de conversions attribuées lorsque le taux de conversion d’attribution est élevé. Ce rapport compare le pourcentage de chemins qui mènent à la conversion par rapport au pourcentage de chemins qui ne mènent *pas* à la conversion.
    * [!UICONTROL Efficiency measure] : générée par le modèle d’attribution algorithmique, la mesure d’efficacité indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. L&#39;efficacité est mesurée sur une échelle de 1 à 5. Notez qu’un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée.
@@ -243,36 +257,53 @@ La visualisation affiche, par ordre décroissant de [!UICONTROL Efficiency measu
 
 L’onglet Aperçu de l’historique affiche des visualisations pour :
 
-* Conversion et dépenses par trimestre fiscal et produit.
-
-* Dépenses par canal.
-
-* Dépenses liées au point de contact.
-
-Vous pouvez sélectionner un autre canal basé sur les dépenses à afficher pour cette visualisation. Sélectionnez un canal dans **[!UICONTROL Channels]** le fichier .
-
-* Volume du point de contact.
-
-Vous pouvez sélectionner un autre canal basé sur le volume à afficher pour cette visualisation. Sélectionnez un canal dans **[!UICONTROL Channels]**.
-
 ![Modèle - Aperçu de l’historique](/help/assets/model-insights-historical-overview.png)
+
+
+### Conversion et dépenses par trimestre fiscal et produit
+
+Cette visualisation représente la répartition des conversions et des dépenses entre différents trimestres au sein de la période donnée. La visualisation aide à identifier les trimestres très performants où les dépenses génèrent des conversions.
+
+
+### Dépenses par canal
+
+Cette visualisation représente la répartition des dépenses sur différents canaux au cours de la période donnée. La visualisation permet d’identifier rapidement les canaux qui reçoivent le plus de dépenses.
+
+
+### Dépenses du point de contact
+
+Cette visualisation représente la répartition des dépenses entre les points de contact payés pour chaque trimestre de la période donnée. La visualisation permet de comprendre quels points de contact sont prioritaires au sein de canaux et de trimestres spécifiques. La visualisation permet d’identifier les modèles et les tendances des dépenses des canaux, en particulier les canaux avec des dépenses faibles et peu fréquentes au fil du temps.
+
+Pour sélectionner un autre canal basé sur les dépenses à afficher pour cette visualisation :
+
+* Sélectionnez un canal dans **[!UICONTROL Channels]**.
+
+
+### Volume de points de contact
+
+Cette visualisation représente la distribution du volume sur tous les points de contact pour chaque trimestre dans la période donnée.
+
+Pour sélectionner un autre canal basé sur le volume à afficher pour cette visualisation :
+
+* Sélectionnez un canal dans **[!UICONTROL Channels]**.
+
 
 ## **[!UICONTROL Edit]**
 
-Vous pouvez modifier le nom, la description et la planification de la formation et de la notation du modèle.
+Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
 
-1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) , Modifier
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
 
-1. Dans la boîte de **[!UICONTROL Edit model]** dialogue :
+1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
-   * Entrez un nouveau **[!UICONTROL Name]** et **[!UICONTROL Description]**.
+   * Saisissez un nouveau **[!UICONTROL Name]** et une nouvelle **[!UICONTROL Description]**.
 
-   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles entraînés et notés.
+   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous ne pouvez activer la planification que pour les modèles entraînés et notés.
 
-      1. Sélectionner un **[!UICONTROL Scoring frequency]** :
+      1. Sélectionnez un **[!UICONTROL Scoring frequency]**:
 
-         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]**: entrez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: sélectionnez un jour de la semaine et entrez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
          * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
 
       1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
