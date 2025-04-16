@@ -3,9 +3,9 @@ title: Présentation des plans
 description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Dans Mix Modeler, les plans vous permettent de répartir les budgets par unité opérationnelle et canal. La fonctionnalité de planification est intégrée aux résultats des modèles entraînés en fonction de vos données harmonisées.
 
-Un plan décrit les investissements discrétionnaires (par exemple, les budgets) qu&#39;une entreprise a l&#39;intention de consacrer à des projets liés au marketing au cours d&#39;une période donnée au service d&#39;un IPC commun (par exemple, les commandes, le chiffre d&#39;affaires). Les forfaits peuvent inclure les dépenses liées à des canaux comme la publicité payante, le contenu Web parrainé, les événements.
+Un plan décrit les investissements discrétionnaires (par exemple, les budgets) qu&#39;une entreprise a l&#39;intention de consacrer à des projets liés au marketing au cours d&#39;une période donnée. Ces investissements sont au service d’indicateurs clés de performance courants (par exemple, commandes, chiffre d’affaires). Les forfaits peuvent inclure des dépenses liées à des canaux comme la publicité payante, le contenu Web parrainé, des événements.
 
 Un plan nécessite :
 
@@ -52,10 +52,10 @@ Pour afficher un tableau de vos plans actuels, dans l’interface de Mix Modeler
    | Modèle | Modèle utilisé comme base du plan. |
    | Date range (Plage de dates) | Période complète d’un plan. |
    | Budget | Budget total d’un plan. |
-   | Retour prévu | Retour prévu pour un plan |
-   | Retour sur investissement prévu | Retour sur investissement prévu pour un plan. |
-   | Conversion prévue | Conversion prévue d’un plan |
-   | Coût par acquisition prévu | CPA prévu pour un plan |
+   | Retour prévu | Le [retour prévu](/help/main-guide/glossary.md) pour un plan |
+   | Retour sur investissement prévu | Le [retour sur investissement prévu](/help/main-guide/glossary.md) d’un plan. |
+   | Conversion prévue | La [conversion prévue](/help/main-guide/glossary.md) pour un plan |
+   | Coût par acquisition prévu | [CPA prévu](/help/main-guide/glossary.md) pour un plan |
    | Statut | Statut d’un plan : <p><span style="color:red">●</span> Échec, <p><span style="color:blue">●</span> traitement ou <p><span style="color:green">●</span> Terminé. |
 
    {style="table-layout:auto"}
@@ -87,8 +87,10 @@ Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine 
 - Les détails (tels que la description, le budget, etc.) du plan d’origine sont copiés.
 - Les contraintes budgétaires du plan d&#39;origine sont copiées dans le plan nouvellement créé.
 - Vous avez la possibilité de sélectionner un autre modèle comme base du plan copié.
-   - Pour les points de contact ou les canaux qui existent dans le plan copié mais n’existent pas dans le modèle nouvellement sélectionné, les contraintes de ces points de contact ou canaux sont supprimées du plan.
-   - Pour les points de contact ou les canaux qui n’existent pas dans le plan copié mais qui existent dans le modèle nouvellement sélectionné, les contraintes sont définies sur une valeur minimale de `0` et une valeur maximale en ligne avec le budget de la plage de vol du plan.
+   - Pour les points de contact ou les canaux qui existent dans le plan copié mais qui n’existent pas dans le modèle nouvellement sélectionné, les contraintes de ces points de contact ou canaux sont supprimées du plan.
+   - Pour les points de contact ou les canaux qui n’existent pas dans le plan copié, mais qui existent dans le modèle nouvellement sélectionné, les contraintes sont définies sur :
+      - une valeur minimale de `0`,
+      - valeur maximale conforme au budget de la plage de vol du plan.
 
 
 
