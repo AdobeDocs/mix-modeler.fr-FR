@@ -3,7 +3,7 @@ title: Modèles - Aperçu
 description: Découvrez comment créer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Un modèle peut éventuellement inclure :
 * Connaissance préalable des contributions marketing provenant d’autres sources telles que l’expérience passée des parties prenantes, les tests incrémentiels, d’autres modèles.
 * Le partage des dépenses, qui utilise le partage des dépenses relatives comme proxy lorsque les données marketing sont clairsemées.
 
-Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle peut ensuite être entraîné à nouveau. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous attribuiez une nouvelle note manuelle au modèle. Le recyclage et le reclassement sont un processus itératif à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux aux objectifs de votre entreprise.
+Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle peut ensuite être entraîné à nouveau. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous lui attribuiez un nouveau score manuellement. Le recyclage et le reclassement sont un processus itératif à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux aux objectifs de votre entreprise.
 
 
 ## Créer des modèles
@@ -68,7 +68,7 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Mode
    * ![Horloge](/help/assets/icons/Clock.svg) - Indique l’exécution en cours d’une étape du cycle de vie du modèle.
    * ![Fermer](/help/assets/icons/Close.svg) - indique l’échec de l’exécution d’une étape dans le cycle de vie du modèle.
 
-   | Statut | Créer | Entraîner | Score | Recycler | Recalculer |
+   | Statut | Créer | Entraîner | Score | Recycler | Score |
    |---|:---:|:---:|:---:|:---:|:---:|
    | En cours | ![Coche](/help/assets/icons/Checkmark.svg) | | | | |
    | En cours | ![Coche](/help/assets/icons/Checkmark.svg) | ![Horloge](/help/assets/icons/Clock.svg) | | | |
@@ -152,14 +152,13 @@ Vous pouvez modifier le nom, la description, la planification de l’entraîneme
 
 ### Recycler
 
-
 La réentraînement d’un modèle n’est disponible que sur les modèles entraînés avec succès.
 
-Envisagez de former à nouveau un modèle lorsque vous souhaitez :
+Pensez à recycler un modèle lorsque vous souhaitez :
 
 * Incluez les nouvelles données relatives aux facteurs et au marketing incrémentiel. Par exemple, au cours du dernier trimestre, la dynamique du marché a changé ou votre répartition des données marketing a considérablement changé.
 
-Pour entraîner à nouveau un modèle :
+Pour recycler un modèle :
 
 1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
@@ -171,22 +170,22 @@ Pour entraîner à nouveau un modèle :
    * **[!UICONTROL Train model using specific date range of data]**.
 Spécifiez la période. Vous pouvez utiliser le ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période. Vous devez sélectionner une plage de données d’au moins un an.
 
-   ![Entraînement d’un modèle](../assets/re-train-model.png)
+   ![Reformer un modèle](../assets/retrain-model.png)
 
 1. Sélectionnez **[!UICONTROL Train]** pour entraîner à nouveau le modèle.
 
 
-### Score ou re-score
+### Score ou score
 
 
-Vous pouvez attribuer une note incrémentielle à un modèle en fonction de nouvelles données marketing ou attribuer une nouvelle note à un modèle pour une période spécifique.
+Vous pouvez attribuer un score incrémentiel à un modèle en fonction de nouvelles données marketing ou attribuer un score à un modèle pour une période spécifique.
 
-Envisagez de noter à nouveau un modèle lorsque vous souhaitez :
+Pensez à attribuer un score à un modèle lorsque vous souhaitez :
 
 * Corriger les données marketing incorrectes. Par exemple, les données de référencement payant récentes que vous avez incluses dans la formation et la notation du modèle ont manqué une semaine de données.
 * Utilisez les nouvelles données de marketing incrémentielles qui sont devenues disponibles par le biais des mises à jour dans les jeux de données que vous avez configurés dans le cadre de vos données harmonisées.
 
-Pour noter ou noter à nouveau un modèle :
+Pour noter ou noter un modèle :
 
 1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
@@ -195,10 +194,10 @@ Pour noter ou noter à nouveau un modèle :
    Dans la boîte de dialogue **[!UICONTROL Score marketing data]**, sélectionnez l’option pour :
 
    * **[!UICONTROL Score new marketing data from *jj/mm/aaaa *]**, pour noter votre modèle de manière incrémentielle à l’aide de nouvelles données marketing, ou
-   * **[!UICONTROL Score specific date range of marketing data]** de noter à nouveau pour une période spécifique.
+   * **[!UICONTROL Score specific date range of marketing data]** d’attribuer un score pour une période spécifique.
 Spécifiez la période. Vous pouvez utiliser le ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
 
-   ![Entraînement d’un modèle](../assets/re-score-model.png)
+   ![Attribuer un score à un modèle](../assets/rescore-model.png)
 
 1. Sélectionnez **[!UICONTROL Score]**. Lors de la nouvelle notation d’un modèle à l’aide d’une période spécifique, une boîte de dialogue **[!UICONTROL Existing model is replaced]** s’affiche, vous invitant à confirmer le remplacement du modèle par de nouveaux scores pour la période sélectionnée. Sélectionnez **[!UICONTROL Replace model]** pour confirmer.
 

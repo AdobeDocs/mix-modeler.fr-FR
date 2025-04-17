@@ -3,9 +3,9 @@ title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ Vous pouvez voir quand le modèle spécifié est actualisé pour la dernière fo
 
 Vous pouvez modifier la période sur laquelle les visualisations de chacun des onglets sont basées. Saisissez une période ou sélectionnez ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
 
+## Dérive du modèle
+
+{{release-limited-testing-section}}
+
+Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
+
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
+
 ## [!UICONTROL Model insights]
 
 L’onglet Informations sur les modèles affiche des visualisations pour [Contribution par date et média de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves). L’onglet fournit également un tableau [Répartition des points de contact](#touchppint-breakdown).
@@ -47,13 +55,13 @@ L’onglet Informations sur les modèles affiche des visualisations pour [Contri
 
 ### Contribution par date et média de base.
 
-Cette visualisation de graphique empilé est classée comme suit :
+Cette visualisation de graphiques empilés est classée comme suit :
 
 * Base en bas.
-* Canaux non dépensiers au milieu.
-* Concentrez-vous sur les canaux.
+* Canaux intermédiaires sans dépenses.
+* Dépense des canaux en plus.
 
-Cette visualisation représente la proportion de contribution atteinte par canaux de base, par canaux de dépense et par canaux non dépensés, sur une période donnée. Cette visualisation est utile pour présenter l’incrémentalité. La base représente ce qui se serait produit sans marketing, et les canaux sans dépenses plus canaux avec dépenses (en plus de la base) attribuent à l’impact de votre marketing. En résumé, la somme dépenses et non dépenses équivaut à l’impact incrémentiel de vos efforts marketing. La visualisation permet d’obtenir facilement insight quant à la valeur générée par le marketing.
+Cette visualisation représente la proportion de contribution réalisée par canal de base, par canal de dépense et par canal de non-dépense, sur une période. Cette visualisation est utile pour présenter l’incrémentalité. La base représente ce qui se serait produit sans marketing, et les canaux sans dépenses plus canaux avec dépenses (en plus de la base) attribuent à l’impact de votre marketing. En résumé, la somme dépenses et non dépenses équivaut à l’impact incrémentiel de vos efforts marketing. La visualisation permet d’obtenir facilement insight quant à la valeur générée par le marketing.
 
 ### Contribution par canal
 
@@ -145,13 +153,13 @@ L’onglet Attribution comprend les visualisations suivantes :
 
 ### [!UICONTROL Overview]
 
-La [!UICONTROL Overview] visualisation affiche, pour les modèles d’attribution sélectionnés, les totaux et les pourcentages de conversion. La sélection de plusieurs modèles ajoute des cercles supplémentaires à la visualisation, chacun avec sa propre couleur correspondant à la légende.
+La visualisation [!UICONTROL Overview] affiche, pour les modèles d’attribution sélectionnés, les totaux et pourcentages des conversions. La sélection d’autres modèles ajoute des cercles supplémentaires à la visualisation, chacun ayant sa propre couleur correspondant à la légende.
 
-Pour afficher une fenêtre contextuelle avec des détails sur un modèle d’attribution, passez la souris sur l’un des cercles de la visualisation.
+Pour afficher une fenêtre contextuelle contenant des détails sur un modèle d’attribution, passez la souris sur l’un des cercles de la visualisation.
 
 ### [!UICONTROL Trends]
 
-La [!UICONTROL Daily trends]visualisation , [!UICONTROL Weekly trends]ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
+La visualisation [!UICONTROL Daily trends], [!UICONTROL Weekly trends] ou [!UICONTROL Monthly trends] affiche, pour les modèles d’attribution sélectionnés, les tendances de conversion quotidiennes, hebdomadaires ou mensuelles.
 
 Pour choisir la période, sélectionnez **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** ou **[!UICONTROL Monthly trends]** dans ![Plus](/help/assets/icons/More.svg).
 
@@ -180,14 +188,14 @@ La boîte de dialogue Développée Principales campagnes affiche le même tablea
 * Conversions Première touche
 * Conversions Dernière touche
 
-  Vous pouvez sélectionner chacun des en-têtes de colonne supplémentaires pour trier le tableau dans l’ordre croissant ou décroissant.
+  Vous pouvez sélectionner chacun des en-têtes de colonne supplémentaires pour trier le tableau par ordre croissant ou décroissant.
 
-Pour fermer la boîte de dialogue développée, sélectionnez **[!UICONTROL Close]**.
+Pour fermer la boîte de dialogue Développée Principales campagnes , sélectionnez **[!UICONTROL Close]**.
 
 
 ### [!UICONTROL Breakdown by touchpoint position]
 
-La [!UICONTROL Breakdown by touchpoint position] visualisation est une ventilation des conversions attribuées par position du point de contact et du point de contact sur tous les chemins de conversion. Ce graphique vous aide à comparer si un point de contact contribue mieux à une position que les positions restantes et d’autres points de contact à n’importe quelle position.
+La visualisation [!UICONTROL Breakdown by touchpoint position] est une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. Ce graphique vous permet de comparer si un point de contact contribue mieux à une position que les positions restantes et d’autres points de contact à n’importe quelle position.
 
 >[!NOTE]
 >
@@ -252,6 +260,19 @@ L’onglet Diagnostics affiche des visualisations pour :
 
 ![ Diagnostics ](/help/assets/model-insights-diagnostics.png)
 
+### Détection de dérive de modèle
+
+>[!AVAILABILITY]
+>
+>La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication de Mix Modeler, consultez [Versions des fonctionnalités de Mix Modeler](/help/releases/latest.md).
+>
+
+Si une dérive du modèle est détectée, une notification **[!UICONTROL Model drift detected]** s’affiche en haut de l’écran.
+
+![Notification de dérive du modèle](/help/assets/model-drift-notification.png)
+
+Sélectionnez **[!UICONTROL Hide]** pour masquer la notification. La notification réapparaîtra le lendemain ou lors de la prochaine connexion.
+
 
 ## [!UICONTROL Historical overview]
 
@@ -262,12 +283,12 @@ L’onglet Aperçu de l’historique affiche des visualisations pour :
 
 ### Conversion et dépenses par trimestre fiscal et produit
 
-Cette visualisation représente la répartition des conversions et des dépenses entre différents trimestres au sein de la période donnée. La visualisation aide à identifier les trimestres très performants où les dépenses génèrent des conversions.
+Cette visualisation représente la distribution des conversions et des dépenses sur différents trimestres au cours de la période donnée. La visualisation permet d’identifier les trimestres très performants où les dépenses génèrent des conversions.
 
 
 ### Dépenses par canal
 
-Cette visualisation représente la répartition des dépenses sur différents canaux au cours de la période donnée. La visualisation permet d’identifier rapidement les canaux qui reçoivent le plus de dépenses.
+Cette visualisation représente la distribution des dépenses sur divers canaux au cours de la période donnée. La visualisation permet d’identifier rapidement les canaux qui reçoivent le plus de dépenses.
 
 
 ### Dépenses du point de contact
@@ -298,12 +319,12 @@ Vous pouvez modifier le nom, la description, la planification de l’entraîneme
 
    * Saisissez un nouveau **[!UICONTROL Name]** et une nouvelle **[!UICONTROL Description]**.
 
-   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous ne pouvez activer la planification que pour les modèles entraînés et notés.
+   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles entraînés et notés.
 
-      1. Sélectionnez un **[!UICONTROL Scoring frequency]**:
+      1. Sélectionner un **[!UICONTROL Scoring frequency]** :
 
-         * **[!UICONTROL Daily]**: entrez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: sélectionnez un jour de la semaine et entrez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
          * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
 
       1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
