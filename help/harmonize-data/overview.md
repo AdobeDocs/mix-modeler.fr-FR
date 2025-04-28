@@ -3,10 +3,10 @@ title: Présentation de l’harmonisation des jeux de données
 description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -40,7 +40,7 @@ Contient un jeu de données d’effort marketing de YouTube, avec une granularit
 | Date | Type de date | Canal | Campagne | Marque | Géo | Clics | Dépenses |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | day | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
-| 01-01-2022 | day | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
+| 01-01-2022 | day | YouTube | Y_Fall_02 | BrandX | US | 1 000 | 10 |
 | 01-03-2022 | day | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
 | 01-04-2022 | day | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
@@ -54,7 +54,7 @@ Contient le jeu de données d’effort marketing de Facebook, avec une granulari
 | Date | Type de date | Canal | Campagne | Géo | Clics | Dépenses |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | semaine | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | semaine | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | semaine | Facebook | FB_Fall_02 | US | 1 000 | 10 |
 | 01-08-2022 | semaine | Facebook | FB_Fall_01 | US | 7000 | 100 |
 | 01-16-2022 | semaine | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
@@ -99,7 +99,7 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 | 01-03-2022 | semaine | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
 | 01-03-2022 | semaine | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
 | 01-01-2022 | semaine | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
-| 01-08-2022 | semaine | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
+| 01-08-2022 | semaine | Facebook | FB_Fall_02 | Null | US | Null | 1 000 | 10 | Null |
 | 01-08-2022 | semaine | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
 | 01-16-2022 | semaine | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
 | 12-27-2021 | semaine | Null | Null | Null | US | Mode | Null | Null | 200 |
@@ -128,7 +128,7 @@ Pour afficher vos données harmonisées, dans l’interface de Mix Modeler :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dans le rail de gauche.
 
-1. Sélectionnez **[!UICONTROL Harmonized Data]** dans la barre supérieure. Un résumé de vos données harmonisées s’affiche en fonction des champs, des règles des jeux de données, des points de contact marketing et des conversions que vous avez définis.
+1. Sélectionnez **[!UICONTROL Harmonized data]** dans la barre supérieure. Un résumé de vos données harmonisées s’affiche en fonction des champs, des règles des jeux de données, des points de contact marketing et des conversions que vous avez définis.
 
    1. Pour redéfinir la période sur laquelle est basée la synthèse des données harmonisées, saisissez une période à **[!UICONTROL Date range]** ou utilisez ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
 
@@ -145,3 +145,13 @@ Pour afficher vos données harmonisées, dans l’interface de Mix Modeler :
    1. Sélectionnez **[!UICONTROL Submit]** pour envoyer les modifications des paramètres des colonnes. Sélectionnez **[!UICONTROL Close]** pour annuler les modifications effectuées.
 
 1. Si d’autres pages sont disponibles, utilisez ![Flèche gauche](/help/assets/icons/ChevronLeft.svg) ou ![Flèche droite](/help/assets/icons/ChevronRight.svg) à **[!UICONTROL Page _x _sur_x_]** pour passer d’une page à l’autre.
+
+1. Vous avez la possibilité de télécharger les données harmonisées.
+
+   1. Sélectionnez ![Télécharger](/help/assets/icons/Download.svg) [!BADGE version bêta].
+   1. Dans la fenêtre contextuelle, sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
+   1. Saisissez un **[!UICONTROL Report name]**, par exemple `Test Report`.
+   1. Sélectionnez ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
+
+   Un rapport CSV avec un titre basé sur le nom du rapport fourni et la date et l’heure actuelles (par exemple, `Test Report_2025_04_23_9-5-18.csv`) est téléchargé dans votre dossier de téléchargement par défaut.
+

@@ -3,10 +3,10 @@ title: Présentation de l’ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 11%
+source-wordcount: '520'
+ht-degree: 10%
 
 ---
 
@@ -20,10 +20,10 @@ Par exemple :
 
 * les données collectées à l’aide du connecteur source Adobe Analytics et transformées en jeux de données conformes à la version par défaut ou personnalisée du schéma Adobe Analytics, ou
 * les données collectées à l’aide de l’API Experience Platform Web SDK, Mobile SDK ou Edge Network Server pour collecter les interactions des clients sur le web, les appareils mobiles ou tout autre type d’appareil,
-* données agrégées ou récapitulatives provenant de jardins clos (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
+* des données agrégées ou récapitulatives provenant de jardins clos (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
 * données récapitulatives ou agrégées non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
 
-Vous pouvez utiliser n’importe quel type de mécanisme, pris en charge par Experience Platform, pour ingérer vos données au niveau de l’événement d’expérience, vos données d’effort marketing agrégées et vos données provenant d’autres sources. Tels que les SDK, les API, les connecteurs source et l’ingestion par lots et en flux continu de l’Experience Platform.
+Vous pouvez utiliser n’importe quel type de mécanisme, pris en charge par Experience Platform, pour ingérer vos données au niveau de l’événement d’expérience, vos données d’effort marketing agrégées et vos données provenant d’autres sources. Tels que les SDK Experience Platform, les API, les connecteurs source, ainsi que l’ingestion par lots et en flux continu.
 
 
 ## Instructions
@@ -38,7 +38,7 @@ Pour ingérer des données dans Experience Platform en vue de les utiliser avec 
 
 ## Exemples
 
-Vous trouverez ci-dessous quelques exemples de données généralement utilisées en Mix Modeler au-delà des données d’événement d’expérience plus standard.
+Vous trouverez ci-dessous quelques exemples de données généralement utilisées dans Mix Modeler au-delà des données d’événement d’expérience plus standard.
 
 +++ Données agrégées sur l’effort marketing
 
@@ -80,7 +80,17 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++
 
-Pour utiliser les données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Experience Platform. L’interface du Mix Modeler permet d’accéder facilement aux schémas et aux jeux de données Experience Platform.
+Pour utiliser les données dans Mix Modeler, vous avez besoin de données collectées dans des jeux de données et modélisées selon des schémas dans Experience Platform. L’interface de Mix Modeler permet d’accéder facilement aux schémas Experience Platform et à l’interface utilisateur des jeux de données.
+
+
+## Valider
+
+Pour vérifier si vos données sont correctement disponibles dans Mix Modeler, procédez comme suit :
+
+* Utilisez des visualisations dans [Aperçu](/help/overview.md).
+* Téléchargez et examinez des données provenant de l’[Données harmonisées](/help/harmonize-data/overview.md) dans des jeux de données harmonisés.
+
+Pour vérifier si vos données sont correctement ingérées dans Experience Platform, vous pouvez [écrire et exécuter des requêtes SQL à l’aide d’Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
