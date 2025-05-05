@@ -103,7 +103,7 @@ Le groupe de champs contient les champs suivants.
 |      `position` | Chaîne | |
 |      `touchpointCountToConversion` | Nombre entier | |
 |      `touchpointName` | Chaîne | Nom du point de contact qui a été configuré lors de la configuration. <br> **Exemple:** `PAID_SEARCH_CLICK` |
-| `conversionName` | Chaîne | Nom de la conversion configurée lors de l’installation. <br> **Exemple :** `Order`, , `Lead``Visit` |
+| `conversionName` | Chaîne | Nom de la conversion configurée lors de l’installation. <br> **Exemple :** `Order`, , `Lead` `Visit` |
 | `scoreCreatedTime` | DateTime | |
 | `segmentation` | Chaîne | Segment de conversion tel que la segmentation géographique, en fonction duquel le modèle est créé. Lorsque les segments sont absents, `segmentation` est identique à `conversionName`. <br> **Exemple:** `ORDER_US` |
 

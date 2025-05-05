@@ -42,12 +42,12 @@ ht-degree: 47%
    + [de conversions](/help/harmonize-data/conversions.md)
    + [Rapport d’utilisation](/help/harmonize-data/usage-report.md)
 
-+ Ingestion de {#ingest-data} de données
++ Ingestion de de données {#ingest-data}
    + [Vue d’ensemble](/help/ingest-data/overview.md)
    + [Schémas](/help/ingest-data/schemas.md)
    + [Jeux de données](/help/ingest-data/datasets.md)
 
-+ {#data-governance} de gouvernance des données
++ de gouvernance des données{#data-governance}
    + [Vue d’ensemble](/help/data-governance/overview.md)
    + [Contrôle d’accès](/help/data-governance/access-controls.md)
    + [Journaux d’audit](/help/data-governance/audit-logs.md)

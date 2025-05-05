@@ -21,4 +21,4 @@ Pour accéder à la présentation, sélectionnez ![Accueil](/help/assets/icons/H
 
 * [Données harmonisées](harmonized-data.md)
 
-* [Plans](plans.md) [!BADGE Alpha ]{type=Informative}
+* [Plans](plans.md) [!BADGE Alpha &#x200B;]{type=Informative}

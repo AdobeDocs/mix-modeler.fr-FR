@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE Alpha ]{type=Informative}**[!UICONTROL Plans]**’onglet dans le Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonction alpha dont les fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
+>[!BADGE Alpha &#x200B;]{type=Informative}**[!UICONTROL Plans]**’onglet dans le Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonction alpha dont les fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
 
 
 L’onglet **[!UICONTROL Plans]** du Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** affiche les visualisations pour [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL KPI].
