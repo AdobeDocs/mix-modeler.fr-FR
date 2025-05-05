@@ -30,7 +30,7 @@ Nous ne semblons pas appuyer correctement les SVG dans une boîte ombragée. Voi
 
 >[!BEGINSHADEBOX]
 
-Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Voir [Panneau Attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de cet article.
+Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Voir [Panneau Attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de cet article.
 
 >[!ENDSHADEBOX]
 

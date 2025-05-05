@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Politiques
 
-Une fois que vous avez parcouru le workflow pour créer un modèle et envoyer la configuration du modèle, [l’application de la stratégie](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) vérifie s’il existe des violations. Si une violation de politique se produit, une fenêtre contextuelle s’affiche indiquant qu’une ou plusieurs politiques ont été violées. Cette vérification permet de s’assurer que vos opérations de données et vos actions marketing dans Experience Platform sont conformes aux stratégies d’utilisation des données.
+Une fois que vous avez parcouru le workflow pour créer un modèle et envoyer la configuration du modèle, [l’application de la stratégie](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) vérifie s’il existe des violations. Si une violation de politique se produit, une fenêtre contextuelle s’affiche indiquant qu’une ou plusieurs politiques ont été violées. Cette vérification permet de s’assurer que vos opérations de données et vos actions marketing dans Experience Platform sont conformes aux stratégies d’utilisation des données.
 
 Par défaut, Mix Modeler recherche les violations des stratégies définies par l’Adobe associées aux libellés et actions marketing suivants :
 
@@ -61,7 +61,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[Présentation des politiques d’utilisation des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[Présentation des politiques d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

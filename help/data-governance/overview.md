@@ -18,7 +18,7 @@ La gouvernance des données d’Experience Platform vous permet de contrôler et
 
 Les libellés et politiques d’utilisation des données créés sur les jeux de données consommés par Experience Platform apparaissent dans Mix Modeler, le cas échéant. Par exemple, ces libellés arrêtent ou avertissent les utilisateurs lors de la suppression de jeux de données qui font partie d’une règle de jeu de données dans les données harmonisées. Vous pouvez également masquer les champs de schéma qui sont restreints pour les utilisateurs lors de la création d’une règle de jeu de données.
 
-L’intégration de la gouvernance des données vous permet de gérer la conformité plus efficacement. Les gestionnaires de données de votre entreprise peuvent définir des politiques pour restreindre l’utilisation. Par conséquent, vous pouvez utiliser des données conformes aux stratégies définies par les gestionnaires de données. Lisez la documentation sur les [Libellés et stratégies](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance) pour en savoir plus.
+L’intégration de la gouvernance des données vous permet de gérer la conformité plus efficacement. Les gestionnaires de données de votre entreprise peuvent définir des politiques pour restreindre l’utilisation. Par conséquent, vous pouvez utiliser des données conformes aux stratégies définies par les gestionnaires de données. Lisez la documentation sur les [Libellés et stratégies](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-governance) pour en savoir plus.
 
 Les fonctionnalités de gouvernance des données suivantes sont disponibles :
 

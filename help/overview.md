@@ -74,7 +74,7 @@ Ce guide de documentation technique fournit une aide autonome pour Adobe **Mix M
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Présentation</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Cas d’utilisation</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Workflow utilisateur</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Visite de l’interface utilisateur</a>
+      <strong>Tutorials </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=fr">Présentation</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Cas d’utilisation</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=fr">Workflow utilisateur</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=fr">Visite de l’interface utilisateur</a>
     </td>
   </tr>
 </table>
