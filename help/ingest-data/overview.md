@@ -3,9 +3,9 @@ title: Présentation de l’ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '541'
 ht-degree: 10%
 
 ---
@@ -23,8 +23,7 @@ Par exemple :
 * des données agrégées ou récapitulatives provenant de jardins clos (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
 * données récapitulatives ou agrégées non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
 
-Vous pouvez utiliser n’importe quel type de mécanisme, pris en charge par Experience Platform, pour ingérer vos données au niveau de l’événement d’expérience, vos données d’effort marketing agrégées et vos données provenant d’autres sources. Tels que les SDK Experience Platform, les API, les connecteurs source, ainsi que l’ingestion par lots et en flux continu.
-
+Vous pouvez utiliser n’importe quel type de mécanisme, pris en charge par Experience Platform, pour ingérer vos données au niveau de l’événement d’expérience, vos données d’effort marketing agrégées et vos données provenant d’autres sources. Les mécanismes d’ingestion comprennent les SDK Experience Platform, les API, les connecteurs source, l’ingestion par lots et par flux. Pour en savoir plus sur l’ingestion de vos données dans Experience Platform en vue de leur utilisation dans Adobe Mix Modeler, voir [Présentation de l’ingestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home).
 
 ## Instructions
 
@@ -90,7 +89,7 @@ Pour vérifier si vos données sont correctement disponibles dans Mix Modeler, p
 * Utilisez des visualisations dans [Aperçu](/help/overview.md).
 * Téléchargez et examinez des données provenant de l’[Données harmonisées](/help/harmonize-data/overview.md) dans des jeux de données harmonisés.
 
-Pour vérifier si vos données sont correctement ingérées dans Experience Platform, vous pouvez [écrire et exécuter des requêtes SQL à l’aide d’Experience Platform Query Service](https://experienceleague.adobe.com/fr/docs/experience-platform/query/home).
+Pour vérifier si vos données sont correctement ingérées dans Experience Platform, vous pouvez [écrire et exécuter des requêtes SQL à l’aide d’Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
