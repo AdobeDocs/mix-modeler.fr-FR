@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 47%
    + [Qu’est-ce que Mix Modeler ?](/help/get-started/about.md)
    + [Workflow d’application](/help/get-started/workflow.md)
 
-+ Page d’{#dashboard}
++ Accueil {#dashboard}
    + [Vue d’ensemble](/help/dashboard/overview.md)
    + [Données harmonisées](/help/dashboard/harmonized-data.md)
    + [Plans](/help/dashboard/plans.md)
@@ -25,6 +25,7 @@ ht-degree: 47%
 + Modèles {#models}
    + [Vue d’ensemble](/help/models/overview.md)
    + [Créer des modèles](/help/models/build.md)
+   + [Modèles de formation et de notation](/help/models/train-score.md)
    + [Informations sur le modèle](/help/models/insights.md)
    + [Utiliser les données de notation](/help/models/scoring-data.md)
 
@@ -42,12 +43,12 @@ ht-degree: 47%
    + [de conversions](/help/harmonize-data/conversions.md)
    + [Rapport d’utilisation](/help/harmonize-data/usage-report.md)
 
-+ Ingestion de de données {#ingest-data}
++ Ingestion de données {#ingest-data}
    + [Vue d’ensemble](/help/ingest-data/overview.md)
    + [Schémas](/help/ingest-data/schemas.md)
    + [Jeux de données](/help/ingest-data/datasets.md)
 
-+ de gouvernance des données{#data-governance}
++ Gouvernance des données {#data-governance}
    + [Vue d’ensemble](/help/data-governance/overview.md)
    + [Contrôle d’accès](/help/data-governance/access-controls.md)
    + [Journaux d’audit](/help/data-governance/audit-logs.md)

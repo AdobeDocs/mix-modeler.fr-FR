@@ -3,9 +3,9 @@ title: Modèles - Aperçu
 description: Découvrez comment créer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
+source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Mode
    * ![Horloge](/help/assets/icons/Clock.svg) - Indique l’exécution en cours d’une étape du cycle de vie du modèle.
    * ![Fermer](/help/assets/icons/Close.svg) - indique l’échec de l’exécution d’une étape dans le cycle de vie du modèle.
 
-   | Statut | Créer | Entraîner | Score | Recycler | Score |
+   | Statut | [Créer](/help/models/build.md) | [Train](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) | [Recycler](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | En cours | ![Coche](/help/assets/icons/Checkmark.svg) | | | | |
    | En cours | ![Coche](/help/assets/icons/Checkmark.svg) | ![Horloge](/help/assets/icons/Clock.svg) | | | |
@@ -120,7 +120,7 @@ Vous pouvez rapidement dupliquer un modèle.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Duplicate]** dans le menu contextuel.
 
-Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)] (_n_)**.
+Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifier
 
@@ -150,61 +150,14 @@ Vous pouvez modifier le nom, la description, la planification de l’entraîneme
 
 
 
-### Recycler
+### Entraîner
 
-La réentraînement d’un modèle n’est disponible que sur les modèles entraînés avec succès.
-
-Pensez à recycler un modèle lorsque vous souhaitez :
-
-* Incluez les nouvelles données relatives aux facteurs et au marketing incrémentiel. Par exemple, au cours du dernier trimestre, la dynamique du marché a changé ou votre répartition des données marketing a considérablement changé.
-
-Pour recycler un modèle :
-
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
-
-1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Train]** dans le menu contextuel. Vous pouvez également sélectionner ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** dans la barre d’actions bleue.
-
-   Dans la boîte de dialogue **[!UICONTROL Train model]**, sélectionnez l’option pour :
-
-   * **[!UICONTROL Train model with last 2 years of marketing data]**, ou
-   * **[!UICONTROL Train model using specific date range of data]**.
-Spécifiez la période. Vous pouvez utiliser le ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période. Vous devez sélectionner une plage de données d’au moins un an.
-
-   ![Reformer un modèle](../assets/retrain-model.png)
-
-1. Sélectionnez **[!UICONTROL Train]** pour entraîner à nouveau le modèle.
+Pensez à recycler un modèle lorsque vous souhaitez inclure de nouvelles données de facteur et de marketing incrémentiel. Pour plus d’informations, voir [Modèles de formation et de notation](train-score.md#train).
 
 
-### Score ou score
+### Score
 
-
-Vous pouvez attribuer un score incrémentiel à un modèle en fonction de nouvelles données marketing ou attribuer un score à un modèle pour une période spécifique.
-
-Pensez à attribuer un score à un modèle lorsque vous souhaitez :
-
-* Corriger les données marketing incorrectes. Par exemple, les données de référencement payant récentes que vous avez incluses dans la formation et la notation du modèle ont manqué une semaine de données.
-* Utilisez les nouvelles données de marketing incrémentielles qui sont devenues disponibles par le biais des mises à jour dans les jeux de données que vous avez configurés dans le cadre de vos données harmonisées.
-
-Pour noter ou noter un modèle :
-
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
-
-1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Score]** dans le menu contextuel. Vous pouvez également sélectionner ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** dans la barre d’actions bleue.
-
-   Dans la boîte de dialogue **[!UICONTROL Score marketing data]**, sélectionnez l’option pour :
-
-   * **[!UICONTROL Score new marketing data from *jj/mm/aaaa *]**, pour noter votre modèle de manière incrémentielle à l’aide de nouvelles données marketing, ou
-   * **[!UICONTROL Score specific date range of marketing data]** d’attribuer un score pour une période spécifique.
-Spécifiez la période. Vous pouvez utiliser le ![Calendrier](/help/assets/icons/Calendar.svg) pour sélectionner une période.
-
-   ![Attribuer un score à un modèle](../assets/rescore-model.png)
-
-1. Sélectionnez **[!UICONTROL Score]**. Lors de la nouvelle notation d’un modèle à l’aide d’une période spécifique, une boîte de dialogue **[!UICONTROL Existing model is replaced]** s’affiche, vous invitant à confirmer le remplacement du modèle par de nouveaux scores pour la période sélectionnée. Sélectionnez **[!UICONTROL Replace model]** pour confirmer.
-
->[!IMPORTANT]
->
->L’évaluation d’un modèle ne modifie aucun des plans déjà créés sur la base du modèle restauré. Pour utiliser le nouveau modèle enregistré dans un plan, vous devez créer un nouveau plan.
-
+Vous pouvez attribuer un score incrémentiel à un modèle en fonction de nouvelles données marketing ou attribuer un score à un modèle pour une période spécifique. Pour plus d’informations, voir [Modèles de formation et de notation](train-score.md#score).
 
 
 ### Suppression de modèles
@@ -219,5 +172,5 @@ Pour supprimer plusieurs modèles :
 
 1. Sélectionnez plusieurs modèles.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer les modèles.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**&#x200B;pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
