@@ -4,9 +4,9 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '365'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,8 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 | Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Détection de dérive du modèle** | Lors de l&#39;ouverture d&#39;un modèle, vous êtes [invité à entraîner à nouveau le modèle lorsque la dérive du modèle est détectée](/help/models/insights.md#model-drift). | 3 Avril 2025 | t.b.d. |
+| **Détection de dérive du modèle** | Lorsque vous ouvrez un modèle, vous êtes [invité à entraîner à nouveau le modèle lorsque la dérive du modèle est détectée](/help/models/insights.md#model-drift). | 3 Avril 2025 | 7 Mai 2025 |
+| **Retour marginal du canal dans les informations sur le plan** | Une visualisation [retour marginal sur canal](/help/plans/insights.md#marginal-channel-return) est ajoutée au plan Insights, qui affiche le seuil de rentabilité marginal et le retour marginal sur l’ensemble des canaux ou des canaux sélectionnés. | 3 Avril 2025 | 24 Avril 2025 |
 
 
 ## Janvier - Février 2025
