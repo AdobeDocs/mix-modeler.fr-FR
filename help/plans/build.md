@@ -84,6 +84,7 @@ Pour créer un plan, dans l’interface **[!UICONTROL Plans]** ![PLan](/help/ass
    1. Pour basculer entre les entrées de devise ou de pourcentage, sélectionnez **[!UICONTROL $]** ou **[!UICONTROL %]** pour **[!UICONTROL View spend by]**.
 
    1. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Create]**.
+
       ![Sélection des dépenses](/help/assets/plan-spend-selection.png)
 
    1. Sélectionnez **[!UICONTROL Next]**.
