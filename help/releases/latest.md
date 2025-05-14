@@ -4,24 +4,32 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : février 2025.
+**Dernière mise à jour** : 14 mai 2025.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
+
+
+## Mai - Juin 2025
+
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+|---|---|---|---|
+| **Configuration du modèle de dépense** | Lorsque vous créez un plan, vous avez désormais la possibilité d’utiliser des données [de référence historique](/help/plans/build.md) (comme les données et les informations sur les dépenses marketing antérieures) lors de la définition du modèle de dépenses pour chaque période du budget. | jeudi 14 mai 2025 | jeudi 14 mai 2025 |
+| **Configurations de plan avancées** | Vous pouvez définir des [configurations avancées](/help/plans/build.md) pour votre formule, comme le chiffre d’affaires moyen par conversion et les coûts de canal. | jeudi 14 mai 2025 | jeudi 14 mai 2025 |
 
 ## Mars - Avril 2025
 
 | Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Détection de dérive du modèle** | Lorsque vous ouvrez un modèle, vous êtes [invité à entraîner à nouveau le modèle lorsque la dérive du modèle est détectée](/help/models/insights.md#model-drift). | 3 Avril 2025 | 7 Mai 2025 |
+| **Détection de dérive du modèle** | Lorsque vous ouvrez un modèle, vous êtes [invité à entraîner à nouveau le modèle lorsque la dérive du modèle est détectée](/help/models/insights.md#model-drift). | 3 Avril 2025 | jeudi 7 mai 2025 |
 | **Retour marginal du canal dans les informations sur le plan** | Une visualisation [retour marginal sur canal](/help/plans/insights.md#marginal-channel-return) est ajoutée au plan Insights, qui affiche le seuil de rentabilité marginal et le retour marginal sur l’ensemble des canaux ou des canaux sélectionnés. | 3 Avril 2025 | 24 Avril 2025 |
 
 
