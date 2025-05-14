@@ -3,9 +3,9 @@ title: Informations sur le plan
 description: Découvrez comment obtenir des informations sur votre plan et modifier un plan dans Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Une fois la récupération terminée, un aperçu de votre plan s’affiche, comp
 
 Pour fermer l’interface, sélectionnez **[!UICONTROL Close]**.
 
-Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** à l’**[!UICONTROL View ROI]**.
+Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL  %]** à l’**[!UICONTROL View ROI]**.
 
 ## Dépenses et retour sur investissement prévus pour les canaux payants
 
@@ -114,6 +114,39 @@ Le tableau [!UICONTROL Date range breakdown] présente les données granulaires 
       1. Sélectionnez **[!UICONTROL Next]** pour revenir à la section **[!UICONTROL Spend]** . Sélectionnez **[!UICONTROL Cancel]** pour revenir à l’aperçu de vos plans.
 
          ![Détails du plan](/help/assets/plan-details.png)
+
+   1. Si vous avez défini des configurations avancées pour votre plan, sélectionnez **[!UICONTROL Next]**.
+
+      ![Modifier la configuration avancée](../assets/edit-plan-advanced-configuration.png)
+
+      - Le nom du plan , le modèle, la période et le budget total sont résumés.
+
+      - Par défaut, Mix Modeler calcule automatiquement le chiffre d’affaires moyen par conversion à l’aide des dernières données saisonnières historiques. Dans **[!UICONTROL Average Revenue per conversion]**, vous pouvez définir un chiffre d’affaires moyen spécifique par conversion.
+
+         1. Pour chaque période de votre budget :
+            1. Sélectionnez une période dans le menu déroulant **[!UICONTROL Date range]**.
+            1. Saisissez une valeur de **[!UICONTROL Average revenue]**.
+
+         1. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) Ajouter un chiffre d’affaires moyen personnalisé par unité de conversion pour ajouter une période.
+         1. Sélectionnez ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) pour supprimer une période.
+
+        >[!NOTE]
+        >
+        >Si votre modèle n’inclut pas de données historiques sur le chiffre d’affaires, vous devez définir un chiffre d’affaires moyen par conversion pour chaque période spécifiée pour votre budget.
+        >
+
+      - Par défaut, Mix Modeler calcule automatiquement les coûts du canal à l’aide des dernières données saisonnières historiques. Dans **[!UICONTROL Channel costs]**, vous pouvez définir des coûts de canal personnalisés.
+
+         1. Pour chaque canal de votre modèle, définissez le coût du canal personnalisé.
+            1. Sélectionnez un canal dans le menu déroulant **[!UICONTROL Channel]**.
+            1. Pour chaque période de votre budget :
+               1. Sélectionnez une période dans le menu déroulant **[!UICONTROL Date range]**.
+               1. Saisissez une valeur de **[!UICONTROL Average revenue]**.
+            1. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** pour ajouter une période.
+            1. Sélectionnez ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) pour supprimer une période.
+
+         1. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** pour ajouter un canal.
+         1. Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer un canal personnalisé.
 
 
 1. Une fois la modification du plan terminée, sélectionnez **[!UICONTROL Edit]**.
