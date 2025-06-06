@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Regardez cette vidéo pour une présentation du workflow de l’utilisateur dans Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440205/?learn=on&captions=fre_fr)
 
 
 Un workflow type dans Mix Modeler se compose des activités suivantes :
