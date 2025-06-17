@@ -3,10 +3,10 @@ title: Présentation de l’harmonisation des jeux de données
 description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 7%
+source-wordcount: '1192'
+ht-degree: 6%
 
 ---
 
@@ -154,4 +154,28 @@ Pour afficher vos données harmonisées, dans l’interface de Mix Modeler :
    1. Sélectionnez ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
 
    Un rapport CSV avec un titre basé sur le nom du rapport fourni et la date et l’heure actuelles (par exemple, `Test Report_2025_04_23_9-5-18.csv`) est téléchargé dans votre dossier de téléchargement par défaut.
+
+
+## Bonnes pratiques
+
+Lorsque vous créez votre jeu de données harmonisé, appliquez les bonnes pratiques suivantes.
+
+### Schéma
+
+* Évitez les incohérences de type de données. Des incohérences se produisent lorsque le type de données d’un champ dans les enregistrements de vos jeux de données ingérés n’est pas conforme au type de données que vous avez configuré pour ce champ dans le schéma sous-jacent.
+* Évitez les types de schéma incorrects. Des types de schéma incorrects se produisent lorsque vous essayez d’ingérer un type de données spécifique à l’aide d’un jeu de données qui ne correspond pas au schéma de ces données. Par exemple, vous essayez d’ingérer des données récapitulatives à l’aide d’un jeu de données de facteur externe.
+
+### Mapping des données
+
+* Vérifiez que vous avez correctement configuré les identités pour chacun des jeux de données d’événement.
+
+### Qualité des données
+
+* Assurez-vous d’utiliser le format de date et d’heure de manière cohérente pour tous les enregistrements des jeux de données qui nécessitent des données horodatées.
+* Veillez à utiliser la même granularité (jour ou semaine) pour les enregistrements des jeux de données agrégés ou récapitulatifs.
+
+### Calcul des données
+
+* Évitez les lignes en double dans un jeu de données.
+* Assurez-vous que chaque jeu de données que vous chargez est spécifique à un canal et à un type de conversion uniques. Les points de contact ou les conversions en double sur plusieurs jeux de données affectent la sortie et la qualité du modèle.
 
