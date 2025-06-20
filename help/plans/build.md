@@ -108,6 +108,7 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
    1. Pour basculer entre les entrées de devise ou de pourcentage, sélectionnez **[!UICONTROL $]** ou **[!UICONTROL %]** pour **[!UICONTROL View spend by]**. Ce bouton est désactivé si vous avez sélectionné des mesures cibles qui ne sont pas basées sur une devise.
 
    1. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Create]**.
+
       ![Sélection des dépenses](/help/assets/plan-spend-selection.png)
 
    1. Sélectionnez **[!UICONTROL Next]**.

@@ -41,7 +41,7 @@ Lorsque les informations sont créées, vous voyez un aperçu de votre plan, com
 
 Pour fermer l’interface, sélectionnez **[!UICONTROL Close]**.
 
-Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL  %]** à l’**[!UICONTROL View ROI]**.
+Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** à l’**[!UICONTROL View ROI]**.
 
 ## Dépenses et retour sur investissement prévus pour les canaux payants
 
