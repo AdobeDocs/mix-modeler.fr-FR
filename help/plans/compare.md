@@ -1,43 +1,43 @@
 ---
-title: Comparaison de plans
-description: Découvrez comment comparer des plans en Mix Modeler.
+title: Comparer les plans
+description: Découvrez comment comparer des plans dans Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
-# Comparaison de plans
+# Comparer les plans
 
-Pour comparer des plans dans l’interface Plans du Mix Modeler :
+Pour comparer des plans dans l’interface Plans de Mix Modeler :
 
-* Sélectionnez ![Comparer](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. Dans Comparer des plans, sélectionnez un plan pour chaque **[!UICONTROL __]**.
+* Sélectionnez ![Comparer](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. Dans Comparer les plans, sélectionnez un plan pour chaque **[!UICONTROL _Sélectionner un plan_]**.
 
-* Vous pouvez également sélectionner deux plans dans la table Plans et, dans la barre d’actions, sélectionner ![Comparer](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**.
+* Vous pouvez également sélectionner deux plans dans le tableau Plans et, dans la barre d&#39;actions, sélectionner le **[!UICONTROL Compare]** ![Comparer](/help/assets/icons/Compare.svg).
 
-L’interface Comparer les plans affiche des informations et des visualisations sur :
+L’interface Comparer des plans affiche des informations et des visualisations sur :
 
-* Plan
-* Date range (Plage de dates)
-* Modèle
-* Budget total
-* Budget des canaux : **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
-* Dépenses prévues
-* RSI prévisionnel (retour sur investissement) ou CPA (coût par action)
-* RSI (retour sur investissement) ou ventilation CPA (coût par action)
-* Retour prévisionnel
+* **[!UICONTROL Plan]**. Si le plan est un plan basé sur la cible, un badge indiquant le statut de la cible s’affiche.
+* **[!UICONTROL Date range]**
+* **[!UICONTROL Model]**
+* **[!UICONTROL Total budget]**
+* **[!UICONTROL Channel budgeting]** : **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
+* **[!UICONTROL Planned spend]**
+* **[!UICONTROL Forecasted ROI]** (retour sur investissement) ou **[!UICONTROL CPA]** (coût par action)
+* répartition **[!UICONTROL ROI]** (retour sur investissement) ou **[!UICONTROL CPA]** (coût par action)
+* **[!UICONTROL Forecasted return]**
 
-Où :
+par lequel :
 
-* Le ROI est défini comme (Recettes incrémentielles - Dépenses) / Dépense.
-* Le CPA est défini comme Dépense / Conversion incrémentielle.
+* Le retour sur investissement est défini comme (revenus incrémentiels - dépenses) / dépenses.
+* Le CPA est défini comme une conversion incrémentielle/dépense.
 
 
-![Comparer des plans](/help/assets/compare-plans.png)
+![Comparer les plans](/help/assets/compare-plans.png)
 
-Vous pouvez placer le pointeur de la souris sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle contenant plus de détails.
+Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-Sélectionnez **[!UICONTROL Close]** pour revenir à la présentation des plans.
+Sélectionnez **[!UICONTROL Close]** pour revenir à la vue d’ensemble des plans.

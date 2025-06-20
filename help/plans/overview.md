@@ -3,9 +3,9 @@ title: Présentation des plans
 description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,12 @@ Pour afficher un tableau de vos plans actuels, dans l’interface de Mix Modeler
    | Modèle | Modèle utilisé comme base du plan. |
    | Date range (Plage de dates) | Période complète d’un plan. |
    | Budget | Budget total d’un plan. |
+   | Planifier la cible | Mesure cible définie pour un plan basé sur une cible. |
    | Retour prévu | Le [retour prévu](/help/main-guide/glossary.md) pour un plan |
    | Retour sur investissement prévu | Le [retour sur investissement prévu](/help/main-guide/glossary.md) d’un plan. |
    | Conversion prévue | La [conversion prévue](/help/main-guide/glossary.md) pour un plan |
    | Coût par acquisition prévu | [CPA prévu](/help/main-guide/glossary.md) pour un plan |
-   | Statut | Statut d’un plan : <p><span style="color:red">●</span> Échec, <p><span style="color:blue">●</span> traitement ou <p><span style="color:green">●</span> Terminé. |
+   | Statut | Statut d’un plan : <p>Échec De <span style="color:red">●</span>, <p><span style="color:blue">●</span> le traitement, ou <p><span style="color:green">●</span> Terminé. |
 
    {style="table-layout:auto"}
 
@@ -82,7 +83,7 @@ Pour dupliquer un plan :
 - Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan. Dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
 - Vous pouvez également sélectionner un plan dans le tableau ![SelectBox](/help/assets/icons/SelectBox.svg) et sélectionner ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions bleue.
 
-Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)] (_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
+Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)](_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
 
 - Les détails (tels que la description, le budget, etc.) du plan d’origine sont copiés.
 - Les contraintes budgétaires du plan d&#39;origine sont copiées dans le plan nouvellement créé.
@@ -113,6 +114,6 @@ Pour supprimer plusieurs plans :
 
 1. Sélectionnez plusieurs plans.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de supprimer les plans.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**&#x200B;pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
 
