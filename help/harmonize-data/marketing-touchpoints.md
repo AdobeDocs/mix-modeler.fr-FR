@@ -1,16 +1,22 @@
 ---
 title: Points de contact marketing
-description: Découvrez comment créer des points de contact marketing à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
+description: Découvrez comment créer des points de contact marketing à utiliser dans le cadre de l’harmonisation des données dans Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-# Points de contact marketing
+# Points de contact marketing {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="Point de contact marketing"
+>abstract="Les points de contact marketing sont des événements marketing au niveau du destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur le chiffre d’affaires."
+
 
 Les points de contact marketing sont des événements marketing au niveau du destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur le chiffre d’affaires.
 
@@ -18,7 +24,7 @@ Vous définissez des points de contact marketing pour vous aider dans l’analys
 
 ## Gestion des points de contact marketing
 
-Pour afficher un tableau des points de contact marketing disponibles dans l’interface du Mix Modeler :
+Pour afficher un tableau des points de contact marketing disponibles dans l’interface de Mix Modeler :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -38,7 +44,7 @@ Les colonnes du tableau indiquent des détails sur le point de contact marketing
 
 ## Ajouter un point de contact marketing
 
-Pour ajouter un point de contact marketing, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** dans Mix Modeler :
+Pour ajouter un point de contact marketing, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** de Mix Modeler :
 
 1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) Ajouter un point de contact marketing.
 
@@ -52,7 +58,7 @@ Pour ajouter un point de contact marketing, dans l’interface ![DataSearch](/he
 
       1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
-      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**&#x200B;ou saisissez une valeur, par exemple **[!DNL Luma]**.
+      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**ou saisissez une valeur, par exemple **[!DNL Luma]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Touchpoint volume]**, par exemple **[!UICONTROL Impressions]**.
 

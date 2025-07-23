@@ -3,9 +3,9 @@ title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ Pour chaque chemin de conversion, vous voyez :
 * somme de ces pourcentages de contribution du modèle d’attribution de canal.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-L’onglet Diagnostics affiche des visualisations pour :
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Graphiques d’évaluation des modèles"
+>abstract="Les visualisations de l’évaluation du modèle se répartissent entre les conversions réelles, prévues et résiduelles."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Présentation de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Démo Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Chemins touchés"
+>abstract="Les chemins touchés sont le pourcentage de chemins générant une conversion et le pourcentage de chemins ne générant pas de conversion pour chaque point de contact."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Date du modèle en date du"
+>abstract="Les données de ce tableau ne sont générées que pour des périodes spécifiques.  La date de **[!UICONTROL As of]** indique la date à laquelle les données ont été générées. Elle est basée sur les données de startDate à endDate."
+
+
+L’onglet **[!UICONTROL Diagnostics]** affiche les visualisations pour :
 
 * **[!UICONTROL Model Assessment]** visualisations qui consistent en :
 
