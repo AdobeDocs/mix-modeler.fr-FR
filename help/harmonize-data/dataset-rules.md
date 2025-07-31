@@ -3,16 +3,16 @@ title: Règles des jeux de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
 
 # Règles des jeux de données
 
-Les règles de jeu de données vous aident à mapper vos champs harmonisés avec les champs des données que vous avez ingérées dans Mix Modeler.
+Les règles des jeux de données vous aident à mapper vos champs harmonisés avec les champs des données que vous avez ingérées dans Mix Modeler.
 
 * Pour les données agrégées que vous avez ingérées dans Adobe Experience Platform, vous mappez un ou plusieurs des champs de jeux de données disponibles aux champs harmonisés appropriés.
 * Pour les données d’événement, vous pouvez mapper individuellement un ou plusieurs champs harmonisés aux champs du jeu de données, directement ou à l’aide de conditions.
@@ -20,7 +20,7 @@ Les règles de jeu de données vous aident à mapper vos champs harmonisés avec
 
 ## Gestion des règles des jeux de données
 
-Pour afficher un tableau des règles de jeu de données disponibles, dans l’interface du Mix Modeler :
+Pour afficher un tableau des règles de jeu de données disponibles, dans l’interface de Mix Modeler :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -35,14 +35,14 @@ Les colonnes du tableau spécifient des détails sur les règles du jeu de donn�
 | Schéma | Schéma auquel le jeu de données est conforme. Vous pouvez sélectionner rapidement le nom du schéma pour l’ouvrir dans un nouvel onglet de l’éditeur de schémas dans ![Schéma](/help/assets/icons/Schemas.svg) [Schémas](../ingest-data/schemas.md). |
 | Granularité | La granularité des données dans le jeu de données. Les valeurs possibles sont Quotidien, Hebdomadaire, Mensuel ou Annuel. |
 | Début de la semaine | Indique quel jour de la semaine est considéré comme le début d’une nouvelle semaine pour le jeu de données spécifique. |
-| Statut | Statut du champ : <p><span style="color:gray">●</span> Brouillon ou <p><span style="color:green">●</span> Actif |
+| Statut | Statut du champ : <p><span style="color:gray">●</span> Brouillon ou <p><span style="color:green">●</span> actif |
 | Dernière modification | Données et heure de la dernière modification de la règle du jeu de données. |
 
 {style="table-layout:auto"}
 
 ### Créer une règle de jeu de données
 
-Pour créer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans le Mix Modeler, sélectionnez **[!UICONTROL Create a dataset rule]** dans l’assistant de **[!UICONTROL Dataset rules configuration]**.
+Pour créer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler, sélectionnez **[!UICONTROL Create a dataset rule]** dans l’assistant de **[!UICONTROL Dataset rules configuration]**.
 
 Dans l’écran **[!UICONTROL Create]**,
 
@@ -52,19 +52,7 @@ Dans l’écran **[!UICONTROL Create]**,
 
 1. Sélectionnez **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** pour **[!UICONTROL Granularity]**.
 
-1. Lorsque vous avez sélectionné un jeu de données de la catégorie **[!UICONTROL Summary]** :
-
-   1. Pour définir si les données du jeu de données agrègent ou remplacent les données existantes, sélectionnez **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** pour **[!UICONTROL Data restatement is by]**.
-
-   1. Mappez chacune des **[!UICONTROL Available dataset fields]** aux **[!UICONTROL Standard harmonized fields]** correspondantes dans **[!UICONTROL Map to harmonized fields]**. Si vous ne souhaitez pas mapper un champ de jeu de données à un champ harmonisé, sélectionnez explicitement **[!UICONTROL -- None --]**.
-
-   1. Si vous avez besoin d’un nouveau champ harmonisé, qui n’est pas disponible dans la liste, sélectionnez **[!UICONTROL Create New]** pour créer un champ harmonisé. La boîte de dialogue s’affiche comme indiqué dans la section [Ajouter un nouveau champ harmonisé](fields.md#add-a-harmonized-field).
-
-   1. Une fois le mappage terminé pour tous les champs de la règle, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer un brouillon de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
-
-      ![Créer des règles de jeu de données](/help/assets/dataset-create-summary.png)
-
-1. Lorsque vous avez sélectionné un jeu de données de catégorie d’événement (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), dans la zone située sous **[!UICONTROL Map to harmonized fields]** :
+1. Dans la section **[!UICONTROL Map to harmonized fields]** :
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Standard harmonized field]**.
 
@@ -72,17 +60,17 @@ Dans l’écran **[!UICONTROL Create]**,
 
       1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-      1. Sélectionnez un **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    1. Lorsque le champ sélectionné est de type dimension :
 
       1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;spécifique, s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à&#x200B;**[!UICONTROL * Entrez la valeur d’entrée *]**.
+         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**s’il **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à l’adresse**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
          1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -94,23 +82,38 @@ Dans l’écran **[!UICONTROL Create]**,
 
       Exemple ci-dessous
 
-      * utilise un **[!UICONTROL Mapping type]** **[!UICONTROL Map Into]** pour mapper le champ harmonisé **[!UICONTROL Channel Type At Source]** au champ **[!UICONTROL channel_type]** du jeu de données **[!DNL Luma Transactions]**.
+      * utilise un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** pour mapper le champ harmonisé **[!UICONTROL Channel Type At Source]** au champ **[!UICONTROL channel_type]** du jeu de données **[!DNL Luma Transactions]**.
 
-      * utilise un **[!UICONTROL Mapping type]** **[!UICONTROL Case]** pour mapper de manière conditionnelle la valeur du champ **[!UICONTROL marketing.campaignName]** dans le jeu de données **[!DNL Luma Transactions]** au champ harmonisé **[!UICONTROL Campaign]**. Le champ harmonisé de la campagne est défini sur :
+      * utilise un **[!UICONTROL Case]** **[!UICONTROL Mapping type]** pour mapper de manière conditionnelle la valeur du champ **[!UICONTROL marketing.campaignName]** dans le jeu de données **[!DNL Luma Transactions]** au champ harmonisé **[!UICONTROL Campaign]**. Le champ harmonisé de la campagne est défini sur :
 
          * `Black Friday` lorsque la **[!UICONTROL marketing.campaignName]** est `_black_friday` ou `BlackFriday`.
          * à la valeur du **[!UICONTROL marketing.campaignName]** dans tous les autres cas.
 
         ![Événement de règle du jeu de données](/help/assets/dataset-create-event.png)
 
+      Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Mix Modeler tente de déduire le champ de jeu de données Experience Platform correspondant. En cas de réussite :
+
+      * Si le champ est de type dimension, **[!UICONTROL Map into]** est sélectionné comme **[!UICONTROL Mapping type]**.
+      * Si le champ est de type mesure, **[!UICONTROL Sum]** est sélectionné comme **[!UICONTROL Mapping type]**.
+      * **[!UICONTROL Field]** est sélectionné comme type de mappage **[!UICONTROL Default]**.
+      * Le champ de jeu de données Experience Platform correspondant est inséré automatiquement pour le *champ de jeu de données AEP*.
+
+      Vous pouvez modifier n’importe laquelle des valeurs proposées si elles sont incorrectes ou ne prennent pas en charge votre cas d’utilisation spécifique.
+
 1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** pour définir des champs supplémentaires.
 
 Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save as draft]** pour enregistrer un brouillon de la règle ou **[!UICONTROL Save]** pour enregistrer et activer la règle. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration de la règle.
 
+>[!NOTE]
+>
+>L’expérience **[!UICONTROL Map to harmonized fields]** dédiée aux règles de jeux de données de résumé est obsolète. Tous les jeux de données utilisent désormais la même expérience **[!UICONTROL Map to harmonized fields]** générique. Pour les jeux de données de résumé pour lesquels vous avez défini des règles à l’aide de l’expérience **[!UICONTROL Map to harmonized fields]** obsolète, vous pouvez vérifier ces règles par rapport à l’expérience **[!UICONTROL Map to harmonized field]** générique.
+>
+
+
 
 ### Modification d’une règle de jeu de données
 
-Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans le Mix Modeler :
+Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler :
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) dans la colonne **[!UICONTROL Dataset]** de la règle de jeu de données à modifier.
 1. Dans le menu contextuel, sélectionnez ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** pour commencer à modifier la règle du jeu de données. Pour plus d’informations, voir [Création d’une règle de jeu de données](#create-a-dataset-rule).
@@ -118,10 +121,11 @@ Pour modifier une règle de jeu de données, dans l’interface ![DataSearch](/h
 
 ### Suppression d’une règle de jeu de données
 
-Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** dans le Mix Modeler :
+Pour supprimer une règle de jeu de données, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** de Mix Modeler :
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) dans la colonne **[!UICONTROL Dataset]** de la règle de jeu de données à supprimer.
 1. Dans le menu contextuel, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer la règle du jeu de données. Vous êtes invité à confirmer l’opération. Sélectionnez **[!UICONTROL Delete]** pour supprimer définitivement la règle de jeu de données sélectionnée.
+
 
 
 ## Synchroniser les données
@@ -144,7 +148,7 @@ Pour synchroniser les données entre vos jeux de données de résumé et/ou d’
 
 >[!NOTE]
 >
->[!BADGE version bêta]{type=Informative}
+>[!BADGE bêta]{type=Informative} Les préférences de fusion des données sont une fonctionnalité bêta et ses fonctionnalités peuvent changer.
 
 Pour garantir des prédictions de modèle précises, vous pouvez définir des préférences de fusion des données. Cette fonctionnalité permet aux utilisateurs de résoudre les conflits après la fusion des données au niveau du résumé et au niveau de l’événement.
 
@@ -170,7 +174,7 @@ Pour configurer les préférences de fusion des données :
 
 1. Sélectionnez ![Préférences de fusion des données](/help/assets/icons/Merge.svg) [!BADGE version bêta].
 
-1. Dans la **[!UICONTROL Data merge preferences]** [!BADGE version bêta]{type=Informative}
+1. Dans la boîte de dialogue **[!UICONTROL Data merge preferences]** [!BADGE version bêta]{type=Informative} :
 
    ![Préférences de fusion des données](/help/assets/data-merge-preferences.png)
 
