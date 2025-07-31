@@ -6,7 +6,7 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoint"
 >title="Point de contact marketing"
->abstract="Les points de contact marketing sont des événements marketing au niveau du destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur le chiffre d’affaires."
+>abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus."
 
 
-Les points de contact marketing sont des événements marketing au niveau du destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur le chiffre d’affaires.
+Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.
 
 Vous définissez des points de contact marketing pour vous aider dans l’analyse d’attribution.
 
@@ -58,7 +58,7 @@ Pour ajouter un point de contact marketing, dans l’interface ![DataSearch](/he
 
       1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
-      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**&#x200B;ou saisissez une valeur, par exemple **[!DNL Luma]**.
+      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**ou saisissez une valeur, par exemple **[!DNL Luma]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Touchpoint volume]**, par exemple **[!UICONTROL Impressions]**.
 
