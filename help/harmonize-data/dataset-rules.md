@@ -3,9 +3,9 @@ title: Règles des jeux de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
+source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1625'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,14 @@ Dans l’écran **[!UICONTROL Create]**,
 
 1. Sélectionnez **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** pour **[!UICONTROL Granularity]**.
 
+1. Lorsque vous avez sélectionné un jeu de données de la catégorie **[!UICONTROL Summary]** , sélectionnez **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** pour **[!UICONTROL Data restatement is by]**.
+
+   Les données de rapport des éditeurs sont très importantes pour les analystes marketing, car travailler avec les éditeurs implique souvent des dépenses importantes et des modifications dans les données de rapport peuvent entraîner des informations et des plans d’investissement très différents. En outre, les analystes marketing ont besoin de données précises pour obtenir les bonnes informations et présenter des propositions convaincantes afin de gagner la confiance des parties prenantes. Cependant, ces éditeurs, tels que Google et Facebook, retraitent ou suppriment souvent les données de rapports lorsqu’ils réconcilient leurs données. La période pour la plupart des modifications est de moins de 7 jours à compter de la performance multimédia signalée. D’autres modifications des données sont possibles dans les 30 jours. En général, après 30 jours, les livres sont considérés comme fermés et les données sont complètes.
+
+   Mix Modeler prend en charge le retraitement des données. S’assurer que les données utilisées pour la création de rapports, la modélisation et la planification sont exactes. et que les données sont en mesure de soutenir les attentes et les besoins de l’analyste de la marque et du marketing.
+
+   Vous pouvez envoyer des lignes retraitées de données récapitulatives sous forme de lignes incrémentielles dans un jeu de données Experience Platform et le service d’harmonisation met à jour le jeu de données harmonisé avec ces données retraitées. De même, vous pouvez également supprimer des lignes de données récapitulatives qui doivent être reflétées dans le service d’harmonisation.
+
 1. Dans la section **[!UICONTROL Map to harmonized fields]** :
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Standard harmonized field]**.
@@ -60,17 +68,17 @@ Dans l’écran **[!UICONTROL Create]**,
 
       1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    1. Lorsque le champ sélectionné est de type dimension :
 
       1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
+         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**s’il **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à l’adresse**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
          1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
