@@ -4,27 +4,35 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '518'
 ht-degree: 3%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : 14 mai 2025.
+**Dernière mise à jour** : 6 août 2025.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
+
+
+
+## Juillet - Août 2025
+
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+|---|---|---|---|
+| **Mises à jour de l’harmonisation** | Toutes les règles des jeux de données utilisent désormais une [expérience de mappage générique aux champs harmonisés](/help/harmonize-data/dataset-rules.md) similaire, quel que soit le type de jeu de données. Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Mix Modeler tente de déduire automatiquement le champ de jeu de données Experience Platform correspondant. | mercredi 29 juillet 2025 | mercredi 29 juillet 2025 |
 
 
 ## Mai - Juin 2025
 
 | Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Plans basés sur des objectifs** | En regard des budgets, vous pouvez définir un objectif (cible) lorsque vous [créez](/help/plans/build.md) ou [modifiez](/help/plans/insights.md#edit-plan) un plan. Parmi les exemples de mesures cibles figurent le chiffre d’affaires, la conversion, le CPA ou le retour sur investissement. | 18 Juin 2025 | 8 juillet 2025 |
-| **Configuration du modèle de dépense** | Lorsque vous créez un plan, vous avez désormais la possibilité d’utiliser des données [de référence historique](/help/plans/build.md) (comme les données et les informations sur les dépenses marketing antérieures) lors de la définition du modèle de dépenses pour chaque période du budget. | jeudi 14 mai 2025 | jeudi 14 mai 2025 |
-| **Configurations de plan avancées** | Vous pouvez définir des [configurations avancées](/help/plans/build.md) pour votre formule, comme le chiffre d’affaires moyen par conversion et les coûts de canal. | jeudi 14 mai 2025 | jeudi 14 mai 2025 |
+| **Plans basés sur des objectifs** | En regard des budgets, vous pouvez définir un objectif (cible) lorsque vous [créez](/help/plans/build.md) ou [modifiez](/help/plans/insights.md#edit-plan) un plan. Parmi les exemples de mesures cibles figurent le chiffre d’affaires, la conversion, le CPA ou le retour sur investissement. | 18 Juin 2025 | mercredi 8 juillet 2025 |
+| **Configuration du modèle de dépense** | Lorsque vous créez un plan, vous avez désormais la possibilité d’utiliser des données [de référence historique](/help/plans/build.md) (comme les données et les informations sur les dépenses marketing antérieures) lors de la définition du modèle de dépenses pour chaque période du budget. | 14 Mai 2025 | 14 Mai 2025 |
+| **Configurations de plan avancées** | Vous pouvez définir des [configurations avancées](/help/plans/build.md) pour votre formule, comme le chiffre d’affaires moyen par conversion et les coûts de canal. | 14 Mai 2025 | 14 Mai 2025 |
 
 ## Mars - Avril 2025
 

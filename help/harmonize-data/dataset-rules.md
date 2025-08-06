@@ -3,9 +3,9 @@ title: Règles des jeux de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 1%
 
 ---
@@ -68,17 +68,17 @@ Dans l’écran **[!UICONTROL Create]**,
 
       1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    1. Lorsque le champ sélectionné est de type dimension :
 
       1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
+         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**s’il **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à l’adresse**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
          1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -114,7 +114,7 @@ Lorsque vous avez terminé, sélectionnez **[!UICONTROL Save as draft]** pour en
 
 >[!NOTE]
 >
->L’expérience **[!UICONTROL Map to harmonized fields]** dédiée aux règles de jeux de données de résumé est obsolète. Tous les jeux de données utilisent désormais la même expérience **[!UICONTROL Map to harmonized fields]** générique. Pour les jeux de données de résumé pour lesquels vous avez défini des règles à l’aide de l’expérience **[!UICONTROL Map to harmonized fields]** obsolète, vous pouvez vérifier ces règles par rapport à l’expérience **[!UICONTROL Map to harmonized field]** générique.
+>L’expérience **[!UICONTROL Map to harmonized fields]** dédiée aux règles de jeux de données de résumé est obsolète. Toutes les règles des jeux de données utilisent désormais une expérience **[!UICONTROL Map to harmonized fields]** similaire, quel que soit le type de jeu de données. Pour les jeux de données de résumé pour lesquels vous avez défini des règles à l’aide de l’expérience **[!UICONTROL Map to harmonized fields]** obsolète, vous pouvez vérifier ces règles par rapport à l’expérience **[!UICONTROL Map to harmonized field]** générique.
 >
 
 
