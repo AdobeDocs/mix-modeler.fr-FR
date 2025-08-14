@@ -4,7 +4,7 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Stratégie de publication
 
-[!UICONTROL Mixx Modeler] utilise des indicateurs de fonctionnalité (également appelés « bascules ») pour contrôler la visibilité des nouvelles fonctionnalités, ce qui permet de les tester à échelle contrôlée avant la mise à jour complète. Cette stratégie de publication comprend les phases suivantes :
+[!UICONTROL Mix Modeler] utilise des indicateurs de fonctionnalité (également appelés « bascules ») pour contrôler la visibilité des nouvelles fonctionnalités, ce qui permet de les tester à échelle contrôlée avant la mise à jour complète. Cette stratégie de publication comprend les phases suivantes :
 
 * **Tests limités** : la publication par étapes commence par un test réalisé par les utilisateurs et utilisatrices Adobe internes. Elle est ensuite mise à la disposition d’un petit groupe de comptes clients afin de s’assurer que la fonctionnalité répond aux besoins et aux attentes des clients.
 
