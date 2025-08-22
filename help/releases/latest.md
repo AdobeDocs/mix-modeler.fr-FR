@@ -4,16 +4,16 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 3%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : 6 août 2025.
+**Dernière mise à jour** : 20 août 2025.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
 
@@ -23,6 +23,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 | Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | L’interface utilisateur [Comparer des plans](/help/plans/compare.md) affiche désormais des détails supplémentaires sur le marketing payant : RSI ou CPA, et chiffre d’affaires. | 20 Août 2025 | 20 Août 2025 |
 | **Mises à jour de l’harmonisation** | Toutes les règles des jeux de données utilisent désormais une [expérience de mappage générique aux champs harmonisés](/help/harmonize-data/dataset-rules.md) similaire, quel que soit le type de jeu de données. Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Mix Modeler tente de déduire automatiquement le champ de jeu de données Experience Platform correspondant. | mercredi 29 juillet 2025 | mercredi 29 juillet 2025 |
 
 
