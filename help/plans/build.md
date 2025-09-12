@@ -3,7 +3,7 @@ title: Créer des plans
 description: Découvrez comment créer des plans dans Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Dans Mix Modeler, vous créez un plan à l’aide de l’assistant de plan. Dans
 
 Vous devez définir l’objectif pour lequel vous souhaitez optimiser votre plan. Cet objectif peut être soit un budget que vous pouvez dépenser, soit une cible que vous voulez atteindre. Si l’objectif est une cible, vous devez en outre spécifier les valeurs de la mesure cible à utiliser : conversion, chiffre d’affaires, CPA ou RSI.
 
-Pour créer un plan, dans l’interface **[!UICONTROL Plans]** ![PLan](/help/assets/icons/FileChart.svg) de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
+Pour créer un plan, dans l’interface ![ ](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
 
 
 1. Dans l’écran **[!UICONTROL Plan creation]** :
@@ -58,7 +58,7 @@ Pour supprimer une période et le budget associé, sélectionnez ![Fermer](/help
             1. Sélectionnez une mesure cible dans le menu déroulant **[!UICONTROL Select target metric]** . Vous pouvez choisir entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** ou **[!UICONTROL ROI]**.
             1. Sélectionnez un modèle dans le menu déroulant **[!UICONTROL Select model]**.
          1. Spécifiez une période en saisissant des dates ou en sélectionnant une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
-         1. Saisissez une valeur pour la mesure cible sélectionnée. Par exemple, un nombre pour **[!UICONTROL Conversion]**, un pourcentage pour **[!UICONTROL ROI]** ou des valeurs de devise pour **[!UICONTROL CPA]** et **[!UICONTROL Revenue]**.
+         1. Saisissez une valeur pour la mesure cible sélectionnée. Par exemple, un nombre pour **[!UICONTROL Total Conversions]**, un pourcentage pour **[!UICONTROL Paid Marketing ROI]** ou des valeurs de devise pour **[!UICONTROL Paid Marketing CPA]** et **[!UICONTROL Total Revenue]**.
 Pour ajouter des périodes supplémentaires, chacune avec sa mesure cible, sélectionnez ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 Pour supprimer une période et une mesure cible associée, sélectionnez ![Fermer](/help/assets/icons/Close.svg).
          1. Pour définir un budget maximum facultatif dans lequel vous souhaitez contraindre le plan :
@@ -83,7 +83,7 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
 
      >[!IMPORTANT]
      >
-     >Les informations ci-dessous ne sont pertinentes que si vous avez sélectionné le **[!UICONTROL Edit channel budgets first]** ![TableEdit](/help/assets/icons/TableEdit.svg)
+     >Les informations ci-dessous ne sont pertinentes que si vous avez sélectionné le ![ ](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]**
 
 
 1. Dans la section **[!UICONTROL Spend selection]**, pour chaque période de budget, utilisez le ![Chevron](/help/assets/icons/ChevronRight.svg) afin d’ouvrir la vue de distribution des canaux pour cette période.
@@ -108,7 +108,6 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
    1. Pour basculer entre les entrées de devise ou de pourcentage, sélectionnez **[!UICONTROL $]** ou **[!UICONTROL %]** pour **[!UICONTROL View spend by]**. Ce bouton est désactivé si vous avez sélectionné des mesures cibles qui ne sont pas basées sur une devise.
 
    1. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Create]**.
-
       ![Sélection des dépenses](/help/assets/plan-spend-selection.png)
 
    1. Sélectionnez **[!UICONTROL Next]**.

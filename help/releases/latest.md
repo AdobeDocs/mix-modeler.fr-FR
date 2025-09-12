@@ -4,19 +4,27 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
+source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '669'
 ht-degree: 3%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : 20 août 2025.
+**Dernière mise à jour** : 12 septembre 2025.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
 
+
+## 2025 septembre
+
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Dataset mapping validations]** | Ajout de validations aux mappages de jeux de données Experience Platform pour les champs harmonisés. | 9 septembre 2025 | 9 septembre 2025 |
+| **[!UICONTROL Context menu on links to model and plans]** | Activation du menu contextuel du navigateur sous forme de liens vers des modèles et des plans. Vous pouvez désormais utiliser ce menu contextuel du navigateur pour ouvrir un plan ou un modèle spécifique dans un nouvel onglet ou une nouvelle fenêtre. | 9 septembre 2025 | 9 septembre 2025 |
+| **Correctifs** | Correctifs pour les tickets suivants : <ul><li>AMM-3101 : correction d’une création de mappage incorrecte pour les règles : `event_date` a été transmis comme nom de champ au lieu de `timestamp`.</li><li>AMM-3092 : correction d’une erreur qui empêchait de modifier la valeur de contrainte maximale de canal sur un plan basé sur un budget dupliqué.</li><li>AM3130 : correction d’informations **[!UICONTROL Run frequency]** incorrectes sur une fenêtre contextuelle de détail d’un modèle.</li><li>AMM3158 : mise à jour des libellés des options de **[!UICONTROL Select target metric]** dans le volet **[!UICONTROL Optimize]** de l’interface [Création de plans](/help/plans/build.md).</li><li>AMM 3176 : correction d’une erreur qui empêchait l’affichage de la visualisation [Répartition par canal](/help/models/insights.md#breakdown) dans **[!UICONTROL Attribution]**’onglet de **[!UICONTROL Model Insights]**.</li></ul> | 9 septembre 2025 | 9 septembre 2025 |
 
 
 ## Juillet - Août 2025
