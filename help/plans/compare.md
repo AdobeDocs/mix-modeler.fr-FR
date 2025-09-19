@@ -3,9 +3,9 @@ title: Comparer les plans
 description: Découvrez comment comparer des plans dans Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
+source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ L’interface Comparer des plans affiche des informations et des visualisations 
 * **[!UICONTROL Channel budgeting]** : **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (retour sur investissement) ou **[!UICONTROL CPA]** (coût par action)
+   * Le retour sur investissement prévu est le retour sur investissement global du plan (y compris les revenus incrémentiels provenant des canaux de base et hors dépenses).
+   * L’ACP prévue est l’ACP globale du plan.
 * **[!UICONTROL Paid marketing ROI]** (retour sur investissement) ou **[!UICONTROL CPA]** (coût par action)
+   * Le retour sur investissement du marketing payant correspond au retour sur investissement des canaux payants uniquement dans le plan.
+   * Le CPA de marketing payant est le CPA des canaux payants uniquement dans le plan.
 * **[!UICONTROL ROI]** (retour sur investissement) ou **[!UICONTROL CPA]** (coût par action) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
 * **[!UICONTROL Paid marketing revenue]**
@@ -36,8 +40,6 @@ par lequel :
 
 * Le retour sur investissement est défini comme (revenus incrémentiels - dépenses) / dépenses.
 * Le CPA est défini comme une conversion incrémentielle/dépense.
-* La prévision est définie comme incluant les canaux de base et hors dépenses.
-* Le marketing payant est défini comme étant spécifique uniquement aux canaux marketing payants.
 
 
 ![Comparer les plans](/help/assets/compare-plans.png)
