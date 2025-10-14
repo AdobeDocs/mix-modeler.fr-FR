@@ -22,7 +22,7 @@ Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/docs/ex
 
 >[!MORELIKETHIS]
 >
->* [ Ingérer des données ](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home)
+>* [&#x200B; Ingérer des données &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home)
 >* [Schémas](schemas.md)
 >* [Présentation de l’ingestion des données (Experience Platform)](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home)
 >* [Connecteurs Source (Experience Platform)](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home)

@@ -73,7 +73,7 @@ Pour afficher les informations d’un plan et modifier un plan :
 
 1. Sélectionnez le nom du plan.
 
-Vous êtes redirigé vers [ Informations sur le plan ](insights.md).
+Vous êtes redirigé vers [&#x200B; Informations sur le plan &#x200B;](insights.md).
 
 
 ### Dupliquer un plan

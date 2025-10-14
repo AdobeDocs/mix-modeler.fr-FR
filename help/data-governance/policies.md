@@ -53,7 +53,7 @@ Lorsque vous souhaitez enregistrer la mise à jour de votre schéma, une fenêtr
 
 La violation de la politique de gouvernance des données détectée fournit des informations spécifiques sur la violation. Vous pouvez résoudre ces violations par le biais des paramètres de la politique et d’autres mesures qui ne sont pas directement liées au workflow de configuration. Par exemple, vous pouvez modifier les étiquettes afin que certains champs soient autorisés à utiliser à des fins de science des données. Vous pouvez également modifier la configuration du modèle lui-même, de sorte que le modèle n’utilise pas d’objet avec un libellé d’utilisation des données.
 
-La sélection ![ ](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]** dans le rail de gauche permet d’accéder à l’interface [!UICONTROL Policies] de l’Experience Platform, ce qui vous permet de gérer vos stratégies, vos étiquettes et vos actions marketing.
+La sélection ![&#x200B; &#x200B;](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]** dans le rail de gauche permet d’accéder à l’interface [!UICONTROL Policies] de l’Experience Platform, ce qui vous permet de gérer vos stratégies, vos étiquettes et vos actions marketing.
 
 <!--
 Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)

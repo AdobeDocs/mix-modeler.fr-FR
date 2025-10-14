@@ -77,7 +77,7 @@ Pour sélectionner un autre indicateur de performance clé :
 
 ## Visualisations
 
-![ Visualisation ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; Visualisation &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### ROI : Réel/Prévu
 

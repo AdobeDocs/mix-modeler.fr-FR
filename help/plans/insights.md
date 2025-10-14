@@ -61,7 +61,7 @@ Cette visualisation sous forme de graphique à barres présente les prévisions 
 
 Cette visualisation sous forme de graphique à barres présente les conversions prévues pour vos canaux en fonction du modèle, de la période et du budget.
 
-![ Visualisation des conversions prévues ](../assets/overview-plan-forecasted-conversions.png)
+![&#x200B; Visualisation des conversions prévues &#x200B;](../assets/overview-plan-forecasted-conversions.png)
 
 
 ## Retour de canal marginal

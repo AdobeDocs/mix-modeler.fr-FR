@@ -17,7 +17,7 @@ Dans Mix Modeler, vous créez un plan à l’aide de l’assistant de plan. Dans
 
 Vous devez définir l’objectif pour lequel vous souhaitez optimiser votre plan. Cet objectif peut être soit un budget que vous pouvez dépenser, soit une cible que vous voulez atteindre. Si l’objectif est une cible, vous devez en outre spécifier les valeurs de la mesure cible à utiliser : conversion, chiffre d’affaires, CPA ou RSI.
 
-Pour créer un plan, dans l’interface ![ ](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
+Pour créer un plan, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
 
 
 1. Dans l’écran **[!UICONTROL Plan creation]** :
@@ -83,7 +83,7 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
 
      >[!IMPORTANT]
      >
-     >Les informations ci-dessous ne sont pertinentes que si vous avez sélectionné le ![ ](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]**
+     >Les informations ci-dessous ne sont pertinentes que si vous avez sélectionné le ![&#x200B; &#x200B;](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]**
 
 
 1. Dans la section **[!UICONTROL Spend selection]**, pour chaque période de budget, utilisez le ![Chevron](/help/assets/icons/ChevronRight.svg) afin d’ouvrir la vue de distribution des canaux pour cette période.

@@ -100,7 +100,7 @@ Pour afficher les informations d’un modèle :
 
 1. Sélectionnez le nom du modèle.
 
-Vous êtes redirigé vers [ Model Insights ](insights.md).
+Vous êtes redirigé vers [&#x200B; Model Insights &#x200B;](insights.md).
 
 
 ### Afficher les détails
