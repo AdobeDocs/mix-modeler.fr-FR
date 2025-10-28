@@ -3,27 +3,27 @@ title: Présentation de l’ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 10%
 
 ---
 
 # Présentation de l’ingestion de données
 
-Mix Modeler fonctionne avec des données au niveau de l’événement, des données d’effort marketing agrégées ou récapitulatives provenant de divers jardins muraux, ainsi que des données agrégées ou récapitulatives provenant de toute autre source, comme de la publicité hors ligne, des facteurs internes ou des facteurs externes.
+Mix Modeler fonctionne avec des données au niveau de l’événement, des données d’effort marketing agrégées ou récapitulatives provenant de divers jardins muraux. Et avec des données agrégées ou récapitulatives provenant de toute autre source, comme de la publicité hors ligne, des facteurs internes ou des facteurs externes.
 
 Les clients peuvent utiliser tous les types de données ingérés dans Experience Platform en tant que jeux de données et basés sur des schémas utilisant XDM ExperienceEvent ou XDM Summary Metrics comme classe de base.
 
 Par exemple :
 
-* les données collectées à l’aide du connecteur source Adobe Analytics et transformées en jeux de données conformes à la version par défaut ou personnalisée du schéma Adobe Analytics, ou
-* les données collectées à l’aide de l’API Experience Platform Web SDK, Mobile SDK ou Edge Network Server pour collecter les interactions des clients sur le web, les appareils mobiles ou tout autre type d’appareil,
-* des données agrégées ou récapitulatives provenant de jardins clos (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne,
-* données récapitulatives ou agrégées non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
+* Données collectées à l’aide du connecteur source Adobe Analytics. et transformés en jeux de données conformes à la version par défaut ou personnalisée du schéma Adobe Analytics.
+* Données collectées à l’aide de l’API Experience Platform Web SDK, Mobile SDK ou Edge Network Server pour collecter les interactions des clients sur le web, les appareils mobiles ou tout autre type d’appareil.
+* Données agrégées ou récapitulatives provenant de jardins clos (comme Facebook, YouTube), de sources de trafic ou de données publicitaires hors ligne.
+* Données agrégées ou récapitulatives non marketing contenant des facteurs internes ou externes utiles à la création de modèles.
 
-Vous pouvez utiliser n’importe quel type de mécanisme, pris en charge par Experience Platform, pour ingérer vos données au niveau de l’événement d’expérience, vos données d’effort marketing agrégées et vos données provenant d’autres sources. Les mécanismes d’ingestion comprennent les SDK Experience Platform, les API, les connecteurs source, l’ingestion par lots et par flux. Pour en savoir plus sur l’ingestion de vos données dans Experience Platform en vue de leur utilisation dans Adobe Mix Modeler, voir [Présentation de l’ingestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home).
+Vous pouvez utiliser n’importe quel type de mécanisme, pris en charge par Experience Platform, pour ingérer vos données au niveau de l’événement d’expérience, vos données d’effort marketing agrégées et vos données provenant d’autres sources. Tels que les SDK Experience Platform, les API, les connecteurs source, ainsi que l’ingestion par lots et en flux continu. Pour en savoir plus sur l’ingestion de vos données dans Experience Platform en vue de leur utilisation dans Adobe Mix Modeler, consultez la [présentation de l’ingestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home).
 
 ## Instructions
 
@@ -86,10 +86,10 @@ Pour utiliser les données dans Mix Modeler, vous avez besoin de données collec
 
 Pour vérifier si vos données sont correctement disponibles dans Mix Modeler, procédez comme suit :
 
-* Utilisez des visualisations dans [Aperçu](/help/overview.md).
+* Utilisez des visualisations dans la [Présentation](/help/overview.md).
 * Téléchargez et examinez des données provenant de l’[Données harmonisées](/help/harmonize-data/overview.md) dans des jeux de données harmonisés.
 
-Pour vérifier si vos données sont correctement ingérées dans Experience Platform, vous pouvez [écrire et exécuter des requêtes SQL à l’aide d’Experience Platform Query Service](https://experienceleague.adobe.com/fr/docs/experience-platform/query/home).
+Pour vérifier si vos données sont correctement ingérées dans Experience Platform, vous pouvez [écrire et exécuter des requêtes SQL à l’aide d’Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
