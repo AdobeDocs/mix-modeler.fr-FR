@@ -1,17 +1,17 @@
 ---
-title: Présentation de Mix Modeler
+title: Vue d’ensemble de Mix Modeler
 description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
 short-description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Présentation de Mix Modeler
+# Vue d’ensemble de Mix Modeler
 
 Mix Modeler, optimisé par Adobe Sensei, permet aux spécialistes marketing de mesurer les campagnes et d’optimiser la planification de manière holistique, sur tous les canaux : payant, gagné et détenu. Sa méthodologie unifiée mesure progressivement les points de contact marketing et les niveaux agrégés, tout en assurant des résultats entièrement cohérents.
 
@@ -31,7 +31,7 @@ Pour accomplir cette fonctionnalité, Mix Modeler combine les éléments suivant
 
 L’apprentissage par transfert bidirectionnel IA/ML unifie les résultats de la modélisation du marketing mix (MMM) et de l’attribution multipoint (MTA) afin d’assurer des résultats cohérents en matière de mesure et de planification dans un monde sans cookies.
 
-![&#x200B; Apprentissage par transfert bidirectionnel &#x200B;](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![ Apprentissage par transfert bidirectionnel ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Fonctionnalités
@@ -86,7 +86,7 @@ Vous pouvez utiliser la fonctionnalité d’attribution multipoint de Mix Modele
 
 * Allocation du budget de campagne : permet d’informer les décisions d’allocation budgétaire sur les canaux marketing.
 * Optimisation des campagnes : au sein de chaque canal, identifiez les campagnes, contenus publicitaires et mots-clés qui fonctionnent le mieux pour chaque SKU ou zone géographique. Cette compréhension vous permet d’examiner chaque canal afin que l’équipe marketing puisse optimiser ses tactiques.
-* Attribution au niveau de l’événement en entonnoir complet : comprendre l’impact du marketing sur l’ensemble du parcours client. Par exemple, d’une création gratuite de compte à une conversion payante et au-delà.
+* Attribution au niveau de l’événement full-funnel : comprendre l’impact du marketing sur l’ensemble du parcours client. Par exemple, d’une création gratuite de compte à une conversion payante et au-delà.
 * Évaluations des partenaires : Évaluez l&#39;efficacité des organismes et des partenaires en fonction des résultats de l&#39;attribution.
 
 Consultez [Model Insights - Attribution](../models/insights.md#attribution) pour savoir comment accéder aux informations d’attribution multipoint dans Mix Modeler.

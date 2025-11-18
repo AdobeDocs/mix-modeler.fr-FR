@@ -4,10 +4,10 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 6fe334458e8d7fabbd7cbaa027e13eadbf703325
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,17 +20,17 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Septembre 2025
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset mapping validations]** | Ajout de validations aux mappages de jeux de données Experience Platform pour les champs harmonisés. | 9 septembre 2025 | 9 septembre 2025 |
-| **[!UICONTROL Context menu on links to model and plans]** | Activation du menu contextuel du navigateur sous forme de liens vers des modèles et des plans. Vous pouvez désormais utiliser ce menu contextuel du navigateur pour ouvrir un plan ou un modèle spécifique dans un nouvel onglet ou une nouvelle fenêtre. | 9 septembre 2025 | 9 septembre 2025 |
-| **Correctifs** | Correctifs pour les tickets suivants : <ul><li>AMM-3101 : correction d’une création de mappage incorrecte pour les règles : `event_date` a été transmis comme nom de champ au lieu de `timestamp`.</li><li>AMM-3092 : correction d’une erreur qui empêchait de modifier la valeur de contrainte maximale de canal sur un plan basé sur un budget dupliqué.</li><li>AM3130 : correction d’informations **[!UICONTROL Run frequency]** incorrectes sur une fenêtre contextuelle de détail d’un modèle.</li><li>AMM3158 : mise à jour des libellés des options de **[!UICONTROL Select target metric]** dans le volet **[!UICONTROL Optimize]** de l’interface [Création de plans](/help/plans/build.md).</li><li>AMM 3176 : correction d’une erreur qui empêchait l’affichage de la visualisation [Répartition par canal](/help/models/insights.md#breakdown) dans **[!UICONTROL Attribution]**’onglet de **[!UICONTROL Model Insights]**.</li></ul> | 9 septembre 2025 | 9 septembre 2025 |
-| **Correctifs** | Correctifs pour les tickets suivants : <ul><li>AMM-3174 : expérience améliorée lorsqu’aucun plan existant n’est disponible.</li><li>AMM-3216 : validation améliorée des périodes personnalisées.</li><li>AMM-3240 : affichage de la fréquence du modèle d’exécution fixe.</ul> | 23 septembre 2025 | 23 septembre 2025 |
+| **[!UICONTROL Dataset mapping validations]** | Ajout de validations aux mappages de jeux de données Experience Platform pour les champs harmonisés. | mercredi 9 septembre 2025 | mercredi 9 septembre 2025 |
+| **[!UICONTROL Context menu on links to model and plans]** | Activation du menu contextuel du navigateur sous forme de liens vers des modèles et des plans. Vous pouvez désormais utiliser ce menu contextuel du navigateur pour ouvrir un plan ou un modèle spécifique dans un nouvel onglet ou une nouvelle fenêtre. | mercredi 9 septembre 2025 | mercredi 9 septembre 2025 |
+| **Correctifs** | Correctifs pour les tickets suivants : <ul><li>AMM-3101 : correction d’une création de mappage incorrecte pour les règles : `event_date` a été transmis comme nom de champ au lieu de `timestamp`.</li><li>AMM-3092 : correction d’une erreur qui empêchait de modifier la valeur de contrainte maximale de canal sur un plan basé sur un budget dupliqué.</li><li>AM3130 : correction d’informations **[!UICONTROL Run frequency]** incorrectes sur une fenêtre contextuelle de détail d’un modèle.</li><li>AMM3158 : mise à jour des libellés des options de **[!UICONTROL Select target metric]** dans le volet **[!UICONTROL Optimize]** de l’interface [Création de plans](/help/plans/build.md).</li><li>AMM 3176 : correction d’une erreur qui empêchait l’affichage de la visualisation [Répartition par canal](/help/models/insights.md#breakdown) dans **[!UICONTROL Attribution]**’onglet de **[!UICONTROL Model Insights]**.</li></ul> | mercredi 9 septembre 2025 | mercredi 9 septembre 2025 |
+| **Correctifs** | Correctifs pour les tickets suivants : <ul><li>AMM-3174 : expérience améliorée lorsqu’aucun plan existant n’est disponible.</li><li>AMM-3216 : validation améliorée des périodes personnalisées.</li><li>AMM-3240 : affichage de la fréquence du modèle d’exécution fixe.</ul> | 23 septembre 2025 | 23 septembre 2025 |
 
 
 ## Juillet - Août 2025
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | L’interface utilisateur [Comparer des plans](/help/plans/compare.md) affiche désormais des détails supplémentaires sur le marketing payant : RSI ou CPA, et chiffre d’affaires. | 20 Août 2025 | 20 Août 2025 |
 | **Mises à jour de l’harmonisation** | Toutes les règles des jeux de données utilisent désormais une [expérience de mappage générique aux champs harmonisés](/help/harmonize-data/dataset-rules.md) similaire, quel que soit le type de jeu de données. Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Mix Modeler tente de déduire automatiquement le champ de jeu de données Experience Platform correspondant. | mercredi 29 juillet 2025 | mercredi 29 juillet 2025 |
@@ -38,7 +38,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Mai - Juin 2025
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Plans basés sur des objectifs** | En regard des budgets, vous pouvez définir un objectif (cible) lorsque vous [créez](/help/plans/build.md) ou [modifiez](/help/plans/insights.md#edit-plan) un plan. Parmi les exemples de mesures cibles figurent le chiffre d’affaires, la conversion, le CPA ou le retour sur investissement. | 18 Juin 2025 | mercredi 8 juillet 2025 |
 | **Configuration du modèle de dépense** | Lorsque vous créez un plan, vous avez désormais la possibilité d’utiliser des données [de référence historique](/help/plans/build.md) (comme les données et les informations sur les dépenses marketing antérieures) lors de la définition du modèle de dépenses pour chaque période du budget. | 14 Mai 2025 | 14 Mai 2025 |
@@ -46,7 +46,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Mars - Avril 2025
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Détection de dérive du modèle** | Lorsque vous ouvrez un modèle, vous êtes [invité à entraîner à nouveau le modèle lorsque la dérive du modèle est détectée](/help/models/insights.md#model-drift). | 3 Avril 2025 | 7 mai 2025 |
 | **Retour marginal du canal dans les informations sur le plan** | Une visualisation [retour marginal sur canal](/help/plans/insights.md#marginal-channel-return) est ajoutée au plan Insights, qui affiche le seuil de rentabilité marginal et le retour marginal sur l’ensemble des canaux ou des canaux sélectionnés. | 3 Avril 2025 | 24 Avril 2025 |
@@ -54,7 +54,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Janvier - Février 2025
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Conditions imbriquées** | Vous pouvez créer des conditions imbriquées à l’aide des opérateurs AND et OR lorsque vous définissez une population de données éligible dans le cadre de la [configuration d’un modèle](/help/models/build.md#configure). | 15 janvier 2025 | 18 Février 2025 |
 | **Affichage des rapports** | Vous pouvez afficher un rapport sur un [conversion](/help/harmonize-data/conversions.md#view-report) ou un [point de contact marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que vous avez défini dans le cadre de l’harmonisation des données. | 15 janvier 2025 | 18 Février 2025 |

@@ -1,9 +1,9 @@
 ---
 title: Utiliser les données de notation
-description: Découvrez comment sont conservées les données de notation d’un modèle dans Mix Modeler.
+description: Découvrez comment les données de notation d’un modèle dans Mix Modeler sont conservées.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 24%
@@ -12,7 +12,7 @@ ht-degree: 24%
 
 # Utiliser les données de notation
 
-Dans le cadre de la notation d’un modèle, les données de notation sont conservées dans un jeu de données en Experience Platform. Lorsque vous avez activé l’attribution muti-touch lors de la création du modèle, des données de score d’événement supplémentaires sont conservées dans un jeu de données dans Experience Platform.
+Dans le cadre de la notation d’un modèle, les données de notation sont conservées dans un jeu de données dans Experience Platform. Lorsque vous avez activé l’attribution multipoint lors de la création du modèle, des données de score d’événement supplémentaires sont conservées dans un jeu de données dans Experience Platform.
 
 Chacun de ces jeux de données est conforme à un schéma. Cet article documente ces schémas.
 
@@ -21,9 +21,9 @@ Chacun de ces jeux de données est conforme à un schéma. Cet article documente
 
 Le schéma pour les données de notation est nommé comme `AMM AI Schema - <name of model> <id>`. Par exemple : `AMM AI Schema - Model for Online Conversion 10120`.
 
-Le jeu de données, qui rend persistantes les données de notation pour un modèle, est nommé comme `AMM AI Aggregrate Scores - <id>`, par exemple `AMM AI Aggregrate Scores - 10120`.
+Le jeu de données, qui conserve les données de notation d’un modèle, est nommé comme `AMM AI Aggregrate Scores - <id>`, par exemple `AMM AI Aggregrate Scores - 10120`.
 
-Le schéma inclut un groupe de champs avec un objet contenant des détails sur les scores. L’objet se compose des champs suivants.
+Le schéma comprend un groupe de champs avec un objet contenant des détails sur les scores. L’objet se compose des champs suivants.
 
 | Nom du champ | Type | Définition |
 |---|---|---|
@@ -45,11 +45,11 @@ Le schéma inclut un groupe de champs avec un objet contenant des détails sur l
 
 ## Schéma de données de notation des événements
 
-Le schéma utilisé pour marquer les données s’appelle ainsi `Attribution AI Scores - <name of model> <id> - Schema`. Par exemple : `Attribution AI Scores - Model for Online Conversion 10120 - Schema`.
+Le schéma pour les données de notation est nommé comme `Attribution AI Scores - <name of model> <id> - Schema`. Par exemple : `Attribution AI Scores - Model for Online Conversion 10120 - Schema`.
 
-Le jeu de données, qui rend persistantes les données de notation pour un modèle, est nommé comme `Attribution AI Scores - <name of model> <id>`, par exemple `Attribution AI Scores - Model for Online Conversion 10120 `.
+Le jeu de données, qui conserve les données de notation d’un modèle, est nommé comme `Attribution AI Scores - <name of model> <id>`, par exemple `Attribution AI Scores - Model for Online Conversion 10120 `.
 
-Le schéma inclut un groupe de champs contenant un objet contenant des détails sur les noyaux. L’objet porte le nom .`attibution_AI_scores__<name of model> id`
+Le schéma comprend un groupe de champs contenant un objet contenant des détails sur les cœurs. L’objet est nommé comme `attibution_AI_scores__<name of model> id`.
 
 Le groupe de champs contient les champs suivants.
 
@@ -59,9 +59,9 @@ Le groupe de champs contient les champs suivants.
 |     `passThrough` | Objet |  |
 |         `eventType` | Chaîne | |
 |         `channel_typeAtSource` | Chaîne | |
-|      `dataSource` | Chaîne | Identification globale unique d’une source de données. <br> **Exemple:** `Adobe Analytics` |
+|      `dataSource` | Chaîne | Identification unique globale d’une source de données. <br> **Exemple :** `Adobe Analytics` |
 |      `eventSource` | Chaîne | Source au moment où l’événement réel s’est produit. <br> **Exemple :** `Adobe.com` |
-|      `eventType` | Chaîne | Type d’événement principal pour cet enregistrement de série chronologique. <br> **Exemple :** `Order` |
+|      `eventType` | Chaîne | Type d’événement principal pour cet enregistrement de série temporelle. <br> **Exemple :** `Order` |
 |      `geo` | Chaîne | Emplacement géographique où la conversion a été diffusée `placeContext.geo.countryCode`. <br> **Exemple :** `US` |
 |      `path` | Chaîne | |
 |      `priceTotal` | Double | Chiffre d’affaires généré par le <br> de conversion **Exemple :** `99.9` |
@@ -78,7 +78,7 @@ Le groupe de champs contient les champs suivants.
 |           `id` | Chaîne | |
 |           `namespace` | Chaîne | Contient les détails de l’utilisateur ou de l’utilisatrice utilisé(e) pour créer le modèle, tels que `id` et `namespace`. |
 | `touchpointsDetail` | Objet [] | Liste des détails du point de contact menant à la conversion, triés par occurrence ou horodatage de point de contact. |
-|      `scores` | Objet | Contribution du point de contact à cette conversion sous la forme d’un score. |
+|      `scores` | Objet | Contribution du point de contact à cette conversion sous forme de score. |
 |           `algorithmicInfluenced` | Double | Le score influencé représente la fraction de la conversion dont chaque point de contact marketing est à l’origine. |
 |           `algorithmicSourced` | Double | Le score incrémentiel représente le degré d’impact marginal directement causé par un point de contact marketing. |
 |           `decayUnits` | Double | Score d’attribution basé sur des règles qui attribue plus de crédits aux points de contact les plus proches de la conversion par rapport aux points de contact plus éloignés dans le temps de la conversion. |
@@ -102,10 +102,10 @@ Le groupe de champs contient les champs suivants.
 |      `lag` | Nombre entier | |
 |      `position` | Chaîne | |
 |      `touchpointCountToConversion` | Nombre entier | |
-|      `touchpointName` | Chaîne | Nom du point de contact qui a été configuré lors de la configuration. <br> **Exemple:** `PAID_SEARCH_CLICK` |
-| `conversionName` | Chaîne | Nom de la conversion configurée lors de l’installation. <br> **Exemple :** `Order`, , `Lead` `Visit` |
+|      `touchpointName` | Chaîne | Nom du point de contact qui a été configuré lors de la configuration. <br> **Exemple :** `PAID_SEARCH_CLICK` |
+| `conversionName` | Chaîne | Nom de la conversion qui a été configurée lors de la configuration. <br> **Exemple :** `Order`, `Lead`, `Visit` |
 | `scoreCreatedTime` | DateTime | |
-| `segmentation` | Chaîne | Segment de conversion tel que la segmentation géographique, en fonction duquel le modèle est créé. Lorsque les segments sont absents, `segmentation` est identique à `conversionName`. <br> **Exemple:** `ORDER_US` |
+| `segmentation` | Chaîne | Segment de conversion tel que la segmentation géographique, en fonction duquel le modèle est créé. Lorsque les segments sont absents, `segmentation` est identique à `conversionName`. <br> **Exemple :** `ORDER_US` |
 
 
 
