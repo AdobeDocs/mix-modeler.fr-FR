@@ -58,13 +58,13 @@ Pour ajouter un point de contact marketing, dans l’interface ![DataSearch](/he
 
       1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
-      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**ou saisissez une valeur, par exemple **[!DNL Luma]**.
+      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**&#x200B;ou saisissez une valeur, par exemple **[!DNL Luma]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Touchpoint volume]**, par exemple **[!UICONTROL Impressions]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Touchpoint spend]**, par exemple **[!UICONTROL Cost]**.
 
-      ![ Point de contact marketing ](/help/assets/create-touchpoint.png)
+      ![&#x200B; Point de contact marketing &#x200B;](/help/assets/create-touchpoint.png)
 
    1. Pour créer le point de contact marketing, sélectionnez **[!UICONTROL Create]**. Pour annuler la création d’un point de contact marketing, sélectionnez **[!UICONTROL Cancel]** .
 
@@ -77,7 +77,7 @@ Pour afficher les détails d’un point de contact marketing :
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) lorsque vous passez la souris sur un nom de point de contact marketing dans le tableau.
 
-1. Sélectionnez ![Affichage](/help/assets/icons/ViewDetail.svg) **Affichage**. Une boîte de dialogue affiche les détails du point de contact marketing. Voir [ Ajouter un point de contact marketing ](#add-a-marketing-touchpoint) pour plus d’informations. Sélectionnez **[!UICONTROL Cancel]** pour fermer la boîte de dialogue.
+1. Sélectionnez ![Affichage](/help/assets/icons/ViewDetail.svg) **Affichage**. Une boîte de dialogue affiche les détails du point de contact marketing. Voir [&#x200B; Ajouter un point de contact marketing &#x200B;](#add-a-marketing-touchpoint) pour plus d’informations. Sélectionnez **[!UICONTROL Cancel]** pour fermer la boîte de dialogue.
 
 
 ## Afficher le rapport

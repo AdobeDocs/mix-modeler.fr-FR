@@ -20,7 +20,7 @@ Chaque visualisation d’informations sur le modèle est conçue pour vous aider
 
 Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
-Pour afficher des informations sur le modèle, dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
+Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est <span style="color:green">●</span> **[!UICONTROL Success]**.
 
@@ -44,7 +44,7 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
+![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -54,7 +54,7 @@ L’onglet Informations sur les modèles affiche des visualisations pour [Contri
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -114,7 +114,7 @@ Pour télécharger le contenu du tableau de répartition des points de contact, 
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![ Facteurs ](/help/assets/factors.png)
+![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -175,7 +175,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -354,7 +354,7 @@ Pour sélectionner un autre canal basé sur le volume à afficher pour cette vis
 
 Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
 
-1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
+1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg) Modifier .
 
 1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
