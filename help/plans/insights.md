@@ -3,9 +3,9 @@ title: Informations sur le plan
 description: Découvrez comment obtenir des informations sur votre plan et modifier un plan dans Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Lorsque les informations sont créées, vous voyez un aperçu de votre plan, com
 
 Pour fermer l’interface, sélectionnez **[!UICONTROL Close]**.
 
-Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** à l’**[!UICONTROL View ROI]**.
+Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL  %]** à l’**[!UICONTROL View ROI]**.
 
 ## Dépenses et retour sur investissement prévus pour les canaux payants
 
@@ -61,7 +61,7 @@ Cette visualisation sous forme de graphique à barres présente les prévisions 
 
 Cette visualisation sous forme de graphique à barres présente les conversions prévues pour vos canaux en fonction du modèle, de la période et du budget.
 
-![&#x200B; Visualisation des conversions prévues &#x200B;](../assets/overview-plan-forecasted-conversions.png)
+![ Visualisation des conversions prévues ](../assets/overview-plan-forecasted-conversions.png)
 
 
 ## Retour de canal marginal
@@ -72,6 +72,13 @@ Cette visualisation sous forme de graphique linéaire présente une courbe de re
 
 Pour sélectionner un canal spécifique pour la visualisation, sélectionnez-le dans le menu déroulant **[!UICONTROL View]**.
 
+## Synergies de canal
+
+La matrice des synergies de canaux vous permet d’identifier comment les canaux marketing interagissent pour créer des effets multiplicatifs, au-delà de leurs contributions individuelles.
+
+![Planifier les synergies de canaux](/help/assets/plan-channel-synergies.png)
+
+Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Répartition des périodes
 
