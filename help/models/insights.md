@@ -3,9 +3,9 @@ title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Chaque visualisation d’informations sur le modèle est conçue pour vous aider
 
 Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
-Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
+Pour afficher des informations sur le modèle, dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est <span style="color:green">●</span> **[!UICONTROL Success]**.
 
@@ -31,6 +31,7 @@ Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x
 Les onglets suivants sont disponibles :
 
 * [Informations sur le modèle](#model-insights)
+* [Synergie des canaux](#channel-synergy)
 * [Facteurs](#factors-beta) [!BADGE bêta]
 * [Attribution](#attribution) (uniquement pour les modèles compatibles avec le MTA)
 * [Diagnostic](#diagnostics)
@@ -44,7 +45,7 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -54,7 +55,7 @@ L’onglet Informations sur les modèles affiche des visualisations pour [Contri
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -110,11 +111,30 @@ Pour sélectionner un canal spécifique ou tous les canaux, sélectionnez dans l
 
 Pour télécharger le contenu du tableau de répartition des points de contact, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+
+## Synergie des canaux
+
+Dans l’onglet **[!UICONTROL Channel synergy]** , la visualisation **[!UICONTROL Channel synergies]** vous permet d’identifier comment les canaux marketing interagissent pour créer des effets multiplicatifs, au-delà de leurs contributions individuelles.
+
+La matrice de carte thermique fournit une représentation visuelle des valeurs de synergie entre les paires de canaux de dépenses. Cette matrice permet aux professionnels du marketing de comprendre comment les canaux interagissent pour stimuler les performances. Pour chaque modèle, les valeurs de synergie sont normalisées de 0 à 10. Ces valeurs quantifient la *synergie du prochain dollar*, qui estime l&#39;efficacité de la collaboration entre deux canaux lorsque chacun reçoit un dollar supplémentaire de dépenses aux niveaux actuels.
+
+Ce cadre de plus-value offre une mesure réaliste de la force relative de la synergie, car il tient compte des conditions de dépenses réelles dans les données de formation et permet ainsi de prendre des décisions d’optimisation plus éclairées.
+
+![Planifier les synergies de canaux](/help/assets/model-channel-synergies.png)
+
+Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>Si l’onglet **[!UICONTROL Channel synergy]** n’est pas visible pour un modèle existant, veillez à entraîner à nouveau le modèle pour activer la fonctionnalité et la visualisation.
+
+
+
 ## **[!UICONTROL Factors]** [!BADGE version bêta]
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
+![ Facteurs ](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -175,7 +195,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -238,7 +258,7 @@ Pour chaque chemin de conversion, vous voyez :
 >title="Graphiques d’évaluation des modèles"
 >abstract="Les visualisations de l’évaluation des modèles se répartissent entre les conversions réelles, prévues et résiduelles."
 >additional-url="https://experienceleague.adobe.com/fr/docs/mix-modeler/using/overview" text="Vue d’ensemble de Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440796/?captions=fre_fr&learn=on&enablevpops" text="Démonstration de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Démonstration de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -305,7 +325,7 @@ Pour ventiler la visualisation, sélectionnez l’une des options suivantes dans
 
 >[!AVAILABILITY]
 >
->La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication de Mix Modeler, consultez [Versions des fonctionnalités de Mix Modeler](/help/releases/latest.md).
+>La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note est supprimée lorsque la fonctionnalité est disponible. Pour plus d’informations sur le processus de publication de Mix Modeler, consultez [Versions des fonctionnalités de Mix Modeler](/help/releases/latest.md).
 >
 
 Si une dérive du modèle est détectée, une notification **[!UICONTROL Model drift detected]** s’affiche en haut de l’écran.
@@ -354,7 +374,7 @@ Pour sélectionner un autre canal basé sur le volume à afficher pour cette vis
 
 Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
 
-1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg) Modifier .
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
 
 1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
