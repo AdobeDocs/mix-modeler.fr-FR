@@ -4,18 +4,28 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '834'
 ht-degree: 4%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : 12 septembre 2025.
+**Dernière mise à jour** : 12 novembre 2025.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
+
+
+
+## Novembre 2025
+
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | Permet aux utilisateurs de comprendre comment l’exécution des plans marketing suit ce qui est prévu. Vous pouvez ainsi avoir confiance dans les performances du marketing. Vous pouvez également identifier les opportunités et les risques plus tôt pour corriger le cap et atteindre les objectifs commerciaux. Les [Performances pour planifier les visualisations](/help/dashboard/plans.md#performance-to-plan) sont mises à jour et permettent de configurer les mesures et la granularité. | 12 Novembre 2025 | 12 Novembre 2025 |
+| **[!UICONTROL Channel synergy insights]** | Découvrez comment les canaux marketing fonctionnent ensemble pour créer un impact plus important. Grâce à ces informations, vous pouvez expliquer en toute confiance la performance marketing passée et ajuster les dépenses marketing en conséquence afin de maximiser le rendement global de votre portefeuille marketing. Une matrice de synergie des canaux est disponible dans [Informations sur les modèles](/help/models/insights.md#channel-synergy) et [Informations sur les plans](/help/plans/insights.md#channel-synergies). | 12 Novembre 2025 | 12 Novembre 2025 |
+| **Correctifs** | Correctifs pour les tickets suivants : <ul><li>AMM-2920 : flux de création et de migration des plans.</li><li>AMM-3282 : notation scientifique pour varier les petits nombres dans les grands réseaux.</li></ul> | 12 Novembre 2025 | 12 Novembre 2025 |
 
 
 ## Septembre 2025
