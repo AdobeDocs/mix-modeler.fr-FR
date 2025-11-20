@@ -3,7 +3,7 @@ title: Performances à planifier
 description: Découvrez comment utiliser la fonction Performances pour planifier la vue d’ensemble dans Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->L’onglet **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} dans Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonctionnalité en version bêta et ses fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
+>L’onglet **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} dans Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** est une fonctionnalité en version bêta et ses fonctionnalités peuvent changer. La fonctionnalité est disponible pour un nombre limité de clientes et clients.
 
 L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} dans Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fournit un tableau de bord de suivi pour surveiller les performances de votre marketing par rapport au plan. Vous pouvez comparer les performances réelles aux performances prévues à l’aide de cartes de statut et de visualisations.
 
