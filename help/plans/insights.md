@@ -41,7 +41,7 @@ Lorsque les informations sont créées, vous voyez un aperçu de votre plan, com
 
 Pour fermer l’interface, sélectionnez **[!UICONTROL Close]**.
 
-Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL  %]** à l’**[!UICONTROL View ROI]**.
+Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** à l’**[!UICONTROL View ROI]**.
 
 ## Dépenses et retour sur investissement prévus pour les canaux payants
 
@@ -61,7 +61,7 @@ Cette visualisation sous forme de graphique à barres présente les prévisions 
 
 Cette visualisation sous forme de graphique à barres présente les conversions prévues pour vos canaux en fonction du modèle, de la période et du budget.
 
-![ Visualisation des conversions prévues ](../assets/overview-plan-forecasted-conversions.png)
+![&#x200B; Visualisation des conversions prévues &#x200B;](../assets/overview-plan-forecasted-conversions.png)
 
 
 ## Retour de canal marginal
@@ -78,7 +78,7 @@ La matrice des synergies de canaux vous permet d’identifier comment les canaux
 
 ![Planifier les synergies de canaux](/help/assets/plan-channel-synergies.png)
 
-Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Répartition des périodes
 
