@@ -31,7 +31,7 @@ Pour accomplir cette fonctionnalité, Mix Modeler combine les éléments suivant
 
 L’apprentissage par transfert bidirectionnel IA/ML unifie les résultats de la modélisation du marketing mix (MMM) et de l’attribution multipoint (MTA) afin d’assurer des résultats cohérents en matière de mesure et de planification dans un monde sans cookies.
 
-![&#x200B; Apprentissage par transfert bidirectionnel &#x200B;](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![ Apprentissage par transfert bidirectionnel ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Fonctionnalités

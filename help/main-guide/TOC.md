@@ -5,7 +5,7 @@ user-guide-description: Découvrez comment utiliser Mix Modeler.
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 + [Guide d’Adobe Mix Modeler](/help/overview.md)
 
-+ Prise en main {#get-started}
++ Commencer {#get-started}
    + [Qu’est-ce que Mix Modeler ?](/help/get-started/about.md)
    + [Workflow d’application](/help/get-started/workflow.md)
 
@@ -43,7 +43,7 @@ ht-degree: 54%
    + [de conversions](/help/harmonize-data/conversions.md)
    + [Rapport d’utilisation](/help/harmonize-data/usage-report.md)
 
-+ Ingestion de données {#ingest-data}
++ Ingérer des données {#ingest-data}
    + [Vue d’ensemble](/help/ingest-data/overview.md)
    + [Schémas](/help/ingest-data/schemas.md)
    + [Jeux de données](/help/ingest-data/datasets.md)
