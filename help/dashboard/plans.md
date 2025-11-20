@@ -38,7 +38,7 @@ L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} affiche :
 * [Visualisations](#visualizations) :
    * [*Mesure*](#metric-actual-vs-planned)
    * [*Mesure*](#metric-actual-vs-planned-by-granularity)
-   * [Canal ](#channel-metric-by-granularity)
+   * [Canal &#x200B;](#channel-metric-by-granularity)
    * [*Mesure*](#metric-vs-metric-by-channel)
    * [*Mesure*](#metric-by-granularity)
    * [*Mesure*](#metric-by-channel)
@@ -80,7 +80,7 @@ Pour redimensionner une visualisation, utilisez la poignée ┛ située dans le 
 
 Vous pouvez pointer sur n’importe quel élément de ligne, de barre ou de nuage de points d’une visualisation pour afficher une fenêtre contextuelle avec des informations supplémentaires.
 
-![ Visualisation ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; Visualisation &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### *Mesure* : Réel/prévu
 
