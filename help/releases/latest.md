@@ -21,7 +21,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Novembre 2025
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Plans tracking]** | Permet aux utilisateurs de comprendre comment l’exécution des plans marketing suit ce qui est prévu. Vous pouvez ainsi avoir confiance dans les performances du marketing. Vous pouvez également identifier les opportunités et les risques plus tôt pour corriger le cap et atteindre les objectifs commerciaux. Les [Performances pour planifier les visualisations](/help/dashboard/plans.md#performance-to-plan) sont mises à jour et permettent de configurer les mesures et la granularité. | 12 Novembre 2025 | 12 Novembre 2025 |
 | **[!UICONTROL Channel synergy insights]** | Découvrez comment les canaux marketing fonctionnent ensemble pour créer un impact plus important. Grâce à ces informations, vous pouvez expliquer en toute confiance la performance marketing passée et ajuster les dépenses marketing en conséquence afin de maximiser le rendement global de votre portefeuille marketing. Une matrice de synergie des canaux est disponible dans [Informations sur les modèles](/help/models/insights.md#channel-synergy) et [Informations sur les plans](/help/plans/insights.md#channel-synergies). | 12 Novembre 2025 | 12 Novembre 2025 |
@@ -30,7 +30,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Septembre 2025
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Dataset mapping validations]** | Ajout de validations aux mappages de jeux de données Experience Platform pour les champs harmonisés. | mercredi 9 septembre 2025 | mercredi 9 septembre 2025 |
 | **[!UICONTROL Context menu on links to model and plans]** | Activation du menu contextuel du navigateur sous forme de liens vers des modèles et des plans. Vous pouvez désormais utiliser ce menu contextuel du navigateur pour ouvrir un plan ou un modèle spécifique dans un nouvel onglet ou une nouvelle fenêtre. | mercredi 9 septembre 2025 | mercredi 9 septembre 2025 |
@@ -39,7 +39,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Juillet - Août 2025
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | L’interface utilisateur [Comparer des plans](/help/plans/compare.md) affiche désormais des détails supplémentaires sur le marketing payant : RSI ou CPA, et chiffre d’affaires. | 20 Août 2025 | 20 Août 2025 |
 | **Mises à jour de l’harmonisation** | Toutes les règles des jeux de données utilisent désormais une [expérience de mappage générique aux champs harmonisés](/help/harmonize-data/dataset-rules.md) similaire, quel que soit le type de jeu de données. Lorsque vous mappez un champ harmonisé standard à partir d’un jeu de données de résumé, Mix Modeler tente de déduire automatiquement le champ de jeu de données Experience Platform correspondant. | mercredi 29 juillet 2025 | mercredi 29 juillet 2025 |
@@ -48,7 +48,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Mai - Juin 2025
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Plans basés sur des objectifs** | En regard des budgets, vous pouvez définir un objectif (cible) lorsque vous [créez](/help/plans/build.md) ou [modifiez](/help/plans/insights.md#edit-plan) un plan. Parmi les exemples de mesures cibles figurent le chiffre d’affaires, la conversion, le CPA ou le retour sur investissement. | 18 Juin 2025 | mercredi 8 juillet 2025 |
 | **Configuration du modèle de dépense** | Lorsque vous créez un plan, vous avez désormais la possibilité d’utiliser des données [de référence historique](/help/plans/build.md) (comme les données et les informations sur les dépenses marketing antérieures) lors de la définition du modèle de dépenses pour chaque période du budget. | 14 Mai 2025 | 14 Mai 2025 |
@@ -56,7 +56,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Mars - Avril 2025
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Détection de dérive du modèle** | Lorsque vous ouvrez un modèle, vous êtes [invité à entraîner à nouveau le modèle lorsque la dérive du modèle est détectée](/help/models/insights.md#model-drift). | 3 Avril 2025 | 7 mai 2025 |
 | **Retour marginal du canal dans les informations sur le plan** | Une visualisation [retour marginal sur canal](/help/plans/insights.md#marginal-channel-return) est ajoutée au plan Insights, qui affiche le seuil de rentabilité marginal et le retour marginal sur l’ensemble des canaux ou des canaux sélectionnés. | 3 Avril 2025 | 24 Avril 2025 |
@@ -64,7 +64,7 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Janvier - Février 2025
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Conditions imbriquées** | Vous pouvez créer des conditions imbriquées à l’aide des opérateurs AND et OR lorsque vous définissez une population de données éligible dans le cadre de la [configuration d’un modèle](/help/models/build.md#configure). | 15 janvier 2025 | 18 Février 2025 |
 | **Affichage des rapports** | Vous pouvez afficher un rapport sur un [conversion](/help/harmonize-data/conversions.md#view-report) ou un [point de contact marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) que vous avez défini dans le cadre de l’harmonisation des données. | 15 janvier 2025 | 18 Février 2025 |
