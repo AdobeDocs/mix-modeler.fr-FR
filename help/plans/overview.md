@@ -3,9 +3,9 @@ title: Présentation des plans
 description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Pour créer un plan, utilisez l’assistant de création de plan Mix Modeler. Vo
 
 Pour afficher un tableau de vos plans actuels, dans l’interface de Mix Modeler :
 
-1. Sélectionnez ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
+1. Sélectionnez ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** dans le rail de gauche.
 
 1. Vous voyez un tableau des plans actuels et de leur statut.
 
@@ -63,6 +63,10 @@ Pour afficher un tableau de vos plans actuels, dans l’interface de Mix Modeler
 
    Vous pouvez utiliser ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) pour sélectionner ![Checkmark](/help/assets/icons/Checkmark.svg) les colonnes à afficher dans le tableau.
 
+   Pour trier le tableau sur n’importe quelle colonne dans l’ordre croissant ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) ou décroissant ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, sélectionnez le titre de la colonne.
+
+   Pour trier ou redimensionner la colonne **[!UICONTROL Name]**, **[!UICONTROL Model]** ou **[!UICONTROL Date range]**, sélectionnez **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg), **[!UICONTROL Model]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) ou **[!UICONTROL Date range]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dans le menu contextuel, sélectionnez **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** ou **[!UICONTROL Resize column]**. Vous pouvez également pointer sur le séparateur de colonnes pour ces colonnes afin de redimensionner une colonne.
+
 1. Utilisez ![Rechercher](/help/assets/icons/Search.svg) pour rechercher et filtrer la table pour un ou plusieurs plans spécifiques.
 
 ### Informations sur le plan
@@ -73,7 +77,7 @@ Pour afficher les informations d’un plan et modifier un plan :
 
 1. Sélectionnez le nom du plan.
 
-Vous êtes redirigé vers [&#x200B; Informations sur le plan &#x200B;](insights.md).
+Vous êtes redirigé vers [ Informations sur le plan ](insights.md).
 
 
 ### Dupliquer un plan
@@ -83,7 +87,7 @@ Pour dupliquer un plan :
 - Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan. Dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
 - Vous pouvez également sélectionner un plan dans le tableau ![SelectBox](/help/assets/icons/SelectBox.svg) et sélectionner ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions bleue.
 
-Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)] (_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
+Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)](_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
 
 - Les détails (tels que la description, le budget, etc.) du plan d’origine sont copiés.
 - Les contraintes budgétaires du plan d&#39;origine sont copiées dans le plan nouvellement créé.
@@ -114,6 +118,6 @@ Pour supprimer plusieurs plans :
 
 1. Sélectionnez plusieurs plans.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de supprimer les plans.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**&#x200B;pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
 
