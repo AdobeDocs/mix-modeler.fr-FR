@@ -2,10 +2,10 @@
 user-guide-title: Guide d’Adobe Mix Modeler
 breadcrumb-title: Guide d’Adobe Mix Modeler
 user-guide-description: Découvrez comment utiliser Mix Modeler.
-source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 56%
+source-wordcount: '90'
+ht-degree: 55%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 56%
 
 + Versions {#releases}
    + [Dernière version](/help/releases/latest.md)
+   + [Versions de 2025](/help/releases/2025.md)
    + [Versions de 2024](/help/releases/2024.md)
    + [Versions de 2023](/help/releases/2023.md)
    + [Test](../releases/test.md)
