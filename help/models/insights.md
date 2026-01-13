@@ -258,7 +258,7 @@ Pour chaque chemin de conversion, vous voyez :
 >title="Graphiques d’évaluation des modèles"
 >abstract="Les visualisations de l’évaluation des modèles se répartissent entre les conversions réelles, prévues et résiduelles."
 >additional-url="https://experienceleague.adobe.com/fr/docs/mix-modeler/using/overview" text="Vue d’ensemble de Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Démonstration de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440796/?captions=fre_fr&learn=on&enablevpops" text="Démonstration de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
