@@ -3,10 +3,10 @@ title: Modèles - Aperçu
 description: Découvrez comment créer et utiliser des modèles dans Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '915'
+ht-degree: 0%
 
 ---
 
@@ -51,14 +51,13 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Mode
 
    | Nom de la colonne | Détails |
    |---|---|
-   | Nom | Nom du modèle |
-   | Description | Description du modèle |
-   | Événement de conversion | Conversion sélectionnée pour le modèle. |
-   | Fréquence d’exécution | Fréquence d’exécution de l’entraînement du modèle. |
-   | Dernière exécution | Date et heure du dernier entraînement du modèle. |
-   | Statut | Statut du modèle. |
+   | **[!UICONTROL Name]** | Nom du modèle |
+   | **[!UICONTROL Description]** | Description du modèle |
+   | **[!UICONTROL Conversion event]** | Conversion sélectionnée pour le modèle. |
+   | **[!UICONTROL Run frequency]** | Fréquence d’exécution de l’entraînement du modèle. |
+   | **[!UICONTROL Last run]** | Date et heure du dernier entraînement du modèle. |
+   | **[!UICONTROL Status]** | Statut du modèle. |
 
-   {style="table-layout:auto"}
 
    L’état signalé du modèle dépend de l’emplacement d’un modèle dans son cycle de vie. Par exemple, si un modèle est créé, (ré)entraîné avec succès ou non, ou (ré)noté avec succès ou non.
 
@@ -100,7 +99,7 @@ Pour afficher les informations d’un modèle :
 
 1. Sélectionnez le nom du modèle.
 
-Vous êtes redirigé vers [&#x200B; Model Insights &#x200B;](insights.md).
+Vous êtes redirigé vers [ Model Insights ](insights.md).
 
 
 ### Afficher les détails
@@ -120,7 +119,7 @@ Vous pouvez rapidement dupliquer un modèle.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Duplicate]** dans le menu contextuel.
 
-Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)] (_n_)**.
+Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifier
 
@@ -172,5 +171,5 @@ Pour supprimer plusieurs modèles :
 
 1. Sélectionnez plusieurs modèles.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer les modèles.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**&#x200B;pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
