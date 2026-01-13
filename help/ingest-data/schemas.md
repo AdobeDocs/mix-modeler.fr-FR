@@ -18,7 +18,7 @@ Pour gérer les schémas, en prenant en charge les données que vous souhaitez i
 
 1. Sélectionnez ![Schémas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sous **[!UICONTROL SETUP]**.
 
-Consultez la [ Présentation de l’interface utilisateur des schémas ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) pour plus d’informations.
+Consultez la [&#x200B; Présentation de l’interface utilisateur des schémas &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) pour plus d’informations.
 
 ## Données agrégées ou récapitulatives
 
