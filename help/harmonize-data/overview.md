@@ -3,10 +3,10 @@ title: Présentation de l’harmonisation des jeux de données
 description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 6%
+source-wordcount: '1347'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ Les données de Mix Modeler sont de nature différente selon la source de donné
 * des données agrégées ou récapitulatives, par exemple collectées à partir de sources de données de jardins clos ou de données publicitaires hors ligne collectées (comme les dépenses) à partir de l’exécution d’une campagne d’affichage, d’un événement ou d’une campagne publicitaire physique,
 * Données d’événement, provenant par exemple de sources de données propriétaires. Ces données d’événement peuvent être des données collectées via le connecteur source Adobe Analytics d’Adobe Analytics, ou via l’API Experience Platform Web ou Mobile SDK ou Edge Network, ou des données ingérées à l’aide des connecteurs source.
 
-Le service d’harmonisation de Mix Modeler assimile les données agrégées et d’événement en une vue de données cohérente. Cette vue de données, associée aux [données de facteurs internes et externes](#factors), est la source des modèles dans Mix Modeler. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
+Le service d’harmonisation de Mix Modeler assimile les données agrégées et d’événement en une vue de données cohérente. Cette vue de données est la source des modèles dans Mix Modeler. Le service utilise la granularité la plus élevée pour les différents jeux de données. Par exemple, si un jeu de données a une granularité mensuelle et que les jeux de données restants ont une granularité hebdomadaire et quotidienne, le service d’harmonisation crée une vue de données à l’aide de la granularité mensuelle.
 
 ## Facteurs
 
@@ -27,7 +27,22 @@ Les facteurs sont essentiels à la création de modèles et vous souhaitez compr
 
 * Les facteurs externes sont des facteurs indépendants de la volonté de votre entreprise, mais qui peuvent tout de même avoir un impact sur les conversions que vous réalisez. Par exemple, CPI, S&amp;P 500, etc.
 
+La fonctionnalité Facteurs de Mix Modeler utilise un workflow de facteurs harmonisés. Ce workflow simplifie la gestion des facteurs, offre une cohérence entre les modèles et offre une expérience intuitive.
 
+Dans le cadre du workflow des facteurs harmonisés :
+
+1. Définissez des champs harmonisés pour les facteurs d’un jeu de données de facteurs dans [règles du jeu de données](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+1. [Synchroniser](/help/harmonize-data/dataset-rules.md#sync-data) vos données harmonisées.
+1. [Utilisez les facteurs](/help/models/build.md#configure) dans la configuration de votre modèle.
+
+### Migration
+
+Il se peut que certains modèles n’aient pas encore adopté le workflow des facteurs harmonisés et utilisent le workflow des facteurs basé sur le jeu de données Experience Platform. Ces modèles continuent d’afficher leurs facteurs d’origine basés sur le jeu de données jusqu’à ce que les modèles soient mis à jour avec de nouveaux facteurs basés sur le workflow des facteurs harmonisés .
+
+Lorsque vous dupliquez un modèle qui utilise le workflow des facteurs basés sur le jeu de données :
+
+* Si le modèle n’a pas été harmonisé, l’ancienne configuration des facteurs ne sera pas transférée dans le modèle dupliqué. Vous devez ajouter des facteurs à l’aide du nouveau workflow de facteurs harmonisés.
+* Si le modèle a été harmonisé, les facteurs sont conservés ou mis à jour.
 
 ## Exemple de données harmonisées
 
