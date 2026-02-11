@@ -59,7 +59,7 @@ Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons
 
       1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
-      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
+      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**&#x200B;ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Conversion metric for analysis]**, par exemple **[!UICONTROL Orders]**.
 
