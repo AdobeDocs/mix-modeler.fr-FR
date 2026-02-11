@@ -3,14 +3,21 @@ title: de conversions
 description: Découvrez comment créer des conversions à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '420'
 ht-degree: 2%
 
 ---
 
-# de conversions
+# de conversions {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Conversion"
+>abstract="Les événements de conversion sont des objectifs commerciaux qui identifient l’impact des activités marketing. Exemples : commandes sur les plateformes d’e-commerce, achats en magasin, visites de sites web, etc."
+
 
 Les événements de conversion sont des objectifs commerciaux qui identifient l’impact des activités marketing. Exemples : commandes sur les plateformes d’e-commerce, achats en magasin, visites de sites web, etc.
 
@@ -18,7 +25,7 @@ Vous définissez des conversions marketing pour l’analyse d’attribution.
 
 ## Gestion des conversions
 
-Pour afficher un tableau des conversions disponibles, dans l’interface du Mix Modeler :
+Pour afficher un tableau des conversions disponibles, dans l’interface de Mix Modeler :
 
 1. Sélectionnez ![Recherche de données](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dans le rail de gauche.
 
@@ -29,7 +36,7 @@ Les colonnes du tableau indiquent les détails de la conversion :
 | Nom de la colonne | Détails |
 | --- | ---|
 | Nom | Nom de la conversion. |
-| Chiffre d’affaires | Mesure de données harmonisée à utiliser pour calculer le chiffre d’affaires d’une conversion. |
+| Recettes | Mesure de données harmonisée à utiliser pour calculer le chiffre d’affaires d’une conversion. |
 | Mesure de conversion | Mesure de données harmonisée à utiliser comme mesure de conversion pour l’analyse. |
 | Catégorie | Catégorie de conversion de la conversion. |
 | Créé | Date et heure de création de la conversion. |
@@ -38,7 +45,7 @@ Les colonnes du tableau indiquent les détails de la conversion :
 
 ## Ajouter une conversion
 
-Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** dans le Mix Modeler :
+Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** de Mix Modeler :
 
 1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -52,7 +59,7 @@ Pour ajouter une conversion, dans l’interface ![DataSearch](/help/assets/icons
 
       1. Sélectionnez une valeur pour l’opérateur ![Chevron](/help/assets/icons/ChevronDown.svg), par exemple **[!UICONTROL is]**.
 
-      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**&#x200B;ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
+      1. Sélectionnez une valeur dans **[!UICONTROL *Sélectionner une valeur *]**ou saisissez une valeur, par exemple **[!UICONTROL Store]**.
 
    1. Sélectionnez un champ harmonisé dans **[!UICONTROL Conversion metric for analysis]**, par exemple **[!UICONTROL Orders]**.
 

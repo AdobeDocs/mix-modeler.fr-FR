@@ -3,9 +3,9 @@ title: Règles des jeux de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -70,17 +70,17 @@ Dans l’écran **[!UICONTROL Create]**,
 
       1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+      1. Sélectionnez un champ de jeu de données **[!UICONTROL *AEP *]**auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    1. Lorsque le champ sélectionné est de type dimension :
 
       1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
+         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**s’il **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à l’adresse**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
          1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -154,7 +154,14 @@ Pour synchroniser les données entre vos jeux de données de résumé et/ou d’
    ![Synchroniser les données](/help/assets/sync-data.png)
 
 
-## Préférences de fusion des données
+## Préférences de fusion des données {#data-merge-preferences}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_datasetrules_datamergepreferences"
+>title="Préférence de mesure par défaut"
+>abstract="La préférence par défaut est appliquée lorsque, lors de l’harmonisation, plusieurs sources de données tentent de mettre à jour un champ de mesure pour un canal donné. Cette préférence est appliquée au niveau du sandbox, sauf si elle est remplacée pour certaines préférences de mesures définies ci-dessous."
+
 
 >[!NOTE]
 >

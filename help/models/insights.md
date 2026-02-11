@@ -3,9 +3,9 @@ title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Chaque visualisation d’informations sur le modèle est conçue pour vous aider
 
 Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
-Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
+Pour afficher des informations sur le modèle, dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
@@ -45,7 +45,7 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -55,7 +55,7 @@ L’onglet Informations sur les modèles affiche des visualisations pour [Contri
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -122,7 +122,7 @@ Ce cadre de plus-value offre une mesure réaliste de la force relative de la syn
 
 ![Planifier les synergies de canaux](/help/assets/model-channel-synergies.png)
 
-Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
@@ -130,11 +130,17 @@ Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#
 
 
 
-## **[!UICONTROL Factors]** [!BADGE version bêta]
+## **[!UICONTROL Factors]** [!BADGE version bêta] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="Répartition de la contribution des facteurs"
+>abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle.<br/><br/>La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Il comprend des conversions axées sur les actions de la marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
+
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
+![ Facteurs ](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -146,7 +152,21 @@ Pour télécharger un fichier CSV contenant les données du tableau, sélectionn
 
 Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/icons/TableAndChart.svg) s’**[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="Répartition par canal"
+>abstract="**[!UICONTROL Breakdown by channel]** est une répartition par type de canal pour les points de contact définis, basée sur le schéma d’événement de l’expérience client. Sélectionnez ![Plus](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) et **[!UICONTROL Breakdown by touchpoint]** pour afficher une répartition par point de contact."
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="Répartition par position du point de contact"
+>abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position que les positions restantes et les autres points de contact à n’importe quelle position. Notez que la somme des contributions en pourcentage pour un modèle d’attribution sur tous les points de contact et postes serait égale à 100. Les postes de débutant, d&#39;influenceur et de finisseur sont définis comme suit :<ul><li>**Starter** : indique si le point de contact est la première touche d’un chemin de conversion.</li><li>**Lecteur** : indique si le point de contact n’est ni la première ni la dernière touche menant à une conversion.</li><li>**Plus proche** : indique si le point de contact est le dernier contact avant la conversion.</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -195,7 +215,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -252,19 +272,36 @@ Pour chaque chemin de conversion, vous voyez :
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Graphiques d’évaluation des modèles"
 >abstract="Les visualisations de l’évaluation des modèles se répartissent entre les conversions réelles, prévues et résiduelles."
 >additional-url="https://experienceleague.adobe.com/fr/docs/mix-modeler/using/overview" text="Vue d’ensemble de Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440796/?captions=fre_fr&learn=on&enablevpops" text="Démonstration de Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Démonstration de Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="Mesures d’ajustement du modèle"
+>abstract="Affiche un aperçu de plusieurs mesures d’ajustement de l’entraînement des modèles."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="Chemins touchés"
 >abstract="Les chemins touchés correspondent au pourcentage de chemins générant une conversion et le pourcentage de chemins ne générant pas de conversion pour chaque point de contact."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="Mesure d&#39;efficacité"
+>abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion indépendamment du volume de points de contact. Elle est mesurée sur une échelle de 1 à 5. Notez qu’un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="Volume total"
+>abstract="Le volume total est le nombre agrégé de fois qu’un point de contact a été touché par un utilisateur et inclut les points de contact qui apparaissent sur un chemin générant une conversion, ainsi que sur les chemins ne générant pas de conversion."
 
 
 >[!CONTEXTUALHELP]
@@ -374,7 +411,7 @@ Pour sélectionner un autre canal basé sur le volume à afficher pour cette vis
 
 Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
 
-1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg) Modifier .
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
 
 1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
