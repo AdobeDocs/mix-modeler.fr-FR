@@ -3,12 +3,13 @@ title: Informations sur le modèle
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
+source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
 workflow-type: tm+mt
-source-wordcount: '2844'
-ht-degree: 3%
+source-wordcount: '2839'
+ht-degree: 2%
 
 ---
+
 
 # Informations sur le modèle
 
@@ -20,7 +21,7 @@ Chaque visualisation d’informations sur le modèle est conçue pour vous aider
 
 Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
-Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
+Pour afficher des informations sur le modèle, dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
@@ -45,9 +46,9 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
 
-## Informations sur le modèle
+## Informations sur le modèle {#model-insights-section}
 
 L’onglet Informations sur les modèles affiche des visualisations pour [Contribution par date et média de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves). L’onglet fournit également un tableau [Répartition des points de contact](#touchppint-breakdown).
 
@@ -55,7 +56,7 @@ L’onglet Informations sur les modèles affiche des visualisations pour [Contri
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -76,12 +77,10 @@ Visualisation en anneau qui présente la répartition de la contribution par dif
 
 ### Résumé des performances marketing {#marketing-performance-summary}
 
-
 >[!CONTEXTUALHELP]
 >id="models_insights_undefinedchannels"
 >title="Canaux non définis"
 >abstract="Les canaux non définis sont inclus, mais n’ont aucune conversion attribuée."
-
 
 Visualisation sous forme de graphique à barres horizontal qui affiche le retour sur investissement ou les performances du CPA pour chacun des canaux. Cette visualisation met en évidence le retour sur investissement/le CPA de vos investissements marketing. Les canaux sont classés par ordre décroissant en fonction du retour sur investissement/CPA. La visualisation permet d’identifier les canaux les plus efficaces et ceux qui peuvent nécessiter une optimisation.
 
@@ -132,7 +131,7 @@ Ce cadre de plus-value offre une mesure réaliste de la force relative de la syn
 
 ![Planifier les synergies de canaux](/help/assets/model-channel-synergies.png)
 
-Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
@@ -150,7 +149,7 @@ Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
+![ Facteurs ](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -163,7 +162,6 @@ Pour télécharger un fichier CSV contenant les données du tableau, sélectionn
 Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/icons/TableAndChart.svg) s’**[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## Attribution {#attribution}
-
 
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
@@ -181,7 +179,6 @@ Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/i
 >[!NOTE]
 >
 >L’onglet Attribution n’est disponible que pour les modèles compatibles avec le MTA.
-
 
 Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’efficacité des points de contact et des campagnes marketing qui contiennent des données au niveau de l’événement.  Voir [Créer un modèle](build.md).
 
@@ -225,7 +222,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -286,8 +283,6 @@ Pour chaque chemin de conversion, vous voyez :
 >id="models_diagnostics_modelassessment"
 >title="Graphiques d’évaluation des modèles"
 >abstract="Les visualisations de l’évaluation des modèles se répartissent entre les conversions réelles, prévues et résiduelles."
->additional-url="https://experienceleague.adobe.com/fr/docs/mix-modeler/using/overview" text="Vue d’ensemble de Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440796/?captions=fre_fr&learn=on&enablevpops" text="Démonstration de Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -382,7 +377,7 @@ Si une dérive du modèle est détectée, une notification **[!UICONTROL Model d
 Sélectionnez **[!UICONTROL Hide]** pour masquer la notification. La notification réapparaîtra le lendemain ou lors de la prochaine connexion.
 
 
-## [!UICONTROL Historical overview]
+## Aperçu de l’historique
 
 L’onglet Aperçu de l’historique affiche des visualisations pour :
 
@@ -421,7 +416,7 @@ Pour sélectionner un autre canal basé sur le volume à afficher pour cette vis
 
 Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
 
-1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg) Modifier .
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
 
 1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
