@@ -3,10 +3,10 @@ title: Créer des modèles
 description: Découvrez comment créer des modèles dans Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fournit un flux de configuration guidé du modèle étape par étape.
 
-Dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
+Dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
 
 ## Configuration
 
@@ -22,11 +22,16 @@ Définissez le nom et la description à l’étape **[!UICONTROL Setup]** :
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI featues of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
-## Configuration
+## Configuration{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="Points de contact marketing"
+>abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.<br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent et qui doivent comporter au moins un point de contact avec des dépenses."
 
 Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configuration implique la définition d’objectifs de conversion, de points de contact marketing, de la population de données éligibles, de facteurs externes et internes, etc.
 
@@ -34,9 +39,9 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    ![Modèle - étape de conversion](/help/assets/model-conversion-step.png)
 
-   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[!UICONTROL Harmonized datasets] [Conversions](../harmonize-data/conversions.md). Par exemple : **[!UICONTROL Online Conversion]**.
+   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[ ](../harmonize-data/conversions.md)Conversions[!UICONTROL Harmonized datasets]. Par exemple : **[!UICONTROL Online Conversion]**.
 
-   1. Vous pouvez sélectionner l’**[!UICONTROL Create a conversion]** ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) pour créer une conversion directement à partir de la configuration du modèle.
+   1. Vous pouvez sélectionner l’![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** pour créer une conversion directement à partir de la configuration du modèle.
 
 
 
@@ -50,7 +55,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
       * Vous pouvez utiliser ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer un point de contact.
       * Vous pouvez utiliser **[!UICONTROL Clear all]** pour supprimer tous les points de contact.
 
-   1. Vous pouvez sélectionner l’**[!UICONTROL Create a touchpoint]** ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) pour créer un point de contact marketing directement à partir de la configuration du modèle.
+   1. Vous pouvez sélectionner l’![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** pour créer un point de contact marketing directement à partir de la configuration du modèle.
 
    >[!NOTE]
    >
@@ -70,13 +75,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove marketing touchpoint]** dans le menu contextuel.
 
@@ -104,7 +109,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
 1. Pour ajouter des jeux de données contenant des facteurs internes à votre modèle, utilisez un ou plusieurs conteneurs dans la section **[!UICONTROL Internal factors dataset]** . Les données de marketing par e-mail sont un exemple de facteurs internes.
 
-   ![&#x200B; Modèle - Jeu de données de facteurs internes &#x200B;](/help/assets/model-internal-factors-dataset-step.png)
+   ![ Modèle - Jeu de données de facteurs internes ](/help/assets/model-internal-factors-dataset-step.png)
 
    * Pour chaque conteneur :
 
