@@ -1,12 +1,13 @@
 ---
-title: Créer des modèles
-description: Découvrez comment créer des modèles dans Mix Modeler.
+title: Création de modèles dans Mix Modeler
+description: Découvrez comment créer des modèles dans Mix Modeler, notamment comment configurer et spécifier des options avancées pour le modèle.
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 3%
+source-wordcount: '1276'
+ht-degree: 2%
 
 ---
 
@@ -14,15 +15,15 @@ ht-degree: 3%
 
 Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fournit un flux de configuration guidé du modèle étape par étape.
 
-Dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
+Dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
 
 ## Configuration
 
-Définissez le nom et la description à l’étape **[!UICONTROL Setup]** :
+Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** :
 
-1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI featues of Mix Modeler`.
+1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -39,9 +40,9 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    ![Modèle - étape de conversion](/help/assets/model-conversion-step.png)
 
-   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[&#x200B; &#x200B;](../harmonize-data/conversions.md)Conversions[!UICONTROL Harmonized datasets]. Par exemple : **[!UICONTROL Online Conversion]**.
+   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[ ](../harmonize-data/conversions.md)Conversions[!UICONTROL Harmonized datasets]. Par exemple : **[!UICONTROL Online Conversion]**.
 
-   1. Vous pouvez sélectionner l’![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** pour créer une conversion directement à partir de la configuration du modèle.
+   1. Vous pouvez sélectionner l’![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** pour créer une conversion directement à partir de la configuration du modèle.
 
 
 
@@ -55,7 +56,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
       * Vous pouvez utiliser ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer un point de contact.
       * Vous pouvez utiliser **[!UICONTROL Clear all]** pour supprimer tous les points de contact.
 
-   1. Vous pouvez sélectionner l’![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** pour créer un point de contact marketing directement à partir de la configuration du modèle.
+   1. Vous pouvez sélectionner l’![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** pour créer un point de contact marketing directement à partir de la configuration du modèle.
 
    >[!NOTE]
    >
@@ -75,15 +76,15 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-   * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove marketing touchpoint]** dans le menu contextuel.
+   * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
    * Sélectionnez **Et** et **Ou** entre les conteneurs pour créer des définitions plus complexes pour votre population de données éligible.
 
@@ -109,7 +110,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
 1. Pour ajouter des jeux de données contenant des facteurs internes à votre modèle, utilisez un ou plusieurs conteneurs dans la section **[!UICONTROL Internal factors dataset]** . Les données de marketing par e-mail sont un exemple de facteurs internes.
 
-   ![&#x200B; Modèle - Jeu de données de facteurs internes &#x200B;](/help/assets/model-internal-factors-dataset-step.png)
+   ![ Modèle - Jeu de données de facteurs internes ](/help/assets/model-internal-factors-dataset-step.png)
 
    * Pour chaque conteneur :
 
@@ -163,35 +164,62 @@ Vous pouvez spécifier des paramètres avancés à l’étape **[!UICONTROL Adva
    1. Si nécessaire, utilisez **[!UICONTROL Clear all]** pour effacer toutes les valeurs d’entrée des colonnes **[!UICONTROL Contribution proportion]** et **[!UICONTROL Level of confidence]**.
 
 
-## Planning
+## Définir les options
 
-Vous pouvez planifier l’entraînement et l’enregistrement de votre modèle à l’étape **[!UICONTROL Schedule]**.
-
-1. Dans la section **[!UICONTROL Schedule]** , vous pouvez planifier l’entraînement et la notation des modèles.
-
-   ![Modèle de planification](../assets/model-schedule.png)
-
-   Pour planifier la notation et la formation des modèles :
-
-   1. Activez **[!UICONTROL Enable scheduled model scoring and training]**.
-   1. Sélectionner un **[!UICONTROL Scoring frequency]** :
-
-      * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-
-   1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
-
-1. Dans la section **[!UICONTROL Define training window]**, sélectionnez entre :
-
-   ![Modèle - Définir la fenêtre de formation](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** et
-
-   * **[!UICONTROL Manually input a training window]**. Lorsque cette option est sélectionnée, définissez le nombre d’années dans **[!UICONTROL Include events the following years prior to a conversion]**.
+Vous pouvez [planifier la formation et la notation](#schedule), [définir la fenêtre de formation](#training-window) et spécifier [des champs de rapport d’informations granulaires](#granular-insights-reporting-fields) pour votre modèle à l’étape **[!UICONTROL Set options]**.
 
 
-1. Sélectionnez **[!UICONTROL Finish]** pour terminer la configuration du modèle.
+### Planning
+
+Dans la section **[!UICONTROL Schedule]** , vous pouvez planifier l’entraînement et la notation des modèles.
+
+![Modèle de planification](../assets/model-schedule.png)
+
+Pour planifier la notation et la formation des modèles :
+
+1. Activez **[!UICONTROL Enable scheduled model scoring and training]**.
+1. Sélectionner un **[!UICONTROL Scoring frequency]** :
+
+   * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+
+1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+
+### Période de formation
+
+Dans la section **[!UICONTROL Define training window]**, sélectionnez entre :
+
+![Modèle - Définir la fenêtre de formation](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** et
+
+* **[!UICONTROL Manually input a training window]**. Lorsque cette option est sélectionnée, définissez le nombre d’années dans **[!UICONTROL Include events the following years prior to a conversion]**.
+
+
+### Champs de création de rapports d’informations granulaires
+
+La section **[!UICONTROL Granular insights reporting fields]** utilise la fonctionnalité de création de rapports d’incrémentalité granulaire. Cette fonctionnalité vous permet de sélectionner des champs harmonisés pour répartir les scores de conversion et d’incrémentalité de point de contact.
+
+![Définir des champs de rapport d’informations granulaires](/help/assets/granular-insights-reporting-fields.png)
+
+Vous définissez ces champs harmonisés afin de pouvoir analyser en profondeur les rapports de votre modèle à l’aide de colonnes de rapports granulaires au lieu d’avoir à créer des modèles distincts.
+
+Par exemple, vous créez un modèle axé sur le chiffre d’affaires, mais vous êtes également intéressé par les performances des campagnes, des types de médias, des régions et des sources de trafic. Sans la fonctionnalité de création de rapports d’incrémentalité granulaire, vous devriez créer quatre modèles distincts. Grâce à la fonctionnalité de création de rapports d’incrémentalité granulaire, vous pouvez ventiler votre modèle de chiffre d’affaires sur les campagnes, les types de médias, les régions et les sources de trafic.
+
+1. Sélectionnez un ou plusieurs champs harmonisés à partir des **[!UICONTROL _Sélectionner les champs harmonisés_]** sous **[!UICONTROL Includes]**. Les champs harmonisés sélectionnés sont ajoutés au panneau.
+1. Sélectionnez **[!UICONTROL *Champ harmonisé&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer un champ harmonisé du conteneur avec les champs harmonisés sélectionnés.
+1. Sélectionnez **[!UICONTROL Clear all]** pour supprimer tous les champs harmonisés sélectionnés.
+
+Les champs harmonisés sélectionnés pour les rapports d’incrémentalité granulaires sont disponibles dans le cadre des [schéma](/help/ingest-data/schemas.md) et [jeu de données](/help/ingest-data/datasets.md) d’Experience Platform qui résultent de la notation du modèle. Les champs de rapport d’informations granulaires se trouvent dans les objets **[!UICONTROL conversionPassthrough]** et **[!UICONTROL touchpointPassthrough]**.
+
+![Copie d’écran des objets conversionPassthrough et touchpointPassthrough dans un schéma pour un modèle activé pour le compte rendu des performances d’incrémentalité granulaire](/help/assets/schema-granular-insights-reporting.png)
+
+
+## Terminer
+
+* Sélectionnez **[!UICONTROL Finish]** pour terminer la configuration du modèle.
 
    * Dans la boîte de dialogue **[!UICONTROL Create instance?]**, sélectionnez **[!UICONTROL Ok]** pour déclencher immédiatement le premier jeu d’exécutions d’entraînement et de notation. Votre modèle est répertorié avec le statut ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
@@ -199,6 +227,7 @@ Vous pouvez planifier l’entraînement et l’enregistrement de votre modèle �
 
    * Si une configuration supplémentaire est nécessaire, un contour et un texte rouges expliquent quelle configuration supplémentaire est requise.
 
-   Sélectionnez **[!UICONTROL Back]** pour revenir à l’étape précédente.
+* Sélectionnez **[!UICONTROL Back]** pour revenir à l’étape précédente.
 
-   Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
+* Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
+
