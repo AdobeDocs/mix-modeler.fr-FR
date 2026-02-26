@@ -4,9 +4,9 @@ description: Découvrez comment créer des modèles dans Mix Modeler, notamment 
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1194'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fournit un flux de configuration guidé du modèle étape par étape.
 
-Dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
+Dans l’interface ![ ](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
 
 ## Configuration
 
@@ -23,7 +23,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -40,9 +40,9 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    ![Modèle - étape de conversion](/help/assets/model-conversion-step.png)
 
-   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[&#x200B; &#x200B;](../harmonize-data/conversions.md)Conversions[!UICONTROL Harmonized datasets]. Par exemple : **[!UICONTROL Online Conversion]**.
+   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[ ](../harmonize-data/conversions.md)Conversions[!UICONTROL Harmonized datasets]. Par exemple : **[!UICONTROL Online Conversion]**.
 
-   1. Vous pouvez sélectionner l’![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** pour créer une conversion directement à partir de la configuration du modèle.
+   1. Vous pouvez sélectionner l’![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** pour créer une conversion directement à partir de la configuration du modèle.
 
 
 
@@ -56,7 +56,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
       * Vous pouvez utiliser ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer un point de contact.
       * Vous pouvez utiliser **[!UICONTROL Clear all]** pour supprimer tous les points de contact.
 
-   1. Vous pouvez sélectionner l’![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** pour créer un point de contact marketing directement à partir de la configuration du modèle.
+   1. Vous pouvez sélectionner l’![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** pour créer un point de contact marketing directement à partir de la configuration du modèle.
 
    >[!NOTE]
    >
@@ -76,57 +76,35 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
    * Sélectionnez **Et** et **Ou** entre les conteneurs pour créer des définitions plus complexes pour votre population de données éligible.
 
+1. Vous pouvez gérer les jeux de données contenant des facteurs internes ou externes dans la section **[!UICONTROL Factor dataset]** .
 
-1. Pour ajouter des jeux de données contenant des facteurs externes à votre modèle, utilisez un ou plusieurs conteneurs dans la section **[!UICONTROL External factors dataset]** . Les indices S&amp;P sont un exemple de facteurs externes.
+   ![Modèle - Étape du jeu de données de facteur](../assets/model-factors-dataset-step.png)
 
-   ![Modèle - Jeu de données de facteurs externes](/help/assets/model-external-factors-dataset-step.png)
+   * Pour ajouter un jeu de données de facteur, sélectionnez **[!UICONTROL Add Factor]**. Vous pouvez ajouter un maximum de 30 facteurs à un modèle.
 
-   * Pour chaque conteneur :
+      1. Sélectionnez un **[!UICONTROL Factor dataset]** dans le menu déroulant. Les facteurs disponibles sont ceux pour lesquels vous avez défini un champ harmonisé dans [règles de jeu de données](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+En fonction du jeu de données sélectionné, le **[!UICONTROL Factor type**] est **[!UICONTROL Internal]** ou **[!UICONTROL External]**.
 
-      1. Saisissez un **[!UICONTROL External factor name]**, par exemple `External Factors`.
+      1. Sélectionnez le **[!UICONTROL Impact on conversion]** dans le menu déroulant. Les options disponibles sont : **[!UICONTROL Auto]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. L’option par défaut est **[!UICONTROL Auto]**, ce qui permet au modèle de déterminer l’impact du jeu de données de facteur.
 
-      1. Sélectionnez un jeu de données dans le menu déroulant **[!UICONTROL Dataset]** . Vous pouvez sélectionner ![Données](/help/assets/icons/Data.svg) pour gérer les jeux de données. Voir [Jeux de données](../ingest-data/datasets.md) pour plus d’informations.
-
-      1. Sélectionnez une option dans le menu déroulant **[!UICONTROL Impact on conversion]** : **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. L’option par défaut est **[!UICONTROL Auto select]**, ce qui permet au modèle de déterminer l’impact. Vous pouvez remplacer la valeur par défaut.
-
-   * Pour ajouter un conteneur de jeu de données de facteurs externes supplémentaires, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
-
-   * Pour supprimer un conteneur de jeu de données de facteurs externes, sélectionnez ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
+   * Pour supprimer un jeu de données de facteur, sélectionnez ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
 
 
-1. Pour ajouter des jeux de données contenant des facteurs internes à votre modèle, utilisez un ou plusieurs conteneurs dans la section **[!UICONTROL Internal factors dataset]** . Les données de marketing par e-mail sont un exemple de facteurs internes.
-
-   ![&#x200B; Modèle - Jeu de données de facteurs internes &#x200B;](/help/assets/model-internal-factors-dataset-step.png)
-
-   * Pour chaque conteneur :
-
-      1. Saisissez un **[!UICONTROL Internal factor name]**, par exemple `Email Marketing Data`.
-
-      1. Sélectionnez un jeu de données dans **[!UICONTROL _Sélectionnez un jeu de données_]**. Vous pouvez sélectionner ![Données](/help/assets/icons/Data.svg) pour gérer les jeux de données. Voir [Jeux de données](../ingest-data/datasets.md) pour plus d’informations.
-
-      1. Sélectionnez une option dans le menu déroulant **[!UICONTROL Impact on conversion]** : **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**.
-
-   * Pour ajouter un conteneur de jeu de données de facteurs internes supplémentaires, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
-
-   * Pour supprimer un conteneur de jeux de données de facteurs internes, sélectionnez ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
-
-
-
-1. Pour définir l’intervalle de recherche en amont du modèle, saisissez une valeur comprise entre `1` et `52` dans **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
+1. Pour définir l’intervalle de recherche en amont du modèle, saisissez une valeur comprise entre `1` et `52` dans **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** dans la section **[!UICONTROL Define lookback window]** .
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Si une configuration supplémentaire est nécessaire, un contour et un texte rouges expliquent quelle configuration supplémentaire est requise. <br/>Sélectionnez **[!UICONTROL Back]** pour revenir à l’étape précédente. <br/>Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
