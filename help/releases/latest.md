@@ -19,14 +19,14 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Février 2026
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Workflow des facteurs harmonisés** | Les facteurs sont désormais gérés dans le cadre d’un [ workflow de facteurs harmonisés ](/help/harmonize-data/overview.md#factors). Cela simplifie la [définition des données de facteur](/help/ingest-data/schemas.md#factor-standard-fields-field-group), la [gestion des facteurs internes et externes dans le cadre des règles de votre jeu de données](/help/harmonize-data/dataset-rules.md#factor-datasets) et l&#39;utilisation des données de facteur dans les [modèles](/help/models/build.md#configure). | 25 Février 2026 | 25 Février 2026 |
+| **Workflow des facteurs harmonisés** | Les facteurs sont désormais gérés dans le cadre d’un [&#x200B; workflow de facteurs harmonisés &#x200B;](/help/harmonize-data/overview.md#factors). Cela simplifie la [définition des données de facteur](/help/ingest-data/schemas.md#factor-standard-fields-field-group), la [gestion des facteurs internes et externes dans le cadre des règles de votre jeu de données](/help/harmonize-data/dataset-rules.md#factor-datasets) et l&#39;utilisation des données de facteur dans les [modèles](/help/models/build.md#configure). | 25 Février 2026 | 25 Février 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Définissez des champs harmonisés afin de pouvoir analyser en profondeur le compte rendu des performances de votre modèle à l’aide de [champs de compte rendu des performances granulaires](/help/models/build.md#granular-insights-reporting-fields), au lieu d’avoir à créer des modèles distincts. | 18 Février 2026 | 18 Février 2026 |
 
 ## Janvier 2026
 
-| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Dataset rules]** | [Mise à jour du tableau des règles du jeu de données](/help/harmonize-data/dataset-rules.md). Vous pouvez rechercher une ou plusieurs règles de jeu de données et afficher, modifier ou supprimer une règle de jeu de données directement à partir du tableau. | 13 janvier 2026 | 13 janvier 2026 |
 | **[!UICONTROL Current spend]** | Ajoutez un point de dépense actuel dans la [visualisation de la courbe de réponse marginale](/help/models/insights.md#marginal-response-curves) des informations sur le modèle. | 13 janvier 2026 | 13 janvier 2026 |
