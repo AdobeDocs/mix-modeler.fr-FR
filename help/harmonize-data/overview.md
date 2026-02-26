@@ -3,10 +3,10 @@ title: Présentation de l’harmonisation des jeux de données
 description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
+source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 7%
+source-wordcount: '1369'
+ht-degree: 8%
 
 ---
 
@@ -80,7 +80,7 @@ Contient le jeu de données d’effort marketing de Facebook, avec une granulari
 
 Un jeu de données de conversion, avec une granularité du jeu de données agrégé sur quotidien.
 
-| Date | Type de date | Géo | Objectif | Chiffre d’affaires |
+| Date | Type de date | Géo | Objectif | Recettes |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | day | US | Mode | 200 |
 | 01-08-2022 | day | US | Mode | 10 |
@@ -108,7 +108,7 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 
 **Jeu de données harmonisé**
 
-| Date | Type de date | Canal | Campagne | Marque | Géo | Objectif | Clics | Dépenses | Chiffre d’affaires |
+| Date | Type de date | Canal | Campagne | Marque | Géo | Objectif | Clics | Dépenses | Recettes |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | semaine | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
 | 01-03-2022 | semaine | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
@@ -132,7 +132,7 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 Pour créer un jeu de données harmonisé, comme dans l’exemple simplifié [exemple](#an-example-of-harmonized-data), procédez comme suit :
 
 1. Définissez des [champs harmonisés](fields.md) supplémentaires que vous souhaitez utiliser en plus des champs harmonisés globaux déjà disponibles.
-1. Configurez les [règles de jeu de données](dataset-rules.md) pour mapper les champs de vos jeux de données d’événement d’expérience ou agrégés aux champs harmonisés.
+1. Configurez les [règles de jeu de données](dataset-rules.md) pour mapper les champs de vos jeux de données agrégés (facteur ou résumé) ou d’événements d’expérience aux champs harmonisés.
 1. Définissez les [points de contact marketing](marketing-touchpoints.md) à l’aide des champs standards et harmonisés supplémentaires que vous avez définis.
 1. Définissez les [conversions](conversions.md) à l’aide des champs standard et harmonisés supplémentaires que vous avez définis.
 
@@ -149,7 +149,7 @@ Pour afficher vos données harmonisées, dans l’interface de Mix Modeler :
 
    1. Pour modifier les colonnes de champs harmonisés affichées pour le tableau de données harmonisées, utilisez ![Paramètres](/help/assets/icons/Setting.svg) pour ouvrir la boîte de dialogue **[!UICONTROL Column settings]**.
 
-      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes dans **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron droit](/help/assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**.
+      1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes dans **[!UICONTROL AVAILABLE COLUMNS]** et utilisez ![Chevron droit](/help/assets/icons/ChevronRight.svg) pour ajouter ces colonnes à **[!UICONTROL SELECTED COLUMNS]**. Tous les champs harmonisés standard que vous avez définis (y compris les champs liés aux jeux de données de facteur, tels que **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]**, **[!UICONTROL Factor Type]** et **[!UICONTROL Factor Value Type]**) sont disponibles.
 
       1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) une ou plusieurs colonnes dans **[!UICONTROL SELECTED COLUMNS]** et utilisez ![Chevron vers la gauche](/help/assets/icons/ChevronLeft.svg) pour supprimer les colonnes sélectionnées et les restaurer dans **[!UICONTROL AVAILABLE COLUMNS]**.
 
