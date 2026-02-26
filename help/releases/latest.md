@@ -4,29 +4,30 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '361'
 ht-degree: 7%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : 13 janvier 2026.
+**Dernière mise à jour** : 26 février 2026.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
 
 
 ## Février 2026
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
+| **Workflow des facteurs harmonisés** | Les facteurs sont désormais gérés dans le cadre d’un [ workflow de facteurs harmonisés ](/help/harmonize-data/overview.md#factors). Cela simplifie la [définition des données de facteur](/help/ingest-data/schemas.md#factor-standard-fields-field-group), la [gestion des facteurs internes et externes dans le cadre des règles de votre jeu de données](/help/harmonize-data/dataset-rules.md#factor-datasets) et l&#39;utilisation des données de facteur dans les [modèles](/help/models/build.md#configure). | jeudi 25 février 2026 | jeudi 25 février 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Définissez des champs harmonisés afin de pouvoir analyser en profondeur le compte rendu des performances de votre modèle à l’aide de [champs de compte rendu des performances granulaires](/help/models/build.md#granular-insights-reporting-fields), au lieu d’avoir à créer des modèles distincts. | jeudi 18 février 2026 | jeudi 18 février 2026 |
 
 ## Janvier 2026
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Dataset rules]** | [Mise à jour du tableau des règles du jeu de données](/help/harmonize-data/dataset-rules.md). Vous pouvez rechercher une ou plusieurs règles de jeu de données et afficher, modifier ou supprimer une règle de jeu de données directement à partir du tableau. | mercredi 13 janvier 2026 | mercredi 13 janvier 2026 |
 | **[!UICONTROL Current spend]** | Ajoutez un point de dépense actuel dans la [visualisation de la courbe de réponse marginale](/help/models/insights.md#marginal-response-curves) des informations sur le modèle. | mercredi 13 janvier 2026 | mercredi 13 janvier 2026 |
