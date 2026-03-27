@@ -3,9 +3,9 @@ title: Cas d’utilisation de Mix Modeler
 description: Cas d’utilisation de Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
@@ -34,9 +34,9 @@ L’approche par étapes pour ce cas d’utilisation est la suivante :
 
 | Étape | Détails |
 |---|---|
-| Ingestion | Identifiez et ingérez les sources de données sous des schémas communs. <br/>Appliquer les investissements existants dans Adobe Analytics ou Customer Journey Analytics pour accélérer le déploiement. |
+| Ingestion | Identifiez et ingérez les sources de données sous des schémas communs. <br/>Appliquez les investissements existants dans Adobe Analytics ou Customer Journey Analytics pour accélérer le déploiement. |
 | Configuration | Configurez des modèles flexibles à l’aide d’un framework d’IA en tant que service pour vos objectifs commerciaux spécifiques<br/>garantissez automatiquement la cohérence entre le point de contact et le niveau de résumé avec l’apprentissage par transfert bidirectionnel. |
-| Analyser | comprendre clairement le retour sur investissement du marketing global et des canaux/sous-canaux individuels ;<br/>Identifiez clairement les points de contact qui génèrent le mieux les conversions incrémentielles. |
+| Analyser | Comprenez clairement le retour sur investissement du marketing global et des canaux/sous-canaux individuels. <br/>Comprenez clairement quels points de contact génèrent le mieux les conversions incrémentielles. |
 
 {style="table-layout:auto"}
 
@@ -73,9 +73,9 @@ L’approche par étapes pour ce cas d’utilisation est la suivante :
 
 | Étape | Détails |
 |---|---|
-| Configuration | Personnalisez facilement les modèles de mesure en fonction de vos objectifs commerciaux.<br/>Définissez des paramètres en quelques clics, sans codage requis : par exemple, les canaux, les zones géographiques, les cycles de vente, les décalages, les facteurs métier internes et externes, etc. |
+| Configuration | Personnalisez facilement les modèles de mesure en fonction de vos objectifs commerciaux.<br/>Définissez des paramètres en quelques clics, sans codage requis : par exemple, les canaux, les zones géographiques, les cycles de vente, les décalages, les facteurs commerciaux internes et externes, etc. |
 | Entraîner | Entraînez les modèles d’IA/ML configurés sur pour apprendre à utiliser au mieux les données d’entrée, afin de fournir les résultats les plus précis. |
-| Optimiser | Obtenez des allocations budgétaires optimisées et automatisées basées sur des prévisions de modèle.<br/>Développez et comparez plusieurs scénarios budgétaires en quelques clics à l’aide d’une interface utilisateur intuitive. |
+| Optimiser | Bénéficiez d’allocations budgétaires optimisées et automatisées basées sur des prévisions de modèle.<br/>Développez et comparez plusieurs scénarios budgétaires en quelques clics à l’aide d’une interface utilisateur intuitive. |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,8 @@ Une implémentation réussie de cette utilisation peut avoir l’impact suivant 
 
 +++
 
-<!-- This use case is not supported with initial release
+<!--
+This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
@@ -154,8 +155,8 @@ L’approche par étapes pour ce cas d’utilisation est la suivante :
 | Étape | Détails |
 |---|---|
 | Modèle | Configurez et entraînez un modèle AI/ML pour obtenir des scores de point de contact MTA et des résultats agrégés MMM cohérents. |
-| Analyser | Exportez les scores de point de contact incrémentiels dans Customer Journey Analytics ou dans des outils de BI externes.<br/>Effectuez une analyse granulaire et créez des tableaux de bord avancés à l’aide des scores de point de contact. |
-| Action | Créez et activez des semblables aux principaux segments de consommateurs à l’aide de Real-Time Customer Data Platform.<br/>Développement de stratégies marketing pilotées par les données par segments de clients pour les campagnes futures. |
+| Analyser | Exportez les scores de point de contact incrémentiels dans Customer Journey Analytics ou dans des outils de BI externes. <br/>Effectuez une analyse granulaire et créez des tableaux de bord avancés à l’aide des scores de point de contact. |
+| Action | Créez et activez des semblables aux principaux segments de consommateurs à l’aide de Real-Time Customer Data Platform.<br/>Développez des stratégies marketing pilotées par les données par segments de clients pour les campagnes futures. |
 
 {style="table-layout:auto"}
 

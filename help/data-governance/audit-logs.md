@@ -3,10 +3,10 @@ title: Journaux d’audit
 description: Découvrez comment accéder aux journaux d’audit de Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 12%
+source-wordcount: '488'
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 12%
 
 Pour accroître la transparence et la visibilité des activités exécutées dans le système, l’activité des utilisateurs et utilisatrices dans le workflow Mix Modeler est capturée dans les journaux d’audit Experience Platform afin de comprendre toute modification apportée aux catégories Mix Modeler par les utilisateurs et utilisatrices. Ces journaux constituent un journal d’audit qui peut vous aider à résoudre les problèmes et à vous conformer efficacement aux politiques de gestion des données d’entreprise et aux exigences réglementaires.
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
@@ -26,36 +27,36 @@ Pour examiner le journal d’audit, dans l’interface de Mix Modeler :
 
 1. En **[!UICONTROL Audits]**, vous pouvez trouver le **[!UICONTROL Activity log]**. Le journal des activités affiche les entrées des catégories, actions et statuts Mix Modeler ci-après.
 
-   | Catégorie | Action | Statut |
+   | Catégorie | Action | État |
    |---|---|---|
    | Règle du jeu de données Mix Modeler | Créer | Autoriser ou refuser |
-   | Règle du jeu de données Mix Modeler | Mise à jour  | Autoriser ou refuser |
+   | Règle du jeu de données Mix Modeler | Mise à jour | Autoriser ou refuser |
    | Règle du jeu de données Mix Modeler | Supprimer | Autoriser ou refuser |
    | Champ Mix Modeler | Créer | Autoriser ou refuser |
-   | Champ Mix Modeler | Mise à jour  | Autoriser ou refuser |
+   | Champ Mix Modeler | Mise à jour | Autoriser ou refuser |
    | Champ Mix Modeler | Supprimer | Autoriser ou refuser |
    | Point de contact marketing Mix Modeler | Créer | Autoriser ou refuser |
-   | Point de contact marketing Mix Modeler | Mise à jour  | Autoriser ou refuser |
+   | Point de contact marketing Mix Modeler | Mise à jour | Autoriser ou refuser |
    | Point de contact marketing Mix Modeler | Supprimer | Autoriser ou refuser |
    | Conversion Mix Modeler | Créer | Autoriser ou refuser |
-   | Conversion Mix Modeler | Mise à jour  | Autoriser ou refuser |
+   | Conversion Mix Modeler | Mise à jour | Autoriser ou refuser |
    | Conversion Mix Modeler | Supprimer | Autoriser ou refuser |
    | Modèle Mix Modeler | Créer | Autoriser ou refuser |
-   | Modèle Mix Modeler | Mise à jour  | Autoriser ou refuser |
+   | Modèle Mix Modeler | Mise à jour | Autoriser ou refuser |
    | Modèle Mix Modeler | Supprimer | Autoriser ou refuser |
    | Modèle Mix Modeler | Score | Autoriser ou refuser |
    | Modèle Mix Modeler | Cloner | Autoriser ou refuser |
    | Modèle Mix Modeler | Former / Recycler | Autoriser ou refuser |
    | Modèle Mix Modeler | Télécharger/enregistrer des métadonnées | Autoriser ou refuser |
    | Plan Mix Modeler | Créer | Autoriser ou refuser |
-   | Plan Mix Modeler | Mise à jour  | Autoriser ou refuser |
+   | Plan Mix Modeler | Mise à jour | Autoriser ou refuser |
    | Plan Mix Modeler | Modifier le modèle associé | Autoriser ou refuser |
    | Harmonisation des données Mix Modeler | Synchronisation du déclencheur | Autoriser ou refuser |
 
 
 1. Sélectionnez une entrée dans le journal des activités pour ouvrir un panneau pour plus d’informations.
 
-   ![Audit Mix Modeler](/help/assets/mix-modeler-audit.png)
+   ![Audit ](/help/assets/mix-modeler-audit.png)
 
 1. Pour filtrer par plage de **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** ou **[!UICONTROL Date]**, sélectionnez ![Filtrer](/help/assets/icons/Filter.svg).
 

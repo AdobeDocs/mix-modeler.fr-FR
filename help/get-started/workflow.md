@@ -3,10 +3,10 @@ title: Workflow Mix Modeler
 description: Comprenez le processus type pour Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Regardez cette vidéo pour une présentation du workflow de l’utilisateur dans Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3440205/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Un workflow type dans Mix Modeler se compose des activités suivantes :
@@ -34,8 +34,9 @@ Un workflow type dans Mix Modeler se compose des activités suivantes :
 
 Vous trouverez ci-dessous un aperçu de la manière dont les données d’entrée peuvent circuler dans Mix Modeler et dont Mix Modeler peut produire des données de sortie pour sa propre interface, mais également pour d’autres solutions telles que Customer Journey Analytics.
 
-![Flux de données d’entrée/sortie Mix Modeler](../assets/mm-input-output.png)
-<!---
+![Flux de données d’entrée/sortie ](../assets/mm-input-output.png)
+
+<!--
 The detailed data-oriented flowchart below illustrates how:
 
 * harmonized data is based on:
@@ -52,5 +53,4 @@ The detailed data-oriented flowchart below illustrates how:
 * mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
 ![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
-
 -->
