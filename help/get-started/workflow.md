@@ -34,7 +34,7 @@ Un workflow type dans Mix Modeler se compose des activités suivantes :
 
 Vous trouverez ci-dessous un aperçu de la manière dont les données d’entrée peuvent circuler dans Mix Modeler et dont Mix Modeler peut produire des données de sortie pour sa propre interface, mais également pour d’autres solutions telles que Customer Journey Analytics.
 
-![Flux de données d’entrée/sortie ](../assets/mm-input-output.png)
+![Flux de données d’entrée/sortie &#x200B;](../assets/mm-input-output.png)
 
 <!--
 The detailed data-oriented flowchart below illustrates how:

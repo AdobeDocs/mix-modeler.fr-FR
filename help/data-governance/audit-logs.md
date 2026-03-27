@@ -56,7 +56,7 @@ Pour examiner le journal d’audit, dans l’interface de Mix Modeler :
 
 1. Sélectionnez une entrée dans le journal des activités pour ouvrir un panneau pour plus d’informations.
 
-   ![Audit ](/help/assets/mix-modeler-audit.png)
+   ![Audit &#x200B;](/help/assets/mix-modeler-audit.png)
 
 1. Pour filtrer par plage de **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** ou **[!UICONTROL Date]**, sélectionnez ![Filtrer](/help/assets/icons/Filter.svg).
 
