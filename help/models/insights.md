@@ -1,11 +1,11 @@
 ---
-title: Informations sur le modèle
+title: Model Insights
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
+source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
 workflow-type: tm+mt
-source-wordcount: '2772'
+source-wordcount: '2999'
 ht-degree: 3%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 3%
 
 Chaque visualisation d’informations sur le modèle est conçue pour vous aider à :
 
-* Visualisez et quantifiez l’impact des activités marketing de votre organisation.
-* Identifiez les canaux les plus performants.
-* Identifiez les canaux qui peuvent nécessiter une optimisation.
+* visualiser et quantifier l’impact des activités marketing de votre organisation ;
+* identifier les canaux les plus performants ;
+* identifier les canaux qui peuvent nécessiter une optimisation.
 
 Ces informations vous aident ensuite à prendre en charge la hiérarchisation et l’affectation des ressources.
 
-Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modèles **[!UICONTROL Models]** de Mix Modeler :
+Pour afficher des informations sur le modèle, dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) dans [!DNL Mix Modeler] :
 
 1. Dans le tableau **[!UICONTROL Models]**, sélectionnez le nom d’un modèle dont le **[!UICONTROL Last run status]** est ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
@@ -32,8 +32,8 @@ Pour afficher des informations sur le modèle, dans l’interface ![&#x200B; &#x
 Les onglets suivants sont disponibles :
 
 * [Informations sur le modèle](#model-insights)
-* [Synergie des canaux](#channel-synergy)
-* [Facteurs](#factors-beta) [!BADGE bêta]
+* [Analyse des canaux](#channel-analysis)
+* [Facteurs](#factors) [!BADGE bêta]
 * [Attribution](#attribution) (uniquement pour les modèles compatibles avec le MTA)
 * [Diagnostic](#diagnostics)
 * [Aperçu de l’historique](#historical-overview).
@@ -46,19 +46,19 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
 
 ## Informations sur le modèle {#model-insights-section}
 
-L’onglet Informations sur les modèles affiche des visualisations pour [Contribution par date et média de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves). L’onglet fournit également un tableau [Répartition des points de contact](#touchppint-breakdown).
+L’onglet **[!UICONTROL Model insights]** affiche des visualisations pour [Contribution par date et média de base](#contribution-by-date-and-base-media), [Contribution par canal](#contribution-by-channel), [Résumé des performances marketing](#marketing-performance-summary) et [Courbes de réponse marginales](#marginal-response-curves). L’onglet fournit également un tableau [Répartition des points de contact](#touchpoint-breakdown).
 
 ![Modèle - Informations sur le modèle](/help/assets/model-insights-insights.png)
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
-* Pour télécharger des données d’informations de modèle complètes au format Microsoft® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
+* Pour télécharger des données d’informations de modèle complètes au format ® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 ### Contribution par date et média de base
@@ -121,22 +121,67 @@ Pour sélectionner un canal spécifique ou tous les canaux, sélectionnez dans l
 Pour télécharger le contenu du tableau de répartition des points de contact, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
-## Synergie des canaux
+## Analyse des canaux
 
-Dans l’onglet **[!UICONTROL Channel synergy]** , la visualisation **[!UICONTROL Channel synergies]** vous permet d’identifier comment les canaux marketing interagissent pour créer des effets multiplicatifs, au-delà de leurs contributions individuelles.
+L’onglet **[!UICONTROL Channel analysis]** affiche la visualisation pour **[!UICONTROL Channel synergies]** et **[Adstock de canal]**.
+
+
+### Synergies de canal
+
+La visualisation des synergies de canaux vous permet d’identifier comment les canaux marketing interagissent pour créer des effets multiplicatifs, au-delà de leurs contributions individuelles.
 
 La matrice de carte thermique fournit une représentation visuelle des valeurs de synergie entre les paires de canaux de dépenses. Cette matrice permet aux professionnels du marketing de comprendre comment les canaux interagissent pour stimuler les performances. Pour chaque modèle, les valeurs de synergie sont normalisées de 0 à 10. Ces valeurs quantifient la *synergie du prochain dollar*, qui estime l&#39;efficacité de la collaboration entre deux canaux lorsque chacun reçoit un dollar supplémentaire de dépenses aux niveaux actuels.
 
 Ce cadre de plus-value offre une mesure réaliste de la force relative de la synergie, car il tient compte des conditions de dépenses réelles dans les données de formation et permet ainsi de prendre des décisions d’optimisation plus éclairées.
 
-![Planifier les synergies de canaux](/help/assets/model-channel-synergies.png)
 
-Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+>[!BEGINTABS]
+
+>[!TAB Afficher moins de synergies]
+
+![Planifier les synergies de canaux](/help/assets/model-channel-synergies-less.png)
+
+>[!TAB Afficher toutes les synergies]
+
+![Planifier les synergies de canaux](/help/assets/model-channel-synergies-all.png)
+
+>[!ENDTABS]
+
+
+* Pour afficher toutes les synergies, sélectionnez **[!UICONTROL Show all]**.
+
+* Pour sélectionner moins de synergies, sélectionnez **[!UICONTROL Show less]**
+
+* Pour afficher les détails d’une synergie, passez la souris sur une cellule dans la visualisation.
+
+* Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
 >Si l’onglet **[!UICONTROL Channel synergy]** n’est pas visible pour un modèle existant, veillez à entraîner à nouveau le modèle pour activer la fonctionnalité et la visualisation.
 
+
+### Stock publicitaire du canal
+
+Les visualisations d’entrepôt de canal affichent une visualisation pour chaque entrepôt de canal configuré. Les visualisations vous aident à comprendre comment l’impact des dépenses marketing pour chaque canal persiste et s’atténue au fil du temps et au-delà de l’exposition initiale. La visualisation fournit une vue réaliste de l&#39;acheminement des canaux par l&#39;incorporation de la dynamique temporelle qui sont apprises du modèle.
+
+Chaque graphique représente un canal marketing unique et affiche sa courbe de stock. Cette courbe modélise la manière dont l’effet d’une unité d’exposition se répercute sur les périodes futures. La courbe illustre la vitesse à laquelle l’impact sur la conversion diminue et aide les spécialistes marketing à comparer la durée pendant laquelle différents canaux continuent d’influencer les performances après l’investissement initial.
+
+Les canaux dont les courbes de décroissance sont plus lentes (traînées plus longues) indiquent un impact durable au fil du temps. Les canaux avec des baisses importantes reflètent des effets plus immédiats et de courte durée. La période de recherche en amont maximale configurée pour ce canal détermine la longueur de chaque courbe.
+
+>[!BEGINTABS]
+
+>[!TAB Tout afficher adstock]
+
+![Planifier les synergies de canaux](/help/assets/model-channel-adstock-all.png)
+
+>[!TAB Afficher le stock publicitaire sélectionné]
+
+![Planifier les synergies de canaux](/help/assets/model-channel-adstock-selected.png)
+
+>[!ENDTABS]
+
+* Pour afficher des visualisations d’annonce publicitaire pour des **[!UICONTROL All channels]** ou une visualisation d’annonce publicitaire pour un canal individuel (par exemple, **[!UICONTROL Paid Social Facebook]**), sélectionnez dans le menu déroulant **[!UICONTROL Channel]**.
 
 
 ## Facteurs {#factors}
@@ -144,12 +189,12 @@ Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Répartition de la contribution des facteurs"
->abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle.<br/><br/>La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Il comprend des conversions axées sur les actions de la marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
+>abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle. <br/><br/> La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Il comprend des conversions axées sur les actions de la marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
 
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
+![ Facteurs ](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -172,7 +217,7 @@ Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/i
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Répartition par position du point de contact"
->abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position que les positions restantes et les autres points de contact à n’importe quelle position."
+>abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position qu’aux positions restantes et à d’autres points de contact à n’importe quelle position."
 
 
 
@@ -184,7 +229,7 @@ Grâce à l’onglet [!UICONTROL Attribution] , vous pouvez comprendre l’effic
 
 Les modèles d’attribution suivants sont pris en charge :
 
-* En fonction du modèle sélectionné dans Mix Modeler :
+* En fonction du modèle sélectionné dans [!DNL Mix Modeler] :
    * Algorithmique - influencé
    * Algorithmique - incrémentiel
 * Basé sur des règles :
@@ -194,13 +239,13 @@ Les modèles d’attribution suivants sont pris en charge :
    * Linéaire
    * Ushape
 
-Consultez [Attribution multipoint](../get-started/about.md#multi-touch-attribution) pour une introduction sur la fonctionnalité d’attribution multipoint dans Mix Modeler.
+Consultez [Attribution multipoint](../get-started/about.md#multi-touch-attribution) pour une introduction sur la fonctionnalité d’attribution multipoint dans [!DNL Mix Modeler].
 
 Sélectionnez un ou plusieurs modèles d’attribution dans le menu déroulant **[!UICONTROL Attribution Model]** . Les modèles d’attribution sélectionnés s’appliquent à toutes les visualisations dans l’onglet Attribution.
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-Les scores d’événement granulaire d’attribution multipoint Mix Modeler s’alignent sur les scores globaux de Mix Modeler et sur les RSI. Ces scores sont également disponibles sous forme de jeux de données dans Experience Platform.
+Les scores d’événement granulaire d’attribution multipoint Mix Modeler s’alignent sur les scores globaux de [!DNL Mix Modeler] et les RSI. Ces scores sont également disponibles sous forme de jeux de données dans Experience Platform.
 
 L’onglet Attribution comprend les visualisations suivantes :
 
@@ -222,7 +267,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -234,7 +279,7 @@ Pour trier le tableau par ordre croissant ↑ décroissant ↓ pour les conversi
 
 Pour développer le tableau dans une boîte de dialogue distincte, sélectionnez **[!UICONTROL Expand]** dans ![Plus](/help/assets/icons/More.svg).
 
-La boîte de dialogue Développée Principales campagnes affiche le même tableau avec des colonnes supplémentaires pour
+La boîte de dialogue **[!UICONTROL Top campaigns]** développée affiche le même tableau avec des colonnes supplémentaires pour :
 
 * Conversions incrémentielles
 * Conversions influencées
@@ -300,19 +345,19 @@ Pour chaque chemin de conversion, vous voyez :
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Mesure d&#39;efficacité"
->abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion indépendamment du volume de points de contact. Elle est mesurée sur une échelle de 1 à 5. Notez qu’un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée."
+>abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion indépendamment du volume de points de contact. Cette mesure est sur une échelle de 1 à 5. Notez qu’un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Volume total"
->abstract="Le volume total est le nombre agrégé de fois qu’un point de contact a été touché par un utilisateur et inclut les points de contact qui apparaissent sur un chemin générant une conversion, ainsi que sur les chemins ne générant pas de conversion."
+>abstract="Le volume total est le nombre agrégé de fois qu’un utilisateur touche un point de contact. Et inclut les points de contact qui apparaissent sur un chemin qui réussit, ainsi que sur les chemins ne résultant pas en une conversion."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Date du modèle au"
->abstract="Les données de cette table ne sont générées que pour des périodes spécifiques.  La date de **[!UICONTROL As of]** indique la date à laquelle les données ont été générées. Elle est basée sur les données de la date spécifiée jusqu’à l’année précédente."
+>abstract="Les données de cette table ne sont générées que pour des périodes spécifiques.  La date de **[!UICONTROL As of]** indique la date à laquelle les données ont été générées. Elle est basée sur les données datant de la date spécifiée jusqu’à l’année précédente."
 
 
 L’onglet **[!UICONTROL Diagnostics]** affiche les visualisations pour :
@@ -347,7 +392,7 @@ Pour ventiler la visualisation, sélectionnez l’une des options suivantes dans
    * **[!UICONTROL Training sMAPE]** (erreur en pourcentage absolu moyen symétrique) : mesure l’erreur en pourcentage moyen sur les données d’identification. Des valeurs plus faibles indiquent une meilleure précision.
    * **[!UICONTROL Training RMSE]** (erreur quadratique moyenne racine) : mesure l’erreur moyenne en pourcentage sur les données d’identification. Pénalise les erreurs plus importantes que la MAPE. Une RMSE plus faible suggère une meilleure précision prédictive, mais est sensible aux valeurs aberrantes.
    * **[!UICONTROL Out-of-sample sMAPE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, Mix Modeler évalue le pourcentage d’erreur en utilisant le dernier trimestre des données d’identification comme ensemble d’exclusions.
-   * **[!UICONTROL Out-of-sample RMSE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, Mix Modeler évalue le pourcentage d’erreur en utilisant le dernier trimestre des données d’identification comme ensemble d’exclusions. Le RMSE pénalise plus les erreurs plus importantes que le MAPE.
+   * **[!UICONTROL Out-of-sample RMSE]** : évalue l’erreur en pourcentage sur les données non vues, en équilibrant les sur-et-sous-prédictions. Permet d’évaluer la généralisation. Actuellement, [!DNL Mix Modeler] évalue le pourcentage d’erreur en utilisant le dernier trimestre des données de formation comme ensemble d’exclusions. Le RMSE pénalise plus les erreurs plus importantes que le MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]** tableau, représentant le résultat du modèle algorithmique de l’IA dédiée à l’attribution.
@@ -367,7 +412,7 @@ Pour ventiler la visualisation, sélectionnez l’une des options suivantes dans
 
 >[!AVAILABILITY]
 >
->La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note est supprimée lorsque la fonctionnalité est disponible. Pour plus d’informations sur le processus de publication de Mix Modeler, consultez [Versions des fonctionnalités de Mix Modeler](/help/releases/latest.md).
+>La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note est supprimée lorsque la fonctionnalité est disponible. Pour plus d’informations sur le processus de publication de [!DNL Mix Modeler], consultez [Versions des fonctionnalités de Mix Modeler](/help/releases/latest.md).
 >
 
 Si une dérive du modèle est détectée, une notification **[!UICONTROL Model drift detected]** s’affiche en haut de l’écran.
@@ -398,7 +443,7 @@ Cette visualisation représente la distribution des dépenses sur divers canaux 
 
 Cette visualisation représente la répartition des dépenses entre les points de contact payés pour chaque trimestre de la période donnée. La visualisation permet de comprendre quels points de contact sont prioritaires au sein de canaux et de trimestres spécifiques. La visualisation permet d’identifier les modèles et les tendances des dépenses des canaux, en particulier les canaux avec des dépenses faibles et peu fréquentes au fil du temps.
 
-Pour sélectionner un autre canal basé sur les dépenses à afficher pour cette visualisation :
+Pour afficher un autre canal basé sur les dépenses pour cette visualisation :
 
 * Sélectionnez un canal dans **[!UICONTROL Channels]**.
 
@@ -407,7 +452,7 @@ Pour sélectionner un autre canal basé sur les dépenses à afficher pour cette
 
 Cette visualisation représente la distribution du volume sur tous les points de contact pour chaque trimestre dans la période donnée.
 
-Pour sélectionner un autre canal basé sur le volume à afficher pour cette visualisation :
+Pour afficher un autre canal basé sur le volume pour cette visualisation :
 
 * Sélectionnez un canal dans **[!UICONTROL Channels]**.
 
@@ -416,7 +461,7 @@ Pour sélectionner un autre canal basé sur le volume à afficher pour cette vis
 
 Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
 
-1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg) Modifier .
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg) Modifier .
 
 1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
@@ -434,4 +479,4 @@ Vous pouvez modifier le nom, la description, la planification de l’entraîneme
 
      ![Modifier un modèle](../assets/model-edit.png)
 
-1. Sélectionnez **[!UICONTROL Save]**.
+1. Sélectionner **[!UICONTROL Save]**.

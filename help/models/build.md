@@ -1,12 +1,12 @@
 ---
-title: Création de modèles dans Mix Modeler
-description: Découvrez comment créer des modèles dans Mix Modeler, notamment comment configurer et spécifier des options avancées pour le modèle.
+title: Création De Modèles Dans Mix Modeler
+description: Découvrez comment créer des modèles dans Mix Modeler, notamment comment configurer et spécifier des options avancées pour le modèle. Tels que les objectifs de conversion, les points de contact, le stock publicitaire et la planification.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fournit un flux de configuration guidé du modèle étape par étape.
 
-Dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) de Mix Modeler, sélectionnez **[!UICONTROL Open model canvas]**.
+Dans l’interface **[!UICONTROL Models]** ![Modèles](/help/assets/icons/FileData.svg) de [!DNL Mix Modeler], sélectionnez **[!UICONTROL Open model canvas]**.
 
 ## Configuration
 
@@ -23,11 +23,11 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
-## Configuration{#configure}
+## Configuration {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -41,7 +41,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    ![Modèle - étape de conversion](/help/assets/model-conversion-step.png)
 
-   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles correspondent à celles que vous avez définies dans le cadre de l’[!UICONTROL Harmonized datasets] [Conversions](../harmonize-data/conversions.md). Par exemple : **[!UICONTROL Online Conversion]**.
+   1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Conversion]** . Les conversions disponibles sont celles que vous avez définies dans le cadre de l’[!UICONTROL Harmonized datasets] [Conversions](../harmonize-data/conversions.md). Par exemple : **[!UICONTROL Online Conversion]**.
 
    1. Vous pouvez sélectionner l’**[!UICONTROL Create a conversion]** ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) pour créer une conversion directement à partir de la configuration du modèle.
 
@@ -52,7 +52,7 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    ![Modèle - étape du point de contact marketing](/help/assets/model-marketing-touchpoint-step.png)
 
-   1. Sélectionnez un ou plusieurs points de contact marketing dans le menu déroulant **[!UICONTROL Touchpoint include]** .
+   1. Sélectionnez un ou plusieurs points de contact marketing dans le menu déroulant **[!UICONTROL Touchpoint include]**.
 
       * Vous pouvez utiliser ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer un point de contact.
       * Vous pouvez utiliser **[!UICONTROL Clear all]** pour supprimer tous les points de contact.
@@ -77,13 +77,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
@@ -96,61 +96,96 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
    * Pour ajouter un jeu de données de facteur, sélectionnez **[!UICONTROL Add Factor]**. Vous pouvez ajouter un maximum de 30 facteurs à un modèle.
 
       1. Sélectionnez un **[!UICONTROL Factor dataset]** dans le menu déroulant. Les facteurs disponibles sont ceux pour lesquels vous avez défini un champ harmonisé dans [règles de jeu de données](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-En fonction du jeu de données sélectionné, le **[!UICONTROL Factor type**] est **[!UICONTROL Internal]** ou **[!UICONTROL External]**.
+En fonction du jeu de données sélectionné, la **[!UICONTROL Factor type]** est **[!UICONTROL Internal]** ou **[!UICONTROL External]**.
 
       1. Sélectionnez le **[!UICONTROL Impact on conversion]** dans le menu déroulant. Les options disponibles sont : **[!UICONTROL Auto]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. L’option par défaut est **[!UICONTROL Auto]**, ce qui permet au modèle de déterminer l’impact du jeu de données de facteur.
 
    * Pour supprimer un jeu de données de facteur, sélectionnez ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-
-
 1. Pour définir l’intervalle de recherche en amont du modèle, saisissez une valeur comprise entre `1` et `52` dans **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** dans la section **[!UICONTROL Define lookback window]** .
+
+1. Pour définir la fenêtre de formation d’un modèle, à l’adresse **[!UICONTROL Define training window]**, sélectionnez l’endroit où vous souhaitez commencer à noter les conversions.
+
+   ![Modèle - Définir la fenêtre de formation](/help/assets/model-define-training-window.png)
+
+   Vous pouvez choisir entre :
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** et
+
+   * **[!UICONTROL Manually input a training window]**. Lorsque cette option est sélectionnée, définissez le nombre d’années dans **[!UICONTROL Include events the following years prior to a conversion]**.
+
+   Cette entrée est requise pour un modèle. Le nombre d’années détermine la limitation du stock publicitaire de canal que vous pouvez configurer à l’étape de **[!UICONTROL Advanced]**.
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Si une configuration supplémentaire est nécessaire, un contour et un texte rouges expliquent quelle configuration supplémentaire est requise. <br/>Sélectionnez **[!UICONTROL Back]** pour revenir à l’étape précédente. <br/>Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
 
-## Advanced
+## Advanced {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Stock publicitaire du canal"
->abstract="Intégrez directement à la configuration du modèle l’expertise du domaine, les résultats d’expérimentation ou les analyses de canaux précédentes. La configuration d’Adstock permet de guider le modèle pour qu’il s’aligne sur les attentes réelles et améliore l’interprétabilité et la confiance dans la sortie. Le nombre total de semaines de recherche en amont plus les semaines de décalage par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock d’annonces."
+>abstract="Intégrez directement à la configuration du modèle l’expertise du domaine, les résultats d’expérimentation ou les analyses de canaux précédentes. La configuration d’Adstock permet de guider le modèle pour qu’il s’aligne sur les attentes réelles et améliore l’interprétabilité et la confiance dans la sortie. Le nombre total de semaines de recherche en amont plus les semaines de décalage par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire."
 
-Vous pouvez spécifier des paramètres avancés à l’étape **[!UICONTROL Advanced]**. Au cours de cette étape, vous pouvez activer votre modèle pour l’attribution multipoint (MTA).
+Vous pouvez spécifier des paramètres avancés à l’étape **[!UICONTROL Advanced]**. Au cours de cette étape, vous pouvez définir [partage des dépenses](#spend-share), activer votre modèle pour l’[attribution multipoint (MTA)](#mta), définir [connaissances préalables](#prior-knowledge) et définir [adstock de canaux](#channel-adstock).
 
-1. Dans la section **[!UICONTROL Spend share]** :
+### Part de dépenses
 
-   * Pour utiliser les ratios d’investissement marketing historiques afin d’informer le modèle lorsque les données marketing sont rares, activez **[!UICONTROL Allow spend share]**. Ce paramètre est recommandé, en particulier dans les scénarios suivants :
-      * Un canal ne contient pas suffisamment d’observations (par exemple, une faible fréquence de dépenses, d’impressions ou de clics).
-      * Vous modélisez des médias sophistiqués mais réguliers, et potentiellement coûteux (comme la télévision pour certaines marques), où les données peuvent être éparses.
+Dans la section **[!UICONTROL Spend share]** :
 
-     >[!NOTE]
-     >
-     >Pour les investissements ponctuels (par exemple une publicité pour le Super Bowl), pensez à incorporer ces données en tant que facteur plutôt que de compter sur la part de dépenses.
-     >
+* Pour utiliser les ratios d’investissement marketing historiques afin d’informer le modèle lorsque les données marketing sont rares, activez **[!UICONTROL Allow spend share]**. Ce paramètre est recommandé, en particulier dans les scénarios suivants :
+   * Un canal ne contient pas suffisamment d’observations (par exemple, une faible fréquence de dépenses, d’impressions ou de clics).
+   * Vous modélisez des médias sophistiqués mais réguliers, et potentiellement coûteux (comme la télévision pour certaines marques), où les données peuvent être éparses.
+
+  >[!NOTE]
+  >
+  >Pour les investissements ponctuels (par exemple une publicité pour le Super Bowl), intégrez ces données en tant que facteur au lieu de vous fier à la part des dépenses.
+  >
+
+### MTA
+
+Dans la section **[!UICONTROL MTA enabled]** :
+
+* Pour activer les fonctionnalités MTA pour le modèle, activez **[!UICONTROL MTA enabled]**. Si vous avez activé le MTA, les informations d’attribution multipoint sont disponibles après avoir formé et noté votre modèle. Voir l’onglet [Attribution](insights.md#attribution) dans [Model Insights](insights.md).
 
 
-1. Dans la section **[!UICONTROL MTA enabled]** :
+### Connaissances préalables
 
-   * Pour activer les fonctionnalités MTA pour le modèle, activez **[!UICONTROL MTA enabled]**. Si vous avez activé le MTA, les informations d’attribution multipoint sont disponibles après avoir formé et noté votre modèle. Voir l’onglet [Attribution](insights.md#attribution) dans [Model Insights](insights.md).
+Dans la section **[!UICONTROL Prior knowledge]** :
 
-1. Dans la section **[!UICONTROL Prior knowledge]** :
+![Modèle - Connaissances préalables](/help/assets/model-prior-knowledge-step.png)
 
-   ![Modèle - Connaissances préalables](/help/assets/model-prior-knowledge-step.png)
+1. Sélectionnez l’**[!UICONTROL Rule type]**, qui est **[!UICONTROL Absolute values]** par défaut.
 
-   1. Sélectionnez l’**[!UICONTROL Rule type]**, qui est **[!UICONTROL Absolute values]** par défaut.
+1. Indiquez les pourcentages de contribution pour l’un des canaux répertoriés sous **[!UICONTROL Name]**, à l’aide de la colonne **[!UICONTROL Contribution proportion]** .
 
-   1. Indiquez les pourcentages de contribution pour l’un des canaux répertoriés sous **[!UICONTROL Name]**, à l’aide de la colonne **[!UICONTROL Contribution proportion]** .
+1. Le cas échéant, vous pouvez ajouter pour chaque canal un pourcentage **[!UICONTROL Level of confidence]**.
 
-   1. Le cas échéant, vous pouvez ajouter pour chaque canal un pourcentage **[!UICONTROL Level of confidence]**.
+1. Si nécessaire, utilisez **[!UICONTROL Clear all]** pour effacer toutes les valeurs d’entrée des colonnes **[!UICONTROL Contribution proportion]** et **[!UICONTROL Level of confidence]**.
 
-   1. Si nécessaire, utilisez **[!UICONTROL Clear all]** pour effacer toutes les valeurs d’entrée des colonnes **[!UICONTROL Contribution proportion]** et **[!UICONTROL Level of confidence]**.
+
+### Stock publicitaire du canal
+
+Dans la section **[!UICONTROL Channel adstock]** , vous pouvez définir des recherches en amont individuelles (effets de report ou d’atténuation) et un retard (temps de réponse retardé) pour chaque canal (canal marketing) que vous avez défini dans votre modèle.
+
+Cette configuration de stock publicitaire de canal permet un contrôle précis de l’impact des différents canaux marketing sur les résultats commerciaux au fil du temps. Vous pouvez également utiliser les paramètres par défaut du système et une configuration unique.
+
+La configuration des stocks de publicités de canal permet de capturer des nuances spécifiques au canal. Par exemple, l’impact à long terme des campagnes télévisées, l’impact à court terme du référencement payant ou le décalage entre les dépenses des influenceurs et les conversions observables. Testez les paramètres de recherche en amont et de décalage d’Adstock afin de générer des informations plus précises, personnalisées et fiables. En fin de compte, une configuration de canal et de stock peut conduire à des allocations budgétaires plus précises et à de meilleures décisions commerciales.
+
+![Stock publicitaire de canal](/help/assets/channel-ad-stock.png)
+
+Pour configurer le stock publicitaire de canal :
+
+* Pour chaque canal (**[!UICONTROL Name]**), définissez une valeur de **[!UICONTROL Lag (weeks)]**, de **[!UICONTROL Min Lookback (weeks)]** et de **[!UICONTROL Max Lookback (weeks)]**. Pour chaque valeur :
+
+   * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
+
+  Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
 
 
 ## Définir les options
 
-Vous pouvez [planifier la formation et la notation](#schedule), [définir la fenêtre de formation](#training-window) et spécifier [des champs de rapport d’informations granulaires](#granular-insights-reporting-fields) pour votre modèle à l’étape **[!UICONTROL Set options]**.
+Vous pouvez [planifier la formation et la notation](#schedule) et spécifier [champs de rapport d’informations granulaires](#granular-insights-reporting-fields) pour votre modèle à l’étape **[!UICONTROL Set options]**.
 
 
 ### Planning
@@ -171,20 +206,9 @@ Pour planifier la notation et la formation des modèles :
 1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 
 
-### Période de formation
-
-Dans la section **[!UICONTROL Define training window]**, sélectionnez entre :
-
-![Modèle - Définir la fenêtre de formation](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** et
-
-* **[!UICONTROL Manually input a training window]**. Lorsque cette option est sélectionnée, définissez le nombre d’années dans **[!UICONTROL Include events the following years prior to a conversion]**.
-
-
 ### Champs de création de rapports d’informations granulaires
 
-La section **[!UICONTROL Granular insights reporting fields]** utilise la fonctionnalité de création de rapports d’incrémentalité granulaire. Cette fonctionnalité vous permet de sélectionner des champs harmonisés pour répartir les scores de conversion et d’incrémentalité de point de contact.
+La section **[!UICONTROL Granular insights reporting fields]** utilise la fonctionnalité de création de rapports d’incrémentalité granulaire. Cette fonctionnalité vous permet de sélectionner des champs harmonisés pour ventiler les scores d’incrémentalité de conversion et de point de contact.
 
 ![Définir des champs de rapport d’informations granulaires](/help/assets/granular-insights-reporting-fields.png)
 
