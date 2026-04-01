@@ -1,11 +1,11 @@
 ---
 title: Modèles - Aperçu
-description: Découvrez comment créer et utiliser des modèles dans Mix Modeler.
+description: Découvrez comment créer, entraîner, noter et gérer des modèles de machine learning dans Mix Modeler pour mesurer et prédire les résultats marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La fonctionnalité de modèle de Mix Modeler vous permet de configurer, d’entraîner et de noter des modèles spécifiques à vos objectifs commerciaux. La formation et la notation prennent en charge l’apprentissage du transfert piloté par l’IA entre l’attribution multipoint et la modélisation du mix marketing.
 
-Les modèles sont basés sur les données harmonisées que vous créez dans le cadre du workflow de l’application Mix Modeler.
+Les modèles sont basés sur les données harmonisées que vous créez dans le cadre du workflow d’application.
 
 Un modèle dans Mix Modeler est un modèle de machine learning utilisé pour mesurer et prédire un résultat spécifié en fonction des investissements d’un spécialiste marketing. Les points de contact marketing et les données au niveau du résumé peuvent être utilisés comme entrées. Mix Modeler vous permet de créer des variantes de modèles en fonction de différents ensembles de variables, dimensions et résultats, tels que les revenus, les unités vendues et les prospects.
 
@@ -32,8 +32,7 @@ Un modèle peut éventuellement inclure :
 * Connaissance préalable des contributions marketing provenant d’autres sources telles que l’expérience passée des parties prenantes, les tests incrémentiels, d’autres modèles.
 * Le partage des dépenses, qui utilise le partage des dépenses relatives comme proxy lorsque les données marketing sont clairsemées.
 
-Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle peut ensuite être entraîné à nouveau. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous lui attribuiez un nouveau score manuellement. Le recyclage et le reclassement sont un processus itératif à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux aux objectifs de votre entreprise.
-
+Lorsqu’un modèle est créé pour la première fois, la création lance immédiatement le processus de formation et de notation. Une fois la formation initiale et l’exécution de notation terminées, les informations de modèle sont disponibles pour révision. Un modèle peut ensuite être recyclé. En outre, des données peuvent être ajoutées au modèle, ce qui nécessite que vous lui attribuiez un nouveau score manuellement. Le recyclage et la notation sont un processus itératif au fur et à mesure que de nouveaux résultats et de nouvelles informations apparaissent et que des ajustements sont nécessaires pour obtenir un modèle qui correspond le mieux à vos objectifs commerciaux.
 
 ## Créer des modèles
 
@@ -43,7 +42,7 @@ Pour créer un modèle, utilisez le flux de configuration du modèle guidé pas 
 
 Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Modeler :
 
-1. Sélectionnez ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Un tableau des modèles actuels s’affiche.
 
@@ -58,7 +57,7 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Mode
    | **[!UICONTROL Last run]** | Date et heure du dernier entraînement du modèle. |
    | **[!UICONTROL Status]** | Statut du modèle. |
 
-   Pour trier le tableau sur n’importe quelle colonne dans l’ordre croissant ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) ou décroissant ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)order, sélectionnez le titre de la colonne.
+   Pour trier le tableau sur n’importe quelle colonne dans l’ordre croissant ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) ou décroissant ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg), sélectionnez le titre de la colonne.
 
    Pour trier ou redimensionner la colonne **[!UICONTROL Name]**, sélectionnez **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dans le menu contextuel, sélectionnez **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** ou **[!UICONTROL Resize column]**. Vous pouvez également pointer sur le séparateur de colonnes pour redimensionner la colonne **[!UICONTROL Name]**.
 
@@ -70,7 +69,7 @@ Pour afficher un tableau de vos modèles actuels, dans l’interface de Mix Mode
    * ![Horloge](/help/assets/icons/Clock.svg) - Indique l’exécution en cours d’une étape du cycle de vie du modèle.
    * ![Fermer](/help/assets/icons/Close.svg) - indique l’échec de l’exécution d’une étape dans le cycle de vie du modèle.
 
-   | Statut | [Créer](/help/models/build.md) | [Train](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) | [Recycler](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) |
+   | État | [Créer](/help/models/build.md) | [Train](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) | [Recycler](/help/models/train-score.md#train) | [Score](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | En cours | ![Coche](/help/assets/icons/Checkmark.svg) | | | | |
    | En cours | ![Coche](/help/assets/icons/Checkmark.svg) | ![Horloge](/help/assets/icons/Clock.svg) | | | |
@@ -98,18 +97,16 @@ La fonctionnalité d’informations sur les modèles n’est disponible que sur 
 
 Pour afficher les informations d’un modèle :
 
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
-
+1. Sélectionnez ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 1. Sélectionnez le nom du modèle.
 
-Vous êtes redirigé vers [&#x200B; Model Insights &#x200B;](insights.md).
-
+Vous êtes redirigé vers [ Model Insights ](insights.md).
 
 ### Afficher les détails
 
 Pour afficher plus de détails sur un modèle :
 
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Infos](/help/assets/icons/Info.svg) pour un modèle afin d’afficher un pop-up avec des détails.
 
@@ -118,55 +115,62 @@ Pour afficher plus de détails sur un modèle :
 
 Vous pouvez rapidement dupliquer un modèle.
 
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Duplicate]** dans le menu contextuel.
 
-Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)] (_n_)**.
+Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifier
 
 Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation d’un modèle.
 
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Edit]** dans le menu contextuel.
 
    Dans la boîte de dialogue **[!UICONTROL Edit model]** :
 
+   ![Modifier un modèle](../assets/model-edit.png)
+
    * Saisissez un nouveau **[!UICONTROL Name]** et une nouvelle **[!UICONTROL Description]**.
 
-   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles entraînés et notés.
+   * Pour activer la planification, activez **[!UICONTROL Enable schedule model training and scoring]**. Vous pouvez uniquement activer la planification pour les modèles entraînés et notés.
 
       1. Sélectionner un **[!UICONTROL Scoring frequency]** :
 
-         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `10:00 am`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
+         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `10:00 am`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
+         * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `10:00 am`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
 
       1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 
-     ![Modifier un modèle](../assets/model-edit.png)
+   * Pour mettre à jour les [champs de rapport d’informations granulaires](/help/models/build.md#granular-insights-reporting-fields), dans la section **[!UICONTROL Granular Insights Reporting Fields]** :
+      1. Sélectionnez un ou plusieurs champs harmonisés à partir des **[!UICONTROL _Sélectionner les champs harmonisés_]** sous **[!UICONTROL Includes]**. Les champs harmonisés sélectionnés sont ajoutés au panneau.
+      1. Sélectionnez **[!UICONTROL *Champ harmonisé&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer un champ harmonisé du conteneur avec les champs harmonisés sélectionnés.
+      1. Sélectionnez **[!UICONTROL Clear all]** pour supprimer tous les champs harmonisés sélectionnés.
 
-1. Sélectionnez **[!UICONTROL Save]**.
+     >[!IMPORTANT]
+     >Si vous ajoutez des champs de création de rapports d’informations granulaires à un modèle créé **avant le 18 février 2026**, une nouvelle notation du modèle est requise. Cette notation garantit que le schéma sous-jacent au modèle est mis à jour avec des champs de création de rapports d’informations granulaires.
+     >
+     >L’approche recommandée consiste à dupliquer un tel modèle. Et incluez les champs de rapport d’informations granulaires dans la création du modèle dupliqué.
+     >
 
-
+1. Sélectionner **[!UICONTROL Save]**.
 
 ### Entraîner
 
-Pensez à recycler un modèle lorsque vous souhaitez inclure de nouvelles données de facteur et de marketing incrémentiel. Pour plus d’informations, voir [Modèles de formation et de notation](train-score.md#train).
-
+Recyclez un modèle lorsque vous souhaitez inclure de nouvelles données de facteur et de marketing incrémentiel. Pour plus d’informations, voir [Modèles de formation et de notation](train-score.md#train).
 
 ### Score
 
 Vous pouvez attribuer un score incrémentiel à un modèle en fonction de nouvelles données marketing ou attribuer un score à un modèle pour une période spécifique. Pour plus d’informations, voir [Modèles de formation et de notation](train-score.md#score).
 
-
 ### Suppression de modèles
 
 Pour supprimer un modèle :
 
-1. Sélectionnez ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
+1. Sélectionnez ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Delete]** dans le menu contextuel. Vous pouvez également sélectionner ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dans la barre d’actions bleue.
 1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation de **[!UICONTROL Delete model]** pour supprimer le modèle. Sélectionnez **[!UICONTROL Cancel]** pour annuler.
 
@@ -174,5 +178,5 @@ Pour supprimer plusieurs modèles :
 
 1. Sélectionnez plusieurs modèles.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer les modèles.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**&#x200B;pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 

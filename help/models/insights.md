@@ -3,9 +3,9 @@ title: Model Insights
 description: Découvrez comment obtenir des détails sur votre modèle, tels qu’une vue d’ensemble historique, des informations sur le modèle et la qualité du modèle dans Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2896'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
 
 ## Informations sur le modèle {#model-insights-section}
 
@@ -56,7 +56,7 @@ L’onglet **[!UICONTROL Model insights]** affiche des visualisations pour [Cont
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format ® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -154,7 +154,7 @@ Ce cadre de plus-value offre une mesure réaliste de la force relative de la syn
 
 * Pour afficher les détails d’une synergie, passez la souris sur une cellule dans la visualisation.
 
-* Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+* Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
@@ -189,12 +189,12 @@ Les canaux dont les courbes de décroissance sont plus lentes (traînées plus l
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Répartition de la contribution des facteurs"
->abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle. <br/><br/> La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Il comprend des conversions axées sur les actions de la marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
+>abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle.<br/><br/>La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Il comprend des conversions axées sur les actions de la marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
 
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
+![ Facteurs ](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -267,7 +267,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -456,27 +456,3 @@ Pour afficher un autre canal basé sur le volume pour cette visualisation :
 
 * Sélectionnez un canal dans **[!UICONTROL Channels]**.
 
-
-## Modifier
-
-Vous pouvez modifier le nom, la description, la planification de l’entraînement et la notation du modèle.
-
-1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg) Modifier .
-
-1. Dans la boîte de dialogue **[!UICONTROL Edit model]** :
-
-   * Saisissez un nouveau **[!UICONTROL Name]** et une nouvelle **[!UICONTROL Description]**.
-
-   * Pour activer la planification, activez **[!UICONTROL Status]**. Vous pouvez uniquement activer la planification pour les modèles entraînés et notés.
-
-      1. Sélectionner un **[!UICONTROL Scoring frequency]** :
-
-         * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-
-      1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
-
-     ![Modifier un modèle](../assets/model-edit.png)
-
-1. Sélectionner **[!UICONTROL Save]**.

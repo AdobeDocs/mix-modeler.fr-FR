@@ -4,10 +4,10 @@ description: Découvrez comment créer des modèles dans Mix Modeler, notamment 
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 0%
+source-wordcount: '1570'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -32,7 +32,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Points de contact marketing"
->abstract="Les points de contact marketing sont des événements marketing au niveau du destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur le chiffre d’affaires. <br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent et il doit y avoir au moins un point de contact avec des dépenses."
+>abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.<br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent et qui doivent comporter au moins un point de contact avec des dépenses."
 
 
 Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configuration implique la définition d’objectifs de conversion, de points de contact marketing, de la population de données éligibles, de facteurs externes et internes, etc.
@@ -77,13 +77,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
@@ -199,9 +199,9 @@ Pour planifier la notation et la formation des modèles :
 1. Activez **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Sélectionner un **[!UICONTROL Scoring frequency]** :
 
-   * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]** : saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
+   * **[!UICONTROL Weekly]** : sélectionnez un jour de la semaine et saisissez une heure valide (par exemple, `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
+   * **[!UICONTROL Monthly]** : sélectionnez un jour du mois dans le menu déroulant Exécuter sur chaque et saisissez une heure valide (par exemple `05:22 pm`) ou utilisez ![Horloge](/help/assets/icons/Clock.svg) pour définir l’heure.
 
 1. Sélectionnez un **[!UICONTROL Training frequency]** dans le menu déroulant : **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 

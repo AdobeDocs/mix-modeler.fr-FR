@@ -3,9 +3,9 @@ title: Présentation des plans
 description: Découvrez comment afficher, sélectionner et agir sur les plans dans Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Un plan peut éventuellement inclure les éléments suivants :
 - plusieurs dates de vol avec chacune un budget cible,
 - contraintes budgétaires minimales et maximales par canal et par date de vol.
 
-Si un modèle que vous avez utilisé pour votre plan est noté sur de nouvelles données, vous devez créer un nouveau plan pour prendre en compte les données re-notées.
+Si un modèle que vous avez utilisé pour votre plan est noté sur de nouvelles données, vous devez créer un nouveau plan pour prendre en compte les données récupérées.
 
 
 ## Créer des plans
@@ -75,7 +75,7 @@ Pour afficher les informations d’un plan et modifier un plan :
 
 1. Sélectionnez le nom du plan.
 
-Vous êtes redirigé vers [&#x200B; Informations sur le plan &#x200B;](insights.md).
+Vous êtes redirigé vers [ Informations sur le plan ](insights.md).
 
 
 ### Dupliquer un plan
@@ -85,7 +85,7 @@ Pour dupliquer un plan :
 - Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un plan. Dans le menu contextuel, sélectionnez **[!UICONTROL Duplicate]**.
 - Vous pouvez également sélectionner un plan dans le tableau ![SelectBox](/help/assets/icons/SelectBox.svg) et sélectionner ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dans la barre d’actions bleue.
 
-Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)] (_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
+Un nouveau plan est créé, dont le nom est composé du nom du plan d’origine suivi de **[!UICONTROL (Copy)](_n_)**. Vous êtes automatiquement redirigé vers [Création du plan](build.md) pour fournir des détails mis à jour pour le plan copié.
 
 - Les détails (tels que la description, le budget, etc.) du plan d’origine sont copiés.
 - Les contraintes budgétaires du plan d&#39;origine sont copiées dans le plan nouvellement créé.
@@ -116,6 +116,6 @@ Pour supprimer plusieurs plans :
 
 1. Sélectionnez plusieurs plans.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** de supprimer les plans.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**&#x200B;pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *plans]**pour supprimer les plans. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
 

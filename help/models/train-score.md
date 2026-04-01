@@ -2,7 +2,8 @@
 title: Modèles de formation et de notation
 description: Découvrez comment entraîner et noter des modèles.
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -61,9 +62,8 @@ Spécifiez la période. Vous pouvez utiliser le ![Calendrier](/help/assets/icons
 
    ![Attribuer un score à un modèle](../assets/rescore-model.png)
 
-1. Sélectionnez **[!UICONTROL Score]**. Lors de la nouvelle notation d’un modèle à l’aide d’une période spécifique, une boîte de dialogue **[!UICONTROL Existing model is replaced]** s’affiche, vous invitant à confirmer le remplacement du modèle par de nouveaux scores pour la période sélectionnée. Sélectionnez **[!UICONTROL Replace model]** pour confirmer.
+1. Sélectionner **[!UICONTROL Score]**. Lors de l’évaluation d’un modèle à l’aide d’une période spécifique, une boîte de dialogue **[!UICONTROL Existing model is replaced]** s’affiche, vous invitant à confirmer le remplacement du modèle par de nouveaux scores pour la période sélectionnée. Sélectionnez **[!UICONTROL Replace model]** pour confirmer.
 
 >[!IMPORTANT]
 >
 >L’évaluation d’un modèle ne modifie aucun des plans déjà créés sur la base du modèle restauré. Pour utiliser le nouveau modèle enregistré dans un plan, vous devez créer un nouveau plan.
-
