@@ -3,9 +3,9 @@ title: Modèles - Aperçu
 description: Découvrez comment créer, entraîner, noter et gérer des modèles de machine learning dans Mix Modeler pour mesurer et prédire les résultats marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Pour afficher les informations d’un modèle :
 1. Sélectionnez ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dans le rail de gauche.
 1. Sélectionnez le nom du modèle.
 
-Vous êtes redirigé vers [&#x200B; Model Insights &#x200B;](insights.md).
+Vous êtes redirigé vers [ Model Insights ](insights.md).
 
 ### Afficher les détails
 
@@ -119,7 +119,7 @@ Vous pouvez rapidement dupliquer un modèle.
 
 1. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour un modèle, puis sélectionnez **[!UICONTROL Duplicate]** dans le menu contextuel.
 
-Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)] (_n_)**.
+Vous êtes redirigé vers les étapes de création d’un modèle, avec un nom proposé composé du nom du modèle d’origine suivi de **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifier
 
@@ -151,9 +151,8 @@ Vous pouvez modifier le nom, la description, la planification de l’entraîneme
       1. Sélectionnez **[!UICONTROL Clear all]** pour supprimer tous les champs harmonisés sélectionnés.
 
      >[!IMPORTANT]
-     >Si vous ajoutez des champs de création de rapports d’informations granulaires à un modèle créé **avant le 18 février 2026**, une nouvelle notation du modèle est requise. Cette notation garantit que le schéma sous-jacent au modèle est mis à jour avec des champs de création de rapports d’informations granulaires.
-     >
-     >L’approche recommandée consiste à dupliquer un tel modèle. Et incluez les champs de rapport d’informations granulaires dans la création du modèle dupliqué.
+     >Tout modèle avec MTA créé avant le 12 janvier 2026 doit être dupliqué pour activer les informations de modèle granulaires.<br/>
+     >Une notation est requise pour tout modèle existant afin de refléter les dimensions granulaires mises à jour dans les données de notation.
      >
 
 1. Sélectionner **[!UICONTROL Save]**.
@@ -178,5 +177,5 @@ Pour supprimer plusieurs modèles :
 
 1. Sélectionnez plusieurs modèles.
 1. Dans la barre d’actions bleue, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** pour supprimer les modèles.
-1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**&#x200B;pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**&#x200B;pour annuler.
+1. Sélectionnez **[!UICONTROL Delete]** dans la boîte de dialogue de confirmation **[!UICONTROL Delete *x *models]**pour supprimer les modèles. Sélectionnez **[!UICONTROL Cancel]**pour annuler.
 
