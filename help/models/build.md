@@ -23,7 +23,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
+   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -77,13 +77,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
