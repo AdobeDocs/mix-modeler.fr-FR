@@ -4,9 +4,9 @@ description: Découvrez comment créer des modèles dans Mix Modeler, notamment 
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1578'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -77,13 +77,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
@@ -181,6 +181,10 @@ Pour configurer le stock publicitaire de canal :
    * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
 
   Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
+
+* Pour réinitialiser tous les stocks publicitaires de canal aux valeurs par défaut :
+
+   * Sélectionner **[!UICONTROL Reset to defaults]**.
 
 
 ## Définir les options
