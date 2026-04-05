@@ -4,7 +4,7 @@ description: Dernières notes de mise à jour de Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 6115ec9f26dbc02377dc69190fc990d6355165d5
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 5%
@@ -19,20 +19,20 @@ Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les v
 
 ## Mars 2026
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **Stock publicitaire de canal** | Vous pouvez incorporer l’expertise de domaine, les résultats d’expérimentation ou les analyses de canaux précédentes directement dans la configuration avancée du modèle par le biais d’[Adstock de canaux](/help/models/build.md#channel-adstock). et afficher des [informations sur les stocks publicitaires des canaux](/help/models/insights.md#channel-adstock) dans l’analyse des canaux d’un modèle. | 30 mars 2026 | 30 mars 2026 |
 
 ## Février 2026
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Workflow des facteurs harmonisés** | Les facteurs sont désormais gérés dans le cadre d’un [&#x200B; workflow de facteurs harmonisés &#x200B;](/help/harmonize-data/overview.md#factors). Cela simplifie la [définition des données de facteur](/help/ingest-data/schemas.md#factor-standard-fields-field-group), la [gestion des facteurs internes et externes dans le cadre des règles de votre jeu de données](/help/harmonize-data/dataset-rules.md#factor-datasets) et l&#39;utilisation des données de facteur dans les [modèles](/help/models/build.md#configure). | 25 Février 2026 | 25 Février 2026 |
+| **Workflow des facteurs harmonisés** | Les facteurs sont désormais gérés dans le cadre d’un [ workflow de facteurs harmonisés ](/help/harmonize-data/overview.md#factors). Cela simplifie la [définition des données de facteur](/help/ingest-data/schemas.md#factor-standard-fields-field-group), la [gestion des facteurs internes et externes dans le cadre des règles de votre jeu de données](/help/harmonize-data/dataset-rules.md#factor-datasets) et l&#39;utilisation des données de facteur dans les [modèles](/help/models/build.md#configure). | 25 Février 2026 | 25 Février 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Définissez des champs harmonisés afin de pouvoir analyser en profondeur le compte rendu des performances de votre modèle à l’aide de [champs de compte rendu des performances granulaires](/help/models/build.md#granular-insights-reporting-fields), au lieu d’avoir à créer des modèles distincts. | 18 Février 2026 | 18 Février 2026 |
 
 ## Janvier 2026
 
-| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+| Fonctionnalité | Description | [ Début du déploiement ](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Dataset rules]** | [Mise à jour du tableau des règles du jeu de données](/help/harmonize-data/dataset-rules.md). Vous pouvez rechercher une ou plusieurs règles de jeu de données et afficher, modifier ou supprimer une règle de jeu de données directement à partir du tableau. | 13 janvier 2026 | 13 janvier 2026 |
 | **[!UICONTROL Current spend]** | Ajoutez un point de dépense actuel dans la [visualisation de la courbe de réponse marginale](/help/models/insights.md#marginal-response-curves) des informations sur le modèle. | 13 janvier 2026 | 13 janvier 2026 |
