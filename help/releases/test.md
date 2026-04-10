@@ -4,11 +4,10 @@ description: Test
 feature-set: Experience Cloud
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -30,7 +29,7 @@ Nous ne semblons pas prendre en charge correctement les SVG dans une boîte gris
 
 >[!BEGINSHADEBOX]
 
-Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Voir [Panneau d’attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de cet article.
+Cet article présente le panneau Attribution dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Voir [Panneau Attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** de cet article.
 
 >[!ENDSHADEBOX]
 
