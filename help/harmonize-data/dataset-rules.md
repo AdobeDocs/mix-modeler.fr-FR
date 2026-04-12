@@ -150,35 +150,35 @@ Ce champ est facultatif dans le jeu de données et le schéma de facteur. Si **[
 
 Vous pouvez définir une règle de jeu de données pour la granularité d&#39;un jeu de données de facteur lorsque tous les facteurs du jeu de données de facteur ont la même granularité source.
 
-Dès que les jeux de données de facteurs sont harmonisés, tous les jeux de données sont conformes au niveau de granularité le plus élevé dans le jeu de données harmonisé.
+As soon as factor datasets are harmonized, all datasets conform to the highest level of granularity across the harmonized dataset.
 
 
-##### Valeur du facteur
+##### Factor value
 
-Pour le champ harmonisé **[!UICONTROL Factor value]**, utilisez l’un des opérateurs d’agrégation comme **[!UICONTROL Mapping Type]**. Lorsque plusieurs facteurs sont définis dans un jeu de données de facteurs, l&#39;opérateur d&#39;agrégation est appliqué à tous les facteurs.
+For the **[!UICONTROL Factor value]** harmonized field use one of the aggregation operators as the **[!UICONTROL Mapping Type]**. When multiple factors are defined in a factor dataset, the aggregate operator is applied to all factors.
 
 
 ##### Exemple
 
-* Vous disposez d’un jeu de données de facteur, avec les données d’exemple suivantes :
+* You have a factor dataset, with the following sample data:
 
-  | Date et heure | Nom du facteur | Valeur du facteur |
+  | Date et heure | Factor Name | Factor Value |
   |---|---|---:|
-  | 13 Mars 2025 | _definedsp500 | 10 |
-  | 13 Mars 2025 | _cpi | 20 |
-  | 14 Mars 2025 | _definedsp500 | 30 |
-  | 14 Mars 2025 | _cpi | 40 |
-  | 15 Mars 2025 | _definedsp500 | 50 |
-  | 15 Mars 2025 | _cpi | 60 |
+  | 13 Mar 2025 | _definedsp500 | 10 |
+  | 13 Mar 2025 | _cpi | 20 |
+  | 14 Mar 2025 | _definedsp500 | 30 |
+  | 14 Mar 2025 | _cpi | 40 |
+  | 15 Mar 2025 | _definedsp500 | 50 |
+  | 15 Mar 2025 | _cpi | 60 |
 
 
-* Vous définissez également les règles de jeu de données suivantes pour **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** et **[!UICONTROL Granularity]** :
+* And you define the following dataset rules for **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** and **[!UICONTROL Granularity]**:
 
-  ![Règles du jeu de données - Exemple de facteurs](../assets/dataset-create-rule-factor-example.png)
+  ![Dataset rules - factors example](../assets/dataset-create-rule-factor-example.png)
 
-* Les données harmonisées suivantes seront alors obtenues :
+* Then this will result in the following harmonized data:
 
-  | Nom du facteur | Valeur du facteur | Type de facteur | Type de valeur |
+  | Factor Name | Factor Value | Factor Type | Type de valeur |
   |---|---:|---|---|
   | ICP | 20 | Interne | Réel |
   | S&amp;P 500 | 10 | Interne | Réel |

@@ -5,7 +5,7 @@ feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Les colonnes du tableau indiquent les détails de la conversion :
 | Recettes | Mesure de données harmonisée à utiliser pour calculer le chiffre d’affaires d’une conversion. |
 | Mesure de conversion | Mesure de données harmonisée à utiliser comme mesure de conversion pour l’analyse. |
 | Catégorie | Catégorie de conversion de la conversion. |
-| Créé | Date et heure de création de la conversion. |
+| Created | Date et heure de création de la conversion. |
 | Dernière modification | Date et heure de la dernière modification de la conversion. |
 
 

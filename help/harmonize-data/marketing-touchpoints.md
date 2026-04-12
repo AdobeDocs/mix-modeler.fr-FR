@@ -5,7 +5,7 @@ feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '477'
 ht-degree: 12%
 
 ---
@@ -37,8 +37,8 @@ Les colonnes du tableau indiquent des détails sur le point de contact marketing
 | Nom | Nom du point de contact marketing. |
 | Mesure des dépenses | Mesure de données harmonisée à utiliser pour calculer les dépenses liées aux points de contact. |
 | Mesure du volume | Mesure de données harmonisée à utiliser pour calculer le volume des points de contact. |
-| Composants de | Règle de point de contact à utiliser. |
-| Créé | Date et heure de création du point de contact marketing. |
+| Règle | Règle de point de contact à utiliser. |
+| Created | Date et heure de création du point de contact marketing. |
 | Dernière modification | Date et heure de la dernière modification du contact marketing. |
 
 
