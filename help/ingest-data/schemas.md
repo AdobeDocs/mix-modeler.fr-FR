@@ -3,9 +3,18 @@ title: Schémas
 description: Découvrez comment gérer les schémas requis pour ingérer des données dans Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: 613
 ht-degree: 7%
 
 ---
@@ -44,22 +53,22 @@ Ce schéma simple peut être utilisé pour ingérer des jeux de données contena
 
 - Données sur l’index des concurrents
 
-  | date et heure | date_type | facteur | valeur |
+  | date et heure | date_type | facteur | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | semaine | concurrent_index | 289,8 |
-  | 2020-12-05T00:00:00.000Z | semaine | concurrent_index | 291,2 |
-  | 2020-12-12T00:00:00.000Z | semaine | concurrent_index | 280,07 |
+  | 2020-11-:00:00.000Z | semaine | concurrent_index | 289.8 |
+  | 2020-12-:00:00.000Z | semaine | concurrent_index | 291.2 |
+  | 2020-12-:00:00.000Z | semaine | concurrent_index | 280.07 |
   | … | … | … | … |
 
 - Données de jour férié
 
-  | date et heure | date_type | facteur | valeur |
+  | date et heure | date_type | facteur | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | semaine | all_Holidays_flag | 0,0 |
-  | 2020-12-05T00:00:00.000Z | semaine | all_Holidays_flag | 0,0 |
-  | 2020-12-12T00:00:00.000Z | semaine | all_Holidays_flag | 0,0 |
-  | 2020-12-19T00:00:00.000Z | semaine | all_Holidays_flag | 0,0 |
-  | 2020-12-26T00:00:00.000Z | semaine | all_Holidays_flag | 1.0 |
+  | 2020-11-:00:00.000Z | semaine | all_Holidays_flag | 0.0 |
+  | 2020-12-:00:00.000Z | semaine | all_Holidays_flag | 0.0 |
+  | 2020-12-:00:00.000Z | semaine | all_Holidays_flag | 0.0 |
+  | 2020-12-:00:00.000Z | semaine | all_Holidays_flag | 0.0 |
+  | 2020-12-:00:00.000Z | semaine | all_Holidays_flag | 1.0 |
   | … | … | … | … |
 
 
@@ -91,12 +100,12 @@ Un jeu de données de synthèse, de facteur interne ou de facteur externe peut �
 Actuellement, Mix Modeler ne prend pas en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#data-type), sont pris en charge :
 
 - Chaîne
-- Entier
+- Nombre entier
 - Double
 - Booléen
 - Long
-- Short
-- Byte
+- Court
+- Octet
 - Date
 - Date-time
 

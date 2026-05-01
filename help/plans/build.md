@@ -3,13 +3,20 @@ title: Créer des plans
 description: Découvrez comment créer des plans dans Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
+TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: 952
 ht-degree: 1%
 
 ---
-
 
 # Créer des plans
 
@@ -17,7 +24,7 @@ Dans Mix Modeler, vous créez un plan à l’aide de l’assistant de plan. Dans
 
 Vous devez définir l’objectif pour lequel vous souhaitez optimiser votre plan. Cet objectif peut être soit un budget que vous pouvez dépenser, soit une cible que vous voulez atteindre. Si l’objectif est une cible, vous devez en outre spécifier les valeurs de la mesure cible à utiliser : conversion, chiffre d’affaires, CPA ou RSI.
 
-Pour créer un plan, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/FileChart.svg)PLan **[!UICONTROL Plans]** de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
+Pour créer un plan, dans l’interface **[!UICONTROL Plans]** ![PLan](/help/assets/icons/FileChart.svg) de Mix Modeler, sélectionnez **[!UICONTROL Create plan]**.
 
 
 1. Dans l’écran **[!UICONTROL Plan creation]** :
@@ -25,7 +32,7 @@ Pour créer un plan, dans l’interface ![&#x200B; &#x200B;](/help/assets/icons/
    1. Dans la section **[!UICONTROL Setup]** :
 
       1. Saisissez un **[!UICONTROL Plan name]**, par exemple `Goal based plan`. Saisissez un **[!UICONTROL Description]**, par exemple `A goal based plan`.
-      1. Sélectionnez une **[!UICONTROL Model]** dans **[!UICONTROL _Sélectionner une option.._,]**
+      1. Sélectionnez une **[!UICONTROL Model]** dans **[!UICONTROL _Sélectionner une option.._.]**
 
          ![Configuration du plan](/help/assets/plan-setup.png)
 
@@ -66,13 +73,13 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
             1. Spécifiez le montant du budget maximum.
 
 
-   1. Sélectionnez **[!UICONTROL Next]**.
+   1. Sélectionner **[!UICONTROL Next]**.
 
 1. Dans la boîte de dialogue **[!UICONTROL Done with all required fields]** :
 
    ![Planification terminée](/help/assets/plan-done-required-fields.png)
 
-   * Sélectionnez ![NouveauPlan](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** si vous souhaitez générer un plan recommandé par l’IA avec le retour sur investissement prévu. Sélectionnez **[!UICONTROL OK]**. Votre plan est créé.
+   * Sélectionnez ![NouveauPlan](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** si vous souhaitez générer un plan recommandé par l’IA avec le retour sur investissement prévu. Sélectionner **[!UICONTROL OK]**. Votre plan est créé.
 
 
 
@@ -83,7 +90,7 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
 
      >[!IMPORTANT]
      >
-     >Les informations ci-dessous ne sont pertinentes que si vous avez sélectionné le ![&#x200B; &#x200B;](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]**
+     >Les informations ci-dessous ne sont pertinentes que si vous avez sélectionné le **[!UICONTROL Edit channel budgets first]** ![TableEdit](/help/assets/icons/TableEdit.svg)
 
 
 1. Dans la section **[!UICONTROL Spend selection]**, pour chaque période de budget, utilisez le ![Chevron](/help/assets/icons/ChevronRight.svg) afin d’ouvrir la vue de distribution des canaux pour cette période.
@@ -110,7 +117,7 @@ Pour supprimer une période et une mesure cible associée, sélectionnez ![Ferme
    1. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Create]**.
       ![Sélection des dépenses](/help/assets/plan-spend-selection.png)
 
-   1. Sélectionnez **[!UICONTROL Next]**.
+   1. Sélectionner **[!UICONTROL Next]**.
 
 
 

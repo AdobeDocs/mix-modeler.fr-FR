@@ -3,10 +3,27 @@ title: Présentation de l’harmonisation des jeux de données
 description: Découvrez comment harmoniser les données dans Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+autotag-review: '2026-05-01T09:10:10.340Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 8%
+source-wordcount: 1382
+ht-degree: 17%
 
 ---
 
@@ -52,12 +69,12 @@ Imaginons que les jeux de données suivants soient disponibles pour Mix Modeler.
 
 Contient un jeu de données d’effort marketing de YouTube, avec une granularité des données agrégées définie sur quotidienne.
 
-| Date | Type de date | Canal | Campagne | Marque | Géo | Clics | Dépenses |
+| Date | Type de date | Canal | Campaign | Marque | Géo | Clics | Dépenses |
 |---|:--:|---|---|---|---|---:|---:|
-| 12-31-2021 | day | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
-| 01-01-2022 | day | YouTube | Y_Fall_02 | BrandX | US | 1 000 | 10 |
-| 01-03-2022 | day | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
-| 01-04-2022 | day | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
+| 12-31-2021 | jour | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
+| 01-01-2022 | jour | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
+| 01-03-2022 | jour | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
+| 01-04-2022 | jour | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -66,10 +83,10 @@ Contient un jeu de données d’effort marketing de YouTube, avec une granularit
 
 Contient le jeu de données d’effort marketing de Facebook, avec une granularité des données agrégées définie sur hebdomadaire.
 
-| Date | Type de date | Canal | Campagne | Géo | Clics | Dépenses |
+| Date | Type de date | Canal | Campaign | Géo | Clics | Dépenses |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | semaine | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | semaine | Facebook | FB_Fall_02 | US | 1 000 | 10 |
+| 01-08-2022 | semaine | Facebook | FB_Fall_02 | US | 1000 | 10 |
 | 01-08-2022 | semaine | Facebook | FB_Fall_01 | US | 7000 | 100 |
 | 01-16-2022 | semaine | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
@@ -82,10 +99,10 @@ Un jeu de données de conversion, avec une granularité du jeu de données agré
 
 | Date | Type de date | Géo | Objectif | Recettes |
 |--- |:---: |---|---|---:|
-| 01-01-2022 | day | US | Mode | 200 |
-| 01-08-2022 | day | US | Mode | 10 |
-| 01-08-2022 | day | US | Bijoux | 1100 |
-| 01-16-2022 | day | CA | Bijoux | 80 |
+| 01-01-2022 | jour | US | Mode | 200 |
+| 01-08-2022 | jour | US | Mode | 10 |
+| 01-08-2022 | jour | US | Bijoux | 1100 |
+| 01-16-2022 | jour | CA | Bijoux | 80 |
 
 {style="table-layout:auto"}
 
@@ -108,13 +125,13 @@ Vous souhaitez créer un jeu de données harmonisé, avec une granularité défi
 
 **Jeu de données harmonisé**
 
-| Date | Type de date | Canal | Campagne | Marque | Géo | Objectif | Clics | Dépenses | Recettes |
+| Date | Type de date | Canal | Campaign | Marque | Géo | Objectif | Clics | Dépenses | Recettes |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | semaine | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
 | 01-03-2022 | semaine | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
 | 01-03-2022 | semaine | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
 | 01-01-2022 | semaine | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
-| 01-08-2022 | semaine | Facebook | FB_Fall_02 | Null | US | Null | 1 000 | 10 | Null |
+| 01-08-2022 | semaine | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
 | 01-08-2022 | semaine | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
 | 01-16-2022 | semaine | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
 | 12-27-2021 | semaine | Null | Null | Null | US | Mode | Null | Null | 200 |

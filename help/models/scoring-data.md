@@ -3,10 +3,23 @@ title: Utiliser les données de notation
 description: Découvrez comment les données de notation d’un modèle dans Mix Modeler sont conservées.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 24%
+source-wordcount: 684
+ht-degree: 25%
 
 ---
 
@@ -67,12 +80,12 @@ Le groupe de champs contient les champs suivants.
 |      `priceTotal` | Double | Chiffre d’affaires généré par le <br> de conversion **Exemple :** `99.9` |
 |      `product` | Chaîne | Identifiant XDM du produit lui-même. <br> **Exemple :** `RX 1080 ti` |
 |      `productType` | Chaîne | Nom d’affichage du produit tel qu’il est présenté à l’utilisateur pour cette vue de produit. <br> **Exemple :** `Gpus` |
-|      `quantity` | Nombre entier | Quantité achetée lors de la conversion. <br> **Exemple :** `1` |
+|      `quantity` | Entier | Quantité achetée lors de la conversion. <br> **Exemple :** `1` |
 |      `receivedTimeStamp` | DateTime | Date et heure de réception de la conversion. <br> **Exemple :** `2020-06-09T00:01:51.000Z` |
 |      `skuId` | Chaîne | Unité de stock (SKU), identifiant unique d’un produit défini par le fournisseur. <br> **Exemple :** `MJ-03-XS-Black` |
 |      `timestamp` | DateTime | Date et heure de la conversion. <br> **Exemple :** `2020-06-09T00:01:51.000Z` |
-|      `totalDaysToConversion` | Nombre entier |  |
-|      `totalTouchpointCount` | Nombre entier | |
+|      `totalDaysToConversion` | Entier |  |
+|      `totalTouchpointCount` | Entier | |
 | `customerProfile` | Objet | Détails d’identité de l’utilisateur ou de l’utilisatrice utilisés pour créer le modèle. |
 |      `identity` | Objet | |
 |           `id` | Chaîne | |
@@ -98,10 +111,10 @@ Le groupe de champs contient les champs suivants.
 |           `mediaChannel` | Chaîne | |
 |           `receivedTimeStamp` | DateTime | |
 |           `timestamp` | DateTime | |
-|      `isFirstInThePosition` | Nombre entier | |
-|      `lag` | Nombre entier | |
+|      `isFirstInThePosition` | Entier | |
+|      `lag` | Entier | |
 |      `position` | Chaîne | |
-|      `touchpointCountToConversion` | Nombre entier | |
+|      `touchpointCountToConversion` | Entier | |
 |      `touchpointName` | Chaîne | Nom du point de contact qui a été configuré lors de la configuration. <br> **Exemple :** `PAID_SEARCH_CLICK` |
 | `conversionName` | Chaîne | Nom de la conversion qui a été configurée lors de la configuration. <br> **Exemple :** `Order`, `Lead`, `Visit` |
 | `scoreCreatedTime` | DateTime | |
