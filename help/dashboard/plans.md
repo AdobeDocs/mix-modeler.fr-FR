@@ -3,9 +3,15 @@ title: Performances à planifier
 description: Découvrez comment utiliser la fonction Performances pour planifier la vue d’ensemble dans Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
+TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:20:18.412Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -31,17 +37,17 @@ L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} affiche :
 * [Cartes de statut des KPI](#kpi-status-cards) :
 
    * [Budget](#budget)
-   * [Chiffre d’affaires](#revenue)
+   * [Recettes](#revenue)
    * [RSI](#roi)
    * [KPI](#kpi)
 
 * [Visualisations](#visualizations) :
-   * [*Mesure*](#metric-actual-vs-planned)
-   * [*Mesure*](#metric-actual-vs-planned-by-granularity)
-   * [Canal &#x200B;](#channel-metric-by-granularity)
-   * [*Mesure*](#metric-vs-metric-by-channel)
-   * [*Mesure*](#metric-by-granularity)
-   * [*Mesure*](#metric-by-channel)
+   * [*Mesure* : Réel/prévu](#metric-actual-vs-planned)
+   * [*Mesure* : Réel ou prévu par *granularité*](#metric-actual-vs-planned-by-granularity)
+   * [Canal *mesure* par *granularité*](#channel-metric-by-granularity)
+   * [*Mesure* vs *Mesure* par canal](#metric-vs-metric-by-channel)
+   * [*Mesure* par *granularité*](#metric-by-granularity)
+   * [*Mesure* par canal](#metric-by-channel)
 
 ## Cartes de statut des KPI
 
@@ -52,7 +58,7 @@ L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} affiche :
 
 Une visualisation de progression circulaire qui affiche la comparaison entre vos dépenses marketing et le budget de votre plan pour la période.
 
-### Chiffre d’affaires
+### Recettes
 
 Visualisation de la progression circulaire qui affiche le niveau du chiffre d’affaires réel par rapport au chiffre d’affaires cible prévu pour la période.
 
@@ -68,7 +74,7 @@ Visualisation en ligne qui affiche l’indicateur de performance clé pour la p�
 
 Pour sélectionner un autre indicateur de performance clé :
 
-1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg).
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg).
 1. Dans la boîte de dialogue **[!UICONTROL KPI status card]**, sélectionnez un indicateur de performance clé dans le menu déroulant **[!UICONTROL KPI]**. Les options disponibles sont : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL Spend].
 
 
@@ -80,7 +86,7 @@ Pour redimensionner une visualisation, utilisez la poignée ┛ située dans le 
 
 Vous pouvez pointer sur n’importe quel élément de ligne, de barre ou de nuage de points d’une visualisation pour afficher une fenêtre contextuelle avec des informations supplémentaires.
 
-![&#x200B; Visualisation &#x200B;](../assets/performance-to-plan-visualizations.png)
+![ Visualisation ](../assets/performance-to-plan-visualizations.png)
 
 ### *Mesure* : Réel/prévu
 

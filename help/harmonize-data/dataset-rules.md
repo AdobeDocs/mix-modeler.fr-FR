@@ -3,9 +3,16 @@ title: Règles des jeux de données
 description: Découvrez comment définir des règles de jeu de données à utiliser dans le cadre de l’harmonisation de vos données dans Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: d4b8ba18-64c1-4413-be54-74405ec7f558
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-05-01T09:12:48.985Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: 2106
 ht-degree: 1%
 
 ---
@@ -68,17 +75,17 @@ Dans l’écran **[!UICONTROL Create]**,
 
       1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-      1. Sélectionnez un champ de jeu de données **[!UICONTROL **]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+      1. Sélectionnez un champ de jeu de données **[!UICONTROL **]**auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    * Lorsque le champ sélectionné est de type dimension :
 
       1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**ou **[!UICONTROL Value]**et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
+         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**s’il **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**une valeur saisie à l’adresse**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
          1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -122,7 +129,7 @@ Vous pouvez modifier n’importe laquelle des valeurs proposées si elles sont i
 
 #### Jeux de données de facteur
 
-Vous mappez des champs harmonisés aux champs d&#39;un jeu de données de facteurs, de sorte que vous puissiez [&#x200B; ajouter des facteurs dans le cadre de la configuration de votre modèle](/help/models/build.md).
+Vous mappez des champs harmonisés aux champs d&#39;un jeu de données de facteurs, de sorte que vous puissiez [ ajouter des facteurs dans le cadre de la configuration de votre modèle](/help/models/build.md).
 
 Lorsque vous mappez des champs harmonisés avec des champs d&#39;un jeu de données de facteurs, les conditions suivantes s&#39;appliquent :
 
@@ -150,35 +157,35 @@ Ce champ est facultatif dans le jeu de données et le schéma de facteur. Si **[
 
 Vous pouvez définir une règle de jeu de données pour la granularité d&#39;un jeu de données de facteur lorsque tous les facteurs du jeu de données de facteur ont la même granularité source.
 
-As soon as factor datasets are harmonized, all datasets conform to the highest level of granularity across the harmonized dataset.
+Dès que les jeux de données de facteurs sont harmonisés, tous les jeux de données sont conformes au niveau de granularité le plus élevé dans le jeu de données harmonisé.
 
 
-##### Factor value
+##### Valeur du facteur
 
-For the **[!UICONTROL Factor value]** harmonized field use one of the aggregation operators as the **[!UICONTROL Mapping Type]**. When multiple factors are defined in a factor dataset, the aggregate operator is applied to all factors.
+Pour le champ harmonisé **[!UICONTROL Factor value]**, utilisez l’un des opérateurs d’agrégation comme **[!UICONTROL Mapping Type]**. Lorsque plusieurs facteurs sont définis dans un jeu de données de facteurs, l&#39;opérateur d&#39;agrégation est appliqué à tous les facteurs.
 
 
 ##### Exemple
 
-* You have a factor dataset, with the following sample data:
+* Vous disposez d’un jeu de données de facteur, avec les données d’exemple suivantes :
 
-  | Date et heure | Factor Name | Factor Value |
+  | Date et heure | Nom du facteur | Valeur du facteur |
   |---|---|---:|
-  | 13 Mar 2025 | _definedsp500 | 10 |
-  | 13 Mar 2025 | _cpi | 20 |
-  | 14 Mar 2025 | _definedsp500 | 30 |
-  | 14 Mar 2025 | _cpi | 40 |
-  | 15 Mar 2025 | _definedsp500 | 50 |
-  | 15 Mar 2025 | _cpi | 60 |
+  | 13 Mars 2025 | _definedsp500 | 10 |
+  | 13 Mars 2025 | _cpi | 20 |
+  | 14 Mars 2025 | _definedsp500 | 30 |
+  | 14 Mars 2025 | _cpi | 40 |
+  | 15 Mars 2025 | _definedsp500 | 50 |
+  | 15 Mars 2025 | _cpi | 60 |
 
 
-* And you define the following dataset rules for **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** and **[!UICONTROL Granularity]**:
+* Vous définissez également les règles de jeu de données suivantes pour **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** et **[!UICONTROL Granularity]** :
 
-  ![Dataset rules - factors example](../assets/dataset-create-rule-factor-example.png)
+  ![Règles du jeu de données - Exemple de facteurs](../assets/dataset-create-rule-factor-example.png)
 
-* Then this will result in the following harmonized data:
+* Les données harmonisées suivantes seront alors obtenues :
 
-  | Factor Name | Factor Value | Factor Type | Type de valeur |
+  | Nom du facteur | Valeur du facteur | Type de facteur | Type de valeur |
   |---|---:|---|---|
   | ICP | 20 | Interne | Réel |
   | S&amp;P 500 | 10 | Interne | Réel |

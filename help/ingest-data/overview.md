@@ -3,10 +3,16 @@ title: Présentation de l’ingestion de données
 description: Découvrez comment ingérer des données dans Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2: id: ad7101f7-ae92-401b-a25a-d3060d42989did: d1167c89-f64a-42ca-ac95-1d91b7790df2id: ee1bf083-e090-4def-936b-c111d29f42d0id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 10%
+source-wordcount: 584
+ht-degree: 17%
 
 ---
 
@@ -41,13 +47,13 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++ Données agrégées sur l’effort marketing
 
-| Géo | Date | Type de date | Canal | Campagne | Cliquez sur | Gagné | Engagement | Impression | Ouvrir | Owned | Envoyés | Dépenses |
+| Géo | Date | Type de date | Canal | Campaign | Click | Gagné | Engagement | Impression | Ouverte | Owned | Envoyés | Dépenses |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
-| AMER | 31/10/2021 | day | EMAIL | | 12752 | | | | | | 1132945 | |
-| AMER | 31/10/2021 | day | FB | | 148844 | | | | | | | 42111 |
-| AMER | 31/10/2021 | day | YT | | | | 2314452 | | | | | 10540 |
-| JPN | 21/10/2021 | day | EMAIL | | 21089 | | | | | | 3283626 | |
-| JPN | 21/10/2021 | day | SOCIAL | | | | 621 | | | | | 74512 |
+| AMER | 2021-10-31 | jour | EMAIL | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | jour | FB | | 148844 | | | | | | | 42111 |
+| AMER | 2021-10-31 | jour | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 2021-10-21 | jour | EMAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 2021-10-21 | jour | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
@@ -55,12 +61,12 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 +++ Données de conversion agrégées
 
-| Géo | Date | Type de date | Produit | Unités vendues | Chiffre d’affaires |
+| Géo | Date | Type de date | Produit | Unités vendues | Recettes |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 13/09/2021 | day | Économie Créatrice | 603 | 36537,68 |
-| EMEA | 13/09/2021 | day | Métaverse | 55 | 21704,37 |
-| JPN | 30/05/2022 | day | Imagerie professionnelle | 487 | 64469,60 |
-| JPN | 30/05/2022 | day | Document Cloud | 642 | 100509,07 |
+| EMEA | 2021-09-13 | jour | Économie Créatrice | 603 | 36537.68 |
+| EMEA | 2021-09-13 | jour | Métaverse | 55 | 21704.37 |
+| JPN | 2022-05-30 | jour | Imagerie professionnelle | 487 | 64469.60 |
+| JPN | 2022-05-30 | jour | Document Cloud | 642 | 100509.07 |
 
 {style="table-layout:auto"}
 
@@ -70,10 +76,10 @@ Vous trouverez ci-dessous quelques exemples de données généralement utilisée
 
 | Données | Type de date | Facteur | Valeur |
 |---|:---:|:---:|:---|
-| 2020-08-02 | semaine | SPX | 3325,866 |
-| 2020-08-09 | semaine | SPX | 3364,158 |
-| 16/08/2020 | semaine | SPX | 3385,858 |
-| 23/08/2020 | semaine | SPX | 3497,965 |
+| 2020-08-02 | semaine | SPX | 3325.866 |
+| 2020-08-09 | semaine | SPX | 3364.158 |
+| 2020-08-16 | semaine | SPX | 3385.858 |
+| 2020-08-23 | semaine | SPX | 3497.965 |
 
 {style="table-layout:auto"}
 
