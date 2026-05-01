@@ -27,7 +27,7 @@ ht-degree: 25%
 
 # Contrôles d’accès
 
-Le contrôle d’accès pour Mix Modeler est fourni via Experience Platform dans le Adobe Admin Console [&#128279;](https://adminconsole.adobe.com/) et via [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions) dans Experience Platform. Cette fonctionnalité exploite les profils de produit dans Admin Console, liant les utilisateurs à des autorisations et des sandbox.
+Le contrôle d’accès pour Mix Modeler est fourni via Experience Platform dans le Adobe Admin Console [&#128279;](https://adminconsole.adobe.com/) et via [Autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home#platform-permissions) dans Experience Platform. Cette fonctionnalité exploite les profils de produit dans Admin Console, liant les utilisateurs à des autorisations et des sandbox.
 
 Pour plus d’informations sur le contrôle d’accès, voir [Présentation du contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home).
 
@@ -37,13 +37,13 @@ Voir [Administration](../main-guide/administration.md) pour savoir comment confi
 
 ## Contrôle d’accès basé sur les attributs
 
-Le [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) est une fonctionnalité d’Experience Platform qui permet aux administrateurs de contrôler l’accès à des objets et/ou fonctionnalités spécifiques en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur définit des politiques d’accès qui comprennent des attributs afin de gérer les autorisations d’accès des utilisateurs.
+Le [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/overview) est une fonctionnalité d’Experience Platform qui permet aux administrateurs de contrôler l’accès à des objets et/ou fonctionnalités spécifiques en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur définit des politiques d’accès qui comprennent des attributs afin de gérer les autorisations d’accès des utilisateurs.
 
 Cette fonctionnalité vous permet d’étiqueter les champs de schéma d’un modèle de données d’expérience (XDM) avec des libellés définissant l’utilisation de l’organisation ou des données. En parallèle, les administrateurs peuvent utiliser l’interface d’administration des utilisateurs et des rôles pour définir des politiques d’accès sur les champs de schéma XDM. et de mieux gérer l’accès accordé aux utilisateurs ou groupes d’utilisateurs (utilisateurs internes, externes ou tiers). Enfin, le contrôle d’accès basé sur les attributs permet aux administrateurs de gérer l’accès à des segments spécifiques.
 
 Grâce au contrôle d’accès basé sur les attributs, les administrateurs peuvent contrôler l’accès des utilisateurs aux données personnelles sensibles (SPD) et aux informations d’identification personnelle (PII) sur l’ensemble des workflows et ressources de Platform. Les administrateurs et administratrices peuvent définir des rôles d’utilisation qui n’ont accès qu’à des champs spécifiques et aux données correspondant à ces champs.
 
-Lors de la configuration de règles de jeux de données pour les jeux de données harmonisés, Experience Platform [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) est appliqué au niveau du champ. Un champ est limité lorsqu’un libellé est associé à un champ de schéma. Une politique active est activée qui refuse l’accès à ce champ pour vous. Par conséquent :
+Lors de la configuration de règles de jeux de données pour les jeux de données harmonisés, Experience Platform [contrôle d’accès basé sur les attributs](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/overview) est appliqué au niveau du champ. Un champ est limité lorsqu’un libellé est associé à un champ de schéma. Une politique active est activée qui refuse l’accès à ce champ pour vous. Par conséquent :
 
 * vous ne voyez pas les champs de schéma qui sont restreints pour vous lorsque vous créez une règle de jeu de données ;
 * vous ne pouvez pas afficher ni modifier le mappage d’un ou de plusieurs champs de schéma qui sont restreints pour vous. Lorsque vous modifiez ou affichez une règle de jeu de données contenant de tels champs restreints, l’écran suivant s’affiche.

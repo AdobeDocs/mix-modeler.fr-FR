@@ -27,7 +27,7 @@ Pour gérer les schémas, en prenant en charge les données que vous souhaitez i
 
 1. Sélectionnez ![Schémas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sous **[!UICONTROL SETUP]**.
 
-Consultez la [&#x200B; Présentation de l’interface utilisateur des schémas &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) pour plus d’informations.
+Consultez la [&#x200B; Présentation de l’interface utilisateur des schémas &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr) pour plus d’informations.
 
 ## Données agrégées ou récapitulatives
 
@@ -97,7 +97,7 @@ Un jeu de données de synthèse, de facteur interne ou de facteur externe peut �
 
 ## Types de données pris en charge
 
-Actuellement, Mix Modeler ne prend pas en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sont pris en charge :
+Actuellement, Mix Modeler ne prend pas en charge un sous-ensemble de types de données Experience Platform. Les types de données de base suivants (champs), mentionnés dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#data-type), sont pris en charge :
 
 - Chaîne
 - Nombre entier
