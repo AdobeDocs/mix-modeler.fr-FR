@@ -7,9 +7,13 @@ hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 TQID: https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ
 autotag-review: '2026-05-01T09:04:46.084Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 327
@@ -23,7 +27,7 @@ Test d’un tableau avec des caractères Unicode
 
 | Balises | Vue de données | Propriétaires | Autres filtres |
 |---|---|---|---|
-| Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour limiter la liste des balises. <br/><br/>Lorsque vous sélectionnez une ou plusieurs balises, la liste est automatiquement limitée afin d’afficher les autres balises restantes possibles. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. 🅐 🅔 |
+| Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour limiter la liste des balises. <br/><br/>Lorsque vous sélectionnez une ou plusieurs balises, la liste est automatiquement limitée afin d’afficher les autres balises restantes possibles. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**&#x200B;7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**&#x200B;7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**&#x200B;7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. | Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les vues de données* pour limiter la liste des vues de données. <br/>Vous pouvez sélectionner plusieurs vues de données pour filtrer la liste de filtres. <br/><br/> Le nombre dans **[!UICONTROL Tags]** **2︎⃣** fait référence au nombre de balises disponibles. <br/><br/> Le nombre dans **[!UICONTROL *balise *]**&#x200B;7︎⃣ fait référence au nombre de filtres balisés avec la balise spécifique. 🅐 🅔 |
 
 {style="table-layout:fixed"}
 

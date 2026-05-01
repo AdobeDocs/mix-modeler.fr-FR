@@ -4,11 +4,17 @@ description: Découvrez comment obtenir des informations sur votre plan et modif
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-04-28T06:09:37.014Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -48,7 +54,7 @@ Lorsque les informations sont créées, vous voyez un aperçu de votre plan, com
 
 Pour fermer l’interface, sélectionnez **[!UICONTROL Close]**.
 
-Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL  %]** à l’**[!UICONTROL View ROI]**.
+Pour modifier l’affichage du retour sur investissement de votre plan, sélectionnez **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** à l’**[!UICONTROL View ROI]**.
 
 ## Dépenses et retour sur investissement prévus pour les canaux payants
 
@@ -68,7 +74,7 @@ Cette visualisation sous forme de graphique à barres présente les prévisions 
 
 Cette visualisation sous forme de graphique à barres présente les conversions prévues pour vos canaux en fonction du modèle, de la période et du budget.
 
-![ Visualisation des conversions prévues ](../assets/overview-plan-forecasted-conversions.png)
+![&#x200B; Visualisation des conversions prévues &#x200B;](../assets/overview-plan-forecasted-conversions.png)
 
 
 ## Retour de canal marginal
@@ -85,7 +91,7 @@ La matrice des synergies de canaux vous permet d’identifier comment les canaux
 
 ![Planifier les synergies de canaux](/help/assets/plan-channel-synergies.png)
 
-Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Répartition des périodes
 

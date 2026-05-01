@@ -4,10 +4,17 @@ description: Découvrez comment utiliser la fonction Performances pour planifier
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:20:18.412Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -74,7 +81,7 @@ Visualisation en ligne qui affiche l’indicateur de performance clé pour la p�
 
 Pour sélectionner un autre indicateur de performance clé :
 
-1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg).
+1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg).
 1. Dans la boîte de dialogue **[!UICONTROL KPI status card]**, sélectionnez un indicateur de performance clé dans le menu déroulant **[!UICONTROL KPI]**. Les options disponibles sont : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL Spend].
 
 
@@ -86,7 +93,7 @@ Pour redimensionner une visualisation, utilisez la poignée ┛ située dans le 
 
 Vous pouvez pointer sur n’importe quel élément de ligne, de barre ou de nuage de points d’une visualisation pour afficher une fenêtre contextuelle avec des informations supplémentaires.
 
-![ Visualisation ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; Visualisation &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### *Mesure* : Réel/prévu
 
