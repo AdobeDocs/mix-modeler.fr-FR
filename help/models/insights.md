@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -202,7 +202,7 @@ Les canaux dont les courbes de décroissance sont plus lentes (traînées plus l
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Répartition de la contribution des facteurs"
->abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle.<br/><br/>La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Il comprend des conversions axées sur les actions de la marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
+>abstract="La répartition de la contribution des facteurs indique la proportion des conversions de base qui peuvent être attribuées aux différents facteurs inclus dans le modèle.<br/><br/>La base pure représente les conversions sous-jacentes qui se produisent indépendamment des points de contact marketing et des facteurs inclus dans le modèle. Elle comprend des conversions motivées par le capital marque, les achats répétés, la demande organique, les tendances du marché à long terme et le caractère saisonnier."
 
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
@@ -229,7 +229,7 @@ Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/i
 
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
->title="Répartition par position du point de contact"
+>title="Répartition par position de point de contact"
 >abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position qu’aux positions restantes et à d’autres points de contact à n’importe quelle position."
 
 
@@ -304,7 +304,7 @@ La boîte de dialogue **[!UICONTROL Top campaigns]** développée affiche le mê
 Pour fermer la boîte de dialogue Développée Principales campagnes , sélectionnez **[!UICONTROL Close]**.
 
 
-### Répartition par position du point de contact
+### Répartition par position de point de contact
 
 La visualisation [!UICONTROL Breakdown by touchpoint position] est une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. Ce graphique vous permet de comparer si un point de contact contribue mieux à une position que les positions restantes et d’autres points de contact à n’importe quelle position.
 
@@ -346,7 +346,7 @@ Pour chaque chemin de conversion, vous voyez :
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeltrainingfitmetrics"
 >title="Mesures d’ajustement du modèle"
->abstract="Affiche un aperçu de plusieurs mesures d’ajustement de l’entraînement des modèles."
+>abstract="Affiche une vue d’ensemble de plusieurs mesures d’ajustement de l’entraînement des modèles."
 
 
 >[!CONTEXTUALHELP]
@@ -357,8 +357,8 @@ Pour chaque chemin de conversion, vous voyez :
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
->title="Mesure d&#39;efficacité"
->abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion indépendamment du volume de points de contact. Cette mesure est sur une échelle de 1 à 5. Notez qu’un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée."
+>title="Mesure d’efficacité"
+>abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. Cette mesure est sur une échelle de 1 à 5. Attention, un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité supérieure."
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +417,7 @@ Pour ventiler la visualisation, sélectionnez l’une des options suivantes dans
   La visualisation affiche, par ordre décroissant de [!UICONTROL Efficiency measure] ![ordre décroissant](/help/assets/icons/SortOrderDown.svg), pour chaque point de contact :
 
    * **[!UICONTROL Paths touched]** : permet de visualiser le pourcentage de chemins générant une conversion et le pourcentage de chemins ne générant pas de conversion. Pour un point de contact, vous voyez plus de conversions attribuées lorsque le taux de conversion d’attribution est élevé. Ce rapport compare le pourcentage de chemins qui mènent à la conversion par rapport au pourcentage de chemins qui ne mènent *pas* à la conversion.
-   * **[!UICONTROL Efficiency measure]** : générée par le modèle d’attribution algorithmique, la mesure d’efficacité indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. L&#39;efficacité est mesurée sur une échelle de 1 à 5. Notez qu’un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité plus élevée.
+   * **[!UICONTROL Efficiency measure]** : générée par le modèle d’attribution algorithmique, la mesure d’efficacité indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. L&#39;efficacité est mesurée sur une échelle de 1 à 5. Attention, un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité supérieure.
    * **[!UICONTROL Total volume]** : nombre agrégé de fois qu’un utilisateur touche un point de contact. Le nombre inclut les points de contact qui apparaissent sur un chemin générant une conversion, ainsi que sur les chemins *non* générant une conversion.
 
 
