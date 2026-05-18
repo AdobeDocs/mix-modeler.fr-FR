@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Points de contact marketing"
->abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.<br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent et qui doivent comporter au moins un point de contact avec des dépenses."
+>abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.<br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent, et il doit y avoir au moins un point de contact avec des dépenses."
 
 
 Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configuration implique la définition d’objectifs de conversion, de points de contact marketing, de la population de données éligibles, de facteurs externes et internes, etc.
@@ -141,8 +141,8 @@ En fonction du jeu de données sélectionné, la **[!UICONTROL Factor type]** es
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Stock publicitaire du canal"
->abstract="Intégrez directement à la configuration du modèle l’expertise du domaine, les résultats d’expérimentation ou les analyses de canaux précédentes. La configuration d’Adstock permet de guider le modèle pour qu’il s’aligne sur les attentes réelles et améliore l’interprétabilité et la confiance dans la sortie. Le nombre total de semaines de recherche en amont plus les semaines de décalage par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire."
+>title="Adstock du canal"
+>abstract="Intégrez l’expertise du domaine, les résultats d’expérimentation ou les analyses de canaux précédentes directement à la configuration du modèle. La configuration d’adstock permet de guider le modèle pour qu’il s’aligne sur les attentes réelles et améliore l’interprétabilité et la fiabilité des résultats. Le nombre total de semaines de rétrospection et de semaines de décalage par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets d’adstock."
 
 Vous pouvez spécifier des paramètres avancés à l’étape **[!UICONTROL Advanced]**. Au cours de cette étape, vous pouvez définir [partage des dépenses](#spend-share), activer votre modèle pour l’[attribution multipoint (MTA)](#mta), définir [connaissances préalables](#prior-knowledge) et définir [adstock de canaux](#channel-adstock).
 
@@ -181,7 +181,7 @@ Dans la section **[!UICONTROL Prior knowledge]** :
 1. Si nécessaire, utilisez **[!UICONTROL Clear all]** pour effacer toutes les valeurs d’entrée des colonnes **[!UICONTROL Contribution proportion]** et **[!UICONTROL Level of confidence]**.
 
 
-### Stock publicitaire du canal
+### Adstock du canal
 
 Dans la section **[!UICONTROL Channel adstock]** , vous pouvez définir des recherches en amont individuelles (effets de report ou d’atténuation) et un retard (temps de réponse retardé) pour chaque canal (canal marketing) que vous avez défini dans votre modèle.
 
@@ -197,7 +197,7 @@ Pour configurer le stock publicitaire de canal :
 
    * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
 
-  Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
+  Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets d’adstock. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
 
 * Pour réinitialiser tous les stocks publicitaires de canal aux valeurs par défaut :
 

@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -174,7 +174,7 @@ Ce cadre de plus-value offre une mesure réaliste de la force relative de la syn
 >Si l’onglet **[!UICONTROL Channel synergy]** n’est pas visible pour un modèle existant, veillez à entraîner à nouveau le modèle pour activer la fonctionnalité et la visualisation.
 
 
-### Stock publicitaire du canal
+### Adstock du canal
 
 Les visualisations d’entrepôt de canal affichent une visualisation pour chaque entrepôt de canal configuré. Les visualisations vous aident à comprendre comment l’impact des dépenses marketing pour chaque canal persiste et s’atténue au fil du temps et au-delà de l’exposition initiale. La visualisation fournit une vue réaliste de l&#39;acheminement des canaux par l&#39;incorporation de la dynamique temporelle qui sont apprises du modèle.
 
@@ -230,7 +230,7 @@ Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/i
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Répartition par position de point de contact"
->abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position qu’aux positions restantes et à d’autres points de contact à n’importe quelle position."
+>abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position qu’aux autres positions et que les autres points de contact, quelle que soit soit leur position."
 
 
 
@@ -358,13 +358,13 @@ Pour chaque chemin de conversion, vous voyez :
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Mesure d’efficacité"
->abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. Cette mesure est sur une échelle de 1 à 5. Attention, un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité supérieure."
+>abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. Cette mesure est évaluée sur une échelle de 1 à 5. Attention, un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité supérieure."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Volume total"
->abstract="Le volume total est le nombre agrégé de fois qu’un utilisateur touche un point de contact. Et inclut les points de contact qui apparaissent sur un chemin qui réussit, ainsi que sur les chemins ne résultant pas en une conversion."
+>abstract="Le volume total est le nombre agrégé de fois qu’une personne interagit avec un point de contact. Il inclut les points de contact qui apparaissent sur un chemin aboutissant à une conversion, ainsi que sur ceux ne résultant pas en une conversion."
 
 
 >[!CONTEXTUALHELP]
