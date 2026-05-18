@@ -5,26 +5,15 @@ feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-  - id: c89e26b6-808d-4500-8b01-450a63466999
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -40,7 +29,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 
 1. Saisissez votre **[!UICONTROL Name]** de modèle, par exemple `Demo model`. Saisissez un **[!UICONTROL Description]**, par exemple `Demo model to explore AI features of Mix Modeler`.
 
-   ![&#x200B; Nom et description du modèle &#x200B;](/help/assets/model-name-description.png)
+   ![ Nom et description du modèle ](/help/assets/model-name-description.png)
 
 1. Sélectionnez **[!UICONTROL Next]** pour passer à l’étape suivante. Sélectionnez **[!UICONTROL Cancel]** pour annuler la configuration du modèle.
 
@@ -49,7 +38,7 @@ Vous définissez un nom et une description à l’étape **[!UICONTROL Setup]** 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Points de contact marketing"
->abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.<br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent et qui doivent comporter au moins un point de contact avec des dépenses."
+>abstract="Les points de contact marketing sont des événements marketing au niveau de la personne destinataire, de l’individu ou du cookie utilisés pour évaluer l’impact des investissements marketing sur les conversions numériques ou basées sur les revenus.<br/><br/>Vous ne pouvez pas configurer le modèle avec des points de contact dont les données se chevauchent, et il doit y avoir au moins un point de contact avec des dépenses."
 
 
 Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configuration implique la définition d’objectifs de conversion, de points de contact marketing, de la population de données éligibles, de facteurs externes et internes, etc.
@@ -94,13 +83,13 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
          1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+      1. Pour supprimer un événement du conteneur, sélectionnez ![ Fermer ](/help/assets/icons/CrossSize75.svg).
 
       1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
-   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+   * Pour ajouter un conteneur de population de données éligible, sélectionnez ![ Ajouter ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
    * Pour supprimer un conteneur de population de données éligible dans le conteneur, sélectionnez ![Plus](/help/assets/icons/More.svg), puis **[!UICONTROL Remove container]** dans le menu contextuel.
 
@@ -141,8 +130,8 @@ En fonction du jeu de données sélectionné, la **[!UICONTROL Factor type]** es
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Stock publicitaire du canal"
->abstract="Intégrez directement à la configuration du modèle l’expertise du domaine, les résultats d’expérimentation ou les analyses de canaux précédentes. La configuration d’Adstock permet de guider le modèle pour qu’il s’aligne sur les attentes réelles et améliore l’interprétabilité et la confiance dans la sortie. Le nombre total de semaines de recherche en amont plus les semaines de décalage par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire."
+>title="Adstock du canal"
+>abstract="Intégrez l’expertise du domaine, les résultats d’expérimentation ou les analyses de canaux précédentes directement à la configuration du modèle. La configuration d’adstock permet de guider le modèle pour qu’il s’aligne sur les attentes réelles et améliore l’interprétabilité et la fiabilité des résultats. Le nombre total de semaines de rétrospection et de semaines de décalage par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets d’adstock."
 
 Vous pouvez spécifier des paramètres avancés à l’étape **[!UICONTROL Advanced]**. Au cours de cette étape, vous pouvez définir [partage des dépenses](#spend-share), activer votre modèle pour l’[attribution multipoint (MTA)](#mta), définir [connaissances préalables](#prior-knowledge) et définir [adstock de canaux](#channel-adstock).
 
@@ -181,7 +170,7 @@ Dans la section **[!UICONTROL Prior knowledge]** :
 1. Si nécessaire, utilisez **[!UICONTROL Clear all]** pour effacer toutes les valeurs d’entrée des colonnes **[!UICONTROL Contribution proportion]** et **[!UICONTROL Level of confidence]**.
 
 
-### Stock publicitaire du canal
+### Adstock du canal
 
 Dans la section **[!UICONTROL Channel adstock]** , vous pouvez définir des recherches en amont individuelles (effets de report ou d’atténuation) et un retard (temps de réponse retardé) pour chaque canal (canal marketing) que vous avez défini dans votre modèle.
 
@@ -197,7 +186,7 @@ Pour configurer le stock publicitaire de canal :
 
    * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
 
-  Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets de stock publicitaire. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
+  Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets d’adstock. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
 
 * Pour réinitialiser tous les stocks publicitaires de canal aux valeurs par défaut :
 

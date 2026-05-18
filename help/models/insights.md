@@ -5,22 +5,15 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -59,7 +52,7 @@ Vous pouvez modifier la période sur laquelle les visualisations de chacun des o
 
 Si une dérive du modèle est détectée sur le modèle, une boîte de dialogue **[!UICONTROL Model drift detected]** s’affiche avec des options à rappeler ultérieurement ou pour [**[!UICONTROL Retrain]**](overview.md#retrain) immédiatement le modèle. Si vous sélectionnez **[!UICONTROL Remind me later]**, un rappel vous est envoyé le lendemain ou lors de la prochaine connexion.
 
-![&#x200B; Boîte de dialogue Détection de dérive du modèle &#x200B;](/help/assets/model-drift-dialog.png)
+![ Boîte de dialogue Détection de dérive du modèle ](/help/assets/model-drift-dialog.png)
 
 ## Informations sur le modèle {#model-insights-section}
 
@@ -69,7 +62,7 @@ L’onglet **[!UICONTROL Model insights]** affiche des visualisations pour [Cont
 
 * Vous pouvez pointer sur des éléments de graphique individuels dans chaque visualisation pour afficher une fenêtre contextuelle avec plus de détails.
 
-* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg).
+* Pour télécharger un fichier CSV contenant les données de la visualisation, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg).
 
 * Pour télécharger des données d’informations de modèle complètes au format ® Excel, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
@@ -167,14 +160,14 @@ Ce cadre de plus-value offre une mesure réaliste de la force relative de la syn
 
 * Pour afficher les détails d’une synergie, passez la souris sur une cellule dans la visualisation.
 
-* Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![&#x200B; Télécharger &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+* Pour télécharger un fichier CSV qui représente la matrice, sélectionnez ![ Télécharger ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
 >Si l’onglet **[!UICONTROL Channel synergy]** n’est pas visible pour un modèle existant, veillez à entraîner à nouveau le modèle pour activer la fonctionnalité et la visualisation.
 
 
-### Stock publicitaire du canal
+### Adstock du canal
 
 Les visualisations d’entrepôt de canal affichent une visualisation pour chaque entrepôt de canal configuré. Les visualisations vous aident à comprendre comment l’impact des dépenses marketing pour chaque canal persiste et s’atténue au fil du temps et au-delà de l’exposition initiale. La visualisation fournit une vue réaliste de l&#39;acheminement des canaux par l&#39;incorporation de la dynamique temporelle qui sont apprises du modèle.
 
@@ -207,7 +200,7 @@ Les canaux dont les courbes de décroissance sont plus lentes (traînées plus l
 
 L’onglet Facteurs [!BADGE version bêta] affiche des informations externes liées aux facteurs.
 
-![&#x200B; Facteurs &#x200B;](/help/assets/factors.png)
+![ Facteurs ](/help/assets/factors.png)
 
 Cette visualisation vous aide à comprendre l’effet incrémentiel que divers facteurs internes et externes ont sur la ligne de base des conversions. Par exemple, conditions économiques ou activités promotionnelles.
 
@@ -230,7 +223,7 @@ Si aucune donnée n’est disponible, un message ![TableAndChart](/help/assets/i
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Répartition par position de point de contact"
->abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position qu’aux positions restantes et à d’autres points de contact à n’importe quelle position."
+>abstract="Cette visualisation présente une répartition des conversions attribuées par position du point de contact et par point de contact sur tous les chemins de conversion. La visualisation permet de comparer si un point de contact contribue mieux à une position qu’aux autres positions et que les autres points de contact, quelle que soit soit leur position."
 
 
 
@@ -280,7 +273,7 @@ Pour afficher des détails, pointez sur la ligne de données d’un modèle d’
 
 La visualisation [!UICONTROL Breakdown] est une répartition par canal ou point de contact des conversions pour chacun des modèles d’attribution sélectionnés. Cette visualisation peut s’avérer utile pour prendre des décisions sur l’efficacité de chaque canal ou point de contact.
 
-Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![&#x200B; Plus &#x200B;](/help/assets/icons/More.svg).
+Pour choisir le type de répartition, sélectionnez **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** dans ![ Plus ](/help/assets/icons/More.svg).
 
 Pour afficher les détails, pointez sur l’un des éléments du graphique.
 
@@ -358,13 +351,13 @@ Pour chaque chemin de conversion, vous voyez :
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Mesure d’efficacité"
->abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. Cette mesure est sur une échelle de 1 à 5. Attention, un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité supérieure."
+>abstract="La mesure d’efficacité générée par le modèle d’attribution algorithmique indique l’importance relative d’un point de contact pour la conversion, indépendamment du volume de points de contact. Cette mesure est évaluée sur une échelle de 1 à 5. Attention, un volume de points de contact plus élevé ne garantit pas une mesure d’efficacité supérieure."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Volume total"
->abstract="Le volume total est le nombre agrégé de fois qu’un utilisateur touche un point de contact. Et inclut les points de contact qui apparaissent sur un chemin qui réussit, ainsi que sur les chemins ne résultant pas en une conversion."
+>abstract="Le volume total est le nombre agrégé de fois qu’une personne interagit avec un point de contact. Il inclut les points de contact qui apparaissent sur un chemin aboutissant à une conversion, ainsi que sur ceux ne résultant pas en une conversion."
 
 
 >[!CONTEXTUALHELP]
