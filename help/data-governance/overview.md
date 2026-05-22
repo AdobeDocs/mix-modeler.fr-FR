@@ -23,8 +23,8 @@ topic_v2:
 autotag-review: '2026-05-01T09:16:50.195Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 11%
+source-wordcount: 453
+ht-degree: 12%
 
 ---
 
