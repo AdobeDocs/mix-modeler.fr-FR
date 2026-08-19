@@ -19,10 +19,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 1%
+source-wordcount: 2161
+ht-degree: 4%
 
 ---
 
@@ -33,6 +33,7 @@ Les règles des jeux de données vous aident à mapper vos champs harmonisés av
 * Pour les données agrégées que vous avez ingérées dans Adobe Experience Platform, vous mappez un ou plusieurs des champs de jeux de données disponibles aux champs harmonisés appropriés.
 * Pour les données d’événement, vous pouvez mapper individuellement un ou plusieurs champs harmonisés aux champs du jeu de données, directement ou à l’aide de conditions.
 
+![Liste des règles du jeu de données](/help/assets/harmonize-dataset-rules-list.png)
 
 ## Gestion des règles des jeux de données
 
@@ -42,7 +43,15 @@ Pour afficher un tableau des règles de jeu de données disponibles, dans l’in
 
 1. Sélectionnez **[!UICONTROL Dataset rules]** dans la barre supérieure. Un tableau des règles du jeu de données s’affiche.
 
-Vous pouvez rechercher rapidement un jeu de données à l’aide de ![Rechercher](/help/assets/icons/Search.svg) **[!UICONTROL _saisir un nom de jeu de données_]**.
+Vous pouvez rechercher et filtrer les jeux de données :
+
+* Recherchez rapidement un jeu de données à l’aide de ![Rechercher](/help/assets/icons/Search.svg) **[!UICONTROL _saisissez un nom de jeu de données_]**.
+* Filtrer les jeux de données à l’aide de :
+  * **[!UICONTROL Source]** : sélectionnez entre **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]** ou **[!UICONTROL Factors]**.
+  * **[!UICONTROL Granularity]** : sélectionnez entre **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]**.
+  * **[!UICONTROL Start of the week]** : sélectionnez tous les jours de la semaine ou un jour de la semaine possible (**[!UICONTROL Monday]** à **[!UICONTROL Sunday]**.)
+
+Utilisez l’**[!UICONTROL Clear]** ![CrossSize200](/help/assets/icons/CrossSize200.svg) pour effacer tous les filtres et champs de recherche.
 
 Les colonnes du tableau spécifient des détails sur les règles du jeu de données :
 
@@ -82,38 +91,38 @@ Dans l’écran **[!UICONTROL Create]**,
 
    * Lorsque le champ harmonisé sélectionné est de type mesure :
 
-      1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
+     1. Sélectionnez **[!UICONTROL Count]** ou **[!UICONTROL Sum]** dans **[!UICONTROL Mapping type]**.
 
-      1. Sélectionnez un champ de jeu de données **[!UICONTROL **]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
+     1. Sélectionnez un champ de jeu de données **[!UICONTROL **]**&#x200B;auquel vous souhaitez que le champ harmonisé soit mappé par défaut.
 
    * Lorsque le champ sélectionné est de type dimension :
 
-      1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
+     1. Sélectionnez **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** dans **[!UICONTROL Mapping type]**.
 
-      1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
+     1. Lorsque vous avez sélectionné **[!UICONTROL Map Into]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *le champ du jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ du jeu de données ou à la valeur saisie.
 
-      1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
+     1. Lorsque vous sélectionnez **[!UICONTROL Case]**, sélectionnez **[!UICONTROL Field]** et **[!UICONTROL *champ de jeu de données AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;et une valeur par défaut pour mapper le champ harmonisé par défaut au champ de jeu de données ou à la valeur saisie.
 
-         1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
+        1. Pour définir explicitement des valeurs, vous définissez un ou plusieurs cas, composés d’une ou de plusieurs conditions. Chaque condition peut rechercher un champ de jeu de données **[!UICONTROL *AEP spécifique *]**&#x200B;s’il **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**&#x200B;ou s’il **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;une valeur saisie à l’adresse&#x200B;**[!UICONTROL * Saisir la valeur d’entrée *]**.
 
-         1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+        1. Pour ajouter un autre cas, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Pour ajouter une autre condition, sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Pour supprimer un cas ou une condition, sélectionnez ![Fermer](/help/assets/icons/Close.svg) dans le conteneur correspondant.
+        1. Pour supprimer un cas ou une condition, sélectionnez ![Fermer](/help/assets/icons/Close.svg) dans le conteneur correspondant.
 
-         1. Pour choisir si une ou toutes les conditions doivent s’appliquer à un cas, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
+        1. Pour choisir si une ou toutes les conditions doivent s’appliquer à un cas, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
 
-         1. Pour définir la valeur de résultat d’un cas, saisissez la valeur à **[!UICONTROL Then]**.
+        1. Pour définir la valeur de résultat d’un cas, saisissez la valeur à **[!UICONTROL Then]**.
 
      L’exemple ci-dessous :
 
-      * utilise un **[!UICONTROL Mapping type]** **[!UICONTROL Map Into]** pour mapper le champ harmonisé **[!UICONTROL Channel Type At Source]** au champ **[!UICONTROL channel_type]** du jeu de données **[!DNL Luma Transactions]**.
+     * utilise un **[!UICONTROL Mapping type]** **[!UICONTROL Map Into]** pour mapper le champ harmonisé **[!UICONTROL Channel Type At Source]** au champ **[!UICONTROL channel_type]** du jeu de données **[!DNL Luma Transactions]**.
 
-      * utilise un **[!UICONTROL Mapping type]** **[!UICONTROL Case]** pour mapper de manière conditionnelle la valeur du champ **[!UICONTROL marketing.campaignName]** dans le jeu de données **[!DNL Luma Transactions]** au champ harmonisé **[!UICONTROL Campaign]**. Le champ harmonisé de la campagne est défini sur :
+     * utilise un **[!UICONTROL Mapping type]** **[!UICONTROL Case]** pour mapper de manière conditionnelle la valeur du champ **[!UICONTROL marketing.campaignName]** dans le jeu de données **[!DNL Luma Transactions]** au champ harmonisé **[!UICONTROL Campaign]**. Le champ harmonisé de la campagne est défini sur :
 
-         * `Black Friday` lorsque la **[!UICONTROL marketing.campaignName]** est `_black_friday` ou `BlackFriday`.
-         * à la valeur du **[!UICONTROL marketing.campaignName]** dans tous les autres cas.
+       * `Black Friday` lorsque la **[!UICONTROL marketing.campaignName]** est `_black_friday` ou `BlackFriday`.
+       * à la valeur du **[!UICONTROL marketing.campaignName]** dans tous les autres cas.
 
-        ![Événement de règle du jeu de données](/help/assets/dataset-create-event.png)
+       ![Événement de règle du jeu de données](/help/assets/dataset-create-event.png)
 
 1. Sélectionnez ![Ajouter](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** pour définir des champs supplémentaires.
 
@@ -279,19 +288,19 @@ Pour configurer les préférences de fusion des données :
 
    * Pour ajouter des préférences spécifiques basées sur des mesures :
 
-      1. Sélectionnez ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
-         1. Sélectionnez une mesure dans la liste **[!UICONTROL *Sélection de mesure *]**.
-         1. Sélectionnez **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Dans la liste, sélectionnez **[!UICONTROL All]** ou un canal spécifique ou un type de conversion.
-         1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]** pour spécifier si les données de résumé ou les données d’événement sont préférées pour la mesure (et l’ensemble du canal ou le canal sélectionné) lors de la fusion des données.
+     1. Sélectionnez ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+        1. Sélectionnez une mesure dans la liste **[!UICONTROL *Sélection de mesure *]**.
+        1. Sélectionnez **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Dans la liste, sélectionnez **[!UICONTROL All]** ou un canal spécifique ou un type de conversion.
+        1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]** pour spécifier si les données de résumé ou les données d’événement sont préférées pour la mesure (et l’ensemble du canal ou le canal sélectionné) lors de la fusion des données.
 
-         Pour ajouter un ou plusieurs types de canal ou de conversion supplémentaires :
+        Pour ajouter un ou plusieurs types de canal ou de conversion supplémentaires :
 
-         1. Sélectionnez ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
-         1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
+        1. Sélectionnez ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+        1. Sélectionnez **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
 
-         Pour supprimer un canal ou un type de conversion, sélectionnez ![Cross](/help/assets/icons/Close.svg).
+        Pour supprimer un canal ou un type de conversion, sélectionnez ![Cross](/help/assets/icons/Close.svg).
 
-      1. Pour ajouter des préférences plus spécifiques basées sur des mesures, répétez l’étape précédente.
+     1. Pour ajouter des préférences plus spécifiques basées sur des mesures, répétez l’étape précédente.
 
    * Pour supprimer une préférence spécifique existante basée sur une mesure, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg).
 

@@ -17,24 +17,33 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # Notes de mise à jour actuelles de Mix Modeler
 
-**Dernière mise à jour** : 26 février 2026.
+**Dernière mise à jour** : 19 août 2026.
 
 Ces notes de mise à jour présentent la dernière version de Mix Modeler. Les versions de Mix Modeler fonctionnent sur un modèle de diffusion continu, ce qui permet une cadence de publication mensuelle approximative. Par conséquent, ces notes de mise à jour sont mises à jour. Consultez-les régulièrement.
+
+## Août 2026
+
+| Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
+|---|---|---|---|
+| **Filtrer sur les règles du jeu de données** | Dans la configuration des jeux de données harmonisés, vous pouvez [filtrer les règles des jeux de données selon la source, la granularité et le début de la semaine](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | 19 Août 2026 | 19 Août 2026 |
+| **Thème de canal média payant** | Vous pouvez choisir de [se concentrer sur la contribution de canal média payant](/help/models/insights.md#contribution-by-channel) dans les informations sur le modèle. | 19 Août 2026 | 19 Août 2026 |
+| **Configuration du résumé des performances marketing** | Vous pouvez [sélectionner une mesure et mode d’affichage de la mesure](/help/models/insights.md#marketing-performance-summary) pour le résumé des performances marketing des modèles basés sur le chiffre d’affaires dans les informations sur les modèles. | 19 Août 2026 | 19 Août 2026 |
+
 
 ## Mars 2026
 
 | Fonctionnalité | Description | [&#x200B; Début du déploiement &#x200B;](#release-strategy) | [Disponibilité générale](#release-strategy) |
 |---|---|---|---|
-| **Stock publicitaire de canal** | Vous pouvez incorporer l’expertise de domaine, les résultats d’expérimentation ou les analyses de canaux précédentes directement dans la configuration avancée du modèle par le biais d’[Adstock de canaux](/help/models/build.md#channel-adstock). et afficher des [informations sur les stocks publicitaires des canaux](/help/models/insights.md#channel-adstock) dans l’analyse des canaux d’un modèle. | 30 mars 2026 | 30 mars 2026 |
+| **Stock publicitaire de canal** | Vous pouvez incorporer l’expertise de domaine, les résultats d’expérimentation ou les analyses de canaux précédentes directement dans la configuration avancée du modèle par le biais d’[Adstock de canaux](/help/models/build.md#channel-adstock). et afficher des [informations sur les stocks publicitaires des canaux](/help/models/insights.md#channel-adstock) dans l’analyse des canaux d’un modèle. | 30 mars 2026 | 30 mars 2026 |
 
 ## Février 2026
 
