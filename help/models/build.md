@@ -7,27 +7,36 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized Data
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # Créer des modèles
 
 Pour créer vos modèles personnalisés optimisés par l’IA, l’interface fournit un flux de configuration guidé du modèle étape par étape.
@@ -86,19 +95,19 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    * Pour chaque conteneur, définissez un ou plusieurs événements.
 
-      1. Pour chaque événement :
+     1. Pour chaque événement :
 
-         1. Sélectionnez une mesure ou une dimension dans **[!UICONTROL _Sélectionner le champ harmonisé_]**.
+        1. Sélectionnez une mesure ou une dimension dans **[!UICONTROL _Sélectionner le champ harmonisé_]**.
 
-         1. Sélectionnez l’opérateur approprié : **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** ou **[!UICONTROL is not in]**.
+        1. Sélectionnez l’opérateur approprié : **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** ou **[!UICONTROL is not in]**.
 
-         1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
+        1. Saisissez ou sélectionnez une valeur sur **[!UICONTROL _Saisissez ou sélectionnez une valeur_]**.
 
-      1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+     1. Pour ajouter un événement supplémentaire dans le conteneur, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
+     1. Pour supprimer un événement du conteneur, sélectionnez ![&#x200B; Fermer &#x200B;](/help/assets/icons/CrossSize75.svg).
 
-      1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
+     1. Pour filtrer à l’aide de l’ensemble ou de l’un des multiples événements définis dans le conteneur, sélectionnez **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. Le libellé passe donc de **[!UICONTROL Include ... Or ...]** à **[!UICONTROL Include ... And ...]**.
 
    * Pour ajouter un conteneur de population de données éligible, sélectionnez ![&#x200B; Ajouter &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
@@ -112,10 +121,10 @@ Configurez votre modèle à l’étape **[!UICONTROL Configure]**. La configurat
 
    * Pour ajouter un jeu de données de facteur, sélectionnez **[!UICONTROL Add Factor]**. Vous pouvez ajouter un maximum de 30 facteurs à un modèle.
 
-      1. Sélectionnez un **[!UICONTROL Factor dataset]** dans le menu déroulant. Les facteurs disponibles sont ceux pour lesquels vous avez défini un champ harmonisé dans [règles de jeu de données](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-En fonction du jeu de données sélectionné, la **[!UICONTROL Factor type]** est **[!UICONTROL Internal]** ou **[!UICONTROL External]**.
+     1. Sélectionnez un **[!UICONTROL Factor dataset]** dans le menu déroulant. Les facteurs disponibles sont ceux pour lesquels vous avez défini un champ harmonisé dans [règles de jeu de données](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+        En fonction du jeu de données sélectionné, la **[!UICONTROL Factor type]** est **[!UICONTROL Internal]** ou **[!UICONTROL External]**.
 
-      1. Sélectionnez le **[!UICONTROL Impact on conversion]** dans le menu déroulant. Les options disponibles sont : **[!UICONTROL Auto]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. L’option par défaut est **[!UICONTROL Auto]**, ce qui permet au modèle de déterminer l’impact du jeu de données de facteur.
+     1. Sélectionnez le **[!UICONTROL Impact on conversion]** dans le menu déroulant. Les options disponibles sont : **[!UICONTROL Auto]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. L’option par défaut est **[!UICONTROL Auto]**, ce qui permet au modèle de déterminer l’impact du jeu de données de facteur.
 
    * Pour supprimer un jeu de données de facteur, sélectionnez ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
@@ -151,8 +160,8 @@ Vous pouvez spécifier des paramètres avancés à l’étape **[!UICONTROL Adva
 Dans la section **[!UICONTROL Spend share]** :
 
 * Pour utiliser les ratios d’investissement marketing historiques afin d’informer le modèle lorsque les données marketing sont rares, activez **[!UICONTROL Allow spend share]**. Ce paramètre est recommandé, en particulier dans les scénarios suivants :
-   * Un canal ne contient pas suffisamment d’observations (par exemple, une faible fréquence de dépenses, d’impressions ou de clics).
-   * Vous modélisez des médias sophistiqués mais réguliers, et potentiellement coûteux (comme la télévision pour certaines marques), où les données peuvent être éparses.
+  * Un canal ne contient pas suffisamment d’observations (par exemple, une faible fréquence de dépenses, d’impressions ou de clics).
+  * Vous modélisez des médias sophistiqués mais réguliers, et potentiellement coûteux (comme la télévision pour certaines marques), où les données peuvent être éparses.
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ Pour configurer le stock publicitaire de canal :
 
 * Pour chaque canal (**[!UICONTROL Name]**), définissez une valeur de **[!UICONTROL Lag (weeks)]**, de **[!UICONTROL Min Lookback (weeks)]** et de **[!UICONTROL Max Lookback (weeks)]**. Pour chaque valeur :
 
-   * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
+  * Utilisez ![Ajouter](/help/assets/icons/Add.svg) pour augmenter une valeur, ![Soustraire](/help/assets/icons/Subtract.svg) pour réduire une valeur ou saisissez une valeur manuellement.
 
   Le nombre total de semaines de décalage et de semaines de recherche en amont maximales par canal est limité à un huitième de la fenêtre de formation configurée. Cette limite permet d’obtenir suffisamment de données pour que le modèle puisse apprendre les effets d’adstock. Par exemple, pour un créneau de formation de deux ans, la durée maximale de **[!UICONTROL Lag (weeks)]** et **[!UICONTROL Lookback (weeks)]** pour un canal est de 13 semaines. Cette limite est appliquée lorsque vous définissez les valeurs.
 
 * Pour réinitialiser tous les stocks publicitaires de canal aux valeurs par défaut :
 
-   * Sélectionner **[!UICONTROL Reset to defaults]**.
+  * Sélectionner **[!UICONTROL Reset to defaults]**.
 
 
 ## Définir les options
@@ -250,11 +259,11 @@ Les champs harmonisés sélectionnés pour les rapports d’incrémentalité gra
 
 * Sélectionnez **[!UICONTROL Finish]** pour terminer la configuration du modèle.
 
-   * Dans la boîte de dialogue **[!UICONTROL Create instance?]**, sélectionnez **[!UICONTROL Ok]** pour déclencher immédiatement le premier jeu d’exécutions d’entraînement et de notation. Votre modèle est répertorié avec le statut ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
+  * Dans la boîte de dialogue **[!UICONTROL Create instance?]**, sélectionnez **[!UICONTROL Ok]** pour déclencher immédiatement le premier jeu d’exécutions d’entraînement et de notation. Votre modèle est répertorié avec le statut ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
-     Sélectionnez **[!UICONTROL Cancel]** pour annuler.
+    Sélectionnez **[!UICONTROL Cancel]** pour annuler.
 
-   * Si une configuration supplémentaire est nécessaire, un contour et un texte rouges expliquent quelle configuration supplémentaire est requise.
+  * Si une configuration supplémentaire est nécessaire, un contour et un texte rouges expliquent quelle configuration supplémentaire est requise.
 
 * Sélectionnez **[!UICONTROL Back]** pour revenir à l’étape précédente.
 
