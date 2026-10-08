@@ -88,7 +88,7 @@ Les concepts clés de l’attribution multipoint sont les suivants :
 
 * **Correspondance des probabilités** : la probabilité de conversion est dérivée du niveau d’intérêt à l’aide d’une fonction logistique en S.
 
-  ![ Probabilité de conversion ](/help/assets/probability-of-conversion.jpg)
+  ![&#x200B; Probabilité de conversion &#x200B;](/help/assets/probability-of-conversion.jpg)
 
   Grâce au machine learning supervisé qui utilise un modèle de survie en temps discret, l’illustration ci-dessus visualise le parcours de conversion du client A. Le niveau d’intérêt est affiché sur l’axe X et la probabilité de conversion sur l’axe Y. Ce mappage montre que la deuxième exposition aux e-mails (ϴE, tc-t2 *) a le plus grand impact sur la conversion.* Comme indiqué par un saut significatif de la probabilité de conversion au moment de cette étape.
 
@@ -142,9 +142,9 @@ Les concepts clés derrière la modélisation du marketing mix sont les suivants
 * **Modèle multiplicatif** : les ventes ou les conversions sont le produit d’une ligne de base et de multiplicateurs de médias.
 
   Ainsi, au lieu d’utiliser un modèle additif :
-  *Conversions hebdomadaires = demande de référence **+**Multiplicateur de recherche **+**Multiplicateur d’affichage **+**....*
+  *Conversions hebdomadaires = demande de référence **+**&#x200B;Multiplicateur de recherche **+**&#x200B;Multiplicateur d’affichage **+**....*
 utiliser un modèle multiplicatif :
-  *Conversions hebdomadaires = demande de référence **x**multiplicateur de recherche **x**multiplicateur d’affichage **x**....*
+  *Conversions hebdomadaires = demande de référence **x**&#x200B;multiplicateur de recherche **x**&#x200B;multiplicateur d’affichage **x**....*
 
   Ou dans une formule : ** Y = ⨍<sub>BL</sub>(X<sub>facteurs</sub>;θ<sub>facteurs</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;θ<sub>S</sub>) x ⨍<sub>D</sub>(X<sub>D</sub>;θ<sub>D</sub>)*
 
@@ -224,7 +224,7 @@ Essentiellement, l&#39;apprentissage par transfert est un algorithme d&#39;optim
 
 Lorsque vous disposez à la fois de données au niveau de l’événement et de données au niveau agrégé, l’apprentissage par transfert bidirectionnel implique le workflow suivant.
 
-![ Apprentissage par transfert bidirectionnel ](/help/assets/bi-directional-transfer-learning.jpg)
+![&#x200B; Apprentissage par transfert bidirectionnel &#x200B;](/help/assets/bi-directional-transfer-learning.jpg)
 
 | Étape | Description |
 |:---:|---|
@@ -260,7 +260,7 @@ Dans un exemple simple, il existe deux canaux : recherche et affichage. Et vous 
 
 La formule d’optimisation du budget est la suivante : *Max ⨍(X<sub>S</sub>, X<sub>D</sub>) = ⨍<sub>BL</sub>(X<sub>facteurs</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>) x ⨍<sub>D</sub>(X<sub>D</sub>)*, *X<sub>S</sub>* et *X<sub>D</sub>* sont des paramètres et *X<sub>factor</sub>* est prévu.
 
-![ Contraintes budgétaires ](/help/assets/budget-constraints.png)
+![&#x200B; Contraintes budgétaires &#x200B;](/help/assets/budget-constraints.png)
 
 
 ### Contraintes au niveau du canal
