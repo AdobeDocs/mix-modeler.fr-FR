@@ -4,31 +4,47 @@ description: Obtenez une vue d’ensemble des fonctionnalités et des capacités
 short-description: Obtenez une vue d’ensemble des fonctionnalités et des capacités de Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-TQID: https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4
+autotag-review: '2026-05-01T09:14:10.130Z'
+TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-05-01T09:14:10.130Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Privacy
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 770
+source-wordcount: '770'
 ht-degree: 5%
-
 ---
-
 # Vue d’ensemble de Mix Modeler
 
 Mix Modeler, optimisé par Adobe Sensei, permet aux spécialistes marketing de mesurer les campagnes et d’optimiser la planification de manière holistique, sur tous les canaux : payant, gagné et détenu. Sa méthodologie unifiée mesure progressivement les points de contact marketing et les niveaux agrégés, tout en assurant des résultats entièrement cohérents.
@@ -49,7 +65,7 @@ Pour accomplir cette fonctionnalité, Mix Modeler combine les éléments suivant
 
 L’apprentissage par transfert bidirectionnel IA/ML unifie les résultats de la modélisation du marketing mix (MMM) et de l’attribution multipoint (MTA) afin d’assurer des résultats cohérents en matière de mesure et de planification dans un monde sans cookies.
 
-![&#x200B; Apprentissage par transfert bidirectionnel &#x200B;](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![ Apprentissage par transfert bidirectionnel ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Fonctionnalités
@@ -95,8 +111,8 @@ L’attribution multipoint dans Mix Modeler est une analyse de machine learning 
 L’attribution multipoint Mix Modeler prend en charge deux catégories de scores :
 
 * Scores algorithmiques, qui incluent les scores incrémentiels et influencés :
-   * Le score influencé est la fraction de la conversion dont chaque point de contact marketing est responsable.
-   * Le score incrémentiel est le montant de l’impact marginal directement causé par un point de contact marketing. Ce score supprime la ligne de base (la partie de la conversion atteinte sans aucune activité marketing) du score influencé.
+  * Le score influencé est la fraction de la conversion dont chaque point de contact marketing est responsable.
+  * Le score incrémentiel est le montant de l’impact marginal directement causé par un point de contact marketing. Ce score supprime la ligne de base (la partie de la conversion atteinte sans aucune activité marketing) du score influencé.
 
 * Scores basés sur des règles, qui incluent Première touche, Dernière touche, Linéaire, en forme de U et Dégradation dans le temps.
 

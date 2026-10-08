@@ -3,26 +3,37 @@ title: Performances à planifier
 description: Découvrez comment utiliser la fonction Performances pour planifier la vue d’ensemble dans Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+autotag-review: '2026-05-01T09:20:18.412Z'
+TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:20:18.412Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Performances à planifier
 
 >[!NOTE]
@@ -43,18 +54,18 @@ L’onglet **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} affiche :
 
 * [Cartes de statut des KPI](#kpi-status-cards) :
 
-   * [Budget](#budget)
-   * [Recettes](#revenue)
-   * [RSI](#roi)
-   * [KPI](#kpi)
+  * [Budget](#budget)
+  * [Recettes](#revenue)
+  * [RSI](#roi)
+  * [KPI](#kpi)
 
 * [Visualisations](#visualizations) :
-   * [*Mesure* : Réel/prévu](#metric-actual-vs-planned)
-   * [*Mesure* : Réel ou prévu par *granularité*](#metric-actual-vs-planned-by-granularity)
-   * [Canal *mesure* par *granularité*](#channel-metric-by-granularity)
-   * [*Mesure* vs *Mesure* par canal](#metric-vs-metric-by-channel)
-   * [*Mesure* par *granularité*](#metric-by-granularity)
-   * [*Mesure* par canal](#metric-by-channel)
+  * [*Mesure* : Réel/prévu](#metric-actual-vs-planned)
+  * [*Mesure* : Réel ou prévu par *granularité*](#metric-actual-vs-planned-by-granularity)
+  * [Canal *mesure* par *granularité*](#channel-metric-by-granularity)
+  * [*Mesure* vs *Mesure* par canal](#metric-vs-metric-by-channel)
+  * [*Mesure* par *granularité*](#metric-by-granularity)
+  * [*Mesure* par canal](#metric-by-channel)
 
 ## Cartes de statut des KPI
 
@@ -81,7 +92,7 @@ Visualisation en ligne qui affiche l’indicateur de performance clé pour la p�
 
 Pour sélectionner un autre indicateur de performance clé :
 
-1. Sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg).
+1. Sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg).
 1. Dans la boîte de dialogue **[!UICONTROL KPI status card]**, sélectionnez un indicateur de performance clé dans le menu déroulant **[!UICONTROL KPI]**. Les options disponibles sont : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] et [!UICONTROL Spend].
 
 
@@ -93,7 +104,7 @@ Pour redimensionner une visualisation, utilisez la poignée ┛ située dans le 
 
 Vous pouvez pointer sur n’importe quel élément de ligne, de barre ou de nuage de points d’une visualisation pour afficher une fenêtre contextuelle avec des informations supplémentaires.
 
-![&#x200B; Visualisation &#x200B;](../assets/performance-to-plan-visualizations.png)
+![ Visualisation ](../assets/performance-to-plan-visualizations.png)
 
 ### *Mesure* : Réel/prévu
 
@@ -134,8 +145,8 @@ Pour modifier une visualisation :
 
    * Une ou deux mesures : sélectionnez une mesure dans le menu déroulant **[!UICONTROL Select metric]**.
 
-      * Pour les plans basés sur le retour sur investissement, les options sont les suivantes : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] et [!UICONTROL Volume].
-      * Pour les plans basés sur CPA, les options sont les suivantes : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] et [!UICONTROL Volume].
+     * Pour les plans basés sur le retour sur investissement, les options sont les suivantes : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] et [!UICONTROL Volume].
+     * Pour les plans basés sur CPA, les options sont les suivantes : [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] et [!UICONTROL Volume].
    * **[!UICONTROL Granularity]** : sélectionnez **[!UICONTROL date ranges]** ou **[!UICONTROL week]** dans le menu déroulant **[!UICONTROL Granularity]** .
 
    Vous pouvez constater dans **[!UICONTROL Preview]** en quoi les modifications diffèrent de la visualisation **[!UICONTROL Current]**.

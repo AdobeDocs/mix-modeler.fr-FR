@@ -3,27 +3,36 @@ title: Tableau de bord de données harmonisé
 description: Découvrez comment utiliser le tableau de bord de présentation des données harmonisées dans Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-TQID: https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE
 autotag-review: '2026-05-01T09:17:34.958Z'
+TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # Données harmonisées
 
 L’onglet **[!UICONTROL Harmonized data]** dans Mix Modeler ![Accueil](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fournit des informations sur les données harmonisées que vous avez configurées pour être utilisées dans le cadre des données ingérées et de la configuration des données harmonisées.
@@ -53,31 +62,31 @@ Vous pouvez configurer chaque visualisation.
 
 * Dans la visualisation de la carte de statut des KPI :
 
-   1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) et ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
+  1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) et ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
 
-   1. Dans la boîte de dialogue **[!UICONTROL KPI status card]** :
+  1. Dans la boîte de dialogue **[!UICONTROL KPI status card]** :
 
-      1. Sélectionnez un **[!UICONTROL KPI]** dans la liste.
+     1. Sélectionnez un **[!UICONTROL KPI]** dans la liste.
 
-      1. Sélectionnez **[!UICONTROL Apply]** pour appliquer la modification à la carte. Sélectionnez **[!UICONTROL Cancel]** pour annuler la modification.
+     1. Sélectionnez **[!UICONTROL Apply]** pour appliquer la modification à la carte. Sélectionnez **[!UICONTROL Cancel]** pour annuler la modification.
 
 * Sur les autres visualisations configurables :
 
-   1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) et ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
+  1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) et ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]** dans le menu contextuel.
 
-   1. Dans la boîte de dialogue **[!UICONTROL Edit Data]** :
+  1. Dans la boîte de dialogue **[!UICONTROL Edit Data]** :
 
-      1. Sélectionnez une mesure dans **[!UICONTROL Select a metric]**, par exemple **[!UICONTROL Impressions]**.
-      1. Sélectionnez une catégorie dans **[!UICONTROL Select category]**, par exemple **[!UICONTROL Media types]**.
-      1. (facultatif) sélectionnez une deuxième catégorie dans **[!UICONTROL Select second category (optional)]**, par exemple **[!UICONTROL Traffic sources]**.
-      1. Sélectionnez ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculateur](/help/assets/icons/Calculator.svg) **[!UICONTROL Total]** comme type d’analyse à **[!UICONTROL Select analysis type]**.
+     1. Sélectionnez une mesure dans **[!UICONTROL Select a metric]**, par exemple **[!UICONTROL Impressions]**.
+     1. Sélectionnez une catégorie dans **[!UICONTROL Select category]**, par exemple **[!UICONTROL Media types]**.
+     1. (facultatif) sélectionnez une deuxième catégorie dans **[!UICONTROL Select second category (optional)]**, par exemple **[!UICONTROL Traffic sources]**.
+     1. Sélectionnez ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculateur](/help/assets/icons/Calculator.svg) **[!UICONTROL Total]** comme type d’analyse à **[!UICONTROL Select analysis type]**.
 
-         Si vous sélectionnez ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**, vous pouvez spécifier la fréquence temporelle. Sélectionnez **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** dans **[!UICONTROL Select time frequency]**.
+        Si vous sélectionnez ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**, vous pouvez spécifier la fréquence temporelle. Sélectionnez **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** dans **[!UICONTROL Select time frequency]**.
 
-         Un aperçu mis à jour de votre sélection en cours s’affiche dans le [!UICONTROL Preview Area] et votre visualisation actuelle sous [!UICONTROL Current].
+        Un aperçu mis à jour de votre sélection en cours s’affiche dans le [!UICONTROL Preview Area] et votre visualisation actuelle sous [!UICONTROL Current].
 
-         ![Modifier le widget de données harmonisées](/help/assets/edit-harmonized-data-widget.png)
+        ![Modifier le widget de données harmonisées](/help/assets/edit-harmonized-data-widget.png)
 
-         Si l’aperçu ne peut pas être rendu en raison de l’indisponibilité des données, vous voyez ![Erreur de données](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
+        Si l’aperçu ne peut pas être rendu en raison de l’indisponibilité des données, vous voyez ![Erreur de données](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
-      1. Sélectionnez **[!UICONTROL Apply]** pour appliquer les modifications à la visualisation. Sélectionnez **[!UICONTROL Cancel]** pour annuler toute modification apportée à la visualisation actuelle.
+     1. Sélectionnez **[!UICONTROL Apply]** pour appliquer les modifications à la visualisation. Sélectionnez **[!UICONTROL Cancel]** pour annuler toute modification apportée à la visualisation actuelle.
