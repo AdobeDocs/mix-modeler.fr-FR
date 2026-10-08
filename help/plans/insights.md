@@ -3,26 +3,32 @@ title: Informations sur le plan
 description: Découvrez comment obtenir des informations sur votre plan et modifier un plan dans Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # Informations sur le plan
 
 
@@ -32,12 +38,12 @@ Les informations de votre plan sont [!UICONTROL Plan insights] créées et indiq
 Lorsque les informations sont créées, vous voyez un aperçu de votre plan, composé des éléments suivants :
 
 - En-tête qui affiche le [!UICONTROL Model], le [!UICONTROL Data range] et le [!UICONTROL Plan target] sur lesquels le plan est basé.
-   - Si vous avez défini un plan basé sur des objectifs, un badge indique le statut de votre cible. Les options possibles sont les suivantes :
+  - Si vous avez défini un plan basé sur des objectifs, un badge indique le statut de votre cible. Les options possibles sont les suivantes :
 
-      - [!BADGE Objectif réalisable]{type=Positive}
-      - [!BADGE Objectif inatteignable]{type=Negative}
+    - [!BADGE Objectif réalisable]{type=Positive}
+    - [!BADGE Objectif inatteignable]{type=Negative}
 
-   - Sélectionnez ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** pour afficher plus de détails.
+  - Sélectionnez ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** pour afficher plus de détails.
 
 - [Visualisation [!UICONTROL Forecasted paid channel ROI]](#forecasted-paid-channel-spend-and-roi)
 - [Visualisation [!UICONTROL Forecasted revenue]](#forecasted-revenue)
@@ -45,12 +51,12 @@ Lorsque les informations sont créées, vous voyez un aperçu de votre plan, com
 - [Visualisation [!UICONTROL Marginal channel return]](#marginal-channel-return)
 - [[!UICONTROL Data range breakdown] tableau du plan](#date-range-breakdown) avec les colonnes pour
 
-   - Canal
-   - RSI
-   - CPA
-   - Recettes
-   - Objectif de conversion
-   - Dépenses
+  - Canal
+  - RSI
+  - CPA
+  - Recettes
+  - Objectif de conversion
+  - Dépenses
 
 Pour fermer l’interface, sélectionnez **[!UICONTROL Close]**.
 
@@ -151,33 +157,33 @@ Pour modifier votre plan, sélectionnez ![Modifier](/help/assets/icons/Edit.svg)
 
            Cette option vous permet de saisir des budgets pour une ou plusieurs périodes.
 
-            1. Dans le conteneur **[!UICONTROL Optimize]** :
-               1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Select conversion]** .
-               1. Sélectionnez un modèle dans le menu déroulant **[!UICONTROL Select model]**.
-            1. Spécifiez une **[!UICONTROL Date range]** en saisissant des dates ou en sélectionnant une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
-            1. Saisissez un **[!UICONTROL Budget]**.
-Pour ajouter des périodes supplémentaires, chacune associée à son budget, sélectionnez ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Pour supprimer une période et le budget associé, sélectionnez ![Fermer](/help/assets/icons/Close.svg).
-            1. Pour définir un budget maximum facultatif dans lequel vous souhaitez contraindre le plan :
-               1. Activez **[!UICONTROL Maximize budget]**.
-               1. Spécifiez le montant du budget maximum. Le montant doit être égal ou supérieur au montant total des budgets spécifiés pour les périodes.
+           1. Dans le conteneur **[!UICONTROL Optimize]** :
+              1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Select conversion]** .
+              1. Sélectionnez un modèle dans le menu déroulant **[!UICONTROL Select model]**.
+           1. Spécifiez une **[!UICONTROL Date range]** en saisissant des dates ou en sélectionnant une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
+           1. Saisissez un **[!UICONTROL Budget]**.
+              Pour ajouter des périodes supplémentaires, chacune associée à son budget, sélectionnez ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+              Pour supprimer une période et le budget associé, sélectionnez ![Fermer](/help/assets/icons/Close.svg).
+           1. Pour définir un budget maximum facultatif dans lequel vous souhaitez contraindre le plan :
+              1. Activez **[!UICONTROL Maximize budget]**.
+              1. Spécifiez le montant du budget maximum. Le montant doit être égal ou supérieur au montant total des budgets spécifiés pour les périodes.
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![Cible du plan](../assets/plan-target.png)
 
-            1. Dans le conteneur **[!UICONTROL Optimize]**
-               1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Select conversion]** .
-               1. Sélectionnez une mesure cible dans le menu déroulant **[!UICONTROL Select target metric]** . Vous pouvez choisir entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** ou **[!UICONTROL ROI]**.
-               1. Sélectionnez un modèle dans le menu déroulant **[!UICONTROL Select model]**.
-            1. Spécifiez une période en saisissant des dates ou en sélectionnant une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
-            1. Saisissez une valeur pour la mesure cible sélectionnée. Par exemple, un nombre pour **[!UICONTROL Conversion]**, un pourcentage pour **[!UICONTROL ROI]** ou des valeurs de devise pour **[!UICONTROL CPA]** et **[!UICONTROL Revenue]**.
-Pour ajouter des périodes supplémentaires, chacune avec sa mesure cible, sélectionnez ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Pour supprimer une période et une mesure cible associée, sélectionnez ![Fermer](/help/assets/icons/Close.svg).
-            1. Pour définir un budget maximum facultatif dans lequel vous souhaitez contraindre le plan :
-               1. Activez **[!UICONTROL Maximize budget]**.
-               1. Spécifiez le montant du budget maximum.
+           1. Dans le conteneur **[!UICONTROL Optimize]**
+              1. Sélectionnez une conversion dans le menu déroulant **[!UICONTROL Select conversion]** .
+              1. Sélectionnez une mesure cible dans le menu déroulant **[!UICONTROL Select target metric]** . Vous pouvez choisir entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** ou **[!UICONTROL ROI]**.
+              1. Sélectionnez un modèle dans le menu déroulant **[!UICONTROL Select model]**.
+           1. Spécifiez une période en saisissant des dates ou en sélectionnant une période à l’aide du ![Calendrier](/help/assets/icons/Calendar.svg).
+           1. Saisissez une valeur pour la mesure cible sélectionnée. Par exemple, un nombre pour **[!UICONTROL Conversion]**, un pourcentage pour **[!UICONTROL ROI]** ou des valeurs de devise pour **[!UICONTROL CPA]** et **[!UICONTROL Revenue]**.
+              Pour ajouter des périodes supplémentaires, chacune avec sa mesure cible, sélectionnez ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+              Pour supprimer une période et une mesure cible associée, sélectionnez ![Fermer](/help/assets/icons/Close.svg).
+           1. Pour définir un budget maximum facultatif dans lequel vous souhaitez contraindre le plan :
+              1. Activez **[!UICONTROL Maximize budget]**.
+              1. Spécifiez le montant du budget maximum.
 
          1. Sélectionnez **[!UICONTROL Next]** pour revenir à la section **[!UICONTROL Spend selection]** .
 

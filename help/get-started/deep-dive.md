@@ -3,20 +3,32 @@ title: Exploration approfondie de Mix Modeler
 description: Explorez la méthodologie technique sous-jacente à Adobe Mix Modeler, notamment l’attribution multipoint, la modélisation du marketing mix, le transfert d’apprentissage et l’optimisation du budget.
 feature: Administration
 hide: true
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
+    internal-label: Artificial intelligence
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 2747
+source-wordcount: '2835'
 ht-degree: 0%
-
 ---
-
 
 # Séance d’immersion
 
@@ -57,20 +69,20 @@ Les concepts clés de l’attribution multipoint sont les suivants :
 
   Dans cette approche, une série de signaux d’intérêt déterminent la probabilité de conversion, chacun étant influencé par :
 
-   * expositions médiatiques antérieures,
-   * impact des médias sur les stocks publicitaires (un modèle de la façon dont les réponses à la publicité se développent et se dégradent dans les marchés de consommation);
-   * autres facteurs de référence.
+  * expositions médiatiques antérieures,
+  * impact des médias sur les stocks publicitaires (un modèle de la façon dont les réponses à la publicité se développent et se dégradent dans les marchés de consommation);
+  * autres facteurs de référence.
 
 
 
   Ces signaux sont représentés comme *ϴ<sub>BL</sub>* + *ϴ<sub>E,tc-t1</sub>* + *ϴ<sub>E,tc-t2</sub>* et *ϴ<sub>S, tc-t3</sub>*, où :
 
-   * *ϴ* : illustre les paramètres du modèle (ce qui est appris du modèle).
-   * *tc* : heure de la conversion.
-   * *tc-tx : le temps entre l’exposition et la conversion, qui est pertinent pour le modèle.
-   * *BL* : ligne de base.
-   * *E* : e-mail.
-   * *S* : recherche.
+  * *ϴ* : illustre les paramètres du modèle (ce qui est appris du modèle).
+  * *tc* : heure de la conversion.
+  * *tc-tx : le temps entre l’exposition et la conversion, qui est pertinent pour le modèle.
+  * *BL* : ligne de base.
+  * *E* : e-mail.
+  * *S* : recherche.
 
   Dans le cadre de la modélisation, l&#39;objectif est de tenir compte explicitement du temps entre chaque exposition au milieu et le moment de la conversion (*tc-tx*), en reconnaissant que les interactions plus récentes ont plus de poids que les interactions plus anciennes.
 
@@ -89,7 +101,7 @@ Les concepts clés de l’attribution multipoint sont les suivants :
   ![Modèle de survie en temps discret](/help/assets/discrete-time-survival-model.jpg)
 
   Une fonction en temps continu modélise l’impact de l’adstock d’e-mails sur le niveau d’intérêt, à tout moment depuis le moment de l’exposition : *ϴ<sub>E</sub>(Δt;⋋)*
-Une fonction de temps discret modélise l’impact de l’adstock d’e-mail sur le niveau d’intérêt sous la forme de fenêtres temporelles discrètes à l’aide de paramètres scalaires : *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
+  Une fonction de temps discret modélise l’impact de l’adstock d’e-mail sur le niveau d’intérêt sous la forme de fenêtres temporelles discrètes à l’aide de paramètres scalaires : *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
 
 
 ### Avantages
@@ -138,11 +150,11 @@ utiliser un modèle multiplicatif :
 
   Par exemple :
 
-   * Conversions réelles à la semaine : 1730.
-   * Conversions prédites à la semaine : 1 787,5 = 1 100 x 1,25 x 1,3, où :
-      * 1100 : demande initiale prédite à la semaine 4, fonction des données des facteurs 1 et 2 à la semaine 4.
-      * 1.25 : multiplicateur de recherche prédit à la semaine 4, fonction des données de recherche de la semaine 1 à la semaine 4.
-      * 1.3 : multiplicateur d’affichage prédit à la semaine 4, une fonction pour les données d’affichage de la semaine 1 à la semaine 4.
+  * Conversions réelles à la semaine : 1730.
+  * Conversions prédites à la semaine : 1 787,5 = 1 100 x 1,25 x 1,3, où :
+    * 1100 : demande initiale prédite à la semaine 4, fonction des données des facteurs 1 et 2 à la semaine 4.
+    * 1.25 : multiplicateur de recherche prédit à la semaine 4, fonction des données de recherche de la semaine 1 à la semaine 4.
+    * 1.3 : multiplicateur d’affichage prédit à la semaine 4, une fonction pour les données d’affichage de la semaine 1 à la semaine 4.
 
   La différence prévue entre ce que le modèle prédit (1787,5) et les conversions réelles (1730) est le résidu, qui est souvent de petite taille et pas quelque chose à craindre.
 
